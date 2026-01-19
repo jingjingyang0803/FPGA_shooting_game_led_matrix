@@ -1,0 +1,11 @@
+[hdl]
+alien_game_lib = $HDS_PROJECT_DIR\alien_game_lib\hdl
+[hds]
+alien_game_lib = $HDS_PROJECT_DIR\alien_game_lib\hds
+[hds_settings]
+default_library = alien_game_lib
+version = 2
+[library_type]
+alien_game_lib = regular
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp
