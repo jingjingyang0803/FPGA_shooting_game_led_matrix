@@ -135,7 +135,7 @@ value "HTC219-309-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:01:00"
+value "13:50:54"
 )
 (vvPair
 variable "group"
@@ -155,7 +155,7 @@ value "tb_lib"
 )
 (vvPair
 variable "library_downstream_ModelSimCompiler"
-value "$HDS_PROJECT_DIR/tb_lib/work"
+value "P:\\20\\tb_lib\\work"
 )
 (vvPair
 variable "mm"
@@ -235,7 +235,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "13:01:00"
+value "13:50:54"
 )
 (vvPair
 variable "unit"
@@ -1069,8 +1069,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,4600,35500,5400"
-st "SIGNAL sw0   : std_logic
-"
+st "SIGNAL sw0   : std_logic"
 )
 )
 *29 (Net
@@ -1087,8 +1086,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,5400,35500,6200"
-st "SIGNAL sw1   : std_logic
-"
+st "SIGNAL sw1   : std_logic"
 )
 )
 *30 (Net
@@ -1105,8 +1103,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,3000,35500,3800"
-st "SIGNAL carry : std_logic
-"
+st "SIGNAL carry : std_logic"
 )
 )
 *31 (Net
@@ -1123,8 +1120,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,3800,35500,4600"
-st "SIGNAL sum   : std_logic
-"
+st "SIGNAL sum   : std_logic"
 )
 )
 *32 (Wire
@@ -1402,7 +1398,7 @@ viewArea "-1100,-1100,76964,59012"
 cachedDiagramExtent "0,0,73000,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 742,0
+lastUid 746,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
