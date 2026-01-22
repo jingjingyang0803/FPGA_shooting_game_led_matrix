@@ -154,7 +154,7 @@ value "HTC219-308-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:58:07"
+value "16:13:36"
 )
 (vvPair
 variable "group"
@@ -254,7 +254,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "15:58:07"
+value "16:13:36"
 )
 (vvPair
 variable "unit"
@@ -932,7 +932,7 @@ m 1
 decl (Decl
 n "dout"
 t "std_logic_vector"
-b "(15 DOWNTO 0)"
+b "(39 DOWNTO 0)"
 o 5
 suid 1,0
 )
@@ -1061,7 +1061,7 @@ optionalChildren [
 *28 (Property
 pclass "param"
 pname "value"
-pvalue "0x0101FF0000"
+pvalue "o#12456"
 ptn "String"
 )
 ]
@@ -1078,7 +1078,7 @@ lang 2
 decl (Decl
 n "dout"
 t "std_logic_vector"
-b "(15 DOWNTO 0)"
+b "(39 DOWNTO 0)"
 o 5
 suid 8,0
 )
@@ -1088,7 +1088,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,6200,48000,7000"
-st "SIGNAL dout      : std_logic_vector(15 DOWNTO 0)"
+st "SIGNAL dout      : std_logic_vector(39 DOWNTO 0)"
 )
 )
 *30 (MWC
@@ -1156,7 +1156,7 @@ m 1
 decl (Decl
 n "dout"
 t "std_logic_vector"
-b "(15 DOWNTO 0)"
+b "(39 DOWNTO 0)"
 o 5
 )
 )
@@ -1284,7 +1284,7 @@ optionalChildren [
 *38 (Property
 pclass "param"
 pname "value"
-pvalue "0x03030000FF"
+pvalue "o#34067"
 ptn "String"
 )
 ]
@@ -1366,7 +1366,7 @@ m 1
 decl (Decl
 n "dout"
 t "std_logic_vector"
-b "(15 DOWNTO 0)"
+b "(39 DOWNTO 0)"
 o 6
 suid 2,0
 )
@@ -1670,7 +1670,7 @@ lang 2
 decl (Decl
 n "din0"
 t "std_logic_vector"
-b "(15 DOWNTO 0)"
+b "(39 DOWNTO 0)"
 o 5
 suid 1,0
 )
@@ -1735,7 +1735,7 @@ lang 2
 decl (Decl
 n "din1"
 t "std_logic_vector"
-b "(15 DOWNTO 0)"
+b "(39 DOWNTO 0)"
 o 5
 suid 3,0
 )
@@ -1876,7 +1876,7 @@ lang 2
 decl (Decl
 n "din"
 t "std_logic_vector"
-b "(15 DOWNTO 0)"
+b "(39 DOWNTO 0)"
 o 6
 suid 3,0
 )
@@ -2265,7 +2265,7 @@ lang 2
 decl (Decl
 n "dout1"
 t "std_logic_vector"
-b "(15 DOWNTO 0)"
+b "(39 DOWNTO 0)"
 o 6
 suid 10,0
 )
@@ -2275,7 +2275,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,7000,48000,7800"
-st "SIGNAL dout1     : std_logic_vector(15 DOWNTO 0)"
+st "SIGNAL dout1     : std_logic_vector(39 DOWNTO 0)"
 )
 )
 *79 (Wire
@@ -2905,7 +2905,7 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "-8,-8,2568,1400"
-viewArea "1348,5679,76837,46831"
+viewArea "-19847,-5895,98105,58405"
 cachedDiagramExtent "-5400,0,68000,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-5000,0"
@@ -4070,7 +4070,7 @@ m 4
 decl (Decl
 n "dout"
 t "std_logic_vector"
-b "(15 DOWNTO 0)"
+b "(39 DOWNTO 0)"
 o 5
 suid 8,0
 )
@@ -4084,7 +4084,7 @@ m 4
 decl (Decl
 n "dout1"
 t "std_logic_vector"
-b "(15 DOWNTO 0)"
+b "(39 DOWNTO 0)"
 o 6
 suid 10,0
 )
