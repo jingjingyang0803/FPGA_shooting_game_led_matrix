@@ -53,23 +53,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hdl"
+value "P:\\20\\alien_game\\alien_game_lib\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds"
+value "P:\\20\\alien_game\\alien_game_lib\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c2_t1_pixel_conf\\struct.bd.info"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c2_t1_pixel_conf\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c2_t1_pixel_conf\\struct.bd.user"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c2_t1_pixel_conf\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds"
+value "P:\\20\\alien_game\\alien_game_lib\\hds"
 )
 (vvPair
 variable "appl"
@@ -85,11 +85,11 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c2_t1_pixel_conf"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c2_t1_pixel_conf"
 )
 (vvPair
 variable "d_logical"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c2_t1_pixel_conf"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c2_t1_pixel_conf"
 )
 (vvPair
 variable "date"
@@ -129,7 +129,7 @@ value "struct"
 )
 (vvPair
 variable "graphical_source_author"
-value "btjogr"
+value "ptjiya"
 )
 (vvPair
 variable "graphical_source_date"
@@ -141,11 +141,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "HTC219-308-SPC"
+value "HTC219-309-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:11:08"
+value "14:47:04"
 )
 (vvPair
 variable "group"
@@ -153,7 +153,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "HTC219-308-SPC"
+value "HTC219-309-SPC"
 )
 (vvPair
 variable "language"
@@ -185,11 +185,11 @@ value "tammikuu"
 )
 (vvPair
 variable "p"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c2_t1_pixel_conf\\struct.bd"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c2_t1_pixel_conf\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c2_t1_pixel_conf\\struct.bd"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c2_t1_pixel_conf\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -245,7 +245,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "14:11:08"
+value "14:47:04"
 )
 (vvPair
 variable "unit"
@@ -253,7 +253,7 @@ value "c2_t1_pixel_conf"
 )
 (vvPair
 variable "user"
-value "btjogr"
+value "ptjiya"
 )
 (vvPair
 variable "version"
@@ -297,7 +297,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,48000,46500,49000"
+xt "36200,48000,46400,49000"
 st "
 by %user on %dd %month %year
 "
@@ -932,27 +932,27 @@ va (VaSet
 isHidden 1
 font "arial,8,0"
 )
-xt "11350,16100,16350,17100"
+xt "11350,14100,16350,15100"
 st "moduleware"
-blo "11350,16900"
+blo "11350,14900"
 )
 *24 (Text
 uid 170,0
 va (VaSet
 font "arial,8,0"
 )
-xt "11350,17100,14550,18100"
+xt "11350,15100,14550,16100"
 st "constval"
-blo "11350,17900"
+blo "11350,15900"
 )
 *25 (Text
 uid 171,0
 va (VaSet
 font "arial,8,0"
 )
-xt "11350,18100,13150,19100"
+xt "11350,16100,13150,17100"
 st "U_0"
-blo "11350,18900"
+blo "11350,16900"
 tm "InstanceNameMgr"
 )
 ]
@@ -987,7 +987,7 @@ optionalChildren [
 *26 (Property
 pclass "param"
 pname "value"
-pvalue "00000001"
+pvalue "b#00000001"
 ptn "String"
 )
 ]
@@ -1191,7 +1191,7 @@ optionalChildren [
 *35 (Property
 pclass "param"
 pname "value"
-pvalue "00001000"
+pvalue "b#00001000"
 ptn "String"
 )
 ]
@@ -1395,7 +1395,7 @@ optionalChildren [
 *44 (Property
 pclass "param"
 pname "value"
-pvalue "x\"FF0000\""
+pvalue "h#FF0000"
 ptn "String"
 )
 ]
@@ -1647,12 +1647,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-8,-8,2568,1400"
-viewArea "-12845,-8458,105015,55793"
+windowSize "0,32,2561,1440"
+viewArea "-12800,-8500,109259,54220"
 cachedDiagramExtent "0,0,73000,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 257,0
+lastUid 326,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
