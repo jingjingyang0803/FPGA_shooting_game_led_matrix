@@ -167,25 +167,25 @@ uid 71,0
 )
 *23 (MRCItem
 litem &14
-pos 3
+pos 2
 dimension 20
 uid 108,0
 )
 *24 (MRCItem
 litem &15
-pos 0
+pos 3
 dimension 20
 uid 114,0
 )
 *25 (MRCItem
 litem &16
-pos 1
+pos 0
 dimension 20
 uid 1162,0
 )
 *26 (MRCItem
 litem &17
-pos 2
+pos 1
 dimension 20
 uid 1164,0
 )
@@ -418,23 +418,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hdl"
+value "P:\\20\\alien_game\\alien_game_lib\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds"
+value "P:\\20\\alien_game\\alien_game_lib\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c2_t1_pixel_io\\symbol.sb.info"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c2_t1_pixel_io\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c2_t1_pixel_io\\symbol.sb.user"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c2_t1_pixel_io\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds"
+value "P:\\20\\alien_game\\alien_game_lib\\hds"
 )
 (vvPair
 variable "appl"
@@ -450,11 +450,11 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c2_t1_pixel_io"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c2_t1_pixel_io"
 )
 (vvPair
 variable "d_logical"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c2_t1_pixel_io"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c2_t1_pixel_io"
 )
 (vvPair
 variable "date"
@@ -494,7 +494,7 @@ value "symbol"
 )
 (vvPair
 variable "graphical_source_author"
-value "btjogr"
+value "ptjiya"
 )
 (vvPair
 variable "graphical_source_date"
@@ -506,11 +506,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "HTC219-308-SPC"
+value "HTC219-309-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:14:23"
+value "15:32:26"
 )
 (vvPair
 variable "group"
@@ -518,7 +518,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "HTC219-308-SPC"
+value "HTC219-309-SPC"
 )
 (vvPair
 variable "language"
@@ -558,11 +558,11 @@ value "tammikuu"
 )
 (vvPair
 variable "p"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c2_t1_pixel_io\\symbol.sb"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c2_t1_pixel_io\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c2_t1_pixel_io\\symbol.sb"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c2_t1_pixel_io\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -618,7 +618,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "15:14:23"
+value "15:32:26"
 )
 (vvPair
 variable "unit"
@@ -626,7 +626,7 @@ value "c2_t1_pixel_io"
 )
 (vvPair
 variable "user"
-value "btjogr"
+value "ptjiya"
 )
 (vvPair
 variable "version"
@@ -924,7 +924,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,48000,46500,49000"
+xt "36200,48000,46400,49000"
 st "
 by %user on %dd %month %year
 "
@@ -1540,6 +1540,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 1267,0
+lastUid 1566,0
 activeModelName "Symbol:CDM"
 )

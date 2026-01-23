@@ -55,13 +55,13 @@ VIEW symbol.sb
 GRAPHIC 131,0 49 0 
 DESIGN c2_t1_pixel_io
 VIEW symbol.sb
-GRAPHIC 121,0 50 0 
+GRAPHIC 1166,0 50 0 
 DESIGN c2_t1_pixel_io
 VIEW symbol.sb
-GRAPHIC 126,0 51 0 
+GRAPHIC 1171,0 51 0 
 LIBRARY tb_lib
-DESIGN tb_pixel_io
-VIEW struct
+DESIGN pixel_io_tester
+VIEW testbench
 GRAPHIC 239,0 54 0 
 DESIGN tb_pixel_io
 VIEW struct.bd
