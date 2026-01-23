@@ -1,0 +1,120 @@
+DESIGN tb_pixel_io
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN tb_pixel_io
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN tb_pixel_io
+VIEW symbol.sb
+GRAPHIC 1,0 13 0 
+DESIGN tb_pixel_io
+VIEW symbol.sb
+GRAPHIC 1,0 14 0 
+DESIGN tb_pixel_io
+VIEW struct.bd
+NO_GRAPHIC 17
+DESIGN tb_pixel_io
+VIEW struct.bd
+GRAPHIC 41,0 26 0 
+DESIGN tb_pixel_io
+VIEW struct.bd
+NO_GRAPHIC 29
+DESIGN tb_pixel_io
+VIEW struct.bd
+GRAPHIC 0,0 33 2 
+DESIGN tb_pixel_io
+VIEW struct.bd
+GRAPHIC 171,0 38 0 
+DESIGN tb_pixel_io
+VIEW struct.bd
+GRAPHIC 173,0 39 0 
+DESIGN tb_pixel_io
+VIEW struct.bd
+GRAPHIC 169,0 40 0 
+DESIGN tb_pixel_io
+VIEW struct.bd
+GRAPHIC 175,0 41 0 
+DESIGN tb_pixel_io
+VIEW struct.bd
+GRAPHIC 177,0 42 0 
+DESIGN tb_pixel_io
+VIEW struct.bd
+NO_GRAPHIC 43
+DESIGN tb_pixel_io
+VIEW struct.bd
+NO_GRAPHIC 44
+LIBRARY alien_game_lib
+DESIGN c2_t1_pixel_io
+VIEW struct
+GRAPHIC 702,0 46 0 
+DESIGN c2_t1_pixel_io
+VIEW symbol.sb
+GRAPHIC 116,0 48 0 
+DESIGN c2_t1_pixel_io
+VIEW symbol.sb
+GRAPHIC 131,0 49 0 
+DESIGN c2_t1_pixel_io
+VIEW symbol.sb
+GRAPHIC 121,0 50 0 
+DESIGN c2_t1_pixel_io
+VIEW symbol.sb
+GRAPHIC 126,0 51 0 
+LIBRARY tb_lib
+DESIGN tb_pixel_io
+VIEW struct
+GRAPHIC 239,0 54 0 
+DESIGN tb_pixel_io
+VIEW struct.bd
+NO_GRAPHIC 61
+LIBRARY tb_lib
+DESIGN tb_pixel_io
+VIEW struct.bd
+NO_GRAPHIC 63
+DESIGN tb_pixel_io
+VIEW struct.bd
+GRAPHIC 702,0 66 0 
+DESIGN tb_pixel_io
+VIEW struct.bd
+GRAPHIC 239,0 67 0 
+DESIGN tb_pixel_io
+VIEW struct.bd
+NO_GRAPHIC 70
+DESIGN tb_pixel_io
+VIEW struct.bd
+NO_GRAPHIC 72
+DESIGN tb_pixel_io
+VIEW struct.bd
+GRAPHIC 702,0 74 0 
+DESIGN tb_pixel_io
+VIEW struct.bd
+GRAPHIC 151,0 76 0 
+DESIGN tb_pixel_io
+VIEW struct.bd
+GRAPHIC 121,0 77 0 
+DESIGN tb_pixel_io
+VIEW struct.bd
+GRAPHIC 131,0 78 0 
+DESIGN tb_pixel_io
+VIEW struct.bd
+GRAPHIC 141,0 79 0 
+DESIGN tb_pixel_io
+VIEW struct.bd
+GRAPHIC 239,0 81 0 
+DESIGN tb_pixel_io
+VIEW struct.bd
+GRAPHIC 121,0 83 0 
+DESIGN tb_pixel_io
+VIEW struct.bd
+GRAPHIC 131,0 84 0 
+DESIGN tb_pixel_io
+VIEW struct.bd
+GRAPHIC 141,0 85 0 
+DESIGN tb_pixel_io
+VIEW struct.bd
+GRAPHIC 151,0 86 0 
+DESIGN tb_pixel_io
+VIEW struct.bd
+GRAPHIC 161,0 87 0 
+DESIGN tb_pixel_io
+VIEW struct.bd
+NO_GRAPHIC 90

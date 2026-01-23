@@ -1,21 +1,25 @@
 [ModelSim]
 alien_game_lib = $HDS_PROJECT_DIR/alien_game_lib/work
 pre_made = P:/20/pre_made/work
-tb_lib = P:\20\tb_lib\work
+tb_lib = P:/20/tb_lib/work
+[QuestaSim]
+alien_game_lib = $HDS_PROJECT_DIR/alien_game_lib/work
+[SvAssistant]
+alien_game_lib = $HDS_PROJECT_DIR/alien_game_lib/svassistant
 [hdl]
-alien_game_lib = $HDS_PROJECT_DIR/alien_game_lib/hdl
-pre_made = P:/20/pre_made/hdl
-tb_lib = P:/20/tb_lib/hdl
+alien_game_lib = $HDS_PROJECT_DIR\alien_game_lib\hdl
+pre_made = $HDS_PROJECT_DIR\..\pre_made\hdl
+tb_lib = $HDS_PROJECT_DIR\..\tb_lib\hdl
 [hds]
-alien_game_lib = $HDS_PROJECT_DIR/alien_game_lib/hds
-pre_made = P:/20/pre_made/hds
-tb_lib = P:/20/tb_lib/hds
+alien_game_lib = $HDS_PROJECT_DIR\alien_game_lib\hds
+pre_made = $HDS_PROJECT_DIR\..\pre_made\hds
+tb_lib = $HDS_PROJECT_DIR\..\tb_lib\hds
 [hds_settings]
 default_library = alien_game_lib
 version = 2
 [library_files_inclusion]
 pre_made = all
-tb_lib = all
+tb_lib = specify
 [library_type]
 alien_game_lib = regular
 pre_made = regular
