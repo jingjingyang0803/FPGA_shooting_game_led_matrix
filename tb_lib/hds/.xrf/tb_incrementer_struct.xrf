@@ -38,13 +38,13 @@ DESIGN tb_incrementer
 VIEW struct.bd
 NO_GRAPHIC 43
 LIBRARY alien_game_lib
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW struct
 GRAPHIC 711,0 45 0 
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW symbol.sb
 GRAPHIC 112,0 47 0 
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW symbol.sb
 GRAPHIC 117,0 48 0 
 LIBRARY tb_lib

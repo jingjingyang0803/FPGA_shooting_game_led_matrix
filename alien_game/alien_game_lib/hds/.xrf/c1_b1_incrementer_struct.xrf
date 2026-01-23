@@ -1,49 +1,49 @@
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW symbol.sb
 NO_GRAPHIC 0
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW symbol.sb
 GRAPHIC 50,0 8 0 
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW symbol.sb
 GRAPHIC 112,0 14 0 
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW symbol.sb
 GRAPHIC 117,0 15 0 
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW symbol.sb
 GRAPHIC 1,0 18 0 
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW symbol.sb
 GRAPHIC 1,0 19 0 
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW struct.bd
 NO_GRAPHIC 22
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW struct.bd
 GRAPHIC 73,0 31 0 
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW struct.bd
 NO_GRAPHIC 34
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW struct.bd
 GRAPHIC 0,0 37 2 
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW struct.bd
 GRAPHIC 286,0 42 0 
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW struct.bd
 GRAPHIC 292,0 43 0 
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW struct.bd
 GRAPHIC 318,0 44 0 
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW struct.bd
 GRAPHIC 396,0 45 0 
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW struct.bd
 NO_GRAPHIC 46
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW struct.bd
 NO_GRAPHIC 47
 LIBRARY alien_game_lib
@@ -63,66 +63,66 @@ DESIGN c1_t1_half_adder
 VIEW symbol.sb
 GRAPHIC 131,0 54 0 
 LIBRARY alien_game_lib
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW struct.bd
 NO_GRAPHIC 57
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW struct.bd
 GRAPHIC 157,0 60 0 
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW struct.bd
 NO_GRAPHIC 63
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW struct.bd
 GRAPHIC 386,0 65 0 
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW struct.bd
 NO_GRAPHIC 68
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW struct.bd
 GRAPHIC 157,0 70 0 
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW struct.bd
 GRAPHIC 219,0 72 0 
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW struct.bd
 GRAPHIC 398,0 73 0 
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW struct.bd
 GRAPHIC 288,0 74 0 
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW struct.bd
 GRAPHIC 298,0 75 0 
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW struct.bd
 GRAPHIC 167,0 77 0 
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW struct.bd
 GRAPHIC 225,0 79 0 
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW struct.bd
 GRAPHIC 288,0 80 0 
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW struct.bd
 GRAPHIC 294,0 81 0 
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW struct.bd
 GRAPHIC 306,0 82 0 
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW struct.bd
 GRAPHIC 193,0 84 0 
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW struct.bd
 GRAPHIC 280,0 86 0 
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW struct.bd
 GRAPHIC 294,0 87 0 
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW struct.bd
 GRAPHIC 320,0 88 0 
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW struct.bd
 GRAPHIC 312,0 89 0 
-DESIGN c1_t1_incrementer
+DESIGN c1_b1_incrementer
 VIEW struct.bd
 NO_GRAPHIC 92

@@ -27,8 +27,8 @@ uid 549,0
 )
 (Instance
 name "U_1"
-duLibraryName "alien_game_lib"
-duName "c1_t1_incrementer"
+duLibraryName "ALIEN_GAME_LIB"
+duName "c1_b1_incrementer"
 elements [
 ]
 mwi 0
@@ -139,7 +139,7 @@ value "HTC219-309-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "10:30:09"
+value "14:28:13"
 )
 (vvPair
 variable "group"
@@ -239,7 +239,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "10:30:09"
+value "14:28:13"
 )
 (vvPair
 variable "unit"
@@ -948,8 +948,8 @@ uid 714,0
 va (VaSet
 font "arial,8,1"
 )
-xt "39200,27000,45400,28000"
-st "alien_game_lib"
+xt "39200,27000,46700,28000"
+st "ALIEN_GAME_LIB"
 blo "39200,27800"
 tm "BdLibraryNameMgr"
 )
@@ -958,8 +958,8 @@ uid 715,0
 va (VaSet
 font "arial,8,1"
 )
-xt "39200,28000,46700,29000"
-st "c1_t1_incrementer"
+xt "39200,28000,46900,29000"
+st "c1_b1_incrementer"
 blo "39200,28800"
 tm "CptNameMgr"
 )
@@ -1253,7 +1253,7 @@ viewArea "5300,-7300,88586,60929"
 cachedDiagramExtent "0,0,73000,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 795,0
+lastUid 820,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

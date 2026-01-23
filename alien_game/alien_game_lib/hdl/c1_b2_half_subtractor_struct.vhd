@@ -1,4 +1,4 @@
--- VHDL Entity alien_game_lib.c1_t1_half_subtractor.symbol
+-- VHDL Entity alien_game_lib.c1_b2_half_subtractor.symbol
 --
 -- Created:
 --          by - ptjiya.UNKNOWN (HTC219-309-SPC)
@@ -10,7 +10,7 @@ LIBRARY ieee;
 USE ieee.std_logic_1164.all;
 USE ieee.std_logic_arith.all;
 
-ENTITY c1_t1_half_subtractor IS
+ENTITY c1_b2_half_subtractor IS
    PORT( 
       A      : IN     std_logic;
       B      : IN     std_logic;
@@ -20,10 +20,10 @@ ENTITY c1_t1_half_subtractor IS
 
 -- Declarations
 
-END c1_t1_half_subtractor ;
+END c1_b2_half_subtractor ;
 
 --
--- VHDL Architecture alien_game_lib.c1_t1_half_subtractor.struct
+-- VHDL Architecture alien_game_lib.c1_b2_half_subtractor.struct
 --
 -- Created:
 --          by - ptjiya.UNKNOWN (HTC219-309-SPC)
@@ -36,7 +36,7 @@ USE ieee.std_logic_1164.all;
 USE ieee.std_logic_arith.all;
 
 
-ARCHITECTURE struct OF c1_t1_half_subtractor IS
+ARCHITECTURE struct OF c1_b2_half_subtractor IS
 
    -- Architecture declarations
 
