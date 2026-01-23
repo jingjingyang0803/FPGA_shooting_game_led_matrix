@@ -87,19 +87,19 @@ value "P:\\20\\tb_lib\\hds\\tb_incrementer"
 )
 (vvPair
 variable "date"
-value "22.01.2026"
+value "23.01.2026"
 )
 (vvPair
 variable "day"
-value "to"
+value "pe"
 )
 (vvPair
 variable "day_long"
-value "torstai"
+value "perjantai"
 )
 (vvPair
 variable "dd"
-value "22"
+value "23"
 )
 (vvPair
 variable "entity_name"
@@ -127,7 +127,7 @@ value "ptjiya"
 )
 (vvPair
 variable "graphical_source_date"
-value "22.01.2026"
+value "23.01.2026"
 )
 (vvPair
 variable "graphical_source_group"
@@ -139,7 +139,7 @@ value "HTC219-309-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:39:18"
+value "10:30:09"
 )
 (vvPair
 variable "group"
@@ -159,7 +159,7 @@ value "tb_lib"
 )
 (vvPair
 variable "library_downstream_ModelSimCompiler"
-value "$HDS_PROJECT_DIR/tb_lib/work"
+value "P:/20/tb_lib/work"
 )
 (vvPair
 variable "mm"
@@ -239,7 +239,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "13:39:18"
+value "10:30:09"
 )
 (vvPair
 variable "unit"
@@ -1087,9 +1087,9 @@ uid 326,0
 va (VaSet
 font "arial,8,0"
 )
-xt "26000,17000,31200,18000"
+xt "25000,18000,30200,19000"
 st "to_duv : (2:0)"
-blo "26000,17800"
+blo "25000,18800"
 tm "WireNameMgr"
 )
 )
@@ -1248,12 +1248,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "214,111,1761,1322"
-viewArea "5340,-7300,88052,53348"
+windowSize "214,111,1764,1322"
+viewArea "5300,-7300,88586,60929"
 cachedDiagramExtent "0,0,73000,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 720,0
+lastUid 795,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
