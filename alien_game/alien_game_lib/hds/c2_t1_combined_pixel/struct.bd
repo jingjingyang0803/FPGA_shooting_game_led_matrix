@@ -111,19 +111,19 @@ value "P:\\20\\alien_game\\alien_game_lib\\hds\\c2_t1_combined_pixel"
 )
 (vvPair
 variable "date"
-value "23.01.2026"
+value "26.01.2026"
 )
 (vvPair
 variable "day"
-value "pe"
+value "ma"
 )
 (vvPair
 variable "day_long"
-value "perjantai"
+value "maanantai"
 )
 (vvPair
 variable "dd"
-value "23"
+value "26"
 )
 (vvPair
 variable "entity_name"
@@ -151,7 +151,7 @@ value "ptjiya"
 )
 (vvPair
 variable "graphical_source_date"
-value "23.01.2026"
+value "26.01.2026"
 )
 (vvPair
 variable "graphical_source_group"
@@ -163,7 +163,7 @@ value "HTC219-309-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:50:19"
+value "09:48:08"
 )
 (vvPair
 variable "group"
@@ -263,7 +263,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "15:50:19"
+value "09:48:08"
 )
 (vvPair
 variable "unit"
@@ -973,9 +973,9 @@ uid 204,0
 va (VaSet
 font "arial,8,1"
 )
-xt "13200,38000,19400,39000"
+xt "9200,34000,15400,35000"
 st "alien_game_lib"
-blo "13200,38800"
+blo "9200,34800"
 tm "BdLibraryNameMgr"
 )
 *24 (Text
@@ -983,9 +983,9 @@ uid 205,0
 va (VaSet
 font "arial,8,1"
 )
-xt "13200,39000,20100,40000"
+xt "9200,35000,16100,36000"
 st "c2_t1_pixel_conf"
-blo "13200,39800"
+blo "9200,35800"
 tm "CptNameMgr"
 )
 *25 (Text
@@ -993,9 +993,9 @@ uid 206,0
 va (VaSet
 font "arial,8,1"
 )
-xt "13200,40000,15000,41000"
+xt "9200,36000,11000,37000"
 st "U_0"
-blo "13200,40800"
+blo "9200,36800"
 tm "InstanceNameMgr"
 )
 ]

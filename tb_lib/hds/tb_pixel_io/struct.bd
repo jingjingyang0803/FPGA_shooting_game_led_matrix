@@ -43,23 +43,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "P:\\20\\tb_lib\\hdl"
+value "P:\\20\\alien_game\\..\\tb_lib\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "P:\\20\\tb_lib\\hds"
+value "P:\\20\\alien_game\\..\\tb_lib\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "P:\\20\\tb_lib\\hds\\tb_pixel_io\\struct.bd.info"
+value "P:\\20\\alien_game\\..\\tb_lib\\hds\\tb_pixel_io\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "P:\\20\\tb_lib\\hds\\tb_pixel_io\\struct.bd.user"
+value "P:\\20\\alien_game\\..\\tb_lib\\hds\\tb_pixel_io\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "P:\\20\\tb_lib\\hds"
+value "P:\\20\\alien_game\\..\\tb_lib\\hds"
 )
 (vvPair
 variable "appl"
@@ -75,27 +75,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "P:\\20\\tb_lib\\hds\\tb_pixel_io"
+value "P:\\20\\alien_game\\..\\tb_lib\\hds\\tb_pixel_io"
 )
 (vvPair
 variable "d_logical"
-value "P:\\20\\tb_lib\\hds\\tb_pixel_io"
+value "P:\\20\\alien_game\\..\\tb_lib\\hds\\tb_pixel_io"
 )
 (vvPair
 variable "date"
-value "23.01.2026"
+value "26.01.2026"
 )
 (vvPair
 variable "day"
-value "pe"
+value "ma"
 )
 (vvPair
 variable "day_long"
-value "perjantai"
+value "maanantai"
 )
 (vvPair
 variable "dd"
-value "23"
+value "26"
 )
 (vvPair
 variable "entity_name"
@@ -123,7 +123,7 @@ value "ptjiya"
 )
 (vvPair
 variable "graphical_source_date"
-value "23.01.2026"
+value "26.01.2026"
 )
 (vvPair
 variable "graphical_source_group"
@@ -135,7 +135,7 @@ value "HTC219-309-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:51:57"
+value "09:52:24"
 )
 (vvPair
 variable "group"
@@ -175,11 +175,11 @@ value "tammikuu"
 )
 (vvPair
 variable "p"
-value "P:\\20\\tb_lib\\hds\\tb_pixel_io\\struct.bd"
+value "P:\\20\\alien_game\\..\\tb_lib\\hds\\tb_pixel_io\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "P:\\20\\tb_lib\\hds\\tb_pixel_io\\struct.bd"
+value "P:\\20\\alien_game\\..\\tb_lib\\hds\\tb_pixel_io\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -235,7 +235,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "15:51:57"
+value "09:52:24"
 )
 (vvPair
 variable "unit"
@@ -287,7 +287,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,48000,46500,49000"
+xt "36200,48000,46400,49000"
 st "
 by %user on %dd %month %year
 "
@@ -608,8 +608,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,4600,35500,5400"
-st "SIGNAL sw0   : std_logic
-"
+st "SIGNAL sw0   : std_logic"
 )
 )
 *13 (Net
@@ -627,8 +626,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,3000,45500,3800"
-st "SIGNAL btn   : std_logic_vector(3 DOWNTO 0)
-"
+st "SIGNAL btn   : std_logic_vector(3 DOWNTO 0)"
 )
 )
 *14 (Net
@@ -646,8 +644,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,3800,46000,4600"
-st "SIGNAL color : std_logic_vector(23 DOWNTO 0)
-"
+st "SIGNAL color : std_logic_vector(23 DOWNTO 0)"
 )
 )
 *15 (Net
@@ -665,8 +662,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,5400,45500,6200"
-st "SIGNAL x     : std_logic_vector(7 DOWNTO 0)
-"
+st "SIGNAL x     : std_logic_vector(7 DOWNTO 0)"
 )
 )
 *16 (Net
@@ -684,8 +680,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,6200,45500,7000"
-st "SIGNAL y     : std_logic_vector(7 DOWNTO 0)
-"
+st "SIGNAL y     : std_logic_vector(7 DOWNTO 0)"
 )
 )
 *17 (SaComponent
@@ -943,8 +938,9 @@ vasetType 1
 fg "49152,49152,49152"
 )
 xt "14250,30250,15750,31750"
-iconName "UnknownFile.png"
-iconMaskName "UnknownFile.msk"
+iconName "BlockDiagram.png"
+iconMaskName "BlockDiagram.msk"
+ftype 1
 )
 viewiconposition 0
 portVis (PortSigDisplay
@@ -966,7 +962,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "35250,18625,36000,19375"
+xt "32250,18625,33000,19375"
 )
 tg (CPTG
 uid 739,0
@@ -977,9 +973,9 @@ uid 740,0
 va (VaSet
 font "arial,8,0"
 )
-xt "37000,18500,41000,19500"
+xt "34000,18500,38000,19500"
 st "btn : (3:0)"
-blo "37000,19300"
+blo "34000,19300"
 )
 )
 thePort (LogicalPort
@@ -1120,7 +1116,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "35250,21625,36000,22375"
+xt "32250,21625,33000,22375"
 )
 tg (CPTG
 uid 755,0
@@ -1131,9 +1127,9 @@ uid 756,0
 va (VaSet
 font "arial,8,0"
 )
-xt "37000,21500,38400,22500"
+xt "34000,21500,35400,22500"
 st "sw"
-blo "37000,22300"
+blo "34000,22300"
 )
 )
 thePort (LogicalPort
@@ -1155,7 +1151,7 @@ fg "0,65535,0"
 lineColor "0,32896,0"
 lineWidth 2
 )
-xt "36000,18000,47000,32000"
+xt "33000,18000,47000,32000"
 )
 oxt "15000,6000,33000,26000"
 ttg (MlTextGroup
@@ -1219,7 +1215,7 @@ va (VaSet
 vasetType 1
 fg "49152,49152,49152"
 )
-xt "36250,30250,37750,31750"
+xt "33250,30250,34750,31750"
 iconName "BlockDiagram.png"
 iconMaskName "BlockDiagram.msk"
 ftype 1
@@ -1283,7 +1279,7 @@ lineWidth 2
 )
 xt "6000,10000,63000,21000"
 pts [
-"51750,21000"
+"47750,21000"
 "63000,21000"
 "63000,10000"
 "6000,10000"
@@ -1291,8 +1287,9 @@ pts [
 "13250,21000"
 ]
 )
+start &28
 end &21
-sat 16
+sat 32
 eat 32
 sty 1
 st 0
@@ -1306,9 +1303,9 @@ f (Text
 uid 138,0
 va (VaSet
 )
-xt "54000,20000,57000,21000"
+xt "50000,20000,53000,21000"
 st "x : (7:0)"
-blo "54000,20800"
+blo "50000,20800"
 tm "WireNameMgr"
 )
 )
@@ -1364,10 +1361,11 @@ va (VaSet
 vasetType 3
 lineWidth 2
 )
-xt "22750,19000,35250,19000"
+xt "22750,19000,32250,19000"
 pts [
 "22750,19000"
-"35250,19000"
+"28000,19000"
+"32250,19000"
 ]
 )
 start &18
@@ -1386,9 +1384,9 @@ f (Text
 uid 158,0
 va (VaSet
 )
-xt "29000,18000,33000,19000"
+xt "26000,18000,30000,19000"
 st "btn : (3:0)"
-blo "29000,18800"
+blo "26000,18800"
 tm "WireNameMgr"
 )
 )
@@ -1401,10 +1399,11 @@ uid 162,0
 va (VaSet
 vasetType 3
 )
-xt "22750,22000,35250,22000"
+xt "22750,22000,32250,22000"
 pts [
 "22750,22000"
-"35250,22000"
+"28000,22000"
+"32250,22000"
 ]
 )
 start &20
@@ -1541,12 +1540,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "0,0,2561,1408"
-viewArea "-1100,-6200,92220,45000"
+windowSize "0,32,2561,1440"
+viewArea "-1100,-6200,92220,43880"
 cachedDiagramExtent "0,0,73000,49200"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 766,0
+lastUid 791,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

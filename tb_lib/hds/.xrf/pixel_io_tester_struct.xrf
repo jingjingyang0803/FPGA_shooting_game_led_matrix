@@ -1,0 +1,54 @@
+DESIGN pixel_io_tester
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN pixel_io_tester
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN pixel_io_tester
+VIEW symbol.sb
+GRAPHIC 113,0 14 0 
+DESIGN pixel_io_tester
+VIEW symbol.sb
+GRAPHIC 123,0 15 0 
+DESIGN pixel_io_tester
+VIEW symbol.sb
+GRAPHIC 128,0 16 0 
+DESIGN pixel_io_tester
+VIEW symbol.sb
+GRAPHIC 108,0 17 0 
+DESIGN pixel_io_tester
+VIEW symbol.sb
+GRAPHIC 118,0 18 0 
+DESIGN pixel_io_tester
+VIEW symbol.sb
+GRAPHIC 1,0 21 0 
+DESIGN pixel_io_tester
+VIEW symbol.sb
+GRAPHIC 1,0 22 0 
+DESIGN pixel_io_tester
+VIEW struct.bd
+NO_GRAPHIC 25
+DESIGN pixel_io_tester
+VIEW struct.bd
+GRAPHIC 121,0 34 0 
+DESIGN pixel_io_tester
+VIEW struct.bd
+NO_GRAPHIC 37
+DESIGN pixel_io_tester
+VIEW struct.bd
+GRAPHIC 0,0 39 2 
+DESIGN pixel_io_tester
+VIEW struct.bd
+NO_GRAPHIC 44
+DESIGN pixel_io_tester
+VIEW struct.bd
+NO_GRAPHIC 45
+DESIGN pixel_io_tester
+VIEW struct.bd
+NO_GRAPHIC 46
+DESIGN pixel_io_tester
+VIEW struct.bd
+NO_GRAPHIC 48
+DESIGN pixel_io_tester
+VIEW struct.bd
+NO_GRAPHIC 51
