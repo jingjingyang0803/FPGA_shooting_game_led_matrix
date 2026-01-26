@@ -439,19 +439,19 @@ value "P:\\20\\alien_game\\alien_game_lib\\hds\\c2_t1_pixel_conf"
 )
 (vvPair
 variable "date"
-value "22.01.2026"
+value "26.01.2026"
 )
 (vvPair
 variable "day"
-value "to"
+value "ma"
 )
 (vvPair
 variable "day_long"
-value "torstai"
+value "maanantai"
 )
 (vvPair
 variable "dd"
-value "22"
+value "26"
 )
 (vvPair
 variable "entity_name"
@@ -479,7 +479,7 @@ value "ptjiya"
 )
 (vvPair
 variable "graphical_source_date"
-value "22.01.2026"
+value "26.01.2026"
 )
 (vvPair
 variable "graphical_source_group"
@@ -491,7 +491,7 @@ value "HTC219-309-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:47:04"
+value "10:18:35"
 )
 (vvPair
 variable "group"
@@ -512,6 +512,14 @@ value "alien_game_lib"
 (vvPair
 variable "library_downstream_ModelSimCompiler"
 value "$HDS_PROJECT_DIR/alien_game_lib/work"
+)
+(vvPair
+variable "library_downstream_QuestaSimCompiler"
+value "$HDS_PROJECT_DIR/alien_game_lib/work"
+)
+(vvPair
+variable "library_downstream_SvAssistantInvoke"
+value "$HDS_PROJECT_DIR/alien_game_lib/svassistant"
 )
 (vvPair
 variable "mm"
@@ -591,7 +599,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "14:47:04"
+value "10:18:35"
 )
 (vvPair
 variable "unit"
@@ -1467,6 +1475,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 335,0
+lastUid 358,0
 activeModelName "Symbol:CDM"
 )

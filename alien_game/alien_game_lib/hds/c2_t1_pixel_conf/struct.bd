@@ -93,19 +93,19 @@ value "P:\\20\\alien_game\\alien_game_lib\\hds\\c2_t1_pixel_conf"
 )
 (vvPair
 variable "date"
-value "22.01.2026"
+value "26.01.2026"
 )
 (vvPair
 variable "day"
-value "to"
+value "ma"
 )
 (vvPair
 variable "day_long"
-value "torstai"
+value "maanantai"
 )
 (vvPair
 variable "dd"
-value "22"
+value "26"
 )
 (vvPair
 variable "entity_name"
@@ -133,7 +133,7 @@ value "ptjiya"
 )
 (vvPair
 variable "graphical_source_date"
-value "22.01.2026"
+value "26.01.2026"
 )
 (vvPair
 variable "graphical_source_group"
@@ -145,7 +145,7 @@ value "HTC219-309-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:47:04"
+value "10:18:35"
 )
 (vvPair
 variable "group"
@@ -166,6 +166,14 @@ value "alien_game_lib"
 (vvPair
 variable "library_downstream_ModelSimCompiler"
 value "$HDS_PROJECT_DIR/alien_game_lib/work"
+)
+(vvPair
+variable "library_downstream_QuestaSimCompiler"
+value "$HDS_PROJECT_DIR/alien_game_lib/work"
+)
+(vvPair
+variable "library_downstream_SvAssistantInvoke"
+value "$HDS_PROJECT_DIR/alien_game_lib/svassistant"
 )
 (vvPair
 variable "mm"
@@ -245,7 +253,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "14:47:04"
+value "10:18:35"
 )
 (vvPair
 variable "unit"
@@ -987,7 +995,7 @@ optionalChildren [
 *26 (Property
 pclass "param"
 pname "value"
-pvalue "b#00000001"
+pvalue "b#10000000"
 ptn "String"
 )
 ]
@@ -1191,7 +1199,7 @@ optionalChildren [
 *35 (Property
 pclass "param"
 pname "value"
-pvalue "b#00001000"
+pvalue "b#10000000"
 ptn "String"
 )
 ]
@@ -1395,7 +1403,7 @@ optionalChildren [
 *44 (Property
 pclass "param"
 pname "value"
-pvalue "h#FF0000"
+pvalue "h#0000FF"
 ptn "String"
 )
 ]
@@ -1648,11 +1656,11 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,32,2561,1440"
-viewArea "-12800,-8500,109259,54220"
+viewArea "-12800,-8500,108516,58060"
 cachedDiagramExtent "0,0,73000,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 326,0
+lastUid 349,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
