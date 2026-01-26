@@ -135,7 +135,7 @@ value "HTC219-309-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "10:58:17"
+value "16:52:34"
 )
 (vvPair
 variable "group"
@@ -156,6 +156,14 @@ value "tb_lib"
 (vvPair
 variable "library_downstream_ModelSimCompiler"
 value "P:/20/tb_lib/work"
+)
+(vvPair
+variable "library_downstream_QuestaSimCompiler"
+value "$HDS_PROJECT_DIR/../tb_lib/work"
+)
+(vvPair
+variable "library_downstream_SvAssistantInvoke"
+value "$HDS_PROJECT_DIR/../tb_lib/svassistant"
 )
 (vvPair
 variable "mm"
@@ -235,7 +243,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "10:58:17"
+value "16:52:34"
 )
 (vvPair
 variable "unit"
@@ -938,9 +946,9 @@ vasetType 1
 fg "49152,49152,49152"
 )
 xt "14250,30250,15750,31750"
-iconName "BlockDiagram.png"
-iconMaskName "BlockDiagram.msk"
-ftype 1
+iconName "VhdlFileViewIcon.png"
+iconMaskName "VhdlFileViewIcon.msk"
+ftype 10
 )
 viewiconposition 0
 portVis (PortSigDisplay
@@ -1541,11 +1549,11 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,32,2561,1440"
-viewArea "-1100,-6200,92220,45000"
+viewArea "-1100,-6200,92220,43880"
 cachedDiagramExtent "0,0,73000,49200"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 837,0
+lastUid 906,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
