@@ -7,15 +7,16 @@ alien_game_lib = $HDS_PROJECT_DIR/alien_game_lib/work
 [SvAssistant]
 alien_game_lib = $HDS_PROJECT_DIR/alien_game_lib/svassistant
 [hdl]
-alien_game_lib = $HDS_PROJECT_DIR\alien_game_lib\hdl
-pre_made = $HDS_PROJECT_DIR\..\pre_made\hdl
-tb_lib = $HDS_PROJECT_DIR\..\tb_lib\hdl
+alien_game_lib = $HDS_PROJECT_DIR/alien_game_lib/hdl
+pre_made = $HDS_PROJECT_DIR/../pre_made/hdl
+tb_lib = $HDS_PROJECT_DIR/../tb_lib/hdl
 [hds]
-alien_game_lib = $HDS_PROJECT_DIR\alien_game_lib\hds
-pre_made = $HDS_PROJECT_DIR\..\pre_made\hds
-tb_lib = $HDS_PROJECT_DIR\..\tb_lib\hds
+alien_game_lib = $HDS_PROJECT_DIR/alien_game_lib/hds
+pre_made = $HDS_PROJECT_DIR/../pre_made/hds
+tb_lib = $HDS_PROJECT_DIR/../tb_lib/hds
 [hds_settings]
 default_library = alien_game_lib
+design_root = tb_lib.tb_pixel_io(struct)tb_pixel_io/struct.bd
 version = 2
 [library_files_inclusion]
 pre_made = all
