@@ -39,7 +39,7 @@ VIEW struct.bd
 GRAPHIC 285,0 44 0 
 DESIGN c1_b2_decrementer
 VIEW struct.bd
-GRAPHIC 316,0 45 0 
+GRAPHIC 425,0 45 0 
 DESIGN c1_b2_decrementer
 VIEW struct.bd
 NO_GRAPHIC 46
@@ -74,7 +74,7 @@ VIEW struct.bd
 NO_GRAPHIC 63
 DESIGN c1_b2_decrementer
 VIEW struct.bd
-GRAPHIC 306,0 65 0 
+GRAPHIC 415,0 65 0 
 DESIGN c1_b2_decrementer
 VIEW struct.bd
 NO_GRAPHIC 68
@@ -86,7 +86,7 @@ VIEW struct.bd
 GRAPHIC 237,0 72 0 
 DESIGN c1_b2_decrementer
 VIEW struct.bd
-GRAPHIC 318,0 73 0 
+GRAPHIC 427,0 73 0 
 DESIGN c1_b2_decrementer
 VIEW struct.bd
 GRAPHIC 271,0 74 0 

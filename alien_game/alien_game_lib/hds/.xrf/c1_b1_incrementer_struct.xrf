@@ -39,7 +39,7 @@ VIEW struct.bd
 GRAPHIC 318,0 44 0 
 DESIGN c1_b1_incrementer
 VIEW struct.bd
-GRAPHIC 396,0 45 0 
+GRAPHIC 505,0 45 0 
 DESIGN c1_b1_incrementer
 VIEW struct.bd
 NO_GRAPHIC 46
@@ -74,7 +74,7 @@ VIEW struct.bd
 NO_GRAPHIC 63
 DESIGN c1_b1_incrementer
 VIEW struct.bd
-GRAPHIC 386,0 65 0 
+GRAPHIC 495,0 65 0 
 DESIGN c1_b1_incrementer
 VIEW struct.bd
 NO_GRAPHIC 68
@@ -86,7 +86,7 @@ VIEW struct.bd
 GRAPHIC 219,0 72 0 
 DESIGN c1_b1_incrementer
 VIEW struct.bd
-GRAPHIC 398,0 73 0 
+GRAPHIC 507,0 73 0 
 DESIGN c1_b1_incrementer
 VIEW struct.bd
 GRAPHIC 288,0 74 0 
