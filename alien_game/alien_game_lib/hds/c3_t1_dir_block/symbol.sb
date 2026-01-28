@@ -471,19 +471,19 @@ value "P:\\20\\alien_game\\alien_game_lib\\hds\\c3_t1_dir_block"
 )
 (vvPair
 variable "date"
-value "26.01.2026"
+value "28.01.2026"
 )
 (vvPair
 variable "day"
-value "ma"
+value "ke"
 )
 (vvPair
 variable "day_long"
-value "maanantai"
+value "keskiviikko"
 )
 (vvPair
 variable "dd"
-value "26"
+value "28"
 )
 (vvPair
 variable "entity_name"
@@ -511,7 +511,7 @@ value "ptjiya"
 )
 (vvPair
 variable "graphical_source_date"
-value "26.01.2026"
+value "28.01.2026"
 )
 (vvPair
 variable "graphical_source_group"
@@ -523,7 +523,7 @@ value "HTC219-309-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "19:11:48"
+value "10:00:26"
 )
 (vvPair
 variable "group"
@@ -631,7 +631,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "19:11:48"
+value "10:00:26"
 )
 (vvPair
 variable "unit"
@@ -1591,6 +1591,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 709,0
+lastUid 1008,0
 activeModelName "Symbol:CDM"
 )
