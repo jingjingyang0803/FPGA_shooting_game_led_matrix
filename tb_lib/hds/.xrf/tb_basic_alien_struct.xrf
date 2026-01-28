@@ -24,16 +24,16 @@ VIEW struct.bd
 GRAPHIC 0,0 33 2 
 DESIGN tb_basic_alien
 VIEW struct.bd
-GRAPHIC 871,0 38 0 
+GRAPHIC 281,0 38 0 
 DESIGN tb_basic_alien
 VIEW struct.bd
-GRAPHIC 857,0 39 0 
+GRAPHIC 367,0 39 0 
 DESIGN tb_basic_alien
 VIEW struct.bd
-GRAPHIC 865,0 40 0 
+GRAPHIC 289,0 40 0 
 DESIGN tb_basic_alien
 VIEW struct.bd
-GRAPHIC 281,0 41 0 
+GRAPHIC 291,0 41 0 
 DESIGN tb_basic_alien
 VIEW struct.bd
 GRAPHIC 275,0 42 0 
@@ -75,8 +75,8 @@ DESIGN c3_t1_basic_alien
 VIEW symbol.sb
 GRAPHIC 161,0 56 0 
 LIBRARY tb_lib
-DESIGN tb_basic_alien
-VIEW struct
+DESIGN basic_alien_tester
+VIEW testbench
 GRAPHIC 540,0 59 0 
 DESIGN tb_basic_alien
 VIEW struct.bd
@@ -114,25 +114,25 @@ VIEW struct.bd
 GRAPHIC 263,0 86 0 
 DESIGN tb_basic_alien
 VIEW struct.bd
-GRAPHIC 873,0 87 0 
+GRAPHIC 488,0 87 0 
 DESIGN tb_basic_alien
 VIEW struct.bd
-GRAPHIC 859,0 88 0 
+GRAPHIC 496,0 88 0 
 DESIGN tb_basic_alien
 VIEW struct.bd
-GRAPHIC 867,0 89 0 
+GRAPHIC 504,0 89 0 
 DESIGN tb_basic_alien
 VIEW struct.bd
 GRAPHIC 540,0 91 0 
 DESIGN tb_basic_alien
 VIEW struct.bd
-GRAPHIC 859,0 93 0 
+GRAPHIC 496,0 93 0 
 DESIGN tb_basic_alien
 VIEW struct.bd
-GRAPHIC 867,0 94 0 
+GRAPHIC 504,0 94 0 
 DESIGN tb_basic_alien
 VIEW struct.bd
-GRAPHIC 873,0 95 0 
+GRAPHIC 488,0 95 0 
 DESIGN tb_basic_alien
 VIEW struct.bd
 GRAPHIC 237,0 96 0 
