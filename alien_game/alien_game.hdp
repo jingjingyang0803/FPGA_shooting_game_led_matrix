@@ -22,7 +22,7 @@ design_root = .()
 version = 2
 [library_files_inclusion]
 pre_made = all
-tb_lib = specify
+tb_lib = all
 [library_type]
 alien_game_lib = regular
 pre_made = regular
