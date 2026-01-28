@@ -24,7 +24,7 @@ VIEW symbol.sb
 GRAPHIC 125,0 19 0 
 DESIGN c3_t1_x_block
 VIEW symbol.sb
-GRAPHIC 145,0 20 0 
+GRAPHIC 396,0 20 0 
 DESIGN c3_t1_x_block
 VIEW symbol.sb
 GRAPHIC 1,0 23 0 
@@ -69,43 +69,37 @@ VIEW struct.bd
 NO_GRAPHIC 53
 DESIGN c3_t1_x_block
 VIEW struct.bd
-GRAPHIC 826,0 55 0 
+NO_GRAPHIC 57
 DESIGN c3_t1_x_block
 VIEW struct.bd
-NO_GRAPHIC 60
+NO_GRAPHIC 58
 DESIGN c3_t1_x_block
 VIEW struct.bd
-NO_GRAPHIC 61
+GRAPHIC 304,0 60 0 
 DESIGN c3_t1_x_block
 VIEW struct.bd
-GRAPHIC 304,0 63 0 
+GRAPHIC 408,0 71 0 
 DESIGN c3_t1_x_block
 VIEW struct.bd
-GRAPHIC 408,0 74 0 
+GRAPHIC 336,0 74 0 
 DESIGN c3_t1_x_block
 VIEW struct.bd
-GRAPHIC 336,0 77 0 
+GRAPHIC 741,0 76 0 
 DESIGN c3_t1_x_block
 VIEW struct.bd
-GRAPHIC 741,0 79 0 
+GRAPHIC 606,0 86 0 
 DESIGN c3_t1_x_block
 VIEW struct.bd
-GRAPHIC 606,0 89 0 
+GRAPHIC 456,0 96 0 
 DESIGN c3_t1_x_block
 VIEW struct.bd
-GRAPHIC 456,0 99 0 
+GRAPHIC 539,0 106 0 
 DESIGN c3_t1_x_block
 VIEW struct.bd
-GRAPHIC 539,0 109 0 
+GRAPHIC 368,0 116 0 
 DESIGN c3_t1_x_block
 VIEW struct.bd
-GRAPHIC 368,0 119 0 
+NO_GRAPHIC 118
 DESIGN c3_t1_x_block
 VIEW struct.bd
 NO_GRAPHIC 121
-DESIGN c3_t1_x_block
-VIEW struct.bd
-GRAPHIC 826,0 125 0 
-DESIGN c3_t1_x_block
-VIEW struct.bd
-NO_GRAPHIC 127

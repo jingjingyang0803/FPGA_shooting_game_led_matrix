@@ -190,7 +190,7 @@ value "HTC219-309-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "11:38:20"
+value "11:53:52"
 )
 (vvPair
 variable "group"
@@ -298,7 +298,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "11:38:20"
+value "11:53:52"
 )
 (vvPair
 variable "unit"
@@ -589,7 +589,7 @@ st "rst_n          : std_logic"
 uid 77,0
 lang 2
 decl (Decl
-n "X_d"
+n "alien_x"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
 o 7
@@ -601,7 +601,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "16000,6800,40500,7600"
-st "X_d            : std_logic_vector(7 DOWNTO 0)"
+st "alien_x        : std_logic_vector(7 DOWNTO 0)"
 )
 )
 *10 (Grouping
@@ -942,16 +942,16 @@ optionalChildren [
 uid 255,0
 sl 0
 ro 270
-xt "59500,34625,61000,35375"
+xt "60500,34625,62000,35375"
 )
 (Line
 uid 256,0
 sl 0
 ro 270
-xt "59000,35000,59500,35000"
+xt "60000,35000,60500,35000"
 pts [
-"59000,35000"
-"59500,35000"
+"60000,35000"
+"60500,35000"
 ]
 )
 ]
@@ -967,9 +967,9 @@ uid 258,0
 va (VaSet
 font "arial,8,0"
 )
-xt "60000,35500,61700,36500"
-st "X_d"
-blo "60000,36300"
+xt "61000,35500,63800,36500"
+st "alien_x"
+blo "61000,36300"
 tm "WireNameMgr"
 )
 )
@@ -1027,7 +1027,7 @@ decl (Decl
 n "d"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
-o 18
+o 11
 suid 1,0
 )
 )
@@ -1084,7 +1084,7 @@ decl (Decl
 n "q"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
-o 18
+o 11
 suid 2,0
 )
 )
@@ -1474,7 +1474,7 @@ decl (Decl
 n "qb"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
-o 18
+o 11
 suid 5,0
 )
 )
@@ -1583,7 +1583,7 @@ decl (Decl
 n "din"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
-o 18
+o 11
 suid 1,0
 )
 )
@@ -1944,7 +1944,7 @@ decl (Decl
 n "din"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
-o 18
+o 11
 suid 1,0
 )
 )
@@ -2012,7 +2012,7 @@ decl (Decl
 n "dout"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
-o 11
+o 12
 suid 2,0
 )
 )
@@ -2291,7 +2291,7 @@ decl (Decl
 n "dout"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
-o 13
+o 14
 suid 1,0
 )
 )
@@ -2493,7 +2493,7 @@ decl (Decl
 n "din0"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
-o 18
+o 11
 suid 1,0
 )
 )
@@ -2632,7 +2632,7 @@ decl (Decl
 n "din1"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
-o 12
+o 13
 suid 3,0
 )
 )
@@ -3226,7 +3226,7 @@ decl (Decl
 n "din1"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
-o 13
+o 14
 suid 3,0
 )
 )
@@ -3820,7 +3820,7 @@ decl (Decl
 n "din1"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
-o 13
+o 14
 suid 3,0
 )
 )
@@ -4193,7 +4193,7 @@ decl (Decl
 n "X_step"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
-o 12
+o 13
 suid 17,0
 )
 declText (MLText
@@ -4212,7 +4212,7 @@ decl (Decl
 n "din1"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
-o 13
+o 14
 suid 19,0
 )
 declText (MLText
@@ -4250,7 +4250,7 @@ decl (Decl
 n "X_rs"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
-o 11
+o 12
 suid 21,0
 )
 declText (MLText
@@ -4399,7 +4399,7 @@ decl (Decl
 n "dout"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
-o 12
+o 13
 suid 2,0
 )
 )
@@ -4464,7 +4464,7 @@ decl (Decl
 n "din1"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
-o 11
+o 12
 suid 3,0
 )
 )
@@ -4799,7 +4799,7 @@ decl (Decl
 n "X_q"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
-o 18
+o 11
 suid 23,0
 )
 declText (MLText
@@ -4971,35 +4971,20 @@ on &8
 )
 *181 (Wire
 uid 259,0
-optionalChildren [
-*182 (BdJunction
-uid 830,0
-ps "OnConnectorStrategy"
-shape (Circle
-uid 831,0
-va (VaSet
-vasetType 1
-)
-xt "56600,34600,57400,35400"
-radius 400
-)
-)
-]
 shape (OrthoPolyLine
 uid 260,0
 va (VaSet
 vasetType 3
 lineWidth 2
 )
-xt "56000,35000,59000,35000"
+xt "56000,35000,60000,35000"
 pts [
 "56000,35000"
-"59000,35000"
+"60000,35000"
 ]
 )
 start &131
 end &21
-ss 0
 sat 32
 eat 32
 sty 1
@@ -5016,15 +5001,15 @@ va (VaSet
 isHidden 1
 font "arial,8,0"
 )
-xt "58000,34000,62300,35000"
-st "X_d : (7:0)"
-blo "58000,34800"
+xt "59000,34000,64400,35000"
+st "alien_x : (7:0)"
+blo "59000,34800"
 tm "WireNameMgr"
 )
 )
 on &9
 )
-*183 (Wire
+*182 (Wire
 uid 493,0
 shape (OrthoPolyLine
 uid 494,0
@@ -5064,7 +5049,7 @@ tm "WireNameMgr"
 )
 on &104
 )
-*184 (Wire
+*183 (Wire
 uid 560,0
 shape (OrthoPolyLine
 uid 561,0
@@ -5104,7 +5089,7 @@ tm "WireNameMgr"
 )
 on &127
 )
-*185 (Wire
+*184 (Wire
 uid 625,0
 shape (OrthoPolyLine
 uid 626,0
@@ -5144,7 +5129,7 @@ tm "WireNameMgr"
 )
 on &149
 )
-*186 (Wire
+*185 (Wire
 uid 635,0
 shape (OrthoPolyLine
 uid 636,0
@@ -5184,7 +5169,7 @@ tm "WireNameMgr"
 )
 on &150
 )
-*187 (Wire
+*186 (Wire
 uid 647,0
 shape (OrthoPolyLine
 uid 648,0
@@ -5223,10 +5208,10 @@ tm "WireNameMgr"
 )
 on &151
 )
-*188 (Wire
+*187 (Wire
 uid 667,0
 optionalChildren [
-*189 (BdJunction
+*188 (BdJunction
 uid 818,0
 ps "OnConnectorStrategy"
 shape (Circle
@@ -5280,7 +5265,7 @@ tm "WireNameMgr"
 )
 on &152
 )
-*190 (Wire
+*189 (Wire
 uid 671,0
 shape (OrthoPolyLine
 uid 672,0
@@ -5296,7 +5281,7 @@ pts [
 ]
 )
 start &134
-end &189
+end &188
 sat 32
 eat 32
 sty 1
@@ -5322,7 +5307,7 @@ tm "WireNameMgr"
 )
 on &152
 )
-*191 (Wire
+*190 (Wire
 uid 683,0
 shape (OrthoPolyLine
 uid 684,0
@@ -5362,7 +5347,7 @@ tm "WireNameMgr"
 )
 on &153
 )
-*192 (Wire
+*191 (Wire
 uid 693,0
 shape (OrthoPolyLine
 uid 694,0
@@ -5402,14 +5387,26 @@ tm "WireNameMgr"
 )
 on &154
 )
-*193 (Wire
+*192 (Wire
 uid 796,0
 optionalChildren [
-*194 (BdJunction
+*193 (BdJunction
 uid 810,0
 ps "OnConnectorStrategy"
 shape (Circle
 uid 811,0
+va (VaSet
+vasetType 1
+)
+xt "13600,20600,14400,21400"
+radius 400
+)
+)
+*194 (BdJunction
+uid 838,0
+ps "OnConnectorStrategy"
+shape (Circle
+uid 839,0
 va (VaSet
 vasetType 1
 )
@@ -5487,7 +5484,7 @@ pts [
 ]
 )
 start &49
-end &194
+end &193
 sat 32
 eat 32
 sty 1
@@ -5554,24 +5551,24 @@ tm "WireNameMgr"
 on &176
 )
 *198 (Wire
-uid 826,0
+uid 834,0
 shape (OrthoPolyLine
-uid 827,0
+uid 835,0
 va (VaSet
 vasetType 3
 lineWidth 2
 )
-xt "-1000,16000,57000,35000"
+xt "0,15000,14000,21000"
 pts [
 "3000,21000"
-"-1000,21000"
-"-1000,16000"
-"57000,16000"
-"57000,35000"
+"0,21000"
+"0,15000"
+"14000,15000"
+"14000,21000"
 ]
 )
 start &23
-end &182
+end &194
 sat 32
 eat 32
 sty 1
@@ -5580,21 +5577,21 @@ st 0
 sf 1
 si 0
 tg (WTG
-uid 828,0
+uid 836,0
 ps "ConnStartEndStrategy"
 stg "STSignalDisplayStrategy"
 f (Text
-uid 829,0
+uid 837,0
 va (VaSet
 font "arial,8,0"
 )
 xt "0,20000,1700,21000"
-st "X_d"
+st "X_q"
 blo "0,20800"
 tm "WireNameMgr"
 )
 )
-on &9
+on &176
 )
 ]
 bg "65535,65535,65535"
@@ -5712,10 +5709,10 @@ associable 1
 )
 windowSize "-8,-8,2568,1400"
 viewArea "-5151,-10556,96759,45000"
-cachedDiagramExtent "-1000,0,67000,49000"
+cachedDiagramExtent "-400,0,67000,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-6000,0"
-lastUid 831,0
+lastUid 839,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -6775,7 +6772,7 @@ tm "BdDeclarativeTextMgr"
 )
 commonDM (CommonDM
 ldm (LogicalDM
-suid 23,0
+suid 24,0
 usingSuid 1
 emptyRow *230 (LEmptyRow
 )
@@ -6867,7 +6864,7 @@ port (LogicalPort
 lang 2
 m 1
 decl (Decl
-n "X_d"
+n "alien_x"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
 o 7
@@ -6940,7 +6937,7 @@ decl (Decl
 n "X_step"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
-o 12
+o 13
 suid 17,0
 )
 )
@@ -6955,7 +6952,7 @@ decl (Decl
 n "din1"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
-o 13
+o 14
 suid 19,0
 )
 )
@@ -6984,7 +6981,7 @@ decl (Decl
 n "X_rs"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
-o 11
+o 12
 suid 21,0
 )
 )
@@ -6999,7 +6996,7 @@ decl (Decl
 n "X_q"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
-o 18
+o 11
 suid 23,0
 )
 )
