@@ -51,13 +51,13 @@ VIEW struct.bd
 GRAPHIC 853,0 47 0 
 DESIGN c3_t1_dir_block
 VIEW struct.bd
-GRAPHIC 265,0 48 0 
+GRAPHIC 1215,0 48 0 
 DESIGN c3_t1_dir_block
 VIEW struct.bd
-GRAPHIC 271,0 49 0 
+GRAPHIC 265,0 49 0 
 DESIGN c3_t1_dir_block
 VIEW struct.bd
-GRAPHIC 833,0 50 0 
+GRAPHIC 271,0 50 0 
 DESIGN c3_t1_dir_block
 VIEW struct.bd
 GRAPHIC 1197,0 51 0 
