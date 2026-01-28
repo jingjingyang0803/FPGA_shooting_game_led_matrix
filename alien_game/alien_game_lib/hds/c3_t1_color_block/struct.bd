@@ -14,7 +14,7 @@ unitName "std_logic_arith"
 ]
 instances [
 (Instance
-name "U_0"
+name "dead_now"
 duLibraryName "moduleware"
 duName "or"
 elements [
@@ -32,7 +32,7 @@ mwi 1
 uid 240,0
 )
 (Instance
-name "C_NORM_BLUE"
+name "C_NORM"
 duLibraryName "moduleware"
 duName "constval"
 elements [
@@ -41,7 +41,7 @@ mwi 1
 uid 262,0
 )
 (Instance
-name "C_HIT_RED"
+name "C_ZERO"
 duLibraryName "moduleware"
 duName "constval"
 elements [
@@ -102,19 +102,19 @@ value "P:\\20\\alien_game\\alien_game_lib\\hds\\c3_t1_color_block"
 )
 (vvPair
 variable "date"
-value "26.01.2026"
+value "28.01.2026"
 )
 (vvPair
 variable "day"
-value "ma"
+value "ke"
 )
 (vvPair
 variable "day_long"
-value "maanantai"
+value "keskiviikko"
 )
 (vvPair
 variable "dd"
-value "26"
+value "28"
 )
 (vvPair
 variable "entity_name"
@@ -142,7 +142,7 @@ value "ptjiya"
 )
 (vvPair
 variable "graphical_source_date"
-value "26.01.2026"
+value "28.01.2026"
 )
 (vvPair
 variable "graphical_source_group"
@@ -154,7 +154,7 @@ value "HTC219-309-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "18:04:44"
+value "09:50:06"
 )
 (vvPair
 variable "group"
@@ -262,7 +262,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "18:04:44"
+value "09:50:06"
 )
 (vvPair
 variable "unit"
@@ -396,8 +396,8 @@ uid 28,0
 va (VaSet
 font "arial,8,0"
 )
-xt "38000,30500,40100,31500"
-st "color"
+xt "38000,30500,42500,31500"
+st "alien_color"
 blo "38000,31300"
 tm "WireNameMgr"
 )
@@ -407,7 +407,7 @@ tm "WireNameMgr"
 uid 35,0
 lang 2
 decl (Decl
-n "color"
+n "alien_color"
 t "std_logic_vector"
 b "(23 DOWNTO 0)"
 o 3
@@ -419,7 +419,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,3600,47000,4400"
-st "color          : std_logic_vector(23 DOWNTO 0)
+st "alien_color    : std_logic_vector(23 DOWNTO 0)
 "
 )
 )
@@ -1226,8 +1226,8 @@ uid 198,0
 va (VaSet
 font "arial,8,0"
 )
-xt "23500,23500,25300,24500"
-st "U_0"
+xt "23500,23500,27300,24500"
+st "dead_now"
 blo "23500,24300"
 tm "InstanceNameMgr"
 )
@@ -1953,8 +1953,8 @@ uid 267,0
 va (VaSet
 font "arial,8,0"
 )
-xt "18350,30100,25050,31100"
-st "C_NORM_BLUE"
+xt "18350,30100,22250,31100"
+st "C_NORM"
 blo "18350,30900"
 tm "InstanceNameMgr"
 )
@@ -2158,8 +2158,8 @@ uid 286,0
 va (VaSet
 font "arial,8,0"
 )
-xt "18350,35100,23150,36100"
-st "C_HIT_RED"
+xt "18350,35100,21950,36100"
+st "C_ZERO"
 blo "18350,35900"
 tm "InstanceNameMgr"
 )
@@ -2336,8 +2336,8 @@ va (VaSet
 isHidden 1
 font "arial,8,0"
 )
-xt "34000,30000,39100,31000"
-st "color : (23:0)"
+xt "34000,30000,41500,31000"
+st "alien_color : (23:0)"
 blo "34000,30800"
 tm "WireNameMgr"
 )
@@ -2623,12 +2623,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-8,-8,2568,1400"
-viewArea "-7627,-1040,86588,50321"
+windowSize "0,0,2561,1408"
+viewArea "-7600,-1000,85720,50200"
 cachedDiagramExtent "0,0,64000,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-9000,0"
-lastUid 314,0
+lastUid 337,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -3756,7 +3756,7 @@ port (LogicalPort
 lang 2
 m 1
 decl (Decl
-n "color"
+n "alien_color"
 t "std_logic_vector"
 b "(23 DOWNTO 0)"
 o 3
