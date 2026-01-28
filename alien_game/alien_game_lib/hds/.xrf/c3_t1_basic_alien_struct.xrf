@@ -1,0 +1,254 @@
+DESIGN c3_t1_basic_alien
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN c3_t1_basic_alien
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN c3_t1_basic_alien
+VIEW symbol.sb
+GRAPHIC 126,0 14 0 
+DESIGN c3_t1_basic_alien
+VIEW symbol.sb
+GRAPHIC 136,0 15 0 
+DESIGN c3_t1_basic_alien
+VIEW symbol.sb
+GRAPHIC 141,0 16 0 
+DESIGN c3_t1_basic_alien
+VIEW symbol.sb
+GRAPHIC 131,0 17 0 
+DESIGN c3_t1_basic_alien
+VIEW symbol.sb
+GRAPHIC 166,0 18 0 
+DESIGN c3_t1_basic_alien
+VIEW symbol.sb
+GRAPHIC 219,0 19 0 
+DESIGN c3_t1_basic_alien
+VIEW symbol.sb
+GRAPHIC 161,0 20 0 
+DESIGN c3_t1_basic_alien
+VIEW symbol.sb
+GRAPHIC 1,0 23 0 
+DESIGN c3_t1_basic_alien
+VIEW symbol.sb
+GRAPHIC 1,0 24 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+NO_GRAPHIC 27
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 41,0 36 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+NO_GRAPHIC 39
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 0,0 42 2 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 333,0 47 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 347,0 48 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+NO_GRAPHIC 49
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 603,0 51 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+NO_GRAPHIC 53
+LIBRARY alien_game_lib
+DESIGN c3_t1_color_block
+VIEW struct
+GRAPHIC 181,0 55 0 
+DESIGN c3_t1_color_block
+VIEW symbol.sb
+GRAPHIC 119,0 57 0 
+DESIGN c3_t1_color_block
+VIEW symbol.sb
+GRAPHIC 114,0 58 0 
+DESIGN c3_t1_color_block
+VIEW symbol.sb
+GRAPHIC 223,0 59 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 207,0 62 0 
+DESIGN c3_t1_defeated_reg
+VIEW symbol.sb
+GRAPHIC 130,0 64 0 
+DESIGN c3_t1_defeated_reg
+VIEW symbol.sb
+GRAPHIC 140,0 65 0 
+DESIGN c3_t1_defeated_reg
+VIEW symbol.sb
+GRAPHIC 135,0 66 0 
+DESIGN c3_t1_defeated_reg
+VIEW symbol.sb
+GRAPHIC 145,0 67 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 237,0 70 0 
+DESIGN c3_t1_dir_block
+VIEW symbol.sb
+GRAPHIC 112,0 72 0 
+DESIGN c3_t1_dir_block
+VIEW symbol.sb
+GRAPHIC 377,0 73 0 
+DESIGN c3_t1_dir_block
+VIEW symbol.sb
+GRAPHIC 175,0 74 0 
+DESIGN c3_t1_dir_block
+VIEW symbol.sb
+GRAPHIC 382,0 75 0 
+DESIGN c3_t1_dir_block
+VIEW symbol.sb
+GRAPHIC 207,0 76 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 137,0 79 0 
+DESIGN c3_t1_x_block
+VIEW symbol.sb
+GRAPHIC 246,0 81 0 
+DESIGN c3_t1_x_block
+VIEW symbol.sb
+GRAPHIC 120,0 82 0 
+DESIGN c3_t1_x_block
+VIEW symbol.sb
+GRAPHIC 135,0 83 0 
+DESIGN c3_t1_x_block
+VIEW symbol.sb
+GRAPHIC 130,0 84 0 
+DESIGN c3_t1_x_block
+VIEW symbol.sb
+GRAPHIC 251,0 85 0 
+DESIGN c3_t1_x_block
+VIEW symbol.sb
+GRAPHIC 125,0 86 0 
+DESIGN c3_t1_x_block
+VIEW symbol.sb
+GRAPHIC 396,0 87 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 159,0 90 0 
+DESIGN c3_t1_y_block
+VIEW symbol.sb
+GRAPHIC 177,0 92 0 
+DESIGN c3_t1_y_block
+VIEW symbol.sb
+GRAPHIC 167,0 93 0 
+DESIGN c3_t1_y_block
+VIEW symbol.sb
+GRAPHIC 230,0 94 0 
+LIBRARY alien_game_lib
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+NO_GRAPHIC 97
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 181,0 100 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 207,0 101 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 237,0 102 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 137,0 103 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 159,0 104 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+NO_GRAPHIC 107
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+NO_GRAPHIC 109
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 181,0 111 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 537,0 113 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 591,0 114 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 383,0 115 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 207,0 117 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 555,0 119 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 573,0 120 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 561,0 121 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 327,0 122 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 237,0 124 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 603,0 126 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 549,0 127 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 597,0 128 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 567,0 129 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 341,0 130 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 137,0 132 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 543,0 134 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 479,0 135 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 341,0 136 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 493,0 137 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 507,0 138 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 521,0 139 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 355,0 140 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 159,0 142 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 327,0 144 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 585,0 145 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 369,0 146 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+GRAPHIC 603,0 150 0 
+DESIGN c3_t1_basic_alien
+VIEW struct.bd
+NO_GRAPHIC 152
