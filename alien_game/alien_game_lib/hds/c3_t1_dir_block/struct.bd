@@ -208,7 +208,7 @@ value "HTC219-309-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "11:06:14"
+value "11:22:43"
 )
 (vvPair
 variable "group"
@@ -316,7 +316,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "11:06:14"
+value "11:22:43"
 )
 (vvPair
 variable "unit"
@@ -738,7 +738,7 @@ decl (Decl
 n "dout"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
-o 10
+o 12
 suid 1,0
 )
 )
@@ -943,7 +943,7 @@ decl (Decl
 n "dout"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
-o 11
+o 13
 suid 1,0
 )
 )
@@ -1210,7 +1210,7 @@ decl (Decl
 n "din0"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
-o 10
+o 12
 suid 2,0
 )
 )
@@ -1276,7 +1276,7 @@ m 1
 decl (Decl
 n "fout"
 t "std_logic"
-o 16
+o 6
 suid 3,0
 )
 )
@@ -1607,7 +1607,7 @@ decl (Decl
 n "din1"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
-o 11
+o 13
 suid 1,0
 )
 )
@@ -1738,7 +1738,7 @@ m 1
 decl (Decl
 n "fout"
 t "std_logic"
-o 17
+o 7
 suid 3,0
 )
 )
@@ -2068,8 +2068,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "17000,2000,41000,2800"
-st "X_q           : std_logic_vector(7 DOWNTO 0)
-"
+st "X_q           : std_logic_vector(7 DOWNTO 0)"
 )
 )
 *64 (Net
@@ -2079,7 +2078,7 @@ decl (Decl
 n "dout"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
-o 10
+o 12
 suid 3,0
 )
 declText (MLText
@@ -2088,8 +2087,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "17000,11800,44500,12600"
-st "SIGNAL dout          : std_logic_vector(7 DOWNTO 0)
-"
+st "SIGNAL dout          : std_logic_vector(7 DOWNTO 0)"
 )
 )
 *65 (Net
@@ -2099,7 +2097,7 @@ decl (Decl
 n "dout1"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
-o 11
+o 13
 suid 4,0
 )
 declText (MLText
@@ -2108,8 +2106,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "17000,12600,44500,13400"
-st "SIGNAL dout1         : std_logic_vector(7 DOWNTO 0)
-"
+st "SIGNAL dout1         : std_logic_vector(7 DOWNTO 0)"
 )
 )
 *66 (MWC
@@ -2196,7 +2193,7 @@ lang 2
 decl (Decl
 n "rst"
 t "std_logic"
-o 4
+o 3
 suid 6,0
 )
 )
@@ -2319,7 +2316,7 @@ m 1
 decl (Decl
 n "q"
 t "std_logic"
-o 13
+o 4
 suid 2,0
 )
 )
@@ -2372,7 +2369,7 @@ lang 2
 decl (Decl
 n "d"
 t "std_logic"
-o 16
+o 10
 suid 1,0
 )
 )
@@ -2502,7 +2499,7 @@ m 1
 decl (Decl
 n "qb"
 t "std_logic"
-o 13
+o 4
 suid 5,0
 )
 )
@@ -2701,7 +2698,7 @@ lang 2
 decl (Decl
 n "din1"
 t "std_logic"
-o 7
+o 9
 suid 1,0
 )
 )
@@ -2763,7 +2760,7 @@ m 1
 decl (Decl
 n "dout"
 t "std_logic"
-o 14
+o 5
 suid 2,0
 )
 )
@@ -2817,7 +2814,7 @@ lang 2
 decl (Decl
 n "din0"
 t "std_logic"
-o 6
+o 8
 suid 3,0
 )
 )
@@ -3162,7 +3159,7 @@ m 1
 decl (Decl
 n "dout"
 t "std_logic"
-o 6
+o 8
 suid 1,0
 )
 )
@@ -3216,7 +3213,7 @@ lang 2
 decl (Decl
 n "din0"
 t "std_logic"
-o 6
+o 4
 suid 2,0
 )
 )
@@ -3270,7 +3267,7 @@ lang 2
 decl (Decl
 n "din1"
 t "std_logic"
-o 16
+o 6
 suid 3,0
 )
 )
@@ -3530,7 +3527,7 @@ m 1
 decl (Decl
 n "dout"
 t "std_logic"
-o 7
+o 9
 suid 1,0
 )
 )
@@ -3584,7 +3581,7 @@ lang 2
 decl (Decl
 n "din0"
 t "std_logic"
-o 7
+o 11
 suid 2,0
 )
 )
@@ -3638,7 +3635,7 @@ lang 2
 decl (Decl
 n "din1"
 t "std_logic"
-o 17
+o 7
 suid 3,0
 )
 )
@@ -3899,7 +3896,7 @@ lang 2
 decl (Decl
 n "din"
 t "std_logic"
-o 13
+o 4
 suid 1,0
 )
 )
@@ -3975,7 +3972,7 @@ m 1
 decl (Decl
 n "dout"
 t "std_logic"
-o 14
+o 11
 suid 2,0
 )
 )
@@ -4092,7 +4089,7 @@ lang 2
 decl (Decl
 n "din0"
 t "std_logic"
-o 6
+o 8
 suid 15,0
 )
 declText (MLText
@@ -4101,8 +4098,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "17000,8600,34500,9400"
-st "SIGNAL din0          : std_logic
-"
+st "SIGNAL din0          : std_logic"
 )
 )
 *161 (Net
@@ -4111,7 +4107,7 @@ lang 2
 decl (Decl
 n "din1"
 t "std_logic"
-o 7
+o 9
 suid 16,0
 )
 declText (MLText
@@ -4120,8 +4116,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "17000,9400,34500,10200"
-st "SIGNAL din1          : std_logic
-"
+st "SIGNAL din1          : std_logic"
 )
 )
 *162 (MWC
@@ -4185,7 +4180,7 @@ lang 2
 decl (Decl
 n "din0"
 t "std_logic"
-o 13
+o 4
 suid 1,0
 )
 )
@@ -4257,7 +4252,7 @@ m 1
 decl (Decl
 n "dout"
 t "std_logic"
-o 16
+o 10
 suid 2,0
 )
 )
@@ -4320,7 +4315,7 @@ lang 2
 decl (Decl
 n "din1"
 t "std_logic"
-o 14
+o 11
 suid 3,0
 )
 )
@@ -4387,7 +4382,7 @@ lang 2
 decl (Decl
 n "sel"
 t "std_logic"
-o 14
+o 5
 suid 4,0
 )
 )
@@ -4663,8 +4658,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "17000,2800,31000,3600"
-st "clk           : std_logic
-"
+st "clk           : std_logic"
 )
 )
 *184 (PortIoIn
@@ -4765,7 +4759,7 @@ lang 2
 decl (Decl
 n "rst_n"
 t "std_logic"
-o 4
+o 3
 suid 27,0
 )
 declText (MLText
@@ -4774,8 +4768,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "17000,3600,31000,4400"
-st "rst_n         : std_logic
-"
+st "rst_n         : std_logic"
 )
 )
 *187 (Net
@@ -4784,7 +4777,7 @@ lang 2
 decl (Decl
 n "dir_d"
 t "std_logic"
-o 16
+o 10
 suid 36,0
 )
 declText (MLText
@@ -4793,8 +4786,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "17000,10200,34500,11000"
-st "SIGNAL dir_d         : std_logic
-"
+st "SIGNAL dir_d         : std_logic"
 )
 )
 *188 (Net
@@ -4803,7 +4795,7 @@ lang 2
 decl (Decl
 n "at_left_egde"
 t "std_logic"
-o 16
+o 6
 suid 37,0
 )
 declText (MLText
@@ -4812,8 +4804,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "17000,7000,34500,7800"
-st "SIGNAL at_left_egde  : std_logic
-"
+st "SIGNAL at_left_egde  : std_logic"
 )
 )
 *189 (Net
@@ -4822,7 +4813,7 @@ lang 2
 decl (Decl
 n "at_right_edge"
 t "std_logic"
-o 17
+o 7
 suid 38,0
 )
 declText (MLText
@@ -4831,8 +4822,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "17000,7800,34500,8600"
-st "SIGNAL at_right_edge : std_logic
-"
+st "SIGNAL at_right_edge : std_logic"
 )
 )
 *190 (PortIoOut
@@ -4886,7 +4876,7 @@ lang 2
 decl (Decl
 n "dir_q"
 t "std_logic"
-o 13
+o 4
 suid 43,0
 )
 declText (MLText
@@ -4895,8 +4885,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "17000,4400,31000,5200"
-st "dir_q         : std_logic
-"
+st "dir_q         : std_logic"
 )
 )
 *192 (Net
@@ -4905,7 +4894,7 @@ lang 2
 decl (Decl
 n "at_edge"
 t "std_logic"
-o 14
+o 5
 suid 44,0
 )
 declText (MLText
@@ -4914,8 +4903,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "17000,6200,34500,7000"
-st "SIGNAL at_edge       : std_logic
-"
+st "SIGNAL at_edge       : std_logic"
 )
 )
 *193 (Net
@@ -4924,7 +4912,7 @@ lang 2
 decl (Decl
 n "dir_inv"
 t "std_logic"
-o 14
+o 11
 suid 46,0
 )
 declText (MLText
@@ -4933,8 +4921,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "17000,11000,34500,11800"
-st "SIGNAL dir_inv       : std_logic
-"
+st "SIGNAL dir_inv       : std_logic"
 )
 )
 *194 (Wire
@@ -5834,8 +5821,8 @@ windowSize "0,32,2561,1440"
 viewArea "300,-7000,100619,46836"
 cachedDiagramExtent "2300,0,73000,49000"
 hasePageBreakOrigin 1
-pageBreakOrigin "0,-49000"
-lastUid 1475,0
+pageBreakOrigin "0,0"
+lastUid 1498,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -6956,7 +6943,7 @@ decl (Decl
 n "dout"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
-o 10
+o 12
 suid 3,0
 )
 )
@@ -6970,7 +6957,7 @@ decl (Decl
 n "dout1"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
-o 11
+o 13
 suid 4,0
 )
 )
@@ -6983,7 +6970,7 @@ m 4
 decl (Decl
 n "din0"
 t "std_logic"
-o 6
+o 8
 suid 15,0
 )
 )
@@ -6996,7 +6983,7 @@ m 4
 decl (Decl
 n "din1"
 t "std_logic"
-o 7
+o 9
 suid 16,0
 )
 )
@@ -7021,7 +7008,7 @@ lang 2
 decl (Decl
 n "rst_n"
 t "std_logic"
-o 4
+o 3
 suid 27,0
 )
 )
@@ -7035,7 +7022,7 @@ m 4
 decl (Decl
 n "dir_d"
 t "std_logic"
-o 16
+o 10
 suid 36,0
 )
 )
@@ -7049,7 +7036,7 @@ m 4
 decl (Decl
 n "at_left_egde"
 t "std_logic"
-o 16
+o 6
 suid 37,0
 )
 )
@@ -7063,7 +7050,7 @@ m 4
 decl (Decl
 n "at_right_edge"
 t "std_logic"
-o 17
+o 7
 suid 38,0
 )
 )
@@ -7077,7 +7064,7 @@ m 1
 decl (Decl
 n "dir_q"
 t "std_logic"
-o 13
+o 4
 suid 43,0
 )
 )
@@ -7090,7 +7077,7 @@ m 4
 decl (Decl
 n "at_edge"
 t "std_logic"
-o 14
+o 5
 suid 44,0
 )
 )
@@ -7104,7 +7091,7 @@ m 4
 decl (Decl
 n "dir_inv"
 t "std_logic"
-o 14
+o 11
 suid 46,0
 )
 )
@@ -7169,25 +7156,25 @@ uid 234,0
 )
 *280 (MRCItem
 litem &262
-pos 3
+pos 4
 dimension 20
 uid 290,0
 )
 *281 (MRCItem
 litem &263
-pos 4
+pos 5
 dimension 20
 uid 292,0
 )
 *282 (MRCItem
 litem &264
-pos 5
+pos 6
 dimension 20
 uid 820,0
 )
 *283 (MRCItem
 litem &265
-pos 6
+pos 7
 dimension 20
 uid 822,0
 )
@@ -7205,25 +7192,25 @@ uid 942,0
 )
 *286 (MRCItem
 litem &268
-pos 7
+pos 8
 dimension 20
 uid 1206,0
 )
 *287 (MRCItem
 litem &269
-pos 8
+pos 9
 dimension 20
 uid 1241,0
 )
 *288 (MRCItem
 litem &270
-pos 9
+pos 10
 dimension 20
 uid 1243,0
 )
 *289 (MRCItem
 litem &271
-pos 10
+pos 3
 dimension 20
 uid 1401,0
 )

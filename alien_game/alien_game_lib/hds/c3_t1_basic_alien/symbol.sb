@@ -511,19 +511,19 @@ value "P:\\20\\alien_game\\alien_game_lib\\hds\\c3_t1_basic_alien"
 )
 (vvPair
 variable "date"
-value "28.01.2026"
+value " 2.02.2026"
 )
 (vvPair
 variable "day"
-value "ke"
+value "ma"
 )
 (vvPair
 variable "day_long"
-value "keskiviikko"
+value "maanantai"
 )
 (vvPair
 variable "dd"
-value "28"
+value "02"
 )
 (vvPair
 variable "entity_name"
@@ -551,7 +551,7 @@ value "ptjiya"
 )
 (vvPair
 variable "graphical_source_date"
-value "28.01.2026"
+value " 2.02.2026"
 )
 (vvPair
 variable "graphical_source_group"
@@ -563,7 +563,7 @@ value "HTC219-309-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "12:26:54"
+value "10:37:16"
 )
 (vvPair
 variable "group"
@@ -595,7 +595,7 @@ value "$HDS_PROJECT_DIR/alien_game_lib/svassistant"
 )
 (vvPair
 variable "mm"
-value "01"
+value "02"
 )
 (vvPair
 variable "module_name"
@@ -603,11 +603,11 @@ value "c3_t1_basic_alien"
 )
 (vvPair
 variable "month"
-value "tammi"
+value "helmi"
 )
 (vvPair
 variable "month_long"
-value "tammikuu"
+value "helmikuu"
 )
 (vvPair
 variable "p"
@@ -671,7 +671,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "12:26:54"
+value "10:37:16"
 )
 (vvPair
 variable "unit"
@@ -1727,6 +1727,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 683,0
+lastUid 775,0
 activeModelName "Symbol:CDM"
 )
