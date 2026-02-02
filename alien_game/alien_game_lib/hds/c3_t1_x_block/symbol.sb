@@ -210,7 +210,7 @@ uid 110,0
 )
 *28 (MRCItem
 litem &16
-pos 3
+pos 6
 dimension 20
 uid 112,0
 )
@@ -222,19 +222,19 @@ uid 114,0
 )
 *30 (MRCItem
 litem &18
-pos 5
+pos 4
 dimension 20
 uid 242,0
 )
 *31 (MRCItem
 litem &19
-pos 4
+pos 3
 dimension 20
 uid 244,0
 )
 *32 (MRCItem
 litem &20
-pos 6
+pos 5
 dimension 20
 uid 394,0
 )
@@ -507,19 +507,19 @@ value "P:\\20\\alien_game\\alien_game_lib\\hds\\c3_t1_x_block"
 )
 (vvPair
 variable "date"
-value "30.01.2026"
+value " 2.02.2026"
 )
 (vvPair
 variable "day"
-value "pe"
+value "ma"
 )
 (vvPair
 variable "day_long"
-value "perjantai"
+value "maanantai"
 )
 (vvPair
 variable "dd"
-value "30"
+value "02"
 )
 (vvPair
 variable "entity_name"
@@ -547,7 +547,7 @@ value "ptjiya"
 )
 (vvPair
 variable "graphical_source_date"
-value "30.01.2026"
+value " 2.02.2026"
 )
 (vvPair
 variable "graphical_source_group"
@@ -559,7 +559,7 @@ value "HTC219-309-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:41:42"
+value "10:12:59"
 )
 (vvPair
 variable "group"
@@ -591,7 +591,7 @@ value "$HDS_PROJECT_DIR/alien_game_lib/svassistant"
 )
 (vvPair
 variable "mm"
-value "01"
+value "02"
 )
 (vvPair
 variable "module_name"
@@ -599,11 +599,11 @@ value "c3_t1_x_block"
 )
 (vvPair
 variable "month"
-value "tammi"
+value "helmi"
 )
 (vvPair
 variable "month_long"
-value "tammikuu"
+value "helmikuu"
 )
 (vvPair
 variable "p"
@@ -667,7 +667,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "15:41:42"
+value "10:12:59"
 )
 (vvPair
 variable "unit"
@@ -1101,7 +1101,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,48000,46400,49000"
+xt "36200,48000,46100,49000"
 st "
 by %user on %dd %month %year
 "
@@ -1717,6 +1717,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 630,0
+lastUid 768,0
 activeModelName "Symbol:CDM"
 )
