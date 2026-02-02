@@ -1,0 +1,81 @@
+DESIGN c4_t1_gun_pixel_mapper
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN c4_t1_gun_pixel_mapper
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN c4_t1_gun_pixel_mapper
+VIEW symbol.sb
+GRAPHIC 121,0 14 0 
+DESIGN c4_t1_gun_pixel_mapper
+VIEW symbol.sb
+GRAPHIC 116,0 15 0 
+DESIGN c4_t1_gun_pixel_mapper
+VIEW symbol.sb
+GRAPHIC 131,0 16 0 
+DESIGN c4_t1_gun_pixel_mapper
+VIEW symbol.sb
+GRAPHIC 169,0 17 0 
+DESIGN c4_t1_gun_pixel_mapper
+VIEW symbol.sb
+GRAPHIC 174,0 18 0 
+DESIGN c4_t1_gun_pixel_mapper
+VIEW symbol.sb
+GRAPHIC 179,0 19 0 
+DESIGN c4_t1_gun_pixel_mapper
+VIEW symbol.sb
+GRAPHIC 184,0 20 0 
+DESIGN c4_t1_gun_pixel_mapper
+VIEW symbol.sb
+GRAPHIC 189,0 21 0 
+DESIGN c4_t1_gun_pixel_mapper
+VIEW symbol.sb
+GRAPHIC 1,0 24 0 
+DESIGN c4_t1_gun_pixel_mapper
+VIEW symbol.sb
+GRAPHIC 1,0 25 0 
+DESIGN c4_t1_gun_pixel_mapper
+VIEW struct.bd
+NO_GRAPHIC 28
+DESIGN c4_t1_gun_pixel_mapper
+VIEW struct.bd
+GRAPHIC 105,0 37 0 
+DESIGN c4_t1_gun_pixel_mapper
+VIEW struct.bd
+NO_GRAPHIC 40
+DESIGN c4_t1_gun_pixel_mapper
+VIEW struct.bd
+GRAPHIC 0,0 42 2 
+DESIGN c4_t1_gun_pixel_mapper
+VIEW struct.bd
+GRAPHIC 500,0 47 0 
+DESIGN c4_t1_gun_pixel_mapper
+VIEW struct.bd
+NO_GRAPHIC 48
+DESIGN c4_t1_gun_pixel_mapper
+VIEW struct.bd
+NO_GRAPHIC 58
+DESIGN c4_t1_gun_pixel_mapper
+VIEW struct.bd
+NO_GRAPHIC 59
+DESIGN c4_t1_gun_pixel_mapper
+VIEW struct.bd
+GRAPHIC 203,0 61 0 
+DESIGN c4_t1_gun_pixel_mapper
+VIEW struct.bd
+GRAPHIC 184,0 64 0 
+DESIGN c4_t1_gun_pixel_mapper
+VIEW struct.bd
+GRAPHIC 351,0 67 0 
+DESIGN c4_t1_gun_pixel_mapper
+VIEW struct.bd
+GRAPHIC 380,0 75 0 
+DESIGN c4_t1_gun_pixel_mapper
+VIEW struct.bd
+GRAPHIC 409,0 83 0 
+DESIGN c4_t1_gun_pixel_mapper
+VIEW struct.bd
+NO_GRAPHIC 91
+DESIGN c4_t1_gun_pixel_mapper
+VIEW struct.bd
+NO_GRAPHIC 94
