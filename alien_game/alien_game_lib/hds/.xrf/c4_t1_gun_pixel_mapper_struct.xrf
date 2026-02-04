@@ -39,49 +39,61 @@ VIEW struct.bd
 GRAPHIC 0,0 39 2 
 DESIGN c4_t1_gun_pixel_mapper
 VIEW struct.bd
-GRAPHIC 723,0 44 0 
+GRAPHIC 908,0 44 0 
 DESIGN c4_t1_gun_pixel_mapper
 VIEW struct.bd
-GRAPHIC 733,0 45 0 
+GRAPHIC 957,0 45 0 
 DESIGN c4_t1_gun_pixel_mapper
 VIEW struct.bd
-GRAPHIC 500,0 46 0 
+GRAPHIC 723,0 46 0 
 DESIGN c4_t1_gun_pixel_mapper
 VIEW struct.bd
-GRAPHIC 743,0 47 0 
+GRAPHIC 733,0 47 0 
 DESIGN c4_t1_gun_pixel_mapper
 VIEW struct.bd
-NO_GRAPHIC 48
+GRAPHIC 500,0 48 0 
 DESIGN c4_t1_gun_pixel_mapper
 VIEW struct.bd
-NO_GRAPHIC 58
+GRAPHIC 743,0 49 0 
 DESIGN c4_t1_gun_pixel_mapper
 VIEW struct.bd
-NO_GRAPHIC 59
+NO_GRAPHIC 50
 DESIGN c4_t1_gun_pixel_mapper
 VIEW struct.bd
-GRAPHIC 203,0 61 0 
+NO_GRAPHIC 60
 DESIGN c4_t1_gun_pixel_mapper
 VIEW struct.bd
-GRAPHIC 184,0 64 0 
+NO_GRAPHIC 61
 DESIGN c4_t1_gun_pixel_mapper
 VIEW struct.bd
-GRAPHIC 351,0 67 0 
+GRAPHIC 948,0 63 0 
 DESIGN c4_t1_gun_pixel_mapper
 VIEW struct.bd
-GRAPHIC 380,0 75 0 
+GRAPHIC 203,0 66 0 
 DESIGN c4_t1_gun_pixel_mapper
 VIEW struct.bd
-GRAPHIC 409,0 83 0 
+GRAPHIC 184,0 69 0 
 DESIGN c4_t1_gun_pixel_mapper
 VIEW struct.bd
-GRAPHIC 579,0 91 0 
+GRAPHIC 351,0 72 0 
 DESIGN c4_t1_gun_pixel_mapper
 VIEW struct.bd
-GRAPHIC 630,0 101 0 
+GRAPHIC 380,0 80 0 
 DESIGN c4_t1_gun_pixel_mapper
 VIEW struct.bd
-NO_GRAPHIC 111
+GRAPHIC 409,0 88 0 
 DESIGN c4_t1_gun_pixel_mapper
 VIEW struct.bd
-NO_GRAPHIC 114
+GRAPHIC 579,0 96 0 
+DESIGN c4_t1_gun_pixel_mapper
+VIEW struct.bd
+GRAPHIC 630,0 106 0 
+DESIGN c4_t1_gun_pixel_mapper
+VIEW struct.bd
+GRAPHIC 832,0 116 0 
+DESIGN c4_t1_gun_pixel_mapper
+VIEW struct.bd
+NO_GRAPHIC 126
+DESIGN c4_t1_gun_pixel_mapper
+VIEW struct.bd
+NO_GRAPHIC 129
