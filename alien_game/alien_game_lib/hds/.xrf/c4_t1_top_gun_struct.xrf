@@ -1,0 +1,149 @@
+DESIGN c4_t1_top_gun
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN c4_t1_top_gun
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN c4_t1_top_gun
+VIEW symbol.sb
+GRAPHIC 139,0 14 0 
+DESIGN c4_t1_top_gun
+VIEW symbol.sb
+GRAPHIC 124,0 15 0 
+DESIGN c4_t1_top_gun
+VIEW symbol.sb
+GRAPHIC 134,0 16 0 
+DESIGN c4_t1_top_gun
+VIEW symbol.sb
+GRAPHIC 144,0 17 0 
+DESIGN c4_t1_top_gun
+VIEW symbol.sb
+GRAPHIC 129,0 18 0 
+DESIGN c4_t1_top_gun
+VIEW symbol.sb
+GRAPHIC 149,0 19 0 
+DESIGN c4_t1_top_gun
+VIEW symbol.sb
+GRAPHIC 154,0 20 0 
+DESIGN c4_t1_top_gun
+VIEW symbol.sb
+GRAPHIC 159,0 21 0 
+DESIGN c4_t1_top_gun
+VIEW symbol.sb
+GRAPHIC 1,0 24 0 
+DESIGN c4_t1_top_gun
+VIEW symbol.sb
+GRAPHIC 1,0 25 0 
+DESIGN c4_t1_top_gun
+VIEW struct.bd
+NO_GRAPHIC 28
+DESIGN c4_t1_top_gun
+VIEW struct.bd
+GRAPHIC 41,0 37 0 
+DESIGN c4_t1_top_gun
+VIEW struct.bd
+NO_GRAPHIC 40
+DESIGN c4_t1_top_gun
+VIEW struct.bd
+GRAPHIC 0,0 43 2 
+DESIGN c4_t1_top_gun
+VIEW struct.bd
+GRAPHIC 297,0 48 0 
+DESIGN c4_t1_top_gun
+VIEW struct.bd
+NO_GRAPHIC 49
+DESIGN c4_t1_top_gun
+VIEW struct.bd
+NO_GRAPHIC 50
+LIBRARY alien_game_lib
+DESIGN c4_t1_gun_ctrl
+VIEW struct
+GRAPHIC 129,0 52 0 
+DESIGN c4_t1_gun_ctrl
+VIEW symbol.sb
+GRAPHIC 205,0 54 0 
+DESIGN c4_t1_gun_ctrl
+VIEW symbol.sb
+GRAPHIC 122,0 55 0 
+DESIGN c4_t1_gun_ctrl
+VIEW symbol.sb
+GRAPHIC 132,0 56 0 
+DESIGN c4_t1_gun_ctrl
+VIEW symbol.sb
+GRAPHIC 127,0 57 0 
+DESIGN c4_t1_gun_ctrl
+VIEW symbol.sb
+GRAPHIC 147,0 58 0 
+DESIGN c4_t1_top_gun
+VIEW struct.bd
+GRAPHIC 159,0 61 0 
+DESIGN c4_t1_gun_pixel_mapper
+VIEW symbol.sb
+GRAPHIC 121,0 63 0 
+DESIGN c4_t1_gun_pixel_mapper
+VIEW symbol.sb
+GRAPHIC 116,0 64 0 
+DESIGN c4_t1_gun_pixel_mapper
+VIEW symbol.sb
+GRAPHIC 131,0 65 0 
+DESIGN c4_t1_gun_pixel_mapper
+VIEW symbol.sb
+GRAPHIC 169,0 66 0 
+DESIGN c4_t1_gun_pixel_mapper
+VIEW symbol.sb
+GRAPHIC 174,0 67 0 
+LIBRARY alien_game_lib
+DESIGN c4_t1_top_gun
+VIEW struct.bd
+NO_GRAPHIC 70
+DESIGN c4_t1_top_gun
+VIEW struct.bd
+GRAPHIC 129,0 73 0 
+DESIGN c4_t1_top_gun
+VIEW struct.bd
+GRAPHIC 159,0 74 0 
+DESIGN c4_t1_top_gun
+VIEW struct.bd
+NO_GRAPHIC 77
+DESIGN c4_t1_top_gun
+VIEW struct.bd
+NO_GRAPHIC 79
+DESIGN c4_t1_top_gun
+VIEW struct.bd
+GRAPHIC 129,0 81 0 
+DESIGN c4_t1_top_gun
+VIEW struct.bd
+GRAPHIC 233,0 83 0 
+DESIGN c4_t1_top_gun
+VIEW struct.bd
+GRAPHIC 191,0 84 0 
+DESIGN c4_t1_top_gun
+VIEW struct.bd
+GRAPHIC 219,0 85 0 
+DESIGN c4_t1_top_gun
+VIEW struct.bd
+GRAPHIC 205,0 86 0 
+DESIGN c4_t1_top_gun
+VIEW struct.bd
+GRAPHIC 299,0 87 0 
+DESIGN c4_t1_top_gun
+VIEW struct.bd
+GRAPHIC 159,0 89 0 
+DESIGN c4_t1_top_gun
+VIEW struct.bd
+GRAPHIC 247,0 91 0 
+DESIGN c4_t1_top_gun
+VIEW struct.bd
+GRAPHIC 299,0 92 0 
+DESIGN c4_t1_top_gun
+VIEW struct.bd
+GRAPHIC 261,0 93 0 
+DESIGN c4_t1_top_gun
+VIEW struct.bd
+GRAPHIC 275,0 94 0 
+DESIGN c4_t1_top_gun
+VIEW struct.bd
+GRAPHIC 289,0 95 0 
+DESIGN c4_t1_top_gun
+VIEW struct.bd
+NO_GRAPHIC 98
