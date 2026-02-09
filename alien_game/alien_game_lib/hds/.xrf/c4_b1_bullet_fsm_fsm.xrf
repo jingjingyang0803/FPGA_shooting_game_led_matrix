@@ -1,0 +1,256 @@
+DESIGN c4_b1_bullet_fsm
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN c4_b1_bullet_fsm
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN c4_b1_bullet_fsm
+VIEW symbol.sb
+GRAPHIC 177,0 14 0 
+DESIGN c4_b1_bullet_fsm
+VIEW symbol.sb
+GRAPHIC 112,0 15 0 
+DESIGN c4_b1_bullet_fsm
+VIEW symbol.sb
+GRAPHIC 182,0 16 0 
+DESIGN c4_b1_bullet_fsm
+VIEW symbol.sb
+GRAPHIC 172,0 17 0 
+DESIGN c4_b1_bullet_fsm
+VIEW symbol.sb
+GRAPHIC 117,0 18 0 
+DESIGN c4_b1_bullet_fsm
+VIEW symbol.sb
+GRAPHIC 157,0 19 0 
+DESIGN c4_b1_bullet_fsm
+VIEW symbol.sb
+GRAPHIC 162,0 20 0 
+DESIGN c4_b1_bullet_fsm
+VIEW symbol.sb
+GRAPHIC 167,0 21 0 
+DESIGN c4_b1_bullet_fsm
+VIEW symbol.sb
+GRAPHIC 1,0 24 0 
+DESIGN c4_b1_bullet_fsm
+VIEW symbol.sb
+GRAPHIC 1,0 25 0 
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+GRAPHIC 31,0 37 0
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+NO_GRAPHIC 40
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+GRAPHIC 30,0 44 0
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+NO_GRAPHIC 46
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+GRAPHIC 2,0 60 0
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+NO_GRAPHIC 61
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+GRAPHIC 2,0 64 0
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+NO_GRAPHIC 65
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+GRAPHIC 70,0 66 0
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+GRAPHIC 60,0 68 0
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+NO_GRAPHIC 69
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+GRAPHIC 2,0 72 0
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+GRAPHIC 43,0 73 0
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+GRAPHIC 58,0 74 0
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+GRAPHIC 160,0 76 0
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+GRAPHIC 305,0 77 0
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+GRAPHIC 306,0 78 0
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+NO_GRAPHIC 80
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+GRAPHIC 177,0 81 0
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+GRAPHIC 285,0 82 0
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+GRAPHIC 286,0 83 0
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+NO_GRAPHIC 84
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+GRAPHIC 2,0 87 0
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+NO_GRAPHIC 88
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+GRAPHIC 2,0 89 0
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+NO_GRAPHIC 90
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+GRAPHIC 2,0 92 0
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+NO_GRAPHIC 93
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+GRAPHIC 2,0 100 0
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+GRAPHIC 43,0 101 0
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+GRAPHIC 250,0 102 0
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+GRAPHIC 160,0 103 0
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+NO_GRAPHIC 104
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+GRAPHIC 43,0 105 0
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+NO_GRAPHIC 106
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+GRAPHIC 160,0 107 0
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+GRAPHIC 305,0 108 0
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+GRAPHIC 177,0 109 0
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+NO_GRAPHIC 110
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+GRAPHIC 160,0 111 0
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+NO_GRAPHIC 112
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+GRAPHIC 177,0 113 0
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+GRAPHIC 285,0 114 0
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+GRAPHIC 177,0 115 0
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+GRAPHIC 295,0 116 0
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+GRAPHIC 43,0 117 0
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+NO_GRAPHIC 118
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+GRAPHIC 177,0 119 0
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+NO_GRAPHIC 120
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+GRAPHIC 93,0 121 0
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+NO_GRAPHIC 123
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+GRAPHIC 2,0 124 0
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+NO_GRAPHIC 125
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+GRAPHIC 30,0 128 0
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+NO_GRAPHIC 129
