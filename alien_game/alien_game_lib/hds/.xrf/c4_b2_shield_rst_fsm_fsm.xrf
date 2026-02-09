@@ -305,7 +305,7 @@ NO_GRAPHIC 134
 LIBRARY alien_game_lib
 DESIGN c4_b2_shield_rst_fsm
 VIEW fsm.sm
-GRAPHIC 2,0 136 0
+GRAPHIC 620,0 135 0
 LIBRARY alien_game_lib
 DESIGN c4_b2_shield_rst_fsm
 VIEW fsm.sm
@@ -313,104 +313,112 @@ NO_GRAPHIC 137
 LIBRARY alien_game_lib
 DESIGN c4_b2_shield_rst_fsm
 VIEW fsm.sm
-GRAPHIC 2,0 139 0
+GRAPHIC 2,0 138 0
 LIBRARY alien_game_lib
 DESIGN c4_b2_shield_rst_fsm
 VIEW fsm.sm
-NO_GRAPHIC 140
+NO_GRAPHIC 139
 LIBRARY alien_game_lib
 DESIGN c4_b2_shield_rst_fsm
 VIEW fsm.sm
-GRAPHIC 30,0 145 0
+GRAPHIC 2,0 141 0
 LIBRARY alien_game_lib
 DESIGN c4_b2_shield_rst_fsm
 VIEW fsm.sm
-NO_GRAPHIC 147
+NO_GRAPHIC 142
 LIBRARY alien_game_lib
 DESIGN c4_b2_shield_rst_fsm
 VIEW fsm.sm
-GRAPHIC 2,0 149 0
+GRAPHIC 30,0 147 0
 LIBRARY alien_game_lib
 DESIGN c4_b2_shield_rst_fsm
 VIEW fsm.sm
-GRAPHIC 43,0 150 0
+NO_GRAPHIC 149
 LIBRARY alien_game_lib
 DESIGN c4_b2_shield_rst_fsm
 VIEW fsm.sm
-GRAPHIC 58,0 151 0
+GRAPHIC 2,0 151 0
 LIBRARY alien_game_lib
 DESIGN c4_b2_shield_rst_fsm
 VIEW fsm.sm
-GRAPHIC 181,0 153 0
+GRAPHIC 43,0 152 0
 LIBRARY alien_game_lib
 DESIGN c4_b2_shield_rst_fsm
 VIEW fsm.sm
-GRAPHIC 196,0 154 0
+GRAPHIC 58,0 153 0
 LIBRARY alien_game_lib
 DESIGN c4_b2_shield_rst_fsm
 VIEW fsm.sm
-GRAPHIC 198,0 156 0
+GRAPHIC 181,0 155 0
 LIBRARY alien_game_lib
 DESIGN c4_b2_shield_rst_fsm
 VIEW fsm.sm
-GRAPHIC 213,0 157 0
+GRAPHIC 196,0 156 0
 LIBRARY alien_game_lib
 DESIGN c4_b2_shield_rst_fsm
 VIEW fsm.sm
-GRAPHIC 215,0 159 0
+GRAPHIC 198,0 158 0
 LIBRARY alien_game_lib
 DESIGN c4_b2_shield_rst_fsm
 VIEW fsm.sm
-GRAPHIC 230,0 160 0
+GRAPHIC 213,0 159 0
 LIBRARY alien_game_lib
 DESIGN c4_b2_shield_rst_fsm
 VIEW fsm.sm
-GRAPHIC 436,0 162 0
+GRAPHIC 215,0 161 0
 LIBRARY alien_game_lib
 DESIGN c4_b2_shield_rst_fsm
 VIEW fsm.sm
-GRAPHIC 451,0 163 0
+GRAPHIC 230,0 162 0
 LIBRARY alien_game_lib
 DESIGN c4_b2_shield_rst_fsm
 VIEW fsm.sm
-GRAPHIC 453,0 165 0
+GRAPHIC 436,0 164 0
 LIBRARY alien_game_lib
 DESIGN c4_b2_shield_rst_fsm
 VIEW fsm.sm
-GRAPHIC 468,0 166 0
+GRAPHIC 451,0 165 0
 LIBRARY alien_game_lib
 DESIGN c4_b2_shield_rst_fsm
 VIEW fsm.sm
-GRAPHIC 470,0 168 0
+GRAPHIC 453,0 167 0
 LIBRARY alien_game_lib
 DESIGN c4_b2_shield_rst_fsm
 VIEW fsm.sm
-GRAPHIC 485,0 169 0
+GRAPHIC 468,0 168 0
 LIBRARY alien_game_lib
 DESIGN c4_b2_shield_rst_fsm
 VIEW fsm.sm
-GRAPHIC 487,0 171 0
+GRAPHIC 470,0 170 0
 LIBRARY alien_game_lib
 DESIGN c4_b2_shield_rst_fsm
 VIEW fsm.sm
-GRAPHIC 502,0 172 0
+GRAPHIC 485,0 171 0
 LIBRARY alien_game_lib
 DESIGN c4_b2_shield_rst_fsm
 VIEW fsm.sm
-GRAPHIC 554,0 174 0
+GRAPHIC 487,0 173 0
 LIBRARY alien_game_lib
 DESIGN c4_b2_shield_rst_fsm
 VIEW fsm.sm
-GRAPHIC 569,0 175 0
+GRAPHIC 502,0 174 0
 LIBRARY alien_game_lib
 DESIGN c4_b2_shield_rst_fsm
 VIEW fsm.sm
-NO_GRAPHIC 177
+GRAPHIC 554,0 176 0
 LIBRARY alien_game_lib
 DESIGN c4_b2_shield_rst_fsm
 VIEW fsm.sm
-GRAPHIC 2,0 179 0
+GRAPHIC 569,0 177 0
 LIBRARY alien_game_lib
 DESIGN c4_b2_shield_rst_fsm
 VIEW fsm.sm
-NO_GRAPHIC 181
+NO_GRAPHIC 179
+LIBRARY alien_game_lib
+DESIGN c4_b2_shield_rst_fsm
+VIEW fsm.sm
+GRAPHIC 2,0 181 0
+LIBRARY alien_game_lib
+DESIGN c4_b2_shield_rst_fsm
+VIEW fsm.sm
+NO_GRAPHIC 183

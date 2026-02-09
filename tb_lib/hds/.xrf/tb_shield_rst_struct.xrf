@@ -90,10 +90,10 @@ VIEW struct.bd
 GRAPHIC 149,0 75 0 
 DESIGN tb_shield_rst
 VIEW struct.bd
-GRAPHIC 159,0 76 0 
+GRAPHIC 139,0 76 0 
 DESIGN tb_shield_rst
 VIEW struct.bd
-GRAPHIC 139,0 77 0 
+GRAPHIC 159,0 77 0 
 DESIGN tb_shield_rst
 VIEW struct.bd
 GRAPHIC 199,0 79 0 
