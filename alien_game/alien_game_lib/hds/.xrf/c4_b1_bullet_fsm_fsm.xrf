@@ -6,7 +6,7 @@ VIEW symbol.sb
 GRAPHIC 50,0 8 0 
 DESIGN c4_b1_bullet_fsm
 VIEW symbol.sb
-GRAPHIC 177,0 14 0 
+GRAPHIC 304,0 14 0 
 DESIGN c4_b1_bullet_fsm
 VIEW symbol.sb
 GRAPHIC 112,0 15 0 
@@ -254,3 +254,11 @@ LIBRARY alien_game_lib
 DESIGN c4_b1_bullet_fsm
 VIEW fsm.sm
 NO_GRAPHIC 129
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+GRAPHIC 22,0 131 0
+LIBRARY alien_game_lib
+DESIGN c4_b1_bullet_fsm
+VIEW fsm.sm
+NO_GRAPHIC 133

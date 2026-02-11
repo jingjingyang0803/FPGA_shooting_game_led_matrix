@@ -21,7 +21,7 @@ appVersion "2019.3 (Build 4)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
-suid 8,0
+suid 9,0
 usingSuid 1
 emptyRow *1 (LEmptyRow
 )
@@ -143,18 +143,6 @@ uid 152,0
 port (LogicalPort
 lang 2
 decl (Decl
-n "btn"
-t "std_logic"
-o 1
-suid 7,0
-)
-)
-uid 154,0
-)
-*21 (LogPort
-port (LogicalPort
-lang 2
-decl (Decl
 n "enable"
 t "std_logic"
 o 3
@@ -162,6 +150,18 @@ suid 8,0
 )
 )
 uid 156,0
+)
+*21 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "btn_0"
+t "std_logic"
+o 1
+suid 9,0
+)
+)
+uid 303,0
 )
 ]
 )
@@ -251,15 +251,15 @@ uid 151,0
 )
 *33 (MRCItem
 litem &20
-pos 2
-dimension 20
-uid 153,0
-)
-*34 (MRCItem
-litem &21
 pos 3
 dimension 20
 uid 155,0
+)
+*34 (MRCItem
+litem &21
+pos 2
+dimension 20
+uid 302,0
 )
 ]
 )
@@ -530,19 +530,19 @@ value "P:\\20\\alien_game\\alien_game_lib\\hds\\c4_b1_bullet_fsm"
 )
 (vvPair
 variable "date"
-value " 9.02.2026"
+value "11.02.2026"
 )
 (vvPair
 variable "day"
-value "ma"
+value "ke"
 )
 (vvPair
 variable "day_long"
-value "maanantai"
+value "keskiviikko"
 )
 (vvPair
 variable "dd"
-value "09"
+value "11"
 )
 (vvPair
 variable "entity_name"
@@ -570,7 +570,7 @@ value "ptjiya"
 )
 (vvPair
 variable "graphical_source_date"
-value " 9.02.2026"
+value "11.02.2026"
 )
 (vvPair
 variable "graphical_source_group"
@@ -578,11 +578,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "HTC219-309-SPC"
+value "HTC219-308-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:49:14"
+value "10:16:03"
 )
 (vvPair
 variable "group"
@@ -590,7 +590,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "HTC219-309-SPC"
+value "HTC219-308-SPC"
 )
 (vvPair
 variable "language"
@@ -690,7 +690,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "13:49:14"
+value "10:16:03"
 )
 (vvPair
 variable "unit"
@@ -1011,52 +1011,6 @@ suid 6,0
 )
 )
 *74 (CptPort
-uid 177,0
-ps "OnEdgeStrategy"
-shape (Triangle
-uid 178,0
-ro 90
-va (VaSet
-vasetType 1
-fg "0,65535,0"
-)
-xt "14250,9625,15000,10375"
-)
-tg (CPTG
-uid 179,0
-ps "CptPortTextPlaceStrategy"
-stg "VerticalLayoutStrategy"
-f (Text
-uid 180,0
-va (VaSet
-font "arial,8,0"
-)
-xt "16000,9500,17400,10500"
-st "btn"
-blo "16000,10300"
-tm "CptPortNameMgr"
-)
-)
-dt (MLText
-uid 181,0
-va (VaSet
-font "Courier New,8,0"
-)
-xt "44000,2000,60500,2800"
-st "btn      : IN     std_logic  ;
-"
-)
-thePort (LogicalPort
-lang 2
-decl (Decl
-n "btn"
-t "std_logic"
-o 1
-suid 7,0
-)
-)
-)
-*75 (CptPort
 uid 182,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -1099,6 +1053,52 @@ n "enable"
 t "std_logic"
 o 3
 suid 8,0
+)
+)
+)
+*75 (CptPort
+uid 304,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 305,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,11625,15000,12375"
+)
+tg (CPTG
+uid 306,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 307,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,11500,18200,12500"
+st "btn_0"
+blo "16000,12300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 308,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,2000,60500,2800"
+st "btn_0    : IN     std_logic  ;
+"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "btn_0"
+t "std_logic"
+o 1
+suid 9,0
 )
 )
 )
@@ -1800,6 +1800,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 278,0
+lastUid 308,0
 activeModelName "Symbol:CDM"
 )
