@@ -74,19 +74,19 @@ value "P:\\20\\alien_game\\alien_game_lib\\hds\\c4_b1_bullet_fsm"
 )
 (vvPair
 variable "date"
-value "11.02.2026"
+value "13.02.2026"
 )
 (vvPair
 variable "day"
-value "ke"
+value "pe"
 )
 (vvPair
 variable "day_long"
-value "keskiviikko"
+value "perjantai"
 )
 (vvPair
 variable "dd"
-value "11"
+value "13"
 )
 (vvPair
 variable "entity_name"
@@ -114,7 +114,7 @@ value "ptjiya"
 )
 (vvPair
 variable "graphical_source_date"
-value "11.02.2026"
+value "13.02.2026"
 )
 (vvPair
 variable "graphical_source_group"
@@ -122,11 +122,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "HTC219-308-SPC"
+value "HTC219-317-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "12:32:26"
+value "12:34:51"
 )
 (vvPair
 variable "group"
@@ -134,7 +134,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "HTC219-308-SPC"
+value "HTC219-317-SPC"
 )
 (vvPair
 variable "language"
@@ -234,7 +234,7 @@ value "fsm"
 )
 (vvPair
 variable "time"
-value "12:32:26"
+value "12:34:51"
 )
 (vvPair
 variable "unit"
@@ -2102,7 +2102,7 @@ tm "SmCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,32,2561,1440"
-viewArea "-1100,-2100,92220,47980"
+viewArea "-1100,-2100,92220,49100"
 cachedDiagramExtent "0,-1079,73000,47000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,-2000"
@@ -2385,7 +2385,7 @@ xt "32333,-79,62333,4721"
 st "SIGNAL        MODE    DEFAULT    RESET  SCHEME COMMENT  
 bullet_x      OUT                       COMB            
 bullet_y      OUT                       COMB            
-color         OUT     x\"FF0000\"         COMB            
+bullet_color  OUT     x\"FF0000\"         COMB            
 bullet_x_reg  LOCAL                     CLKD            
 bullet_y_reg  LOCAL                     CLKD            
 "
@@ -2487,7 +2487,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 477,0
+lastUid 506,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *59 (LEmptyRow
@@ -2604,7 +2604,7 @@ port (LogicalPort
 lang 2
 m 1
 decl (Decl
-n "color"
+n "bullet_color"
 t "std_logic_vector"
 b "(23 DOWNTO 0)"
 o 8
