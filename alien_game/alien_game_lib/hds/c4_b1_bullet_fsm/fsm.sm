@@ -126,7 +126,7 @@ value "HTC219-317-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "12:34:51"
+value "14:45:49"
 )
 (vvPair
 variable "group"
@@ -234,7 +234,7 @@ value "fsm"
 )
 (vvPair
 variable "time"
-value "12:34:51"
+value "14:45:49"
 )
 (vvPair
 variable "unit"
@@ -595,7 +595,7 @@ isHidden 1
 fg "65535,65535,65535"
 lineColor "0,32768,49152"
 )
-xt "3250,17900,6450,19100"
+xt "2650,17900,7050,19100"
 )
 autoResize 1
 cond (MLText
@@ -604,8 +604,8 @@ va (VaSet
 isHidden 1
 font "arial,8,0"
 )
-xt "3350,18000,6350,19000"
-st "rst = '0'"
+xt "2750,18000,6950,19000"
+st "rst_n = '0'"
 tm "SmControlConditionMgr"
 )
 )
@@ -645,8 +645,8 @@ uid 78,0
 va (VaSet
 font "arial,8,0"
 )
-xt "1950,19500,3250,20500"
-st "rst"
+xt "1150,19500,3250,20500"
+st "rst_n"
 ju 2
 blo "3250,20300"
 tm "SmControlSignalNameMgr"
@@ -1461,7 +1461,7 @@ start &4
 end &5
 ss 0
 es 0
-cond "rst = '0'"
+cond "rst_n = '0'"
 tb (TransitionBlock
 uid 106,0
 ps "CenterOffsetStrategy"
@@ -1473,7 +1473,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "9000,19000,13000,21000"
+xt "9000,19000,14200,21000"
 )
 autoResize 1
 lineShape (Line
@@ -1481,10 +1481,10 @@ uid 108,0
 va (VaSet
 vasetType 3
 )
-xt "9500,20400,12500,20400"
+xt "9500,20400,13700,20400"
 pts [
 "9500,20400"
-"12500,20400"
+"13700,20400"
 ]
 )
 condition (MLText
@@ -1492,8 +1492,8 @@ uid 109,0
 va (VaSet
 font "arial,8,0"
 )
-xt "9500,19000,12500,20000"
-st "rst = '0'"
+xt "9500,19000,13700,20000"
+st "rst_n = '0'"
 tm "Condition"
 )
 actions (MLText
@@ -1502,7 +1502,7 @@ va (VaSet
 isHidden 1
 font "arial,8,0"
 )
-xt "8200,20800,13800,21800"
+xt "8800,20800,14400,21800"
 st "< Automatic >"
 tm "Actions"
 )
@@ -2487,7 +2487,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 506,0
+lastUid 535,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *59 (LEmptyRow
@@ -2562,14 +2562,14 @@ expr "clk'EVENT AND clk = '1'"
 port (LogicalPort
 lang 2
 decl (Decl
-n "rst"
+n "rst_n"
 t "std_logic"
 o 5
 )
 )
 uid 158,0
 cat 8
-expr "rst = '0'"
+expr "rst_n = '0'"
 )
 *80 (LeafLogPort
 port (LogicalPort
