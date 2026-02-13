@@ -74,19 +74,19 @@ value "P:\\20\\alien_game\\alien_game_lib\\hds\\c5_t1_write_sequencer_fsm"
 )
 (vvPair
 variable "date"
-value "11.02.2026"
+value "13.02.2026"
 )
 (vvPair
 variable "day"
-value "ke"
+value "pe"
 )
 (vvPair
 variable "day_long"
-value "keskiviikko"
+value "perjantai"
 )
 (vvPair
 variable "dd"
-value "11"
+value "13"
 )
 (vvPair
 variable "entity_name"
@@ -114,7 +114,7 @@ value "ptjiya"
 )
 (vvPair
 variable "graphical_source_date"
-value "11.02.2026"
+value "13.02.2026"
 )
 (vvPair
 variable "graphical_source_group"
@@ -122,11 +122,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "HTC219-308-SPC"
+value "HTC219-317-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:50:36"
+value "13:58:07"
 )
 (vvPair
 variable "group"
@@ -134,7 +134,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "HTC219-308-SPC"
+value "HTC219-317-SPC"
 )
 (vvPair
 variable "language"
@@ -234,7 +234,7 @@ value "fsm"
 )
 (vvPair
 variable "time"
-value "13:50:36"
+value "13:58:07"
 )
 (vvPair
 variable "unit"
@@ -262,6 +262,7 @@ value "26"
 )
 ]
 )
+uid 472,0
 optionalChildren [
 *1 (ConcurrentSM
 uid 1,0
@@ -993,7 +994,7 @@ lineColor "39936,56832,65280"
 lineWidth -1
 fillStyle 1
 )
-xt "58690,4646,71690,33846"
+xt "58690,2146,71690,36346"
 )
 autoResize 1
 tline (Line
@@ -1004,10 +1005,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "58790,4546,71590,4546"
+xt "58790,2046,71590,2046"
 pts [
-"58790,4546"
-"71590,4546"
+"58790,2046"
+"71590,2046"
 ]
 )
 bline (Line
@@ -1018,10 +1019,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "58790,24896,71590,24896"
+xt "58790,26146,71590,26146"
 pts [
-"58790,24896"
-"71590,24896"
+"58790,26146"
+"71590,26146"
 ]
 )
 ttri (Triangle
@@ -1035,7 +1036,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "58340,4171,58690,4521"
+xt "58340,1671,58690,2021"
 )
 btri (Triangle
 uid 241,0
@@ -1055,7 +1056,7 @@ uid 242,0
 va (VaSet
 font "arial,8,0"
 )
-xt "58790,4346,58790,4346"
+xt "58790,1846,58790,1846"
 tm "Actions"
 )
 inActions (MLText
@@ -1063,7 +1064,7 @@ uid 243,0
 va (VaSet
 font "arial,8,0"
 )
-xt "58790,4746,71590,33746"
+xt "58790,2246,71590,36246"
 st "write <= '1' ;
 if step_q = \"000\" then
     module_select <= \"00\";
@@ -1083,6 +1084,10 @@ elsif step_q = \"011\" then
 elsif step_q = \"100\" then
     module_select <= \"01\";
     gun_px_idx <= \"11\";
+
+elsif step_q = \"101\" then
+    module_select <= \"10\";
+
 end if;
 
 case step_q is
@@ -1090,7 +1095,8 @@ case step_q is
   when \"001\" => step_q <= \"010\";
   when \"010\" => step_q <= \"011\";
   when \"011\" => step_q <= \"100\";
-  when \"100\" => step_q <= \"000\";  
+  when \"100\" => step_q <= \"101\";  
+  when \"101\" => step_q <= \"000\";  
   when others => step_q <= \"000\";
 end case;"
 tm "Actions"
@@ -2289,8 +2295,8 @@ tm "SmCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-8,-8,2568,1400"
-viewArea "-1665,-2777,92333,48466"
+windowSize "0,0,2561,1408"
+viewArea "-1700,-2800,91620,48400"
 cachedDiagramExtent "441,-1681,92779,47000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,-2000"
@@ -2681,7 +2687,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 471,0
+lastUid 517,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *60 (LEmptyRow
@@ -3114,6 +3120,7 @@ genericsCommonDM (CommonDM
 ldm (LogicalDM
 emptyRow *120 (LEmptyRow
 )
+uid 492,0
 optionalChildren [
 *121 (RefLabelRowHdr
 )
@@ -3150,6 +3157,7 @@ tm "GenericEolColHdrMgr"
 pdm (PhysicalDM
 displayShortBounds 1
 editShortBounds 1
+uid 504,0
 optionalChildren [
 *132 (Sheet
 sheetRow (SheetRow
@@ -3173,22 +3181,26 @@ litem &120
 pos 0
 dimension 20
 )
+uid 506,0
 optionalChildren [
 *134 (MRCItem
 litem &121
 pos 0
 dimension 20
+uid 507,0
 )
 *135 (MRCItem
 litem &122
 pos 1
 dimension 23
+uid 508,0
 )
 *136 (MRCItem
 litem &123
 pos 2
 hidden 1
 dimension 20
+uid 509,0
 )
 ]
 )
@@ -3199,52 +3211,62 @@ fontColor "0,0,0"
 font "Tahoma,10,0"
 textAngle 90
 )
+uid 510,0
 optionalChildren [
 *137 (MRCItem
 litem &124
 pos 0
 dimension 20
+uid 511,0
 )
 *138 (MRCItem
 litem &126
 pos 1
 dimension 50
+uid 512,0
 )
 *139 (MRCItem
 litem &127
 pos 2
 dimension 100
+uid 513,0
 )
 *140 (MRCItem
 litem &128
 pos 3
 dimension 100
+uid 514,0
 )
 *141 (MRCItem
 litem &129
 pos 4
 dimension 50
+uid 515,0
 )
 *142 (MRCItem
 litem &130
 pos 5
 dimension 50
+uid 516,0
 )
 *143 (MRCItem
 litem &131
 pos 6
 dimension 80
+uid 517,0
 )
 ]
 )
 fixedCol 3
 fixedRow 2
 name "Ports"
+uid 505,0
 vaOverrides [
 ]
 )
 ]
 )
+uid 491,0
 type 1
 )
 signalSuffix "_int"
@@ -3834,7 +3856,7 @@ va (VaSet
 vasetType 1
 transparent 1
 )
-xt "-371,971,-115,1279"
+xt "-443,924,-115,1325"
 )
 ]
 )
@@ -3911,7 +3933,7 @@ va (VaSet
 vasetType 1
 transparent 1
 )
-xt "-415,1064,-76,1263"
+xt "-425,943,-76,1304"
 )
 (Line
 sl 0
