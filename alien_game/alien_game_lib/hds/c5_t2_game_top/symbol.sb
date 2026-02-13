@@ -601,7 +601,7 @@ value "HTC219-317-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:13:50"
+value "15:09:28"
 )
 (vvPair
 variable "group"
@@ -709,7 +709,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "13:13:50"
+value "15:09:28"
 )
 (vvPair
 variable "unit"
@@ -776,8 +776,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,2000,70000,2800"
-st "btn     : IN     std_logic_vector (3 DOWNTO 0) ;
-"
+st "btn     : IN     std_logic_vector (3 DOWNTO 0) ;"
 )
 thePort (LogicalPort
 lang 2
@@ -823,8 +822,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,2800,60000,3600"
-st "clk     : IN     std_logic  ;
-"
+st "clk     : IN     std_logic  ;"
 )
 thePort (LogicalPort
 lang 2
@@ -869,8 +867,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,3600,60000,4400"
-st "rst_n   : IN     std_logic  ;
-"
+st "rst_n   : IN     std_logic  ;"
 )
 thePort (LogicalPort
 lang 2
@@ -916,8 +913,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4400,70000,5200"
-st "channel : OUT    std_logic_vector (7 DOWNTO 0) ;
-"
+st "channel : OUT    std_logic_vector (7 DOWNTO 0) ;"
 )
 thePort (LogicalPort
 lang 2
@@ -965,8 +961,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,6000,60000,6800"
-st "s_clk   : OUT    std_logic  ;
-"
+st "s_clk   : OUT    std_logic  ;"
 )
 thePort (LogicalPort
 lang 2
@@ -1013,8 +1008,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,7600,60000,8400"
-st "s_sda   : OUT    std_logic  ;
-"
+st "s_sda   : OUT    std_logic  ;"
 )
 thePort (LogicalPort
 lang 2
@@ -1061,8 +1055,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,5200,60000,6000"
-st "lat     : OUT    std_logic  ;
-"
+st "lat     : OUT    std_logic  ;"
 )
 thePort (LogicalPort
 lang 2
@@ -1109,8 +1102,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,6800,60000,7600"
-st "s_rst   : OUT    std_logic  ;
-"
+st "s_rst   : OUT    std_logic  ;"
 )
 thePort (LogicalPort
 lang 2
@@ -1157,8 +1149,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,8400,59000,9200"
-st "sb      : OUT    std_logic 
-"
+st "sb      : OUT    std_logic "
 )
 thePort (LogicalPort
 lang 2
@@ -1869,6 +1860,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 239,0
+lastUid 308,0
 activeModelName "Symbol:CDM"
 )
