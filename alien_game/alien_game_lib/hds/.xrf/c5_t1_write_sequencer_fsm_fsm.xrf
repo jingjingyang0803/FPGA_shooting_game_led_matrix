@@ -52,87 +52,83 @@ GRAPHIC 30,0 45 0
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-NO_GRAPHIC 48
+NO_GRAPHIC 46
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-GRAPHIC 2,0 66 0
+GRAPHIC 2,0 61 0
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-NO_GRAPHIC 67
+NO_GRAPHIC 62
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-GRAPHIC 2,0 70 0
+GRAPHIC 2,0 65 0
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-NO_GRAPHIC 71
+NO_GRAPHIC 66
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-GRAPHIC 414,0 72 0
+GRAPHIC 414,0 67 0
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-GRAPHIC 60,0 74 0
+NO_GRAPHIC 69
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-GRAPHIC 25,0 75 0
+GRAPHIC 60,0 71 0
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-NO_GRAPHIC 76
+GRAPHIC 25,0 72 0
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-GRAPHIC 30,0 77 0
+NO_GRAPHIC 73
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-NO_GRAPHIC 78
+GRAPHIC 2,0 75 0
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-GRAPHIC 16,0 79 0
+GRAPHIC 228,0 76 0
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-NO_GRAPHIC 80
+GRAPHIC 243,0 77 0
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-GRAPHIC 2,0 82 0
+NO_GRAPHIC 87
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-GRAPHIC 228,0 83 0
+GRAPHIC 2,0 89 0
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-GRAPHIC 243,0 84 0
+NO_GRAPHIC 90
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-NO_GRAPHIC 94
+GRAPHIC 2,0 91 0
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-GRAPHIC 2,0 96 0
+NO_GRAPHIC 92
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-NO_GRAPHIC 97
+GRAPHIC 2,0 94 0
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-GRAPHIC 2,0 98 0
-LIBRARY alien_game_lib
-DESIGN c5_t1_write_sequencer_fsm
-VIEW fsm.sm
-NO_GRAPHIC 99
+NO_GRAPHIC 95
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
@@ -140,95 +136,111 @@ GRAPHIC 2,0 101 0
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-NO_GRAPHIC 102
+GRAPHIC 43,0 102 0
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-GRAPHIC 2,0 108 0
+GRAPHIC 361,0 103 0
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-GRAPHIC 43,0 109 0
+GRAPHIC 228,0 104 0
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-GRAPHIC 361,0 110 0
+NO_GRAPHIC 105
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-GRAPHIC 228,0 111 0
+GRAPHIC 43,0 106 0
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-NO_GRAPHIC 112
+NO_GRAPHIC 107
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-GRAPHIC 43,0 113 0
+GRAPHIC 228,0 108 0
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-NO_GRAPHIC 114
+GRAPHIC 371,0 109 0
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-GRAPHIC 228,0 115 0
+GRAPHIC 245,0 110 0
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-GRAPHIC 371,0 116 0
+NO_GRAPHIC 111
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-GRAPHIC 245,0 117 0
+GRAPHIC 228,0 112 0
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-NO_GRAPHIC 118
+NO_GRAPHIC 113
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-GRAPHIC 228,0 119 0
+GRAPHIC 245,0 114 0
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-NO_GRAPHIC 120
+GRAPHIC 381,0 115 0
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-GRAPHIC 245,0 121 0
+GRAPHIC 262,0 116 0
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-GRAPHIC 381,0 122 0
+NO_GRAPHIC 117
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-GRAPHIC 262,0 123 0
+GRAPHIC 245,0 118 0
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-NO_GRAPHIC 124
+NO_GRAPHIC 119
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-GRAPHIC 245,0 125 0
+GRAPHIC 262,0 120 0
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-NO_GRAPHIC 126
+GRAPHIC 401,0 121 0
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-GRAPHIC 262,0 127 0
+GRAPHIC 43,0 122 0
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-GRAPHIC 401,0 128 0
+NO_GRAPHIC 123
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-GRAPHIC 43,0 129 0
+GRAPHIC 262,0 124 0
+LIBRARY alien_game_lib
+DESIGN c5_t1_write_sequencer_fsm
+VIEW fsm.sm
+NO_GRAPHIC 125
+LIBRARY alien_game_lib
+DESIGN c5_t1_write_sequencer_fsm
+VIEW fsm.sm
+GRAPHIC 93,0 126 0
+LIBRARY alien_game_lib
+DESIGN c5_t1_write_sequencer_fsm
+VIEW fsm.sm
+NO_GRAPHIC 128
+LIBRARY alien_game_lib
+DESIGN c5_t1_write_sequencer_fsm
+VIEW fsm.sm
+GRAPHIC 2,0 129 0
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
@@ -236,88 +248,56 @@ NO_GRAPHIC 130
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-GRAPHIC 262,0 131 0
+GRAPHIC 2,0 132 0
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-NO_GRAPHIC 132
+NO_GRAPHIC 133
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-GRAPHIC 93,0 133 0
+GRAPHIC 16,0 139 0
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-NO_GRAPHIC 135
+NO_GRAPHIC 144
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-GRAPHIC 2,0 136 0
+GRAPHIC 2,0 146 0
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-NO_GRAPHIC 137
+GRAPHIC 228,0 147 0
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-GRAPHIC 2,0 139 0
+GRAPHIC 243,0 148 0
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-NO_GRAPHIC 140
+GRAPHIC 245,0 172 0
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-GRAPHIC 16,0 146 0
+GRAPHIC 260,0 173 0
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-NO_GRAPHIC 151
+GRAPHIC 262,0 174 0
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-GRAPHIC 2,0 153 0
+GRAPHIC 277,0 175 0
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-GRAPHIC 228,0 154 0
+NO_GRAPHIC 176
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-GRAPHIC 243,0 155 0
+GRAPHIC 2,0 178 0
 LIBRARY alien_game_lib
 DESIGN c5_t1_write_sequencer_fsm
 VIEW fsm.sm
-GRAPHIC 245,0 179 0
-LIBRARY alien_game_lib
-DESIGN c5_t1_write_sequencer_fsm
-VIEW fsm.sm
-GRAPHIC 260,0 180 0
-LIBRARY alien_game_lib
-DESIGN c5_t1_write_sequencer_fsm
-VIEW fsm.sm
-GRAPHIC 262,0 181 0
-LIBRARY alien_game_lib
-DESIGN c5_t1_write_sequencer_fsm
-VIEW fsm.sm
-GRAPHIC 277,0 182 0
-LIBRARY alien_game_lib
-DESIGN c5_t1_write_sequencer_fsm
-VIEW fsm.sm
-NO_GRAPHIC 183
-LIBRARY alien_game_lib
-DESIGN c5_t1_write_sequencer_fsm
-VIEW fsm.sm
-GRAPHIC 2,0 185 0
-LIBRARY alien_game_lib
-DESIGN c5_t1_write_sequencer_fsm
-VIEW fsm.sm
-NO_GRAPHIC 187
-LIBRARY alien_game_lib
-DESIGN c5_t1_write_sequencer_fsm
-VIEW fsm.sm
-GRAPHIC 30,0 189 0
-LIBRARY alien_game_lib
-DESIGN c5_t1_write_sequencer_fsm
-VIEW fsm.sm
-NO_GRAPHIC 191
+NO_GRAPHIC 180

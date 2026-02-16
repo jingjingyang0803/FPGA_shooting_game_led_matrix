@@ -74,19 +74,19 @@ value "P:\\20\\alien_game\\alien_game_lib\\hds\\c5_t1_write_sequencer_fsm"
 )
 (vvPair
 variable "date"
-value "13.02.2026"
+value "16.02.2026"
 )
 (vvPair
 variable "day"
-value "pe"
+value "ma"
 )
 (vvPair
 variable "day_long"
-value "perjantai"
+value "maanantai"
 )
 (vvPair
 variable "dd"
-value "13"
+value "16"
 )
 (vvPair
 variable "entity_name"
@@ -114,7 +114,7 @@ value "ptjiya"
 )
 (vvPair
 variable "graphical_source_date"
-value "13.02.2026"
+value "16.02.2026"
 )
 (vvPair
 variable "graphical_source_group"
@@ -122,11 +122,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "HTC219-317-SPC"
+value "HTC219-309-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:40:54"
+value "11:43:19"
 )
 (vvPair
 variable "group"
@@ -134,7 +134,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "HTC219-317-SPC"
+value "HTC219-309-SPC"
 )
 (vvPair
 variable "language"
@@ -234,7 +234,7 @@ value "fsm"
 )
 (vvPair
 variable "time"
-value "15:40:54"
+value "11:43:19"
 )
 (vvPair
 variable "unit"
@@ -1065,7 +1065,7 @@ va (VaSet
 font "arial,8,0"
 )
 xt "59710,6686,72510,40686"
-st "write_pulse <= '1' ;
+st "write <= '1' ;
 if step_q = \"000\" then
     module_select <= \"00\";
 
@@ -1836,7 +1836,7 @@ arrow 1
 )
 start &17
 end &18
-cond "step_q <= \"000\""
+cond "step_q = \"000\""
 tb (TransitionBlock
 uid 368,0
 ps "CenterOffsetStrategy"
@@ -1848,7 +1848,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "48095,21698,55295,23698"
+xt "48095,21698,54795,23698"
 )
 autoResize 1
 lineShape (Line
@@ -1868,8 +1868,8 @@ uid 371,0
 va (VaSet
 font "arial,8,0"
 )
-xt "48595,22198,54795,23198"
-st "step_q <= \"000\""
+xt "48595,22198,54295,23198"
+st "step_q = \"000\""
 tm "Condition"
 )
 actions (MLText
@@ -1877,7 +1877,7 @@ uid 372,0
 va (VaSet
 font "arial,8,0"
 )
-xt "51695,23598,51695,23598"
+xt "51445,23598,51445,23598"
 tm "Actions"
 )
 )
@@ -2296,8 +2296,8 @@ tm "SmCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,32,2561,1440"
-viewArea "-1700,-2800,91620,48400"
-cachedDiagramExtent "441,-1681,92779,47000"
+viewArea "-1700,-2800,91620,47280"
+cachedDiagramExtent "441,-1719,92779,47000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,-2000"
 isTopLevel 1
@@ -2511,13 +2511,12 @@ uid 19,0
 va (VaSet
 font "arial,8,0"
 )
-xt "441,319,9741,6319"
-st "write_cld <= '0' ;
+xt "441,319,9741,5319"
+st "write <= '0' ;
 frame_done <= '0' ;
 enable <= '0' ;
 module_select <= \"00\" ;
-gun_px_idx <= \"00\" ;
-write_pulse <= '0' ;"
+gun_px_idx <= \"00\" ;"
 tm "Actions"
 )
 *55 (Text
@@ -2525,16 +2524,16 @@ uid 20,0
 va (VaSet
 font "arial,8,1"
 )
-xt "441,6319,6241,7319"
+xt "441,5319,6241,6319"
 st "Post Actions:"
-blo "441,7119"
+blo "441,6119"
 )
 *56 (MLText
 uid 21,0
 va (VaSet
 font "arial,8,0"
 )
-xt "441,7319,441,7319"
+xt "441,6319,441,6319"
 tm "Actions"
 )
 ]
@@ -2570,25 +2569,23 @@ uid 29,0
 va (VaSet
 font "arial,8,1"
 )
-xt "34400,-799,40100,201"
+xt "33400,-1719,39100,-719"
 st "Signal Status"
-blo "34400,1"
+blo "33400,-919"
 )
 second (MLText
 uid 30,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "34400,201,63900,7401"
+xt "33400,-719,62900,4881"
 st "SIGNAL         MODE    DEFAULT  RESET  SCHEME COMMENT  
 module_select  OUT                     COMB            
 gun_px_idx     OUT                     COMB            
-write          OUT                     CLKD            
+write          OUT                     COMB            
 frame_done     OUT                     COMB            
 enable         OUT                     COMB            
-step_q         LOCAL                   CLKD            
-fast_sim       LOCAL   '1'             CLKD            
-write_pulse    LOCAL                   COMB            
+step_q         LOCAL            \"000\"  CLKD            
 "
 tm "SmSignalsGenStatusTextMgr"
 )
@@ -2601,17 +2598,17 @@ uid 26,0
 va (VaSet
 font "arial,8,1"
 )
-xt "44300,-1000,55100,0"
+xt "9140,320,19940,1320"
 st "State Register Statements"
-blo "44300,-200"
+blo "9140,1120"
 )
 second (MLText
 uid 27,0
 va (VaSet
 font "arial,8,0"
 )
-xt "44300,0,54100,1000"
-st "write_cld <= write_pulse;"
+xt "9140,1320,19740,2320"
+st "current_state <= next_state;"
 tm "Actions"
 )
 associable 1
@@ -2620,7 +2617,6 @@ associable 1
 genChar (SmGenChar
 uid 42,0
 nextStateClocking 0
-nonDrivingLocation 0
 )
 encoding (Encoding
 scheme 3
@@ -2691,7 +2687,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 548,0
+lastUid 583,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *60 (LEmptyRow
@@ -2839,7 +2835,7 @@ o 9
 )
 )
 uid 435,0
-scheme 1
+scheme 0
 )
 *86 (LeafLogPort
 port (LogicalPort
@@ -2875,38 +2871,12 @@ decl (Decl
 n "step_q"
 t "std_logic_vector"
 b "(2 DOWNTO 0)"
-o 11
+o 10
 )
 )
 uid 452,0
 scheme 1
-)
-*89 (LeafLogPort
-port (LogicalPort
-lang 2
-m 4
-decl (Decl
-n "fast_sim"
-t "std_logic"
-o 10
-)
-)
-uid 454,0
-scheme 1
-defVal "'1'"
-)
-*90 (LeafLogPort
-port (LogicalPort
-lang 2
-m 4
-decl (Decl
-n "write_pulse"
-t "std_logic"
-o 12
-)
-)
-uid 547,0
-scheme 0
+rstVal "\"000\""
 )
 ]
 )
@@ -2915,7 +2885,7 @@ displayShortBounds 1
 editShortBounds 1
 uid 333,0
 optionalChildren [
-*91 (Sheet
+*89 (Sheet
 sheetRow (SheetRow
 headerVa (MVa
 cellColor "49152,49152,49152"
@@ -2932,103 +2902,91 @@ cellColor "39936,56832,65280"
 fontColor "0,0,0"
 font "Tahoma,10,0"
 )
-emptyMRCItem *92 (MRCItem
+emptyMRCItem *90 (MRCItem
 litem &60
-pos 12
+pos 10
 dimension 20
 )
 uid 335,0
 optionalChildren [
-*93 (MRCItem
+*91 (MRCItem
 litem &61
 pos 0
 dimension 20
 uid 336,0
 )
-*94 (MRCItem
+*92 (MRCItem
 litem &62
 pos 1
 dimension 23
 uid 337,0
 )
-*95 (MRCItem
+*93 (MRCItem
 litem &63
 pos 2
 hidden 1
 dimension 20
 uid 338,0
 )
-*96 (MRCItem
+*94 (MRCItem
 litem &79
-pos 0
+pos 2
 dimension 20
 uid 157,0
 )
-*97 (MRCItem
+*95 (MRCItem
 litem &80
-pos 1
+pos 3
 dimension 20
 uid 407,0
 )
-*98 (MRCItem
+*96 (MRCItem
 litem &81
-pos 2
+pos 0
 dimension 20
 uid 409,0
 )
-*99 (MRCItem
+*97 (MRCItem
 litem &82
-pos 3
+pos 1
 dimension 20
 uid 413,0
 )
-*100 (MRCItem
+*98 (MRCItem
 litem &83
-pos 4
+pos 5
 dimension 20
 uid 432,0
 )
-*101 (MRCItem
+*99 (MRCItem
 litem &84
-pos 5
+pos 6
 dimension 20
 uid 434,0
 )
-*102 (MRCItem
+*100 (MRCItem
 litem &85
-pos 6
+pos 7
 dimension 20
 uid 436,0
 )
-*103 (MRCItem
+*101 (MRCItem
 litem &86
-pos 7
+pos 8
 dimension 20
 uid 438,0
 )
-*104 (MRCItem
+*102 (MRCItem
 litem &87
-pos 8
+pos 9
 dimension 20
 uid 440,0
 )
-*105 (MRCItem
+*103 (MRCItem
 litem &88
-pos 9
+pos 4
 dimension 20
 uid 453,0
-)
-*106 (MRCItem
-litem &89
-pos 10
-dimension 20
-uid 455,0
-)
-*107 (MRCItem
-litem &90
-pos 11
-dimension 20
-uid 548,0
 )
 ]
 )
@@ -3041,85 +2999,85 @@ textAngle 90
 )
 uid 339,0
 optionalChildren [
-*108 (MRCItem
+*104 (MRCItem
 litem &64
 pos 0
 dimension 20
 uid 340,0
 )
-*109 (MRCItem
+*105 (MRCItem
 litem &66
 pos 1
 dimension 50
 uid 341,0
 )
-*110 (MRCItem
+*106 (MRCItem
 litem &67
 pos 2
 dimension 70
 uid 342,0
 )
-*111 (MRCItem
+*107 (MRCItem
 litem &68
 pos 3
 dimension 50
 uid 343,0
 )
-*112 (MRCItem
+*108 (MRCItem
 litem &69
 pos 4
 dimension 80
 uid 344,0
 )
-*113 (MRCItem
+*109 (MRCItem
 litem &70
 pos 5
 dimension 80
 uid 345,0
 )
-*114 (MRCItem
+*110 (MRCItem
 litem &71
 pos 6
 dimension 40
 uid 346,0
 )
-*115 (MRCItem
+*111 (MRCItem
 litem &72
 pos 7
 dimension 100
 uid 347,0
 )
-*116 (MRCItem
+*112 (MRCItem
 litem &73
 pos 8
 dimension 60
 uid 348,0
 )
-*117 (MRCItem
+*113 (MRCItem
 litem &74
 pos 9
 dimension 130
 uid 349,0
 )
-*118 (MRCItem
+*114 (MRCItem
 litem &75
 pos 10
 dimension 56
 uid 350,0
 )
-*119 (MRCItem
+*115 (MRCItem
 litem &76
 pos 11
 dimension 50
 uid 351,0
 )
-*120 (MRCItem
+*116 (MRCItem
 litem &77
 pos 12
 dimension 50
 uid 352,0
 )
-*121 (MRCItem
+*117 (MRCItem
 litem &78
 pos 13
 dimension 80
@@ -3141,38 +3099,38 @@ uid 313,0
 cdmCsm &1
 genericsCommonDM (CommonDM
 ldm (LogicalDM
-emptyRow *122 (LEmptyRow
+emptyRow *118 (LEmptyRow
 )
 uid 492,0
 optionalChildren [
-*123 (RefLabelRowHdr
+*119 (RefLabelRowHdr
 )
-*124 (TitleRowHdr
+*120 (TitleRowHdr
 )
-*125 (FilterRowHdr
+*121 (FilterRowHdr
 )
-*126 (RefLabelColHdr
+*122 (RefLabelColHdr
 tm "RefLabelColHdrMgr"
 )
-*127 (RowExpandColHdr
+*123 (RowExpandColHdr
 tm "RowExpandColHdrMgr"
 )
-*128 (GroupColHdr
+*124 (GroupColHdr
 tm "GroupColHdrMgr"
 )
-*129 (NameColHdr
+*125 (NameColHdr
 tm "GenericNameColHdrMgr"
 )
-*130 (TypeColHdr
+*126 (TypeColHdr
 tm "GenericTypeColHdrMgr"
 )
-*131 (InitColHdr
+*127 (InitColHdr
 tm "GenericValueColHdrMgr"
 )
-*132 (PragmaColHdr
+*128 (PragmaColHdr
 tm "GenericPragmaColHdrMgr"
 )
-*133 (EolColHdr
+*129 (EolColHdr
 tm "GenericEolColHdrMgr"
 )
 ]
@@ -3182,7 +3140,7 @@ displayShortBounds 1
 editShortBounds 1
 uid 504,0
 optionalChildren [
-*134 (Sheet
+*130 (Sheet
 sheetRow (SheetRow
 headerVa (MVa
 cellColor "49152,49152,49152"
@@ -3199,27 +3157,27 @@ cellColor "39936,56832,65280"
 fontColor "0,0,0"
 font "Tahoma,10,0"
 )
-emptyMRCItem *135 (MRCItem
-litem &122
+emptyMRCItem *131 (MRCItem
+litem &118
 pos 0
 dimension 20
 )
 uid 506,0
 optionalChildren [
-*136 (MRCItem
-litem &123
+*132 (MRCItem
+litem &119
 pos 0
 dimension 20
 uid 507,0
 )
-*137 (MRCItem
-litem &124
+*133 (MRCItem
+litem &120
 pos 1
 dimension 23
 uid 508,0
 )
-*138 (MRCItem
-litem &125
+*134 (MRCItem
+litem &121
 pos 2
 hidden 1
 dimension 20
@@ -3236,44 +3194,44 @@ textAngle 90
 )
 uid 510,0
 optionalChildren [
-*139 (MRCItem
-litem &126
+*135 (MRCItem
+litem &122
 pos 0
 dimension 20
 uid 511,0
 )
-*140 (MRCItem
-litem &128
+*136 (MRCItem
+litem &124
 pos 1
 dimension 50
 uid 512,0
 )
-*141 (MRCItem
-litem &129
+*137 (MRCItem
+litem &125
 pos 2
 dimension 100
 uid 513,0
 )
-*142 (MRCItem
-litem &130
+*138 (MRCItem
+litem &126
 pos 3
 dimension 100
 uid 514,0
 )
-*143 (MRCItem
-litem &131
+*139 (MRCItem
+litem &127
 pos 4
 dimension 50
 uid 515,0
 )
-*144 (MRCItem
-litem &132
+*140 (MRCItem
+litem &128
 pos 5
 dimension 50
 uid 516,0
 )
-*145 (MRCItem
-litem &133
+*141 (MRCItem
+litem &129
 pos 6
 dimension 80
 uid 517,0
