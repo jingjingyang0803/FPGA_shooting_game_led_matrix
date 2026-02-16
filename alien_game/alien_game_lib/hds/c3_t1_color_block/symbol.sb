@@ -435,19 +435,19 @@ value "P:\\20\\alien_game\\alien_game_lib\\hds\\c3_t1_color_block"
 )
 (vvPair
 variable "date"
-value "28.01.2026"
+value "16.02.2026"
 )
 (vvPair
 variable "day"
-value "ke"
+value "ma"
 )
 (vvPair
 variable "day_long"
-value "keskiviikko"
+value "maanantai"
 )
 (vvPair
 variable "dd"
-value "28"
+value "16"
 )
 (vvPair
 variable "entity_name"
@@ -475,7 +475,7 @@ value "ptjiya"
 )
 (vvPair
 variable "graphical_source_date"
-value "28.01.2026"
+value "16.02.2026"
 )
 (vvPair
 variable "graphical_source_group"
@@ -483,11 +483,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "HTC219-309-SPC"
+value "HTC219-308-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "09:50:06"
+value "12:07:49"
 )
 (vvPair
 variable "group"
@@ -495,7 +495,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "HTC219-309-SPC"
+value "HTC219-308-SPC"
 )
 (vvPair
 variable "language"
@@ -519,7 +519,7 @@ value "$HDS_PROJECT_DIR/alien_game_lib/svassistant"
 )
 (vvPair
 variable "mm"
-value "01"
+value "02"
 )
 (vvPair
 variable "module_name"
@@ -527,11 +527,11 @@ value "c3_t1_color_block"
 )
 (vvPair
 variable "month"
-value "tammi"
+value "helmi"
 )
 (vvPair
 variable "month_long"
-value "tammikuu"
+value "helmikuu"
 )
 (vvPair
 variable "p"
@@ -595,7 +595,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "09:50:06"
+value "12:07:49"
 )
 (vvPair
 variable "unit"
@@ -662,8 +662,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,2800,63500,3600"
-st "hit            : IN     std_logic  ;
-"
+st "hit            : IN     std_logic  ;"
 )
 thePort (LogicalPort
 lang 2
@@ -708,8 +707,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,2000,63500,2800"
-st "alien_defeated : IN     std_logic  ;
-"
+st "alien_defeated : IN     std_logic  ;"
 )
 thePort (LogicalPort
 lang 2
@@ -755,8 +753,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,3600,73000,4400"
-st "alien_color    : OUT    std_logic_vector (23 DOWNTO 0)
-"
+st "alien_color    : OUT    std_logic_vector (23 DOWNTO 0)"
 )
 thePort (LogicalPort
 lang 2
@@ -1468,6 +1465,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 227,0
+lastUid 250,0
 activeModelName "Symbol:CDM"
 )

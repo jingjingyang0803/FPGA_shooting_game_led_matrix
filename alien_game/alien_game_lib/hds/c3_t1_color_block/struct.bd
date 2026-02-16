@@ -102,19 +102,19 @@ value "P:\\20\\alien_game\\alien_game_lib\\hds\\c3_t1_color_block"
 )
 (vvPair
 variable "date"
-value "28.01.2026"
+value "16.02.2026"
 )
 (vvPair
 variable "day"
-value "ke"
+value "ma"
 )
 (vvPair
 variable "day_long"
-value "keskiviikko"
+value "maanantai"
 )
 (vvPair
 variable "dd"
-value "28"
+value "16"
 )
 (vvPair
 variable "entity_name"
@@ -142,7 +142,7 @@ value "ptjiya"
 )
 (vvPair
 variable "graphical_source_date"
-value "28.01.2026"
+value "16.02.2026"
 )
 (vvPair
 variable "graphical_source_group"
@@ -150,11 +150,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "HTC219-309-SPC"
+value "HTC219-308-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "09:50:06"
+value "12:07:49"
 )
 (vvPair
 variable "group"
@@ -162,7 +162,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "HTC219-309-SPC"
+value "HTC219-308-SPC"
 )
 (vvPair
 variable "language"
@@ -186,7 +186,7 @@ value "$HDS_PROJECT_DIR/alien_game_lib/svassistant"
 )
 (vvPair
 variable "mm"
-value "01"
+value "02"
 )
 (vvPair
 variable "module_name"
@@ -194,11 +194,11 @@ value "c3_t1_color_block"
 )
 (vvPair
 variable "month"
-value "tammi"
+value "helmi"
 )
 (vvPair
 variable "month_long"
-value "tammikuu"
+value "helmikuu"
 )
 (vvPair
 variable "p"
@@ -262,7 +262,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "09:50:06"
+value "12:07:49"
 )
 (vvPair
 variable "unit"
@@ -354,8 +354,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,2000,36500,2800"
-st "alien_defeated : std_logic
-"
+st "alien_defeated : std_logic"
 )
 )
 *3 (PortIoOut
@@ -419,8 +418,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,3600,47000,4400"
-st "alien_color    : std_logic_vector(23 DOWNTO 0)
-"
+st "alien_color    : std_logic_vector(23 DOWNTO 0)"
 )
 )
 *5 (PortIoIn
@@ -484,8 +482,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,2800,36500,3600"
-st "hit            : std_logic
-"
+st "hit            : std_logic"
 )
 )
 *7 (Grouping
@@ -1990,7 +1987,7 @@ optionalChildren [
 *70 (Property
 pclass "param"
 pname "value"
-pvalue "h#FF0000"
+pvalue "h#00FF00"
 ptn "String"
 )
 ]
@@ -2221,8 +2218,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,7000,40000,7800"
-st "SIGNAL sel            : std_logic
-"
+st "SIGNAL sel            : std_logic"
 )
 )
 *81 (Net
@@ -2241,8 +2237,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,5400,50500,6200"
-st "SIGNAL dout           : std_logic_vector(23 DOWNTO 0)
-"
+st "SIGNAL dout           : std_logic_vector(23 DOWNTO 0)"
 )
 )
 *82 (Net
@@ -2261,8 +2256,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,6200,50500,7000"
-st "SIGNAL dout1          : std_logic_vector(23 DOWNTO 0)
-"
+st "SIGNAL dout1          : std_logic_vector(23 DOWNTO 0)"
 )
 )
 *83 (Wire
@@ -2628,7 +2622,7 @@ viewArea "-7600,-1000,85720,50200"
 cachedDiagramExtent "0,0,64000,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-9000,0"
-lastUid 337,0
+lastUid 360,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
