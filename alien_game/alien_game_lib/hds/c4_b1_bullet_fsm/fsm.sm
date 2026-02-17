@@ -74,19 +74,19 @@ value "P:\\20\\alien_game\\alien_game_lib\\hds\\c4_b1_bullet_fsm"
 )
 (vvPair
 variable "date"
-value "16.02.2026"
+value "17.02.2026"
 )
 (vvPair
 variable "day"
-value "ma"
+value "ti"
 )
 (vvPair
 variable "day_long"
-value "maanantai"
+value "tiistai"
 )
 (vvPair
 variable "dd"
-value "16"
+value "17"
 )
 (vvPair
 variable "entity_name"
@@ -114,7 +114,7 @@ value "ptjiya"
 )
 (vvPair
 variable "graphical_source_date"
-value "16.02.2026"
+value "17.02.2026"
 )
 (vvPair
 variable "graphical_source_group"
@@ -126,7 +126,7 @@ value "HTC219-308-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "12:05:47"
+value "13:49:12"
 )
 (vvPair
 variable "group"
@@ -234,7 +234,7 @@ value "fsm"
 )
 (vvPair
 variable "time"
-value "12:05:47"
+value "13:49:12"
 )
 (vvPair
 variable "unit"
@@ -1924,7 +1924,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "52919,21508,64619,26308"
+xt "52909,20228,70309,25028"
 )
 autoResize 1
 lineShape (Line
@@ -1932,10 +1932,10 @@ uid 304,0
 va (VaSet
 vasetType 3
 )
-xt "53419,23408,64119,23408"
+xt "53409,22128,69809,22128"
 pts [
-"53419,23408"
-"64119,23408"
+"53409,22128"
+"69809,22128"
 ]
 )
 condition (MLText
@@ -1943,7 +1943,7 @@ uid 305,0
 va (VaSet
 font "arial,8,0"
 )
-xt "57469,22008,60069,23008"
+xt "60309,20728,62909,21728"
 st "TRUE"
 tm "Condition"
 )
@@ -1952,8 +1952,8 @@ uid 306,0
 va (VaSet
 font "arial,8,0"
 )
-xt "53419,23808,64119,25808"
-st "bullet_x_reg <= gun_x;
+xt "53409,22528,69809,24528"
+st "bullet_x_reg <=  ( gun_x(6 downto 0) & '0' );
 bullet_y_reg <= \"00100000\";"
 tm "Actions"
 )
@@ -2487,7 +2487,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 564,0
+lastUid 622,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *59 (LEmptyRow
