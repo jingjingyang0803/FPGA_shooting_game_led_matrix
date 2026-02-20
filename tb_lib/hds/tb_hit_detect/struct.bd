@@ -144,7 +144,7 @@ value "HTC219-307-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:56:23"
+value "16:00:34"
 )
 (vvPair
 variable "group"
@@ -252,7 +252,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "15:56:23"
+value "16:00:34"
 )
 (vvPair
 variable "unit"
@@ -428,7 +428,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "57200,42201,64900,43201"
+xt "57200,42201,61900,43201"
 st "
 %project_name
 "
@@ -587,7 +587,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,47799,45900,48799"
+xt "36200,47799,46100,48799"
 st "
 by %user on %dd %month %year
 "
@@ -1723,9 +1723,9 @@ uid 1372,0
 va (VaSet
 font "arial,8,1"
 )
-xt "47200,36000,53400,37000"
+xt "46200,37000,52400,38000"
 st "alien_game_lib"
-blo "47200,36800"
+blo "46200,37800"
 tm "BdLibraryNameMgr"
 )
 *54 (Text
@@ -1733,9 +1733,9 @@ uid 1373,0
 va (VaSet
 font "arial,8,1"
 )
-xt "47200,37000,54000,38000"
+xt "46200,38000,53000,39000"
 st "c6_t1_hit_detect"
-blo "47200,37800"
+blo "46200,38800"
 tm "CptNameMgr"
 )
 *55 (Text
@@ -1743,9 +1743,9 @@ uid 1374,0
 va (VaSet
 font "arial,8,1"
 )
-xt "47200,38000,49000,39000"
+xt "46200,39000,48000,40000"
 st "U_0"
-blo "47200,38800"
+blo "46200,39800"
 tm "InstanceNameMgr"
 )
 ]
