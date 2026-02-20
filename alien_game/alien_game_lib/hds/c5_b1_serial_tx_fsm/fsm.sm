@@ -74,19 +74,19 @@ value "P:\\20\\alien_game\\alien_game_lib\\hds\\c5_b1_serial_tx_fsm"
 )
 (vvPair
 variable "date"
-value "19.02.2026"
+value "20.02.2026"
 )
 (vvPair
 variable "day"
-value "to"
+value "pe"
 )
 (vvPair
 variable "day_long"
-value "torstai"
+value "perjantai"
 )
 (vvPair
 variable "dd"
-value "19"
+value "20"
 )
 (vvPair
 variable "entity_name"
@@ -114,7 +114,7 @@ value "ptjiya"
 )
 (vvPair
 variable "graphical_source_date"
-value "19.02.2026"
+value "20.02.2026"
 )
 (vvPair
 variable "graphical_source_group"
@@ -122,11 +122,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "HTC219-309-SPC"
+value "HTC219-307-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "11:21:29"
+value "15:17:28"
 )
 (vvPair
 variable "group"
@@ -134,7 +134,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "HTC219-309-SPC"
+value "HTC219-307-SPC"
 )
 (vvPair
 variable "language"
@@ -234,7 +234,7 @@ value "fsm"
 )
 (vvPair
 variable "time"
-value "11:21:29"
+value "15:17:28"
 )
 (vvPair
 variable "unit"
@@ -1188,7 +1188,7 @@ lineColor "39936,56832,65280"
 lineWidth -1
 fillStyle 1
 )
-xt "51834,12187,58434,14387"
+xt "52014,12247,58814,15447"
 )
 autoResize 1
 tline (Line
@@ -1199,10 +1199,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "51934,12087,58334,12087"
+xt "52114,12147,58714,12147"
 pts [
-"51934,12087"
-"58334,12087"
+"52114,12147"
+"58714,12147"
 ]
 )
 bline (Line
@@ -1213,10 +1213,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "51934,12187,58334,12187"
+xt "52114,12997,58714,12997"
 pts [
-"51934,12187"
-"58334,12187"
+"52114,12997"
+"58714,12997"
 ]
 )
 ttri (Triangle
@@ -1230,7 +1230,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "51484,11712,51834,12062"
+xt "51664,11772,52014,12122"
 )
 btri (Triangle
 uid 183,0
@@ -1243,14 +1243,14 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "51484,9912,51834,10262"
+xt "51664,10472,52014,10822"
 )
 entryActions (MLText
 uid 184,0
 va (VaSet
 font "arial,8,0"
 )
-xt "51934,11887,51934,11887"
+xt "52114,11947,52114,11947"
 tm "Actions"
 )
 inActions (MLText
@@ -1258,9 +1258,10 @@ uid 185,0
 va (VaSet
 font "arial,8,0"
 )
-xt "51934,12287,58334,14287"
+xt "52114,12347,58714,15347"
 st "ready <= '0' ;
-bit_lat <= bit_in ;"
+bit_lat <= bit_in ;
+s_sda <= bit_lat ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -1268,7 +1269,7 @@ uid 186,0
 va (VaSet
 font "arial,8,0"
 )
-xt "51134,10087,51134,10087"
+xt "51414,10647,51414,10647"
 tm "Actions"
 )
 )
@@ -1825,7 +1826,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "38884,10959,45184,12959"
+xt "37164,11039,43464,13039"
 )
 autoResize 1
 lineShape (Line
@@ -1834,10 +1835,10 @@ va (VaSet
 vasetType 3
 isHidden 1
 )
-xt "41084,12859,41084,12859"
+xt "39364,12939,39364,12939"
 pts [
-"41084,12859"
-"41084,12859"
+"39364,12939"
+"39364,12939"
 ]
 )
 condition (MLText
@@ -1845,7 +1846,7 @@ uid 267,0
 va (VaSet
 font "arial,8,0"
 )
-xt "39384,11459,44684,12459"
+xt "37664,11539,42964,12539"
 st "transmit = '1'"
 tm "Condition"
 )
@@ -1854,7 +1855,7 @@ uid 268,0
 va (VaSet
 font "arial,8,0"
 )
-xt "42034,12859,42034,12859"
+xt "40314,12939,40314,12939"
 tm "Actions"
 )
 )
@@ -1993,7 +1994,7 @@ arrow 1
 )
 start &20
 end &21
-cond "cnt = 1"
+cond "cnt =2"
 tb (TransitionBlock
 uid 284,0
 ps "CenterOffsetStrategy"
@@ -2005,7 +2006,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "40340,30060,45340,33860"
+xt "40240,30060,45240,33860"
 )
 autoResize 1
 lineShape (Line
@@ -2013,10 +2014,10 @@ uid 286,0
 va (VaSet
 vasetType 3
 )
-xt "40840,31960,44840,31960"
+xt "40740,31960,44740,31960"
 pts [
-"40840,31960"
-"44840,31960"
+"40740,31960"
+"44740,31960"
 ]
 )
 condition (MLText
@@ -2024,8 +2025,8 @@ uid 287,0
 va (VaSet
 font "arial,8,0"
 )
-xt "41490,30560,44190,31560"
-st "cnt = 1"
+xt "41490,30560,43990,31560"
+st "cnt =2"
 tm "Condition"
 )
 actions (MLText
@@ -2033,7 +2034,7 @@ uid 288,0
 va (VaSet
 font "arial,8,0"
 )
-xt "40840,32360,44840,33360"
+xt "40740,32360,44740,33360"
 st "cnt <= 0 ;"
 tm "Actions"
 )
@@ -2081,7 +2082,7 @@ arrow 1
 )
 start &21
 end &2
-cond "cnt = 1"
+cond "cnt = 2"
 tb (TransitionBlock
 uid 294,0
 ps "CenterOffsetStrategy"
@@ -2113,7 +2114,7 @@ va (VaSet
 font "arial,8,0"
 )
 xt "29776,20607,32476,21607"
-st "cnt = 1"
+st "cnt = 2"
 tm "Condition"
 )
 actions (MLText
@@ -2265,7 +2266,7 @@ arrow 1
 start &21
 end &21
 es 0
-cond "cnt < 1"
+cond "cnt < 2"
 tb (TransitionBlock
 uid 316,0
 ps "CenterOffsetStrategy"
@@ -2298,7 +2299,7 @@ va (VaSet
 font "arial,8,0"
 )
 xt "20592,30272,23292,31272"
-st "cnt < 1"
+st "cnt < 2"
 tm "Condition"
 )
 actions (MLText
@@ -2838,7 +2839,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 400,0
+lastUid 429,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *62 (LEmptyRow
@@ -2902,7 +2903,7 @@ lang 2
 decl (Decl
 n "clk"
 t "std_logic"
-o 1
+o 2
 )
 )
 uid 156,0
@@ -2915,7 +2916,7 @@ lang 2
 decl (Decl
 n "rst_n"
 t "std_logic"
-o 2
+o 3
 )
 )
 uid 158,0
@@ -2928,7 +2929,7 @@ lang 2
 decl (Decl
 n "bit_in"
 t "std_logic"
-o 3
+o 1
 )
 )
 uid 160,0
@@ -2951,7 +2952,7 @@ m 1
 decl (Decl
 n "s_clk"
 t "std_logic"
-o 5
+o 6
 )
 )
 uid 164,0
@@ -2964,7 +2965,7 @@ m 1
 decl (Decl
 n "s_sda"
 t "std_logic"
-o 6
+o 7
 )
 )
 uid 166,0
@@ -2977,7 +2978,7 @@ m 1
 decl (Decl
 n "ready"
 t "std_logic"
-o 7
+o 5
 )
 )
 uid 168,0
@@ -2991,7 +2992,7 @@ decl (Decl
 n "cnt"
 t "integer"
 b "RANGE 2 DOWNTO 0"
-o 8
+o 9
 )
 )
 uid 302,0
@@ -3005,7 +3006,7 @@ m 4
 decl (Decl
 n "bit_lat"
 t "std_logic"
-o 9
+o 8
 )
 )
 uid 370,0

@@ -338,28 +338,28 @@ GRAPHIC 185,0 155 0
 LIBRARY alien_game_lib
 DESIGN c5_b1_serial_tx_fsm
 VIEW fsm.sm
-GRAPHIC 187,0 156 0
+GRAPHIC 187,0 157 0
 LIBRARY alien_game_lib
 DESIGN c5_b1_serial_tx_fsm
 VIEW fsm.sm
-GRAPHIC 202,0 157 0
+GRAPHIC 202,0 158 0
 LIBRARY alien_game_lib
 DESIGN c5_b1_serial_tx_fsm
 VIEW fsm.sm
-GRAPHIC 204,0 159 0
+GRAPHIC 204,0 160 0
 LIBRARY alien_game_lib
 DESIGN c5_b1_serial_tx_fsm
 VIEW fsm.sm
-GRAPHIC 219,0 160 0
+GRAPHIC 219,0 161 0
 LIBRARY alien_game_lib
 DESIGN c5_b1_serial_tx_fsm
 VIEW fsm.sm
-NO_GRAPHIC 162
+NO_GRAPHIC 163
 LIBRARY alien_game_lib
 DESIGN c5_b1_serial_tx_fsm
 VIEW fsm.sm
-GRAPHIC 2,0 164 0
+GRAPHIC 2,0 165 0
 LIBRARY alien_game_lib
 DESIGN c5_b1_serial_tx_fsm
 VIEW fsm.sm
-NO_GRAPHIC 166
+NO_GRAPHIC 167

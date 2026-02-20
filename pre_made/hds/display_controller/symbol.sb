@@ -283,13 +283,13 @@ uid 108,0
 )
 *34 (MRCItem
 litem &15
-pos 11
+pos 12
 dimension 20
 uid 110,0
 )
 *35 (MRCItem
 litem &16
-pos 12
+pos 13
 dimension 20
 uid 112,0
 )
@@ -307,7 +307,7 @@ uid 116,0
 )
 *38 (MRCItem
 litem &19
-pos 13
+pos 11
 dimension 20
 uid 118,0
 )
@@ -680,7 +680,7 @@ value "HTC219-307-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:33:37"
+value "14:43:54"
 )
 (vvPair
 variable "group"
@@ -780,7 +780,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "14:33:37"
+value "14:43:54"
 )
 (vvPair
 variable "unit"
@@ -2146,6 +2146,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 1248,0
+lastUid 1294,0
 activeModelName "Symbol:CDM"
 )
