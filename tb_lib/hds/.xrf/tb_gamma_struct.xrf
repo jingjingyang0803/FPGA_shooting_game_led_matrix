@@ -24,25 +24,25 @@ VIEW struct.bd
 GRAPHIC 0,0 33 2 
 DESIGN tb_gamma
 VIEW struct.bd
-GRAPHIC 833,0 38 0 
+GRAPHIC 968,0 38 0 
 DESIGN tb_gamma
 VIEW struct.bd
-GRAPHIC 137,0 39 0 
+GRAPHIC 890,0 39 0 
 DESIGN tb_gamma
 VIEW struct.bd
 GRAPHIC 426,0 40 0 
 DESIGN tb_gamma
 VIEW struct.bd
-GRAPHIC 147,0 41 0 
+GRAPHIC 896,0 41 0 
 DESIGN tb_gamma
 VIEW struct.bd
-GRAPHIC 486,0 42 0 
+GRAPHIC 882,0 42 0 
 DESIGN tb_gamma
 VIEW struct.bd
-GRAPHIC 841,0 43 0 
+GRAPHIC 962,0 43 0 
 DESIGN tb_gamma
 VIEW struct.bd
-GRAPHIC 847,0 44 0 
+GRAPHIC 974,0 44 0 
 DESIGN tb_gamma
 VIEW struct.bd
 NO_GRAPHIC 45
@@ -52,7 +52,7 @@ NO_GRAPHIC 46
 LIBRARY alien_game_lib
 DESIGN c5_b2_gamma_fsm
 VIEW fsm
-GRAPHIC 823,0 48 0 
+GRAPHIC 934,0 48 0 
 DESIGN c5_b2_gamma_fsm
 VIEW symbol.sb
 GRAPHIC 122,0 50 0 
@@ -105,7 +105,7 @@ VIEW struct.bd
 NO_GRAPHIC 70
 DESIGN tb_gamma
 VIEW struct.bd
-GRAPHIC 823,0 73 0 
+GRAPHIC 934,0 73 0 
 DESIGN tb_gamma
 VIEW struct.bd
 GRAPHIC 744,0 74 0 
@@ -117,49 +117,49 @@ VIEW struct.bd
 NO_GRAPHIC 79
 DESIGN tb_gamma
 VIEW struct.bd
-GRAPHIC 823,0 81 0 
+GRAPHIC 934,0 81 0 
 DESIGN tb_gamma
 VIEW struct.bd
-GRAPHIC 129,0 83 0 
+GRAPHIC 892,0 83 0 
 DESIGN tb_gamma
 VIEW struct.bd
-GRAPHIC 139,0 84 0 
+GRAPHIC 898,0 84 0 
 DESIGN tb_gamma
 VIEW struct.bd
-GRAPHIC 149,0 85 0 
+GRAPHIC 884,0 85 0 
 DESIGN tb_gamma
 VIEW struct.bd
-GRAPHIC 835,0 86 0 
+GRAPHIC 970,0 86 0 
 DESIGN tb_gamma
 VIEW struct.bd
-GRAPHIC 843,0 88 0 
+GRAPHIC 964,0 88 0 
 DESIGN tb_gamma
 VIEW struct.bd
-GRAPHIC 849,0 89 0 
+GRAPHIC 976,0 89 0 
 DESIGN tb_gamma
 VIEW struct.bd
 GRAPHIC 744,0 91 0 
 DESIGN tb_gamma
 VIEW struct.bd
-GRAPHIC 835,0 93 0 
+GRAPHIC 970,0 93 0 
 DESIGN tb_gamma
 VIEW struct.bd
-GRAPHIC 843,0 94 0 
+GRAPHIC 964,0 94 0 
 DESIGN tb_gamma
 VIEW struct.bd
-GRAPHIC 849,0 95 0 
+GRAPHIC 976,0 95 0 
 DESIGN tb_gamma
 VIEW struct.bd
-GRAPHIC 129,0 96 0 
+GRAPHIC 892,0 96 0 
 DESIGN tb_gamma
 VIEW struct.bd
 GRAPHIC 428,0 97 0 
 DESIGN tb_gamma
 VIEW struct.bd
-GRAPHIC 139,0 98 0 
+GRAPHIC 898,0 98 0 
 DESIGN tb_gamma
 VIEW struct.bd
-GRAPHIC 149,0 99 0 
+GRAPHIC 884,0 99 0 
 DESIGN tb_gamma
 VIEW struct.bd
 NO_GRAPHIC 102
