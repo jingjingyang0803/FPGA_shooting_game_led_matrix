@@ -277,19 +277,19 @@ uid 71,0
 )
 *33 (MRCItem
 litem &14
-pos 8
+pos 6
 dimension 20
 uid 108,0
 )
 *34 (MRCItem
 litem &15
-pos 7
+pos 12
 dimension 20
 uid 110,0
 )
 *35 (MRCItem
 litem &16
-pos 5
+pos 13
 dimension 20
 uid 112,0
 )
@@ -313,13 +313,13 @@ uid 118,0
 )
 *39 (MRCItem
 litem &20
-pos 6
+pos 5
 dimension 20
 uid 120,0
 )
 *40 (MRCItem
 litem &21
-pos 9
+pos 7
 dimension 20
 uid 124,0
 )
@@ -337,25 +337,25 @@ uid 237,0
 )
 *43 (MRCItem
 litem &24
-pos 10
+pos 8
 dimension 20
 uid 1046,0
 )
 *44 (MRCItem
 litem &25
-pos 11
+pos 9
 dimension 20
 uid 1052,0
 )
 *45 (MRCItem
 litem &26
-pos 12
+pos 10
 dimension 20
 uid 1097,0
 )
 *46 (MRCItem
 litem &27
-pos 13
+pos 11
 dimension 20
 uid 1099,0
 )
@@ -588,23 +588,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "P:\\kurssit\\comp.ce.200\\updates_for_2022\\..\\upstream\\pre_made\\hdl"
+value "P:\\20\\alien_game\\..\\pre_made\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "P:\\kurssit\\comp.ce.200\\updates_for_2022\\..\\upstream\\pre_made\\hds"
+value "P:\\20\\alien_game\\..\\pre_made\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "P:\\kurssit\\comp.ce.200\\updates_for_2022\\..\\upstream\\pre_made\\hds\\display_controller\\symbol.sb.info"
+value "P:\\20\\alien_game\\..\\pre_made\\hds\\display_controller\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "P:\\kurssit\\comp.ce.200\\updates_for_2022\\..\\upstream\\pre_made\\hds\\display_controller\\symbol.sb.user"
+value "P:\\20\\alien_game\\..\\pre_made\\hds\\display_controller\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "P:\\kurssit\\comp.ce.200\\updates_for_2022\\..\\upstream\\pre_made\\hds"
+value "P:\\20\\alien_game\\..\\pre_made\\hds"
 )
 (vvPair
 variable "appl"
@@ -620,27 +620,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "P:\\kurssit\\comp.ce.200\\updates_for_2022\\..\\upstream\\pre_made\\hds\\display_controller"
+value "P:\\20\\alien_game\\..\\pre_made\\hds\\display_controller"
 )
 (vvPair
 variable "d_logical"
-value "P:\\kurssit\\comp.ce.200\\updates_for_2022\\..\\upstream\\pre_made\\hds\\display_controller"
+value "P:\\20\\alien_game\\..\\pre_made\\hds\\display_controller"
 )
 (vvPair
 variable "date"
-value "12.09.2022"
+value "20.02.2026"
 )
 (vvPair
 variable "day"
-value "Mon"
+value "pe"
 )
 (vvPair
 variable "day_long"
-value "Monday"
+value "perjantai"
 )
 (vvPair
 variable "dd"
-value "12"
+value "20"
 )
 (vvPair
 variable "entity_name"
@@ -664,11 +664,11 @@ value "symbol"
 )
 (vvPair
 variable "graphical_source_author"
-value "oinonen2"
+value "ptjiya"
 )
 (vvPair
 variable "graphical_source_date"
-value "12.09.2022"
+value "20.02.2026"
 )
 (vvPair
 variable "graphical_source_group"
@@ -676,11 +676,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WS-12212-PC"
+value "HTC219-307-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "18:43:21"
+value "14:21:18"
 )
 (vvPair
 variable "group"
@@ -688,7 +688,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WS-12212-PC"
+value "HTC219-307-SPC"
 )
 (vvPair
 variable "language"
@@ -700,11 +700,11 @@ value "pre_made"
 )
 (vvPair
 variable "library_downstream_ModelSimCompiler"
-value "$HDS_PROJECT_DIR/alien_game_lib/work"
+value "P:/20/pre_made/work"
 )
 (vvPair
 variable "mm"
-value "09"
+value "02"
 )
 (vvPair
 variable "module_name"
@@ -712,19 +712,19 @@ value "display_controller"
 )
 (vvPair
 variable "month"
-value "Sep"
+value "helmi"
 )
 (vvPair
 variable "month_long"
-value "September"
+value "helmikuu"
 )
 (vvPair
 variable "p"
-value "P:\\kurssit\\comp.ce.200\\updates_for_2022\\..\\upstream\\pre_made\\hds\\display_controller\\symbol.sb"
+value "P:\\20\\alien_game\\..\\pre_made\\hds\\display_controller\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "P:\\kurssit\\comp.ce.200\\updates_for_2022\\..\\upstream\\pre_made\\hds\\display_controller\\symbol.sb"
+value "P:\\20\\alien_game\\..\\pre_made\\hds\\display_controller\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -748,7 +748,7 @@ value "<TBD>"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "C:\\Apps\\Mentor\\modeltech_10.7d\\win32"
+value "C:\\Apps\\MODELSIM DE-64 2022.3\\win64pe"
 )
 (vvPair
 variable "task_NC-SimPath"
@@ -780,7 +780,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "18:43:21"
+value "14:21:18"
 )
 (vvPair
 variable "unit"
@@ -788,7 +788,7 @@ value "display_controller"
 )
 (vvPair
 variable "user"
-value "oinonen2"
+value "ptjiya"
 )
 (vvPair
 variable "version"
@@ -800,11 +800,11 @@ value "symbol"
 )
 (vvPair
 variable "year"
-value "2022"
+value "2026"
 )
 (vvPair
 variable "yy"
-value "22"
+value "26"
 )
 ]
 )
@@ -848,8 +848,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,7600,71500,8400"
-st "channel    : OUT    std_logic_vector (7 DOWNTO 0) ;
-"
+st "channel    : OUT    std_logic_vector (7 DOWNTO 0) ;"
 )
 thePort (LogicalPort
 m 1
@@ -896,8 +895,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,9200,61500,10000"
-st "s_clk      : OUT    std_logic  ;
-"
+st "s_clk      : OUT    std_logic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -943,8 +941,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,10800,61500,11600"
-st "s_sda      : OUT    std_logic  ;
-"
+st "s_sda      : OUT    std_logic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -990,8 +987,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,8400,61500,9200"
-st "lat        : OUT    std_logic  ;
-"
+st "lat        : OUT    std_logic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1037,8 +1033,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,10000,61500,10800"
-st "s_rst      : OUT    std_logic  ;
-"
+st "s_rst      : OUT    std_logic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1084,8 +1079,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,11600,61500,12400"
-st "sb         : OUT    std_logic  ;
-"
+st "sb         : OUT    std_logic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1130,8 +1124,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,2000,61500,2800"
-st "clk        : IN     std_logic  ;
-"
+st "clk        : IN     std_logic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1175,8 +1168,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4400,61500,5200"
-st "rst_n      : IN     std_logic  ;
-"
+st "rst_n      : IN     std_logic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1220,8 +1212,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,5200,61500,6000"
-st "write      : IN     std_logic  ;
-"
+st "write      : IN     std_logic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1266,8 +1257,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,12400,60500,13200"
-st "w_rdy      : OUT    std_logic 
-"
+st "w_rdy      : OUT    std_logic "
 )
 thePort (LogicalPort
 m 1
@@ -1312,8 +1302,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,2800,72000,3600"
-st "color_BGR  : IN     std_logic_vector (23 DOWNTO 0) ;
-"
+st "color_BGR  : IN     std_logic_vector (23 DOWNTO 0) ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1358,8 +1347,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,3600,61500,4400"
-st "frame_done : IN     std_logic  ;
-"
+st "frame_done : IN     std_logic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1403,8 +1391,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,6000,71500,6800"
-st "x_coord    : IN     std_logic_vector (7 DOWNTO 0) ;
-"
+st "x_coord    : IN     std_logic_vector (7 DOWNTO 0) ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1449,8 +1436,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,6800,71500,7600"
-st "y_coord    : IN     std_logic_vector (7 DOWNTO 0) ;
-"
+st "y_coord    : IN     std_logic_vector (7 DOWNTO 0) ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1544,7 +1530,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,48000,46700,49000"
+xt "36200,48000,46100,49000"
 st "
 by %user on %dd %month %year
 "
@@ -2160,6 +2146,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 1110,0
+lastUid 1179,0
 activeModelName "Symbol:CDM"
 )
