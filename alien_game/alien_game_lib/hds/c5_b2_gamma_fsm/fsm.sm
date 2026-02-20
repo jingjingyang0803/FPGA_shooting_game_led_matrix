@@ -126,7 +126,7 @@ value "HTC219-307-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "11:32:32"
+value "12:22:34"
 )
 (vvPair
 variable "group"
@@ -234,7 +234,7 @@ value "fsm"
 )
 (vvPair
 variable "time"
-value "11:32:32"
+value "12:22:34"
 )
 (vvPair
 variable "unit"
@@ -944,9 +944,12 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "53200,43200,62600,44200"
+xt "53200,43200,59500,47200"
 st "
-<enter comments here>
+Gamma used: 
+R=14 (001110), 
+G=63 (111111), 
+B=59 (111011)
 "
 tm "CommentText"
 wrapOption 3
@@ -1751,7 +1754,7 @@ st "if bit_cnt < 143 then
 end if;
 
 if (bit_cnt mod 18 = 17) then
-    gamma_shift <= \"001110111111111011\";
+    gamma_shift <= \"111011111111001110\";
 end if;"
 tm "Actions"
 )
@@ -2865,8 +2868,8 @@ tm "SmCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,0,2561,1408"
-viewArea "-1100,-2100,87554,45476"
-cachedDiagramExtent "608,-1076,76546,47000"
+viewArea "-1100,12150,87554,60790"
+cachedDiagramExtent "608,-1076,76546,47200"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,-2000"
 isTopLevel 1
@@ -3153,7 +3156,7 @@ transmit     OUT     '0'                            COMB
 bit_out      OUT     '0'                            COMB            
 lat          OUT     '0'                            COMB            
 bit_cnt      LOCAL            0                     CLKD            
-gamma_shift  LOCAL            \"001110111111111011\"  CLKD            
+gamma_shift  LOCAL            \"111011111111001110\"  CLKD            
 "
 tm "SmSignalsGenStatusTextMgr"
 )
@@ -3435,7 +3438,7 @@ o 9
 )
 uid 454,0
 scheme 1
-rstVal "\"001110111111111011\""
+rstVal "\"111011111111001110\""
 )
 ]
 )
