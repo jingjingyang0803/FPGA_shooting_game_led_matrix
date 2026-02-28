@@ -147,19 +147,19 @@ value "P:\\20\\alien_game\\alien_game_lib\\hds\\c5_t2_game_logic"
 )
 (vvPair
 variable "date"
-value "24.02.2026"
+value "28.02.2026"
 )
 (vvPair
 variable "day"
-value "ti"
+value "la"
 )
 (vvPair
 variable "day_long"
-value "tiistai"
+value "lauantai"
 )
 (vvPair
 variable "dd"
-value "24"
+value "28"
 )
 (vvPair
 variable "entity_name"
@@ -187,7 +187,7 @@ value "ptjiya"
 )
 (vvPair
 variable "graphical_source_date"
-value "24.02.2026"
+value "28.02.2026"
 )
 (vvPair
 variable "graphical_source_group"
@@ -199,7 +199,7 @@ value "HTC219-307-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "09:27:53"
+value "15:42:30"
 )
 (vvPair
 variable "group"
@@ -307,7 +307,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "09:27:53"
+value "15:42:30"
 )
 (vvPair
 variable "unit"
@@ -4960,10 +4960,52 @@ st "SIGNAL gun_x         : std_logic_vector(7 DOWNTO 0)
 *163 (MWC
 uid 1017,0
 optionalChildren [
-*164 (CptPort
+*164 (CommentGraphic
+uid 1015,0
+shape (PolyLine2D
+pts [
+"30000,17000"
+"30000,19000"
+]
+uid 1016,0
+layer 0
+sl 0
+va (VaSet
+vasetType 1
+transparent 1
+fg "49152,49152,49152"
+lineColor "26368,26368,26368"
+lineWidth 2
+)
+xt "30000,17000,30000,19000"
+)
+oxt "6000,6000,6000,8000"
+)
+*165 (CommentGraphic
+uid 1013,0
+shape (PolyLine2D
+pts [
+"32000,18000"
+"30000,18000"
+]
+uid 1014,0
+layer 0
+sl 0
+va (VaSet
+vasetType 1
+transparent 1
+fg "49152,49152,49152"
+lineColor "26368,26368,26368"
+lineWidth 2
+)
+xt "30000,18000,32000,18000"
+)
+oxt "6000,7000,8000,7000"
+)
+*166 (CptPort
 uid 1008,0
 optionalChildren [
-*165 (Line
+*167 (Line
 uid 1012,0
 layer 5
 sl 0
@@ -5025,48 +5067,6 @@ o 22
 suid 1,0
 )
 )
-)
-*166 (CommentGraphic
-uid 1013,0
-shape (PolyLine2D
-pts [
-"32000,18000"
-"30000,18000"
-]
-uid 1014,0
-layer 0
-sl 0
-va (VaSet
-vasetType 1
-transparent 1
-fg "49152,49152,49152"
-lineColor "26368,26368,26368"
-lineWidth 2
-)
-xt "30000,18000,32000,18000"
-)
-oxt "6000,7000,8000,7000"
-)
-*167 (CommentGraphic
-uid 1015,0
-shape (PolyLine2D
-pts [
-"30000,17000"
-"30000,19000"
-]
-uid 1016,0
-layer 0
-sl 0
-va (VaSet
-vasetType 1
-transparent 1
-fg "49152,49152,49152"
-lineColor "26368,26368,26368"
-lineWidth 2
-)
-xt "30000,17000,30000,19000"
-)
-oxt "6000,6000,6000,8000"
 )
 ]
 shape (Rectangle
@@ -6349,7 +6349,7 @@ pts [
 "36250,18000"
 ]
 )
-start &164
+start &166
 end &33
 sat 32
 eat 32
@@ -7322,41 +7322,6 @@ tm "WireNameMgr"
 on &185
 )
 *233 (Wire
-uid 1832,0
-shape (OrthoPolyLine
-uid 1833,0
-va (VaSet
-vasetType 3
-)
-xt "2000,22000,5250,22000"
-pts [
-"2000,22000"
-"5250,22000"
-]
-)
-end &59
-sat 16
-eat 32
-st 0
-sf 1
-tg (WTG
-uid 1836,0
-ps "ConnStartEndStrategy"
-stg "STSignalDisplayStrategy"
-f (Text
-uid 1837,0
-va (VaSet
-font "arial,8,0"
-)
-xt "3000,21000,4200,22000"
-st "hit"
-blo "3000,21800"
-tm "WireNameMgr"
-)
-)
-on &185
-)
-*234 (Wire
 uid 1838,0
 shape (OrthoPolyLine
 uid 1839,0
@@ -7391,7 +7356,7 @@ tm "WireNameMgr"
 )
 on &4
 )
-*235 (Wire
+*234 (Wire
 uid 1844,0
 shape (OrthoPolyLine
 uid 1845,0
@@ -7426,7 +7391,7 @@ tm "WireNameMgr"
 )
 on &10
 )
-*236 (Wire
+*235 (Wire
 uid 1852,0
 shape (OrthoPolyLine
 uid 1853,0
@@ -7463,7 +7428,7 @@ tm "WireNameMgr"
 )
 on &160
 )
-*237 (Wire
+*236 (Wire
 uid 1860,0
 shape (OrthoPolyLine
 uid 1861,0
@@ -7500,7 +7465,7 @@ tm "WireNameMgr"
 )
 on &156
 )
-*238 (Wire
+*237 (Wire
 uid 1868,0
 shape (OrthoPolyLine
 uid 1869,0
@@ -7537,7 +7502,7 @@ tm "WireNameMgr"
 )
 on &161
 )
-*239 (Wire
+*238 (Wire
 uid 1876,0
 shape (OrthoPolyLine
 uid 1877,0
@@ -7573,6 +7538,41 @@ tm "WireNameMgr"
 )
 )
 on &154
+)
+*239 (Wire
+uid 2365,0
+shape (OrthoPolyLine
+uid 2366,0
+va (VaSet
+vasetType 3
+)
+xt "2000,22000,5250,22000"
+pts [
+"2000,22000"
+"5250,22000"
+]
+)
+end &59
+sat 16
+eat 32
+st 0
+sf 1
+tg (WTG
+uid 2369,0
+ps "ConnStartEndStrategy"
+stg "STSignalDisplayStrategy"
+f (Text
+uid 2370,0
+va (VaSet
+font "arial,8,0"
+)
+xt "3000,21000,4200,22000"
+st "hit"
+blo "3000,21800"
+tm "WireNameMgr"
+)
+)
+on &185
 )
 ]
 bg "65535,65535,65535"
@@ -7688,12 +7688,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "0,0,2561,1408"
-viewArea "-12500,-5400,90152,49688"
+windowSize "0,32,2561,1440"
+viewArea "-12500,-5400,90152,50920"
 cachedDiagramExtent "-8000,-9200,65700,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-8000,-49000"
-lastUid 1883,0
+lastUid 2370,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -8753,7 +8753,7 @@ tm "BdDeclarativeTextMgr"
 )
 commonDM (CommonDM
 ldm (LogicalDM
-suid 64,0
+suid 66,0
 usingSuid 1
 emptyRow *271 (LEmptyRow
 )

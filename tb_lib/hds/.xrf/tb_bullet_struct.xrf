@@ -30,16 +30,16 @@ VIEW struct.bd
 GRAPHIC 865,0 39 0 
 DESIGN tb_bullet
 VIEW struct.bd
-GRAPHIC 1006,0 40 0 
+GRAPHIC 1088,0 40 0 
 DESIGN tb_bullet
 VIEW struct.bd
-GRAPHIC 994,0 41 0 
+GRAPHIC 1006,0 41 0 
 DESIGN tb_bullet
 VIEW struct.bd
-GRAPHIC 147,0 42 0 
+GRAPHIC 994,0 42 0 
 DESIGN tb_bullet
 VIEW struct.bd
-GRAPHIC 1000,0 43 0 
+GRAPHIC 147,0 43 0 
 DESIGN tb_bullet
 VIEW struct.bd
 GRAPHIC 386,0 44 0 
@@ -70,16 +70,16 @@ VIEW symbol.sb
 GRAPHIC 172,0 54 0 
 DESIGN c4_b1_bullet_fsm
 VIEW symbol.sb
-GRAPHIC 117,0 55 0 
+GRAPHIC 364,0 55 0 
 DESIGN c4_b1_bullet_fsm
 VIEW symbol.sb
-GRAPHIC 157,0 56 0 
+GRAPHIC 334,0 56 0 
 DESIGN c4_b1_bullet_fsm
 VIEW symbol.sb
-GRAPHIC 162,0 57 0 
+GRAPHIC 157,0 57 0 
 DESIGN c4_b1_bullet_fsm
 VIEW symbol.sb
-GRAPHIC 167,0 58 0 
+GRAPHIC 162,0 58 0 
 LIBRARY tb_lib
 DESIGN bullet_test_block
 VIEW testbench
@@ -123,13 +123,13 @@ VIEW struct.bd
 GRAPHIC 159,0 90 0 
 DESIGN tb_bullet
 VIEW struct.bd
-GRAPHIC 1008,0 91 0 
+GRAPHIC 1090,0 91 0 
 DESIGN tb_bullet
 VIEW struct.bd
-GRAPHIC 996,0 92 0 
+GRAPHIC 1008,0 92 0 
 DESIGN tb_bullet
 VIEW struct.bd
-GRAPHIC 1002,0 93 0 
+GRAPHIC 996,0 93 0 
 DESIGN tb_bullet
 VIEW struct.bd
 GRAPHIC 199,0 95 0 
@@ -156,7 +156,7 @@ VIEW struct.bd
 GRAPHIC 996,0 103 0 
 DESIGN tb_bullet
 VIEW struct.bd
-GRAPHIC 1002,0 104 0 
+GRAPHIC 1090,0 104 0 
 DESIGN tb_bullet
 VIEW struct.bd
 NO_GRAPHIC 107

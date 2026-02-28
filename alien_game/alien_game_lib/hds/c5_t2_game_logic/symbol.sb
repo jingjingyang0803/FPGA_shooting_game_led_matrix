@@ -550,19 +550,19 @@ value "P:\\20\\alien_game\\alien_game_lib\\hds\\c5_t2_game_logic"
 )
 (vvPair
 variable "date"
-value "24.02.2026"
+value "28.02.2026"
 )
 (vvPair
 variable "day"
-value "ti"
+value "la"
 )
 (vvPair
 variable "day_long"
-value "tiistai"
+value "lauantai"
 )
 (vvPair
 variable "dd"
-value "24"
+value "28"
 )
 (vvPair
 variable "entity_name"
@@ -590,7 +590,7 @@ value "ptjiya"
 )
 (vvPair
 variable "graphical_source_date"
-value "24.02.2026"
+value "28.02.2026"
 )
 (vvPair
 variable "graphical_source_group"
@@ -602,7 +602,7 @@ value "HTC219-307-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "09:27:53"
+value "15:42:30"
 )
 (vvPair
 variable "group"
@@ -710,7 +710,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "09:27:53"
+value "15:42:30"
 )
 (vvPair
 variable "unit"
@@ -1861,6 +1861,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 867,0
+lastUid 959,0
 activeModelName "Symbol:CDM"
 )

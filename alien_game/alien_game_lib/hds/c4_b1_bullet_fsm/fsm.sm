@@ -74,19 +74,19 @@ value "P:\\20\\alien_game\\alien_game_lib\\hds\\c4_b1_bullet_fsm"
 )
 (vvPair
 variable "date"
-value "19.02.2026"
+value "28.02.2026"
 )
 (vvPair
 variable "day"
-value "to"
+value "la"
 )
 (vvPair
 variable "day_long"
-value "torstai"
+value "lauantai"
 )
 (vvPair
 variable "dd"
-value "19"
+value "28"
 )
 (vvPair
 variable "entity_name"
@@ -114,7 +114,7 @@ value "ptjiya"
 )
 (vvPair
 variable "graphical_source_date"
-value "19.02.2026"
+value "28.02.2026"
 )
 (vvPair
 variable "graphical_source_group"
@@ -126,7 +126,7 @@ value "HTC219-307-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "12:01:31"
+value "15:38:21"
 )
 (vvPair
 variable "group"
@@ -234,7 +234,7 @@ value "fsm"
 )
 (vvPair
 variable "time"
-value "12:01:31"
+value "15:38:21"
 )
 (vvPair
 variable "unit"
@@ -1181,13 +1181,12 @@ shape (Rectangle
 uid 169,0
 va (VaSet
 vasetType 1
-isHidden 1
 fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "39936,56832,65280"
-lineWidth -1
+lineWidth 2
 )
-xt "60096,19277,60296,19477"
+xt "55186,17117,66086,19317"
 )
 autoResize 1
 tline (Line
@@ -1196,12 +1195,12 @@ va (VaSet
 vasetType 3
 isHidden 1
 lineColor "39936,56832,65280"
-lineWidth -1
+lineWidth 2
 )
-xt "56196,16177,56196,16177"
+xt "55286,17117,65986,17117"
 pts [
-"56196,16177"
-"56196,16177"
+"55286,17117"
+"65986,17117"
 ]
 )
 bline (Line
@@ -1210,12 +1209,12 @@ va (VaSet
 vasetType 3
 isHidden 1
 lineColor "39936,56832,65280"
-lineWidth -1
+lineWidth 2
 )
-xt "56196,16177,56196,16177"
+xt "55286,15017,65986,15017"
 pts [
-"56196,16177"
-"56196,16177"
+"55286,15017"
+"65986,15017"
 ]
 )
 ttri (Triangle
@@ -1223,13 +1222,12 @@ uid 172,0
 ro 90
 va (VaSet
 vasetType 1
-isHidden 1
 fg "0,32768,49152"
 bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "55746,16002,56096,16352"
+xt "54836,18042,55186,18392"
 )
 btri (Triangle
 uid 173,0
@@ -1242,14 +1240,16 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "55746,16002,56096,16352"
+xt "54836,14842,55186,15192"
 )
 entryActions (MLText
 uid 174,0
 va (VaSet
 font "arial,8,0"
 )
-xt "56196,16177,56196,16177"
+xt "55286,17217,65986,19217"
+st "bullet_x_reg <=  gun_x;
+bullet_y_reg <= \"01000000\";"
 tm "Actions"
 )
 inActions (MLText
@@ -1257,7 +1257,7 @@ uid 175,0
 va (VaSet
 font "arial,8,0"
 )
-xt "56196,16177,56196,16177"
+xt "56636,15017,56636,15017"
 tm "Actions"
 )
 exitActions (MLText
@@ -1265,7 +1265,7 @@ uid 176,0
 va (VaSet
 font "arial,8,0"
 )
-xt "56196,16177,56196,16177"
+xt "56636,15017,56636,15017"
 tm "Actions"
 )
 )
@@ -1341,13 +1341,12 @@ shape (Rectangle
 uid 186,0
 va (VaSet
 vasetType 1
-isHidden 1
 fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth 2
 )
-xt "61733,36600,61933,36800"
+xt "56443,34500,75143,35700"
 )
 autoResize 1
 tline (Line
@@ -1358,10 +1357,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth 2
 )
-xt "57733,35500,65933,35500"
+xt "56543,33750,75043,33750"
 pts [
-"57733,35500"
-"65933,35500"
+"56543,33750"
+"75043,33750"
 ]
 )
 bline (Line
@@ -1372,10 +1371,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth 2
 )
-xt "57733,35600,65933,35600"
+xt "56543,34000,75043,34000"
 pts [
-"57733,35600"
-"65933,35600"
+"56543,34000"
+"75043,34000"
 ]
 )
 ttri (Triangle
@@ -1383,13 +1382,12 @@ uid 189,0
 ro 90
 va (VaSet
 vasetType 1
-isHidden 1
 fg "0,32768,49152"
 bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "57383,35125,57733,35475"
+xt "56093,34925,56443,35275"
 )
 btri (Triangle
 uid 190,0
@@ -1402,14 +1400,15 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "57383,33325,57733,33675"
+xt "56093,31725,56443,32075"
 )
 entryActions (MLText
 uid 191,0
 va (VaSet
 font "arial,8,0"
 )
-xt "57733,35300,57733,35300"
+xt "56543,34600,75043,35600"
+st "bullet_y_reg <= ( '0' & bullet_y_reg(7 downto 1) ) ;"
 tm "Actions"
 )
 inActions (MLText
@@ -1417,7 +1416,7 @@ uid 192,0
 va (VaSet
 font "arial,8,0"
 )
-xt "57733,35700,65933,37700"
+xt "61693,34100,69893,36100"
 tm "Actions"
 )
 exitActions (MLText
@@ -1425,7 +1424,7 @@ uid 193,0
 va (VaSet
 font "arial,8,0"
 )
-xt "57833,33500,57833,33500"
+xt "61793,31900,61793,31900"
 tm "Actions"
 )
 )
@@ -1748,13 +1747,14 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "30711,33986,50211,37786"
+xt "32961,33986,47961,35986"
 )
 autoResize 1
 lineShape (Line
 uid 284,0
 va (VaSet
 vasetType 3
+isHidden 1
 )
 xt "31211,35886,49711,35886"
 pts [
@@ -1776,8 +1776,7 @@ uid 286,0
 va (VaSet
 font "arial,8,0"
 )
-xt "31211,36286,49711,37286"
-st "bullet_y_reg <= ( '0' & bullet_y_reg(7 downto 1) ) ;"
+xt "31211,35886,49711,36886"
 tm "Actions"
 )
 )
@@ -1924,18 +1923,19 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "55759,20228,67459,25028"
+xt "57169,22148,60769,24148"
 )
 autoResize 1
 lineShape (Line
 uid 304,0
 va (VaSet
 vasetType 3
+isHidden 1
 )
-xt "56259,22128,66959,22128"
+xt "53619,24048,64319,24048"
 pts [
-"56259,22128"
-"66959,22128"
+"53619,24048"
+"64319,24048"
 ]
 )
 condition (MLText
@@ -1943,7 +1943,7 @@ uid 305,0
 va (VaSet
 font "arial,8,0"
 )
-xt "60309,20728,62909,21728"
+xt "57669,22648,60269,23648"
 st "TRUE"
 tm "Condition"
 )
@@ -1952,9 +1952,7 @@ uid 306,0
 va (VaSet
 font "arial,8,0"
 )
-xt "56259,22528,66959,24528"
-st "bullet_x_reg <=  gun_x;
-bullet_y_reg <= \"00100000\";"
+xt "53619,24048,64319,26048"
 tm "Actions"
 )
 )
@@ -2103,7 +2101,7 @@ associable 1
 )
 windowSize "0,32,2561,1440"
 viewArea "-1100,-2100,92220,49100"
-cachedDiagramExtent "0,-1079,73000,47000"
+cachedDiagramExtent "0,-1079,75143,47000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,-2000"
 isTopLevel 1
@@ -2487,7 +2485,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 651,0
+lastUid 680,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *59 (LEmptyRow
