@@ -15,8 +15,8 @@ unitName "std_logic_arith"
 instances [
 (Instance
 name "U_0"
-duLibraryName "alien_game_lib"
-duName "c6_b1_victory_symbol"
+duLibraryName "ALIEN_GAME_LIB"
+duName "c6_b1_victory_symbol_for_test"
 elements [
 ]
 mwi 0
@@ -30,6 +30,15 @@ elements [
 ]
 mwi 1
 uid 258,0
+)
+(Instance
+name "add_one"
+duLibraryName "moduleware"
+duName "add"
+elements [
+]
+mwi 1
+uid 325,0
 )
 (Instance
 name "const_one"
@@ -75,15 +84,6 @@ elements [
 ]
 mwi 1
 uid 645,0
-)
-(Instance
-name "add_one"
-duLibraryName "moduleware"
-duName "add"
-elements [
-]
-mwi 1
-uid 325,0
 )
 ]
 libraryRefs [
@@ -138,19 +138,19 @@ value "P:\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_top"
 )
 (vvPair
 variable "date"
-value "24.02.2026"
+value " 2.03.2026"
 )
 (vvPair
 variable "day"
-value "ti"
+value "ma"
 )
 (vvPair
 variable "day_long"
-value "tiistai"
+value "maanantai"
 )
 (vvPair
 variable "dd"
-value "24"
+value "02"
 )
 (vvPair
 variable "entity_name"
@@ -178,7 +178,7 @@ value "ptjiya"
 )
 (vvPair
 variable "graphical_source_date"
-value "24.02.2026"
+value " 2.03.2026"
 )
 (vvPair
 variable "graphical_source_group"
@@ -190,7 +190,7 @@ value "HTC219-307-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "11:37:20"
+value "12:32:37"
 )
 (vvPair
 variable "group"
@@ -222,7 +222,7 @@ value "$HDS_PROJECT_DIR/alien_game_lib/svassistant"
 )
 (vvPair
 variable "mm"
-value "02"
+value "03"
 )
 (vvPair
 variable "module_name"
@@ -230,11 +230,11 @@ value "c6_b1_victory_top"
 )
 (vvPair
 variable "month"
-value "helmi"
+value "maalis"
 )
 (vvPair
 variable "month_long"
-value "helmikuu"
+value "maaliskuu"
 )
 (vvPair
 variable "p"
@@ -298,7 +298,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "11:37:20"
+value "12:32:37"
 )
 (vvPair
 variable "unit"
@@ -511,7 +511,7 @@ decl (Decl
 n "victory_color"
 t "std_logic_vector"
 b "(23 DOWNTO 0)"
-o 5
+o 3
 suid 3,0
 )
 declText (MLText
@@ -576,7 +576,7 @@ decl (Decl
 n "victory_x"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
-o 3
+o 4
 suid 4,0
 )
 declText (MLText
@@ -641,7 +641,7 @@ decl (Decl
 n "victory_y"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
-o 4
+o 5
 suid 5,0
 )
 declText (MLText
@@ -1158,8 +1158,8 @@ uid 212,0
 va (VaSet
 font "arial,8,1"
 )
-xt "43200,39000,49400,40000"
-st "alien_game_lib"
+xt "43200,39000,50700,40000"
+st "ALIEN_GAME_LIB"
 blo "43200,39800"
 tm "BdLibraryNameMgr"
 )
@@ -1168,8 +1168,8 @@ uid 213,0
 va (VaSet
 font "arial,8,1"
 )
-xt "43200,40000,52400,41000"
-st "c6_b1_victory_symbol"
+xt "43200,40000,55700,41000"
+st "c6_b1_victory_symbol_for_test"
 blo "43200,40800"
 tm "CptNameMgr"
 )
@@ -1273,7 +1273,7 @@ decl (Decl
 n "d"
 t "std_logic_vector"
 b "(1 DOWNTO 0)"
-o 12
+o 11
 suid 1,0
 )
 )
@@ -1330,7 +1330,7 @@ decl (Decl
 n "q"
 t "std_logic_vector"
 b "(1 DOWNTO 0)"
-o 10
+o 12
 suid 2,0
 )
 )
@@ -1615,7 +1615,7 @@ decl (Decl
 n "qb"
 t "std_logic_vector"
 b "(1 DOWNTO 0)"
-o 10
+o 12
 suid 5,0
 )
 )
@@ -2221,7 +2221,7 @@ decl (Decl
 n "dout"
 t "std_logic_vector"
 b "(1 DOWNTO 0)"
-o 12
+o 10
 suid 3,0
 )
 )
@@ -2286,7 +2286,7 @@ decl (Decl
 n "din0"
 t "std_logic_vector"
 b "(1 DOWNTO 0)"
-o 10
+o 12
 suid 2,0
 )
 )
@@ -2351,7 +2351,7 @@ decl (Decl
 n "din1"
 t "std_logic_vector"
 b "(1 DOWNTO 0)"
-o 8
+o 6
 suid 1,0
 )
 )
@@ -2506,7 +2506,7 @@ decl (Decl
 n "dout"
 t "std_logic_vector"
 b "(1 DOWNTO 0)"
-o 8
+o 6
 suid 1,0
 )
 )
@@ -2652,7 +2652,7 @@ decl (Decl
 n "dout1"
 t "std_logic_vector"
 b "(1 DOWNTO 0)"
-o 8
+o 6
 suid 9,0
 )
 declText (MLText
@@ -2728,7 +2728,7 @@ decl (Decl
 n "din1"
 t "std_logic_vector"
 b "(1 DOWNTO 0)"
-o 9
+o 7
 suid 1,0
 )
 )
@@ -2793,7 +2793,7 @@ decl (Decl
 n "din0"
 t "std_logic_vector"
 b "(1 DOWNTO 0)"
-o 10
+o 12
 suid 2,0
 )
 )
@@ -2859,7 +2859,7 @@ m 1
 decl (Decl
 n "fout"
 t "std_logic"
-o 11
+o 9
 suid 3,0
 )
 )
@@ -3193,7 +3193,7 @@ decl (Decl
 n "dout"
 t "std_logic_vector"
 b "(1 DOWNTO 0)"
-o 9
+o 7
 suid 1,0
 )
 )
@@ -3339,7 +3339,7 @@ decl (Decl
 n "dout2"
 t "std_logic_vector"
 b "(1 DOWNTO 0)"
-o 9
+o 7
 suid 10,0
 )
 declText (MLText
@@ -3415,7 +3415,7 @@ decl (Decl
 n "din0"
 t "std_logic_vector"
 b "(1 DOWNTO 0)"
-o 12
+o 10
 suid 1,0
 )
 )
@@ -3489,7 +3489,7 @@ decl (Decl
 n "dout"
 t "std_logic_vector"
 b "(1 DOWNTO 0)"
-o 12
+o 11
 suid 2,0
 )
 )
@@ -3554,7 +3554,7 @@ decl (Decl
 n "din1"
 t "std_logic_vector"
 b "(1 DOWNTO 0)"
-o 11
+o 8
 suid 3,0
 )
 )
@@ -3621,7 +3621,7 @@ lang 2
 decl (Decl
 n "sel"
 t "std_logic"
-o 11
+o 9
 suid 4,0
 )
 )
@@ -3948,7 +3948,7 @@ decl (Decl
 n "dout"
 t "std_logic_vector"
 b "(1 DOWNTO 0)"
-o 11
+o 8
 suid 1,0
 )
 )
@@ -4094,7 +4094,7 @@ decl (Decl
 n "dout3"
 t "std_logic_vector"
 b "(1 DOWNTO 0)"
-o 11
+o 8
 suid 14,0
 )
 declText (MLText
@@ -4114,7 +4114,7 @@ decl (Decl
 n "idx_now"
 t "std_logic_vector"
 b "(1 DOWNTO 0)"
-o 10
+o 12
 suid 22,0
 )
 declText (MLText
@@ -4133,7 +4133,7 @@ lang 2
 decl (Decl
 n "fout"
 t "std_logic"
-o 11
+o 9
 suid 24,0
 )
 declText (MLText
@@ -4153,7 +4153,7 @@ decl (Decl
 n "idx_next"
 t "std_logic_vector"
 b "(1 DOWNTO 0)"
-o 12
+o 11
 suid 25,0
 )
 declText (MLText
@@ -4173,7 +4173,7 @@ decl (Decl
 n "idx_add_one"
 t "std_logic_vector"
 b "(1 DOWNTO 0)"
-o 12
+o 10
 suid 27,0
 )
 declText (MLText
@@ -4297,8 +4297,8 @@ va (VaSet
 isHidden 1
 font "arial,8,0"
 )
-xt "58000,34000,66200,35000"
-st "victory_color : (23:0)"
+xt "58000,34000,63200,35000"
+st "victory_color"
 blo "58000,34800"
 tm "WireNameMgr"
 )
@@ -4338,8 +4338,8 @@ va (VaSet
 isHidden 1
 font "arial,8,0"
 )
-xt "58000,30000,64100,31000"
-st "victory_x : (7:0)"
+xt "58000,30000,61500,31000"
+st "victory_x"
 blo "58000,30800"
 tm "WireNameMgr"
 )
@@ -4379,8 +4379,8 @@ va (VaSet
 isHidden 1
 font "arial,8,0"
 )
-xt "58000,32000,64100,33000"
-st "victory_y : (7:0)"
+xt "58000,32000,61500,33000"
+st "victory_y"
 blo "58000,32800"
 tm "WireNameMgr"
 )
@@ -4903,7 +4903,7 @@ viewArea "-6200,-3800,94119,51240"
 cachedDiagramExtent "-1399,0,67200,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-6000,0"
-lastUid 843,0
+lastUid 866,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -6034,7 +6034,7 @@ decl (Decl
 n "victory_x"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
-o 3
+o 4
 suid 4,0
 )
 )
@@ -6048,7 +6048,7 @@ decl (Decl
 n "victory_y"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
-o 4
+o 5
 suid 5,0
 )
 )
@@ -6062,7 +6062,7 @@ decl (Decl
 n "victory_color"
 t "std_logic_vector"
 b "(23 DOWNTO 0)"
-o 5
+o 3
 suid 3,0
 )
 )
@@ -6076,7 +6076,7 @@ decl (Decl
 n "dout1"
 t "std_logic_vector"
 b "(1 DOWNTO 0)"
-o 8
+o 6
 suid 9,0
 )
 )
@@ -6090,7 +6090,7 @@ decl (Decl
 n "dout2"
 t "std_logic_vector"
 b "(1 DOWNTO 0)"
-o 9
+o 7
 suid 10,0
 )
 )
@@ -6104,7 +6104,7 @@ decl (Decl
 n "dout3"
 t "std_logic_vector"
 b "(1 DOWNTO 0)"
-o 11
+o 8
 suid 14,0
 )
 )
@@ -6118,7 +6118,7 @@ decl (Decl
 n "idx_now"
 t "std_logic_vector"
 b "(1 DOWNTO 0)"
-o 10
+o 12
 suid 22,0
 )
 )
@@ -6131,7 +6131,7 @@ m 4
 decl (Decl
 n "fout"
 t "std_logic"
-o 11
+o 9
 suid 24,0
 )
 )
@@ -6145,7 +6145,7 @@ decl (Decl
 n "idx_next"
 t "std_logic_vector"
 b "(1 DOWNTO 0)"
-o 12
+o 11
 suid 25,0
 )
 )
@@ -6159,7 +6159,7 @@ decl (Decl
 n "idx_add_one"
 t "std_logic_vector"
 b "(1 DOWNTO 0)"
-o 12
+o 10
 suid 27,0
 )
 )
