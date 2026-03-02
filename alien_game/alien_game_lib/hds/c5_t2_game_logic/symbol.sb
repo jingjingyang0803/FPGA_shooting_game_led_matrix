@@ -550,19 +550,19 @@ value "P:\\20\\alien_game\\alien_game_lib\\hds\\c5_t2_game_logic"
 )
 (vvPair
 variable "date"
-value "28.02.2026"
+value " 2.03.2026"
 )
 (vvPair
 variable "day"
-value "la"
+value "ma"
 )
 (vvPair
 variable "day_long"
-value "lauantai"
+value "maanantai"
 )
 (vvPair
 variable "dd"
-value "28"
+value "02"
 )
 (vvPair
 variable "entity_name"
@@ -590,7 +590,7 @@ value "ptjiya"
 )
 (vvPair
 variable "graphical_source_date"
-value "28.02.2026"
+value " 2.03.2026"
 )
 (vvPair
 variable "graphical_source_group"
@@ -602,7 +602,7 @@ value "HTC219-307-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "16:46:00"
+value "11:15:38"
 )
 (vvPair
 variable "group"
@@ -634,7 +634,7 @@ value "$HDS_PROJECT_DIR/alien_game_lib/svassistant"
 )
 (vvPair
 variable "mm"
-value "02"
+value "03"
 )
 (vvPair
 variable "module_name"
@@ -642,11 +642,11 @@ value "c5_t2_game_logic"
 )
 (vvPair
 variable "month"
-value "helmi"
+value "maalis"
 )
 (vvPair
 variable "month_long"
-value "helmikuu"
+value "maaliskuu"
 )
 (vvPair
 variable "p"
@@ -710,7 +710,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "16:46:00"
+value "11:15:38"
 )
 (vvPair
 variable "unit"
@@ -1245,7 +1245,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,48000,46100,49000"
+xt "36200,48000,46500,49000"
 st "
 by %user on %dd %month %year
 "
@@ -1861,6 +1861,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 1028,0
+lastUid 1281,0
 activeModelName "Symbol:CDM"
 )

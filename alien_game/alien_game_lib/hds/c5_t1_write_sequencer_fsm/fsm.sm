@@ -74,19 +74,19 @@ value "P:\\20\\alien_game\\alien_game_lib\\hds\\c5_t1_write_sequencer_fsm"
 )
 (vvPair
 variable "date"
-value "17.02.2026"
+value " 2.03.2026"
 )
 (vvPair
 variable "day"
-value "ti"
+value "ma"
 )
 (vvPair
 variable "day_long"
-value "tiistai"
+value "maanantai"
 )
 (vvPair
 variable "dd"
-value "17"
+value "02"
 )
 (vvPair
 variable "entity_name"
@@ -114,7 +114,7 @@ value "ptjiya"
 )
 (vvPair
 variable "graphical_source_date"
-value "17.02.2026"
+value " 2.03.2026"
 )
 (vvPair
 variable "graphical_source_group"
@@ -122,11 +122,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "HTC219-308-SPC"
+value "HTC219-307-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:35:13"
+value "10:56:21"
 )
 (vvPair
 variable "group"
@@ -134,7 +134,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "HTC219-308-SPC"
+value "HTC219-307-SPC"
 )
 (vvPair
 variable "language"
@@ -158,7 +158,7 @@ value "$HDS_PROJECT_DIR/alien_game_lib/svassistant"
 )
 (vvPair
 variable "mm"
-value "02"
+value "03"
 )
 (vvPair
 variable "module_name"
@@ -166,11 +166,11 @@ value "c5_t1_write_sequencer_fsm"
 )
 (vvPair
 variable "month"
-value "helmi"
+value "maalis"
 )
 (vvPair
 variable "month_long"
-value "helmikuu"
+value "maaliskuu"
 )
 (vvPair
 variable "p"
@@ -234,7 +234,7 @@ value "fsm"
 )
 (vvPair
 variable "time"
-value "13:35:13"
+value "10:56:21"
 )
 (vvPair
 variable "unit"
@@ -626,7 +626,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,46000,46100,47000"
+xt "36200,46000,46500,47000"
 st "
 by %user on %dd %month %year
 "
@@ -994,7 +994,7 @@ lineColor "39936,56832,65280"
 lineWidth -1
 fillStyle 1
 )
-xt "56280,11126,73380,32326"
+xt "57060,7046,75160,32246"
 )
 autoResize 1
 tline (Line
@@ -1005,10 +1005,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "56380,11026,73280,11026"
+xt "57160,6946,75060,6946"
 pts [
-"56380,11026"
-"73280,11026"
+"57160,6946"
+"75060,6946"
 ]
 )
 bline (Line
@@ -1019,10 +1019,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "56380,25376,73280,25376"
+xt "57160,24296,75060,24296"
 pts [
-"56380,25376"
-"73280,25376"
+"57160,24296"
+"75060,24296"
 ]
 )
 ttri (Triangle
@@ -1036,7 +1036,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "55930,10651,56280,11001"
+xt "56710,6571,57060,6921"
 )
 btri (Triangle
 uid 241,0
@@ -1049,14 +1049,14 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "55930,18351,56280,18701"
+xt "56710,16271,57060,16621"
 )
 entryActions (MLText
 uid 242,0
 va (VaSet
 font "arial,8,0"
 )
-xt "56380,10826,56380,10826"
+xt "57160,6746,57160,6746"
 tm "Actions"
 )
 inActions (MLText
@@ -1064,27 +1064,31 @@ uid 243,0
 va (VaSet
 font "arial,8,0"
 )
-xt "56380,11226,73280,32226"
+xt "57160,7146,75060,32146"
 st "write <= '1';
 
-if    step_q = 0 then
-  module_select <= \"00\"; -- alien
+if alien_defeated = '1' then
+    module_select <= \"11\";          -- victory
+else
+    if    step_q = 0 then
+     module_select <= \"00\"; -- alien
 
-elsif step_q = 1 then
-  module_select <= \"01\"; gun_px_idx <= \"00\";
+    elsif step_q = 1 then
+       module_select <= \"01\"; gun_px_idx <= \"00\";
 
-elsif step_q = 2 then
-  module_select <= \"01\"; gun_px_idx <= \"01\";
+    elsif step_q = 2 then
+       module_select <= \"01\"; gun_px_idx <= \"01\";
 
-elsif step_q = 3 then
-  module_select <= \"01\"; gun_px_idx <= \"10\";
+    elsif step_q = 3 then
+      module_select <= \"01\"; gun_px_idx <= \"10\";
 
-elsif step_q = 4 then
-  module_select <= \"01\"; gun_px_idx <= \"11\";
+    elsif step_q = 4 then
+       module_select <= \"01\"; gun_px_idx <= \"11\";
 
-elsif step_q = 5 then
-  module_select <= \"10\"; -- bullet
+    elsif step_q = 5 then
+       module_select <= \"10\"; -- bullet
 
+    end if;
 end if;"
 tm "Actions"
 )
@@ -1093,7 +1097,7 @@ uid 244,0
 va (VaSet
 font "arial,8,0"
 )
-xt "60830,18526,60830,18526"
+xt "62110,16446,62110,16446"
 tm "Actions"
 )
 )
@@ -1122,7 +1126,7 @@ fg "0,65535,65535"
 lineColor "0,32768,49152"
 lineWidth 2
 )
-xt "44567,25490,56177,37100"
+xt "42127,27130,53737,38740"
 radius 5805
 )
 name (Text
@@ -1130,10 +1134,10 @@ uid 247,0
 va (VaSet
 font "arial,10,1"
 )
-xt "45172,30695,55572,31895"
+xt "42732,32335,53132,33535"
 st "DO_FRAME_DONE"
 ju 0
-blo "50372,31695"
+blo "47932,33335"
 tm "ONodeName"
 )
 wait (TextAssociate
@@ -1146,9 +1150,9 @@ isHidden 1
 fg "0,0,32768"
 font "arial,10,1"
 )
-xt "50472,31595,54072,32795"
+xt "48032,33235,51632,34435"
 st "wait 2"
-blo "50472,32595"
+blo "48032,34235"
 tm "SmWaitText"
 )
 )
@@ -1158,8 +1162,8 @@ va (VaSet
 isHidden 1
 font "arial,8,1"
 )
-xt "50372,32295,50372,32295"
-blo "50372,32295"
+xt "47932,33935,47932,33935"
+blo "47932,33935"
 tm "SmEncodingMgr"
 )
 actionBlk (SmStateActionsBlock
@@ -1176,7 +1180,7 @@ lineColor "39936,56832,65280"
 lineWidth -1
 fillStyle 1
 )
-xt "46549,32294,53949,33494"
+xt "44109,33934,51509,35134"
 )
 autoResize 1
 tline (Line
@@ -1187,10 +1191,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "46649,32194,53849,32194"
+xt "44209,33834,51409,33834"
 pts [
-"46649,32194"
-"53849,32194"
+"44209,33834"
+"51409,33834"
 ]
 )
 bline (Line
@@ -1201,10 +1205,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "46649,31544,53849,31544"
+xt "44209,33184,51409,33184"
 pts [
-"46649,31544"
-"53849,31544"
+"44209,33184"
+"51409,33184"
 ]
 )
 ttri (Triangle
@@ -1218,7 +1222,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "46199,31819,46549,32169"
+xt "43759,33459,44109,33809"
 )
 btri (Triangle
 uid 258,0
@@ -1231,14 +1235,14 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "46199,29519,46549,29869"
+xt "43759,31159,44109,31509"
 )
 entryActions (MLText
 uid 259,0
 va (VaSet
 font "arial,8,0"
 )
-xt "46649,31994,46649,31994"
+xt "44209,33634,44209,33634"
 tm "Actions"
 )
 inActions (MLText
@@ -1246,7 +1250,7 @@ uid 260,0
 va (VaSet
 font "arial,8,0"
 )
-xt "46649,32394,53849,33394"
+xt "44209,34034,51409,35034"
 st "frame_done <= '1';"
 tm "Actions"
 )
@@ -1255,7 +1259,7 @@ uid 261,0
 va (VaSet
 font "arial,8,0"
 )
-xt "46249,29694,46249,29694"
+xt "43809,31334,43809,31334"
 tm "Actions"
 )
 )
@@ -1268,7 +1272,7 @@ va (VaSet
 isHidden 1
 font "arial,8,1"
 )
-xt "48772,32295,53772,33295"
+xt "46332,33935,51332,34935"
 st "CASE: expr"
 tm "SmCaseExpr"
 )
@@ -1976,10 +1980,10 @@ uid 367,0
 va (VaSet
 vasetType 3
 )
-xt "50625,15216,54494,27208"
+xt "50625,15216,52054,28848"
 pts [
 "50625,15216"
-"54494,27208"
+"52054,28848"
 ]
 arrow 1
 )
@@ -1997,7 +2001,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "50457,20512,55757,22512"
+xt "49237,21332,54537,23332"
 )
 autoResize 1
 lineShape (Line
@@ -2006,10 +2010,10 @@ va (VaSet
 vasetType 3
 isHidden 1
 )
-xt "52657,22412,52657,22412"
+xt "51437,23232,51437,23232"
 pts [
-"52657,22412"
-"52657,22412"
+"51437,23232"
+"51437,23232"
 ]
 )
 condition (MLText
@@ -2017,7 +2021,7 @@ uid 371,0
 va (VaSet
 font "arial,8,0"
 )
-xt "50957,21012,55257,22012"
+xt "49737,21832,54037,22832"
 st "step_q = 5"
 tm "Condition"
 )
@@ -2026,7 +2030,7 @@ uid 372,0
 va (VaSet
 font "arial,8,0"
 )
-xt "53107,22412,53107,22412"
+xt "51887,23232,51887,23232"
 tm "Actions"
 )
 )
@@ -2041,7 +2045,7 @@ isHidden 1
 fg "65535,65535,65535"
 bg "0,0,0"
 )
-xt "50230,15634,51792,17196"
+xt "49986,15797,51548,17359"
 radius 781
 )
 pr (Text
@@ -2050,10 +2054,10 @@ va (VaSet
 isHidden 1
 font "arial,8,0"
 )
-xt "50611,15915,51411,16915"
+xt "50367,16078,51167,17078"
 st "1"
 ju 0
-blo "51011,16715"
+blo "50767,16878"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -2066,9 +2070,9 @@ uid 377,0
 va (VaSet
 vasetType 3
 )
-xt "32844,32742,44750,37345"
+xt "32844,34382,42310,37345"
 pts [
-"44750,32742"
+"42310,34382"
 "32844,37345"
 ]
 arrow 1
@@ -2087,7 +2091,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "36177,33864,39777,35864"
+xt "34957,34684,38557,36684"
 )
 autoResize 1
 lineShape (Line
@@ -2096,10 +2100,10 @@ va (VaSet
 vasetType 3
 isHidden 1
 )
-xt "38377,35764,38377,35764"
+xt "37157,36584,37157,36584"
 pts [
-"38377,35764"
-"38377,35764"
+"37157,36584"
+"37157,36584"
 ]
 )
 condition (MLText
@@ -2107,7 +2111,7 @@ uid 381,0
 va (VaSet
 font "arial,8,0"
 )
-xt "36677,34364,39277,35364"
+xt "35457,35184,38057,36184"
 st "TRUE"
 tm "Condition"
 )
@@ -2116,7 +2120,7 @@ uid 382,0
 va (VaSet
 font "arial,8,0"
 )
-xt "37977,35764,37977,35764"
+xt "36757,36584,36757,36584"
 tm "Actions"
 )
 )
@@ -2130,7 +2134,7 @@ vasetType 1
 fg "65535,65535,65535"
 bg "0,0,0"
 )
-xt "42778,32421,44340,33983"
+xt "40583,33897,42145,35459"
 radius 781
 )
 pr (Text
@@ -2138,10 +2142,10 @@ uid 385,0
 va (VaSet
 font "arial,8,0"
 )
-xt "43159,32702,43959,33702"
+xt "40964,34178,41764,35178"
 st "1"
 ju 0
-blo "43559,33502"
+blo "41364,34978"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -2335,9 +2339,9 @@ uid 657,0
 va (VaSet
 vasetType 3
 )
-xt "45490,14320,48337,28154"
+xt "43050,14320,48337,29794"
 pts [
-"45490,28154"
+"43050,29794"
 "48337,14320"
 ]
 arrow 1
@@ -2356,7 +2360,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "42974,20577,48274,22577"
+xt "41754,21397,47054,23397"
 )
 autoResize 1
 lineShape (Line
@@ -2365,10 +2369,10 @@ va (VaSet
 vasetType 3
 isHidden 1
 )
-xt "45174,22477,45174,22477"
+xt "43954,23297,43954,23297"
 pts [
-"45174,22477"
-"45174,22477"
+"43954,23297"
+"43954,23297"
 ]
 )
 condition (MLText
@@ -2376,7 +2380,7 @@ uid 661,0
 va (VaSet
 font "arial,8,0"
 )
-xt "43474,21077,47774,22077"
+xt "42254,21897,46554,22897"
 st "step_q < 5"
 tm "Condition"
 )
@@ -2385,7 +2389,7 @@ uid 662,0
 va (VaSet
 font "arial,8,0"
 )
-xt "45624,22477,45624,22477"
+xt "44404,23297,44404,23297"
 tm "Actions"
 )
 )
@@ -2399,7 +2403,7 @@ vasetType 1
 fg "65535,65535,65535"
 bg "0,0,0"
 )
-xt "44993,25989,46555,27551"
+xt "42797,27465,44359,29027"
 radius 781
 )
 pr (Text
@@ -2407,10 +2411,10 @@ uid 665,0
 va (VaSet
 font "arial,8,0"
 )
-xt "45374,26270,46174,27270"
+xt "43178,27746,43978,28746"
 st "2"
 ju 0
-blo "45774,27070"
+blo "43578,28546"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -3114,7 +3118,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 762,0
+lastUid 793,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *64 (LEmptyRow
