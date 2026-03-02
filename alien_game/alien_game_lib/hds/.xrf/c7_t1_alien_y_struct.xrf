@@ -1,0 +1,60 @@
+DESIGN c7_t1_alien_y
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN c7_t1_alien_y
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN c7_t1_alien_y
+VIEW symbol.sb
+GRAPHIC 124,0 14 0 
+DESIGN c7_t1_alien_y
+VIEW symbol.sb
+GRAPHIC 119,0 15 0 
+DESIGN c7_t1_alien_y
+VIEW symbol.sb
+GRAPHIC 1,0 18 0 
+DESIGN c7_t1_alien_y
+VIEW symbol.sb
+GRAPHIC 1,0 19 0 
+DESIGN c7_t1_alien_y
+VIEW struct.bd
+NO_GRAPHIC 22
+DESIGN c7_t1_alien_y
+VIEW struct.bd
+GRAPHIC 41,0 31 0 
+DESIGN c7_t1_alien_y
+VIEW struct.bd
+NO_GRAPHIC 34
+DESIGN c7_t1_alien_y
+VIEW struct.bd
+GRAPHIC 0,0 36 2 
+DESIGN c7_t1_alien_y
+VIEW struct.bd
+GRAPHIC 291,0 41 0 
+DESIGN c7_t1_alien_y
+VIEW struct.bd
+GRAPHIC 295,0 42 0 
+DESIGN c7_t1_alien_y
+VIEW struct.bd
+NO_GRAPHIC 43
+DESIGN c7_t1_alien_y
+VIEW struct.bd
+NO_GRAPHIC 44
+DESIGN c7_t1_alien_y
+VIEW struct.bd
+NO_GRAPHIC 45
+DESIGN c7_t1_alien_y
+VIEW struct.bd
+GRAPHIC 121,0 47 0 
+DESIGN c7_t1_alien_y
+VIEW struct.bd
+GRAPHIC 140,0 50 0 
+DESIGN c7_t1_alien_y
+VIEW struct.bd
+GRAPHIC 204,0 53 0 
+DESIGN c7_t1_alien_y
+VIEW struct.bd
+NO_GRAPHIC 63
+DESIGN c7_t1_alien_y
+VIEW struct.bd
+NO_GRAPHIC 66
