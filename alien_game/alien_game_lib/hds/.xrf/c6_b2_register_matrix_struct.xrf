@@ -1,0 +1,422 @@
+DESIGN c6_b2_register_matrix
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN c6_b2_register_matrix
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN c6_b2_register_matrix
+VIEW symbol.sb
+GRAPHIC 168,0 14 0 
+DESIGN c6_b2_register_matrix
+VIEW symbol.sb
+GRAPHIC 128,0 15 0 
+DESIGN c6_b2_register_matrix
+VIEW symbol.sb
+GRAPHIC 158,0 16 0 
+DESIGN c6_b2_register_matrix
+VIEW symbol.sb
+GRAPHIC 133,0 17 0 
+DESIGN c6_b2_register_matrix
+VIEW symbol.sb
+GRAPHIC 325,0 18 0 
+DESIGN c6_b2_register_matrix
+VIEW symbol.sb
+GRAPHIC 138,0 19 0 
+DESIGN c6_b2_register_matrix
+VIEW symbol.sb
+GRAPHIC 143,0 20 0 
+DESIGN c6_b2_register_matrix
+VIEW symbol.sb
+GRAPHIC 148,0 21 0 
+DESIGN c6_b2_register_matrix
+VIEW symbol.sb
+GRAPHIC 153,0 22 0 
+DESIGN c6_b2_register_matrix
+VIEW symbol.sb
+GRAPHIC 226,0 23 0 
+DESIGN c6_b2_register_matrix
+VIEW symbol.sb
+GRAPHIC 1,0 26 0 
+DESIGN c6_b2_register_matrix
+VIEW symbol.sb
+GRAPHIC 1,0 27 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+NO_GRAPHIC 30
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 201,0 39 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+NO_GRAPHIC 42
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 0,0 45 2 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 1687,0 50 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3439,0 51 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3445,0 52 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3451,0 53 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 1683,0 54 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 1685,0 55 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 1679,0 56 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 1681,0 57 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 1697,0 58 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 1693,0 59 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 1719,0 60 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 1701,0 61 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 1691,0 62 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 1703,0 63 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 1689,0 64 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 1695,0 65 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 1707,0 66 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 1721,0 67 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 1717,0 68 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 1713,0 69 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 1709,0 70 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 1711,0 71 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 1715,0 72 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 1699,0 73 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+NO_GRAPHIC 74
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+NO_GRAPHIC 75
+LIBRARY alien_game_lib
+DESIGN c6_b2_register_row
+VIEW struct
+GRAPHIC 317,0 77 0 
+DESIGN c6_b2_register_row
+VIEW symbol.sb
+GRAPHIC 154,0 79 0 
+DESIGN c6_b2_register_row
+VIEW symbol.sb
+GRAPHIC 124,0 80 0 
+DESIGN c6_b2_register_row
+VIEW symbol.sb
+GRAPHIC 144,0 81 0 
+DESIGN c6_b2_register_row
+VIEW symbol.sb
+GRAPHIC 129,0 82 0 
+DESIGN c6_b2_register_row
+VIEW symbol.sb
+GRAPHIC 149,0 83 0 
+DESIGN c6_b2_register_row
+VIEW symbol.sb
+GRAPHIC 139,0 84 0 
+DESIGN c6_b2_register_row
+VIEW symbol.sb
+GRAPHIC 134,0 85 0 
+DESIGN c6_b2_register_row
+VIEW symbol.sb
+GRAPHIC 159,0 86 0 
+LIBRARY alien_game_lib
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+NO_GRAPHIC 89
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 317,0 92 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+NO_GRAPHIC 95
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 564,0 97 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 601,0 100 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 638,0 103 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 675,0 106 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 885,0 109 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 922,0 112 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 959,0 115 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 848,0 118 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 2471,0 121 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 2204,0 131 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+NO_GRAPHIC 149
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 317,0 151 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 1605,0 153 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 1635,0 154 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 1623,0 155 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 1617,0 156 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 1303,0 157 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 2727,0 158 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 2721,0 159 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 2715,0 160 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 2775,0 162 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 2841,0 164 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 2859,0 165 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 2853,0 166 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 2847,0 167 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3441,0 168 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 2829,0 169 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 2823,0 170 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3463,0 171 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 2865,0 173 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 2931,0 175 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 2949,0 176 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 2943,0 177 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 2937,0 178 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3447,0 179 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 2919,0 180 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 2913,0 181 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3469,0 182 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 2955,0 184 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3021,0 186 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3039,0 187 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3033,0 188 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3027,0 189 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3453,0 190 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3009,0 191 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3003,0 192 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3475,0 193 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3045,0 195 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3375,0 197 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3393,0 198 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3387,0 199 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3381,0 200 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 1585,0 201 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3321,0 202 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3315,0 203 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 1447,0 204 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3087,0 206 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3339,0 208 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3369,0 209 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3363,0 210 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3345,0 211 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 1343,0 212 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3357,0 213 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3327,0 214 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3421,0 215 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3129,0 217 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3297,0 219 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3303,0 220 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3285,0 221 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3279,0 222 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 1545,0 223 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3273,0 224 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3267,0 225 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3427,0 226 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3171,0 228 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3243,0 230 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3213,0 231 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3261,0 232 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3249,0 233 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 1595,0 234 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3231,0 235 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3225,0 236 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+GRAPHIC 3433,0 237 0 
+DESIGN c6_b2_register_matrix
+VIEW struct.bd
+NO_GRAPHIC 240
