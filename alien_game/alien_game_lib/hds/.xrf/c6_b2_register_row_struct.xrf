@@ -1,0 +1,362 @@
+DESIGN c6_b2_register_row
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN c6_b2_register_row
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN c6_b2_register_row
+VIEW symbol.sb
+GRAPHIC 154,0 14 0 
+DESIGN c6_b2_register_row
+VIEW symbol.sb
+GRAPHIC 124,0 15 0 
+DESIGN c6_b2_register_row
+VIEW symbol.sb
+GRAPHIC 144,0 16 0 
+DESIGN c6_b2_register_row
+VIEW symbol.sb
+GRAPHIC 129,0 17 0 
+DESIGN c6_b2_register_row
+VIEW symbol.sb
+GRAPHIC 149,0 18 0 
+DESIGN c6_b2_register_row
+VIEW symbol.sb
+GRAPHIC 139,0 19 0 
+DESIGN c6_b2_register_row
+VIEW symbol.sb
+GRAPHIC 134,0 20 0 
+DESIGN c6_b2_register_row
+VIEW symbol.sb
+GRAPHIC 159,0 21 0 
+DESIGN c6_b2_register_row
+VIEW symbol.sb
+GRAPHIC 1,0 24 0 
+DESIGN c6_b2_register_row
+VIEW symbol.sb
+GRAPHIC 1,0 25 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+NO_GRAPHIC 28
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 169,0 37 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+NO_GRAPHIC 40
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 0,0 43 2 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 3471,0 48 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 3413,0 49 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 3419,0 50 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 3425,0 51 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 3431,0 52 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 3437,0 53 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 3443,0 54 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 3449,0 55 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 1114,0 56 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 1376,0 57 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 1378,0 58 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 1380,0 59 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 1382,0 60 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 1384,0 61 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 1386,0 62 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 1388,0 63 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 1210,0 64 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 1290,0 65 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 1292,0 66 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 1294,0 67 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 1296,0 68 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 1298,0 69 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 1300,0 70 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 1302,0 71 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+NO_GRAPHIC 72
+DESIGN c6_b2_register_row
+VIEW struct.bd
+NO_GRAPHIC 73
+LIBRARY alien_game_lib
+DESIGN c6_b2_register_single
+VIEW struct
+GRAPHIC 261,0 75 0 
+DESIGN c6_b2_register_single
+VIEW symbol.sb
+GRAPHIC 135,0 77 0 
+DESIGN c6_b2_register_single
+VIEW symbol.sb
+GRAPHIC 120,0 78 0 
+DESIGN c6_b2_register_single
+VIEW symbol.sb
+GRAPHIC 140,0 79 0 
+DESIGN c6_b2_register_single
+VIEW symbol.sb
+GRAPHIC 125,0 80 0 
+DESIGN c6_b2_register_single
+VIEW symbol.sb
+GRAPHIC 130,0 81 0 
+DESIGN c6_b2_register_single
+VIEW symbol.sb
+GRAPHIC 145,0 82 0 
+LIBRARY alien_game_lib
+DESIGN c6_b2_register_row
+VIEW struct.bd
+NO_GRAPHIC 85
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 261,0 88 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+NO_GRAPHIC 91
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 1185,0 93 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 3064,0 96 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 3113,0 99 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 3162,0 102 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 3211,0 105 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 3260,0 108 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 3309,0 111 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 3358,0 114 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 662,0 117 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 377,0 127 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+NO_GRAPHIC 145
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 261,0 147 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 1094,0 149 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 1082,0 150 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 1100,0 151 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 1088,0 152 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 3473,0 153 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 1108,0 154 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 2808,0 156 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 2860,0 158 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 2854,0 159 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 2842,0 160 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 2848,0 161 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 3415,0 162 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 2866,0 163 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 3000,0 165 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 3052,0 167 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 3046,0 168 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 3034,0 169 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 3040,0 170 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 3421,0 171 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 3058,0 172 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 1986,0 174 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 2072,0 176 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 2066,0 177 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 2054,0 178 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 2060,0 179 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 3427,0 180 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 2078,0 181 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 2872,0 183 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 2924,0 185 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 2918,0 186 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 2906,0 187 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 2912,0 188 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 3433,0 189 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 2930,0 190 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 2084,0 192 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 2170,0 194 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 2164,0 195 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 2152,0 196 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 2158,0 197 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 3439,0 198 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 2176,0 199 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 2936,0 201 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 2988,0 203 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 2982,0 204 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 2970,0 205 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 2976,0 206 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 3445,0 207 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 2994,0 208 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 2182,0 210 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 2268,0 212 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 2262,0 213 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 2250,0 214 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 2256,0 215 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 3451,0 216 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+GRAPHIC 2274,0 217 0 
+DESIGN c6_b2_register_row
+VIEW struct.bd
+NO_GRAPHIC 220
