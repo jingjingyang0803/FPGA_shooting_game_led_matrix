@@ -114,7 +114,7 @@ t "std_logic_vector"
 b "(23 DOWNTO 0)"
 o 2
 suid 4,0
-i "X\"FF0000\""
+i "X\"0000FF\""
 )
 )
 uid 115,0
@@ -514,7 +514,7 @@ value "HTC219-307-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:30:14"
+value "17:39:16"
 )
 (vvPair
 variable "group"
@@ -622,7 +622,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "15:30:14"
+value "17:39:16"
 )
 (vvPair
 variable "unit"
@@ -869,7 +869,7 @@ va (VaSet
 font "arial,8,0"
 )
 xt "27900,12500,32000,13500"
-st "X\"FF0000\""
+st "X\"0000FF\""
 ju 2
 blo "32000,13300"
 tm "InitValueDelayMgr"
@@ -881,7 +881,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,2800,80000,3600"
-st "victory_color : OUT    std_logic_vector (23 DOWNTO 0) := X\"FF0000\" ;
+st "victory_color : OUT    std_logic_vector (23 DOWNTO 0) := X\"0000FF\" ;
 "
 )
 thePort (LogicalPort
@@ -893,7 +893,7 @@ t "std_logic_vector"
 b "(23 DOWNTO 0)"
 o 2
 suid 4,0
-i "X\"FF0000\""
+i "X\"0000FF\""
 )
 )
 )
@@ -979,7 +979,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,48000,46600,49000"
+xt "36200,48000,46500,49000"
 st "
 by %user on %dd %month %year
 "
@@ -1595,6 +1595,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 806,0
+lastUid 829,0
 activeModelName "Symbol:CDM"
 )

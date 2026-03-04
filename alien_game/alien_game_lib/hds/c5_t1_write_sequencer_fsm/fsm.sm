@@ -74,19 +74,19 @@ value "P:\\20\\alien_game\\alien_game_lib\\hds\\c5_t1_write_sequencer_fsm"
 )
 (vvPair
 variable "date"
-value " 2.03.2026"
+value " 4.03.2026"
 )
 (vvPair
 variable "day"
-value "ma"
+value "ke"
 )
 (vvPair
 variable "day_long"
-value "maanantai"
+value "keskiviikko"
 )
 (vvPair
 variable "dd"
-value "02"
+value "04"
 )
 (vvPair
 variable "entity_name"
@@ -114,7 +114,7 @@ value "ptjiya"
 )
 (vvPair
 variable "graphical_source_date"
-value " 2.03.2026"
+value " 4.03.2026"
 )
 (vvPair
 variable "graphical_source_group"
@@ -126,7 +126,7 @@ value "HTC219-307-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "10:56:21"
+value "18:09:33"
 )
 (vvPair
 variable "group"
@@ -234,7 +234,7 @@ value "fsm"
 )
 (vvPair
 variable "time"
-value "10:56:21"
+value "18:09:33"
 )
 (vvPair
 variable "unit"
@@ -2715,7 +2715,7 @@ tm "SmCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,41,2561,1440"
-viewArea "-1700,-9200,91620,41640"
+viewArea "-1700,-9200,91620,40520"
 cachedDiagramExtent "441,-1719,92779,47000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,-2000"
@@ -3118,7 +3118,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 793,0
+lastUid 822,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *64 (LEmptyRow
@@ -3199,7 +3199,6 @@ o 4
 )
 )
 uid 406,0
-scheme 1
 )
 *85 (LeafLogPort
 port (LogicalPort
@@ -3211,7 +3210,6 @@ o 1
 )
 )
 uid 408,0
-scheme 0
 )
 *86 (LeafLogPort
 port (LogicalPort
@@ -3224,7 +3222,6 @@ o 3
 )
 uid 412,0
 cat 8
-scheme 0
 expr "rst_n = '0'"
 )
 *87 (LeafLogPort
@@ -3400,37 +3397,37 @@ uid 413,0
 )
 *103 (MRCItem
 litem &87
-pos 5
+pos 4
 dimension 20
 uid 432,0
 )
 *104 (MRCItem
 litem &88
-pos 6
+pos 5
 dimension 20
 uid 434,0
 )
 *105 (MRCItem
 litem &89
-pos 7
+pos 6
 dimension 20
 uid 436,0
 )
 *106 (MRCItem
 litem &90
-pos 8
+pos 7
 dimension 20
 uid 438,0
 )
 *107 (MRCItem
 litem &91
-pos 9
+pos 8
 dimension 20
 uid 440,0
 )
 *108 (MRCItem
 litem &92
-pos 4
+pos 9
 dimension 20
 uid 453,0
 )
