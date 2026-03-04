@@ -23,23 +23,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hdl"
+value "P:\\20\\alien_game\\alien_game_lib\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds"
+value "P:\\20\\alien_game\\alien_game_lib\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_heart\\tbl.tt.info"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_heart\\tbl.tt.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_heart\\tbl.tt.user"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_heart\\tbl.tt.user"
 )
 (vvPair
 variable "SourceDir"
-value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds"
+value "P:\\20\\alien_game\\alien_game_lib\\hds"
 )
 (vvPair
 variable "appl"
@@ -55,11 +55,11 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_heart"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_heart"
 )
 (vvPair
 variable "d_logical"
-value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_heart"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_heart"
 )
 (vvPair
 variable "date"
@@ -99,7 +99,7 @@ value "tbl"
 )
 (vvPair
 variable "graphical_source_author"
-value "btjogr"
+value "ptjiya"
 )
 (vvPair
 variable "graphical_source_date"
@@ -111,11 +111,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "HTC219-308-SPC"
+value "HTC219-307-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:30:10"
+value "15:31:58"
 )
 (vvPair
 variable "group"
@@ -123,7 +123,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "HTC219-308-SPC"
+value "HTC219-307-SPC"
 )
 (vvPair
 variable "language"
@@ -163,11 +163,11 @@ value "maaliskuu"
 )
 (vvPair
 variable "p"
-value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_heart\\tbl.tt"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_heart\\tbl.tt"
 )
 (vvPair
 variable "p_logical"
-value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_heart\\tbl.tt"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_heart\\tbl.tt"
 )
 (vvPair
 variable "package_name"
@@ -223,7 +223,7 @@ value "tbl"
 )
 (vvPair
 variable "time"
-value "14:30:10"
+value "15:31:58"
 )
 (vvPair
 variable "unit"
@@ -231,7 +231,7 @@ value "c6_b1_victory_heart"
 )
 (vvPair
 variable "user"
-value "btjogr"
+value "ptjiya"
 )
 (vvPair
 variable "version"
@@ -2608,7 +2608,7 @@ uid 1759,0
 va (VaSet
 )
 xt "0,0,2300,1000"
-st "X\"20\""
+st "X\"22\""
 blo "0,800"
 tm "TableTextMgr"
 )
@@ -2627,7 +2627,7 @@ uid 1761,0
 va (VaSet
 )
 xt "0,0,2300,1000"
-st "X\"21\""
+st "X\"23\""
 blo "0,800"
 tm "TableTextMgr"
 )
@@ -2931,7 +2931,7 @@ uid 1793,0
 va (VaSet
 )
 xt "0,0,2300,1000"
-st "X\"22\""
+st "X\"24\""
 blo "0,800"
 tm "TableTextMgr"
 )
@@ -2950,7 +2950,7 @@ uid 1795,0
 va (VaSet
 )
 xt "0,0,2300,1000"
-st "X\"23\""
+st "X\"25\""
 blo "0,800"
 tm "TableTextMgr"
 )
@@ -2969,7 +2969,7 @@ uid 1797,0
 va (VaSet
 )
 xt "0,0,2300,1000"
-st "X\"24\""
+st "X\"26\""
 blo "0,800"
 tm "TableTextMgr"
 )
@@ -3452,8 +3452,8 @@ tm "TtCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "1000,41,2296,1440"
-viewArea "0,0,1085,1260"
+windowSize "1000,41,2298,1440"
+viewArea "0,0,1087,1288"
 cachedDiagramExtent "0,0,0,0"
 pageBreakOrigin "0,0"
 defaultInputHdrTextMatrixItem (TextMatrixItem
@@ -3738,7 +3738,7 @@ n "victory_color"
 t "std_logic_vector"
 b "(23 DOWNTO 0)"
 o 2
-i "X\"FF000\""
+i "X\"FF0000\""
 )
 )
 uid 132,0
@@ -4043,6 +4043,6 @@ vaOverrides [
 uid 79,0
 type 1
 )
-activeModelName "TruthTableDiag:CDM"
-lastUid 1831,0
+activeModelName "TruthTableDiag"
+lastUid 1877,0
 )

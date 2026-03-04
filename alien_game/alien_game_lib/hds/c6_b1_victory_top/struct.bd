@@ -98,23 +98,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hdl"
+value "P:\\20\\alien_game\\alien_game_lib\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds"
+value "P:\\20\\alien_game\\alien_game_lib\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_top\\struct.bd.info"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_top\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_top\\struct.bd.user"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_top\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds"
+value "P:\\20\\alien_game\\alien_game_lib\\hds"
 )
 (vvPair
 variable "appl"
@@ -130,11 +130,11 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_top"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_top"
 )
 (vvPair
 variable "d_logical"
-value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_top"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_top"
 )
 (vvPair
 variable "date"
@@ -174,7 +174,7 @@ value "struct"
 )
 (vvPair
 variable "graphical_source_author"
-value "btjogr"
+value "ptjiya"
 )
 (vvPair
 variable "graphical_source_date"
@@ -186,11 +186,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "HTC219-308-SPC"
+value "HTC219-307-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:28:45"
+value "15:28:16"
 )
 (vvPair
 variable "group"
@@ -198,7 +198,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "HTC219-308-SPC"
+value "HTC219-307-SPC"
 )
 (vvPair
 variable "language"
@@ -238,11 +238,11 @@ value "maaliskuu"
 )
 (vvPair
 variable "p"
-value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_top\\struct.bd"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_top\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_top\\struct.bd"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_top\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -298,7 +298,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "14:28:45"
+value "15:28:16"
 )
 (vvPair
 variable "unit"
@@ -306,7 +306,7 @@ value "c6_b1_victory_top"
 )
 (vvPair
 variable "user"
-value "btjogr"
+value "ptjiya"
 )
 (vvPair
 variable "version"
@@ -670,7 +670,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "30200,48000,40600,49000"
+xt "30200,48000,40500,49000"
 st "
 by %user on %dd %month %year
 "
@@ -3074,7 +3074,7 @@ optionalChildren [
 *104 (Property
 pclass "param"
 pname "value"
-pvalue "h#ff"
+pvalue "h#26"
 ptn "String"
 )
 ]
@@ -3993,7 +3993,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "51000,30625,51750,31375"
+xt "53000,30625,53750,31375"
 )
 tg (CPTG
 uid 897,0
@@ -4004,20 +4004,20 @@ uid 898,0
 va (VaSet
 font "arial,8,0"
 )
-xt "43900,30500,50000,31500"
+xt "45900,30500,52000,31500"
 st "victory_x : (7:0)"
 ju 2
-blo "50000,31300"
+blo "52000,31300"
 )
 t (Text
 uid 899,0
 va (VaSet
 font "arial,8,0"
 )
-xt "47700,31500,50000,32500"
+xt "49700,31500,52000,32500"
 st "X\"00\""
 ju 2
-blo "50000,32300"
+blo "52000,32300"
 )
 )
 thePort (LogicalPort
@@ -4043,7 +4043,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "51000,32625,51750,33375"
+xt "53000,32625,53750,33375"
 )
 tg (CPTG
 uid 902,0
@@ -4054,20 +4054,20 @@ uid 903,0
 va (VaSet
 font "arial,8,0"
 )
-xt "43900,32500,50000,33500"
+xt "45900,32500,52000,33500"
 st "victory_y : (7:0)"
 ju 2
-blo "50000,33300"
+blo "52000,33300"
 )
 t (Text
 uid 904,0
 va (VaSet
 font "arial,8,0"
 )
-xt "47700,33500,50000,34500"
+xt "49700,33500,52000,34500"
 st "X\"00\""
 ju 2
-blo "50000,34300"
+blo "52000,34300"
 )
 )
 thePort (LogicalPort
@@ -4093,7 +4093,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "51000,34625,51750,35375"
+xt "53000,34625,53750,35375"
 )
 tg (CPTG
 uid 907,0
@@ -4104,20 +4104,20 @@ uid 908,0
 va (VaSet
 font "arial,8,0"
 )
-xt "41800,34500,50000,35500"
+xt "43800,34500,52000,35500"
 st "victory_color : (23:0)"
 ju 2
-blo "50000,35300"
+blo "52000,35300"
 )
 t (Text
 uid 909,0
 va (VaSet
 font "arial,8,0"
 )
-xt "45700,35500,50000,36500"
+xt "47700,35500,52000,36500"
 st "X\"00FFFF\""
 ju 2
-blo "50000,36300"
+blo "52000,36300"
 )
 )
 thePort (LogicalPort
@@ -4142,7 +4142,7 @@ fg "0,65535,0"
 lineColor "0,32896,0"
 lineWidth 2
 )
-xt "38000,30000,51000,42000"
+xt "38000,30000,53000,42000"
 )
 oxt "15000,6000,33000,26000"
 ttg (MlTextGroup
@@ -4303,10 +4303,11 @@ va (VaSet
 vasetType 3
 lineWidth 2
 )
-xt "51750,35000,59000,35000"
+xt "53750,35000,59000,35000"
 pts [
 "59000,35000"
-"51750,35000"
+"56000,35000"
+"53750,35000"
 ]
 )
 start &5
@@ -4344,10 +4345,11 @@ va (VaSet
 vasetType 3
 lineWidth 2
 )
-xt "51750,31000,59000,31000"
+xt "53750,31000,59000,31000"
 pts [
 "59000,31000"
-"51750,31000"
+"56000,31000"
+"53750,31000"
 ]
 )
 start &7
@@ -4385,10 +4387,11 @@ va (VaSet
 vasetType 3
 lineWidth 2
 )
-xt "51750,33000,59000,33000"
+xt "53750,33000,59000,33000"
 pts [
 "59000,33000"
-"51750,33000"
+"56000,33000"
+"53750,33000"
 ]
 )
 start &9
@@ -4930,12 +4933,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "0,0,2561,1408"
+windowSize "0,32,2561,1440"
 viewArea "-8700,-6300,114949,61540"
 cachedDiagramExtent "-1399,0,67200,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-6000,0"
-lastUid 1011,0
+lastUid 1034,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
