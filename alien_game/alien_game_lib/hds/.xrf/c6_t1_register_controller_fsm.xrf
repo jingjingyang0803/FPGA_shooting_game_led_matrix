@@ -1,0 +1,193 @@
+DESIGN c6_t1_register_controller
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN c6_t1_register_controller
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN c6_t1_register_controller
+VIEW symbol.sb
+GRAPHIC 122,0 14 0 
+DESIGN c6_t1_register_controller
+VIEW symbol.sb
+GRAPHIC 132,0 15 0 
+DESIGN c6_t1_register_controller
+VIEW symbol.sb
+GRAPHIC 127,0 16 0 
+DESIGN c6_t1_register_controller
+VIEW symbol.sb
+GRAPHIC 147,0 17 0 
+DESIGN c6_t1_register_controller
+VIEW symbol.sb
+GRAPHIC 152,0 18 0 
+DESIGN c6_t1_register_controller
+VIEW symbol.sb
+GRAPHIC 142,0 19 0 
+DESIGN c6_t1_register_controller
+VIEW symbol.sb
+GRAPHIC 137,0 20 0 
+DESIGN c6_t1_register_controller
+VIEW symbol.sb
+GRAPHIC 1,0 23 0 
+DESIGN c6_t1_register_controller
+VIEW symbol.sb
+GRAPHIC 1,0 24 0 
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+GRAPHIC 31,0 36 0
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+NO_GRAPHIC 39
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+GRAPHIC 2,0 54 0
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+NO_GRAPHIC 55
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+GRAPHIC 2,0 58 0
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+NO_GRAPHIC 59
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+GRAPHIC 70,0 60 0
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+GRAPHIC 60,0 62 0
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+NO_GRAPHIC 63
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+GRAPHIC 2,0 65 0
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+NO_GRAPHIC 66
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+GRAPHIC 2,0 68 0
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+NO_GRAPHIC 69
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+GRAPHIC 2,0 74 0
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+GRAPHIC 43,0 75 0
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+GRAPHIC 243,0 76 0
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+GRAPHIC 170,0 77 0
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+NO_GRAPHIC 78
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+GRAPHIC 43,0 79 0
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+NO_GRAPHIC 80
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+GRAPHIC 170,0 81 0
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+GRAPHIC 253,0 82 0
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+GRAPHIC 43,0 83 0
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+NO_GRAPHIC 84
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+GRAPHIC 170,0 85 0
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+NO_GRAPHIC 86
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+GRAPHIC 93,0 87 0
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+NO_GRAPHIC 89
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+GRAPHIC 2,0 90 0
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+NO_GRAPHIC 91
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+GRAPHIC 2,0 93 0
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+NO_GRAPHIC 94
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+GRAPHIC 2,0 101 0
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+GRAPHIC 43,0 102 0
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+GRAPHIC 58,0 103 0
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+GRAPHIC 170,0 106 0
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+GRAPHIC 185,0 107 0
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+NO_GRAPHIC 111
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+GRAPHIC 2,0 113 0
+LIBRARY alien_game_lib
+DESIGN c6_t1_register_controller
+VIEW fsm.sm
+NO_GRAPHIC 115
