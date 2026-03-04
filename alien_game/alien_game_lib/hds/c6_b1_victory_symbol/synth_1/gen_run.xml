@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7vx485tffg1157-1" LaunchTime="1772448746">
+  <File Type="RDS-PROPCONSTRS" Name="HELLO_ALIEN_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="HELLO_ALIEN.tcl"/>
+  <File Type="RDS-RDS" Name="HELLO_ALIEN.vds"/>
+  <File Type="RDS-UTIL" Name="HELLO_ALIEN_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="HELLO_ALIEN_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="HELLO_ALIEN.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="HELLO_ALIEN_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="HELLO_ALIEN_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/alien_game/alien_game_lib/hdl/c3_t1_color_block_struct.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/alien_game/alien_game_lib/hdl/c3_t1_defeated_reg_struct.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/alien_game/alien_game_lib/hdl/c3_t1_dir_block_struct.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/alien_game/alien_game_lib/hdl/c3_t1_x_block_struct.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/alien_game/alien_game_lib/hdl/c3_t1_y_block_struct.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/alien_game/alien_game_lib/hdl/c3_t1_basic_alien_struct.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/alien_game/alien_game_lib/hdl/c4_b2_shield_rst_fsm_fsm.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/alien_game/alien_game_lib/hdl/c5_b1_serial_tx_fsm_fsm.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/alien_game/alien_game_lib/hdl/c5_b2_gamma_fsm_fsm.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/pre_made/hdl/disp_reg_bank.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/pre_made/hdl/disp_serial_led_cannon.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/pre_made/hdl/display_controller_struct.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/pre_made/hdl/en_wr_rtl.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/pre_made/hdl/hello_alien_struct.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hds/tb_top/struct.bd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/adv_test_case_fsm.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/alien_tester_testbench.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/basic_alien_tester_testbench.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/basic_test_case_fsm.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/bullet_test_block_testbench.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/alien_game/alien_game_lib/hdl/c1_t1_half_adder_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/alien_game/alien_game_lib/hdl/c1_b1_incrementer_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/alien_game/alien_game_lib/hdl/c1_b2_half_subtractor_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/alien_game/alien_game_lib/hdl/c1_b2_decrementer_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/alien_game/alien_game_lib/hdl/c2_b1_bin2onehot_tt_tbl.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/alien_game/alien_game_lib/hdl/c2_t1_pixel_conf_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/alien_game/alien_game_lib/hdl/c2_t1_pixel_io_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/alien_game/alien_game_lib/hdl/c2_t1_combined_pixel_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/alien_game/alien_game_lib/hdl/c4_b1_bullet_fsm_fsm.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/alien_game/alien_game_lib/hdl/c4_b1_bullet_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/alien_game/alien_game_lib/hdl/c4_t1_gun_ctrl_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/alien_game/alien_game_lib/hdl/c4_t1_gun_pixel_mapper_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/alien_game/alien_game_lib/hdl/c4_t1_top_gun_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/alien_game/alien_game_lib/hdl/c5_b1_serial_data_transmit_fsm.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/alien_game/alien_game_lib/hdl/c5_t1_write_sequencer_fsm_fsm.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/alien_game/alien_game_lib/hdl/c6_b1_victory_symbol_tbl.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/alien_game/alien_game_lib/hdl/c6_b1_victory_top_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/alien_game/alien_game_lib/hdl/c6_t1_hit_detect_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/alien_game/alien_game_lib/hdl/c5_t2_game_logic_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/alien_game/alien_game_lib/hdl/c5_t2_game_top_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/alien_game/alien_game_lib/hdl/c6_b1_victory_heart_tbl.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/crementer_tester_testbench.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/decre_vhdl_rtl.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/decrementer_tester_block_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/pre_made/hdl/disp_gamma.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/pre_made/hdl/disp_rst.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/pre_made/hdl/disp_serial_tx.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/gamma_sequence_receiver_rtl.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/gamma_test_block_testbench.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/gamma_set_tester_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/gun_test_block_testbench.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/half_adder_test_block_testbench.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/pre_made/hdl/hello_led_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/hit_assertion_testbench.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/hit_test_generator_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/hit_testbench_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/pre_made/hdl/trigger_counter_rtl.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/pre_made/hdl/ila_half_adder_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/incre_vhdl_rtl.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/incrementer_test_block_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/pixel_conf_tester_testbench.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/pixel_io_tester_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/pixel_io_tester_testbench.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/ref_tt_rtl.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/reg_ctrl_gen_testbench.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/reg_ctrl_rx_rtl.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/reg_ctrl_sequencer_rtl.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/reg_tester_rx_fsm.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/reg_tester_tx_fsm.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/register_controller_tester_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/register_single_testbench.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/register_test_gen_testbench.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/register_tester_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/serial_to_bus_block_rtl.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/shield_rst_block_testbench.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/tb_basic_alien_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/tt_tester_gen_rtl.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/tt_tester_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/tb_bin2onehot_tt_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/tb_bullet_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/tb_decrementer_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/tb_gamma_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/tb_gun_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/tb_half_adder_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/tb_hit_detect_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/tb_incrementer_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/tb_pixel_conf_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/tb_pixel_io_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/tb_register_64_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/tb_register_single_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/tx_test_block_testbench.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/tx_test_sequencer_fsm.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/tx_tester_capture_seq_fsm.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/tx_tester_struct_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/tb_serial_tx_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/tb_shield_rst_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/victory_text_test_block_testbench.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/tb_victory_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/wr_seq_tester_testbench.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/tb_write_sequencer_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/tb_lib/hdl/top_block_testbench.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/alien_game/alien_game_lib/hdl/c4_b1_bullet2_fsm.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="//ad.tuni.fi/home/btjogr/StudentDocuments/Documents/digita design/20/alien_game/alien_game_lib/hdl/c5_b1_serial_data_transmit_struct.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="HELLO_ALIEN"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

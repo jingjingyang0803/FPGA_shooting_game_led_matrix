@@ -1,0 +1,348 @@
+DESIGN c6_b1_victory_heart
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN c6_b1_victory_heart
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN c6_b1_victory_heart
+VIEW symbol.sb
+GRAPHIC 116,0 14 0 
+DESIGN c6_b1_victory_heart
+VIEW symbol.sb
+GRAPHIC 134,0 15 0 
+DESIGN c6_b1_victory_heart
+VIEW symbol.sb
+GRAPHIC 122,0 16 0 
+DESIGN c6_b1_victory_heart
+VIEW symbol.sb
+GRAPHIC 128,0 17 0 
+DESIGN c6_b1_victory_heart
+VIEW symbol.sb
+GRAPHIC 1,0 20 0 
+DESIGN c6_b1_victory_heart
+VIEW symbol.sb
+GRAPHIC 1,0 21 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+NO_GRAPHIC 24
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+NO_GRAPHIC 33
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 33,0 37 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 6,0 48 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 108,0 49 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 118,0 50 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 14,0 51 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 8,0 52 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 110,0 53 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 120,0 54 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 16,0 55 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 10,0 56 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 112,0 57 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 122,0 58 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 18,0 59 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 157,0 60 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 159,0 61 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 161,0 62 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 163,0 63 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 177,0 64 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 179,0 65 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 181,0 66 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 183,0 67 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 185,0 68 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 187,0 69 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 189,0 70 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 191,0 71 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 193,0 72 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 195,0 73 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 197,0 74 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 199,0 75 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 201,0 76 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 203,0 77 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 205,0 78 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 207,0 79 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 280,0 80 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 282,0 81 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 284,0 82 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 286,0 83 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 272,0 84 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 274,0 85 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 276,0 86 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 278,0 87 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 288,0 88 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 290,0 89 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 292,0 90 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 294,0 91 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 296,0 92 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 298,0 93 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 300,0 94 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 302,0 95 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 320,0 96 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 322,0 97 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 324,0 98 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 326,0 99 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 344,0 100 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 346,0 101 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 348,0 102 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 350,0 103 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 394,0 104 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 406,0 105 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 418,0 106 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 430,0 107 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 396,0 108 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 440,0 109 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 420,0 110 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 432,0 111 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 462,0 112 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 442,0 113 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 422,0 114 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 434,0 115 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 464,0 116 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 444,0 117 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 424,0 118 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 436,0 119 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 622,0 120 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 446,0 121 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 426,0 122 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 438,0 123 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 624,0 124 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 448,0 125 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 308,0 126 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 310,0 127 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 626,0 128 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 566,0 129 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 580,0 130 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 594,0 131 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 618,0 132 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 606,0 133 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 582,0 134 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 596,0 135 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 620,0 136 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 608,0 137 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 584,0 138 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 598,0 139 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 558,0 140 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 610,0 141 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 586,0 142 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 600,0 143 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 560,0 144 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 612,0 145 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 588,0 146 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 602,0 147 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 562,0 148 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 614,0 149 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 590,0 150 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 604,0 151 0 
+DESIGN c6_b1_victory_heart
+VIEW tbl.tt
+GRAPHIC 36,0 156 1 
