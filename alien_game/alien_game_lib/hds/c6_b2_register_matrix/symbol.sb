@@ -21,7 +21,7 @@ appVersion "2019.3 (Build 4)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
-suid 12,0
+suid 13,0
 usingSuid 1
 emptyRow *1 (LEmptyRow
 )
@@ -90,7 +90,7 @@ lang 2
 decl (Decl
 n "x_read"
 t "std_logic_vector"
-b "(2 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 6
 suid 3,0
 )
@@ -103,7 +103,7 @@ lang 2
 decl (Decl
 n "x_write"
 t "std_logic_vector"
-b "(2 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 7
 suid 4,0
 )
@@ -116,7 +116,7 @@ lang 2
 decl (Decl
 n "y_read"
 t "std_logic_vector"
-b "(2 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 8
 suid 5,0
 )
@@ -129,7 +129,7 @@ lang 2
 decl (Decl
 n "y_write"
 t "std_logic_vector"
-b "(2 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 9
 suid 6,0
 )
@@ -179,13 +179,13 @@ uid 225,0
 port (LogicalPort
 lang 2
 decl (Decl
-n "we_col"
+n "we"
 t "std_logic"
 o 5
-suid 12,0
+suid 13,0
 )
 )
-uid 324,0
+uid 377,0
 )
 ]
 )
@@ -251,7 +251,7 @@ uid 110,0
 )
 *31 (MRCItem
 litem &16
-pos 8
+pos 3
 dimension 20
 uid 112,0
 )
@@ -263,25 +263,25 @@ uid 114,0
 )
 *33 (MRCItem
 litem &18
-pos 3
+pos 4
 dimension 20
 uid 116,0
 )
 *34 (MRCItem
 litem &19
-pos 4
+pos 5
 dimension 20
 uid 118,0
 )
 *35 (MRCItem
 litem &20
-pos 5
+pos 6
 dimension 20
 uid 120,0
 )
 *36 (MRCItem
 litem &21
-pos 7
+pos 8
 dimension 20
 uid 124,0
 )
@@ -293,9 +293,9 @@ uid 224,0
 )
 *38 (MRCItem
 litem &23
-pos 6
+pos 7
 dimension 20
-uid 323,0
+uid 376,0
 )
 ]
 )
@@ -566,19 +566,19 @@ value "P:\\20\\alien_game\\alien_game_lib\\hds\\c6_b2_register_matrix"
 )
 (vvPair
 variable "date"
-value " 2.03.2026"
+value " 4.03.2026"
 )
 (vvPair
 variable "day"
-value "ma"
+value "ke"
 )
 (vvPair
 variable "day_long"
-value "maanantai"
+value "keskiviikko"
 )
 (vvPair
 variable "dd"
-value "02"
+value "04"
 )
 (vvPair
 variable "entity_name"
@@ -606,7 +606,7 @@ value "ptjiya"
 )
 (vvPair
 variable "graphical_source_date"
-value " 2.03.2026"
+value " 4.03.2026"
 )
 (vvPair
 variable "graphical_source_group"
@@ -618,7 +618,7 @@ value "HTC219-307-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:59:11"
+value "11:04:19"
 )
 (vvPair
 variable "group"
@@ -726,7 +726,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "15:59:11"
+value "11:04:19"
 )
 (vvPair
 variable "unit"
@@ -874,7 +874,7 @@ va (VaSet
 font "arial,8,0"
 )
 xt "16000,8500,21300,9500"
-st "x_read : (2:0)"
+st "x_read : (7:0)"
 blo "16000,9300"
 tm "CptPortNameMgr"
 )
@@ -885,7 +885,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,6000,71000,6800"
-st "x_read    : IN     std_logic_vector (2 DOWNTO 0) ;
+st "x_read    : IN     std_logic_vector (7 DOWNTO 0) ;
 "
 )
 thePort (LogicalPort
@@ -893,7 +893,7 @@ lang 2
 decl (Decl
 n "x_read"
 t "std_logic_vector"
-b "(2 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 6
 suid 3,0
 )
@@ -921,7 +921,7 @@ va (VaSet
 font "arial,8,0"
 )
 xt "16000,9500,21500,10500"
-st "x_write : (2:0)"
+st "x_write : (7:0)"
 blo "16000,10300"
 tm "CptPortNameMgr"
 )
@@ -932,7 +932,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,6800,71000,7600"
-st "x_write   : IN     std_logic_vector (2 DOWNTO 0) ;
+st "x_write   : IN     std_logic_vector (7 DOWNTO 0) ;
 "
 )
 thePort (LogicalPort
@@ -940,7 +940,7 @@ lang 2
 decl (Decl
 n "x_write"
 t "std_logic_vector"
-b "(2 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 7
 suid 4,0
 )
@@ -968,7 +968,7 @@ va (VaSet
 font "arial,8,0"
 )
 xt "16000,10500,21300,11500"
-st "y_read : (2:0)"
+st "y_read : (7:0)"
 blo "16000,11300"
 tm "CptPortNameMgr"
 )
@@ -979,7 +979,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,7600,71000,8400"
-st "y_read    : IN     std_logic_vector (2 DOWNTO 0) ;
+st "y_read    : IN     std_logic_vector (7 DOWNTO 0) ;
 "
 )
 thePort (LogicalPort
@@ -987,7 +987,7 @@ lang 2
 decl (Decl
 n "y_read"
 t "std_logic_vector"
-b "(2 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 8
 suid 5,0
 )
@@ -1015,7 +1015,7 @@ va (VaSet
 font "arial,8,0"
 )
 xt "16000,11500,21500,12500"
-st "y_write : (2:0)"
+st "y_write : (7:0)"
 blo "16000,12300"
 tm "CptPortNameMgr"
 )
@@ -1026,7 +1026,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,8400,71000,9200"
-st "y_write   : IN     std_logic_vector (2 DOWNTO 0) ;
+st "y_write   : IN     std_logic_vector (7 DOWNTO 0) ;
 "
 )
 thePort (LogicalPort
@@ -1034,7 +1034,7 @@ lang 2
 decl (Decl
 n "y_write"
 t "std_logic_vector"
-b "(2 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 9
 suid 6,0
 )
@@ -1183,10 +1183,10 @@ suid 11,0
 )
 )
 *81 (CptPort
-uid 325,0
+uid 378,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 326,0
+uid 379,0
 ro 90
 va (VaSet
 vasetType 1
@@ -1195,36 +1195,36 @@ fg "0,65535,0"
 xt "14250,15625,15000,16375"
 )
 tg (CPTG
-uid 327,0
+uid 380,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 328,0
+uid 381,0
 va (VaSet
 font "arial,8,0"
 )
-xt "16000,15500,18800,16500"
-st "we_col"
+xt "16000,15500,17400,16500"
+st "we"
 blo "16000,16300"
 tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 329,0
+uid 382,0
 va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,5200,61000,6000"
-st "we_col    : IN     std_logic  ;
+st "we        : IN     std_logic  ;
 "
 )
 thePort (LogicalPort
 lang 2
 decl (Decl
-n "we_col"
+n "we"
 t "std_logic"
 o 5
-suid 12,0
+suid 13,0
 )
 )
 )
@@ -1926,6 +1926,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 329,0
+lastUid 382,0
 activeModelName "Symbol:CDM"
 )
