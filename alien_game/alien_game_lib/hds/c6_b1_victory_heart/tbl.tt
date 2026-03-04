@@ -23,23 +23,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hdl"
+value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds"
+value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_heart\\tbl.tt.info"
+value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_heart\\tbl.tt.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_heart\\tbl.tt.user"
+value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_heart\\tbl.tt.user"
 )
 (vvPair
 variable "SourceDir"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds"
+value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds"
 )
 (vvPair
 variable "appl"
@@ -55,27 +55,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_heart"
+value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_heart"
 )
 (vvPair
 variable "d_logical"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_heart"
+value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_heart"
 )
 (vvPair
 variable "date"
-value " 2.03.2026"
+value " 4.03.2026"
 )
 (vvPair
 variable "day"
-value "ma"
+value "ke"
 )
 (vvPair
 variable "day_long"
-value "maanantai"
+value "keskiviikko"
 )
 (vvPair
 variable "dd"
-value "02"
+value "04"
 )
 (vvPair
 variable "entity_name"
@@ -103,7 +103,7 @@ value "btjogr"
 )
 (vvPair
 variable "graphical_source_date"
-value " 2.03.2026"
+value " 4.03.2026"
 )
 (vvPair
 variable "graphical_source_group"
@@ -111,11 +111,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "HTC219-306-SPC"
+value "HTC219-308-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:50:03"
+value "14:30:10"
 )
 (vvPair
 variable "group"
@@ -123,7 +123,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "HTC219-306-SPC"
+value "HTC219-308-SPC"
 )
 (vvPair
 variable "language"
@@ -163,11 +163,11 @@ value "maaliskuu"
 )
 (vvPair
 variable "p"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_heart\\tbl.tt"
+value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_heart\\tbl.tt"
 )
 (vvPair
 variable "p_logical"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_heart\\tbl.tt"
+value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_heart\\tbl.tt"
 )
 (vvPair
 variable "package_name"
@@ -223,7 +223,7 @@ value "tbl"
 )
 (vvPair
 variable "time"
-value "15:50:03"
+value "14:30:10"
 )
 (vvPair
 variable "unit"
@@ -277,25 +277,6 @@ tm "TableTextMgr"
 )
 )
 *3 (TextMatrixItem
-uid 4,0
-va (VaSet
-vasetType 1
-fg "65535,65535,37120"
-bg "65535,65535,37120"
-)
-col 4
-row 1
-text (Text
-uid 5,0
-va (VaSet
-)
-xt "0,0,5200,1000"
-st "victory_color"
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*4 (TextMatrixItem
 uid 6,0
 va (VaSet
 vasetType 1
@@ -308,13 +289,13 @@ text (Text
 uid 7,0
 va (VaSet
 )
-xt "0,0,3100,1000"
-st "X\"0000\""
+xt "0,0,2300,1000"
+st "X\"00\""
 blo "0,800"
 tm "TableTextMgr"
 )
 )
-*5 (TextMatrixItem
+*4 (TextMatrixItem
 uid 8,0
 va (VaSet
 vasetType 1
@@ -327,13 +308,13 @@ text (Text
 uid 9,0
 va (VaSet
 )
-xt "0,0,3100,1000"
-st "X\"0001\""
+xt "0,0,2300,1000"
+st "X\"01\""
 blo "0,800"
 tm "TableTextMgr"
 )
 )
-*6 (TextMatrixItem
+*5 (TextMatrixItem
 uid 10,0
 va (VaSet
 vasetType 1
@@ -346,70 +327,13 @@ text (Text
 uid 11,0
 va (VaSet
 )
-xt "0,0,3100,1000"
-st "X\"0002\""
+xt "0,0,2300,1000"
+st "X\"02\""
 blo "0,800"
 tm "TableTextMgr"
 )
 )
-*7 (TextMatrixItem
-uid 14,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 4
-row 2
-text (Text
-uid 15,0
-va (VaSet
-)
-xt "0,0,4100,1000"
-st "X\"FF0000\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*8 (TextMatrixItem
-uid 16,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 4
-row 3
-text (Text
-uid 17,0
-va (VaSet
-)
-xt "0,0,4100,1000"
-st "X\"FF0000\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*9 (TextMatrixItem
-uid 18,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 4
-row 4
-text (Text
-uid 19,0
-va (VaSet
-)
-xt "0,0,4100,1000"
-st "X\"FF0000\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*10 (TextMatrixItem
+*6 (TextMatrixItem
 uid 106,0
 va (VaSet
 vasetType 1
@@ -428,7 +352,7 @@ blo "0,800"
 tm "TableTextMgr"
 )
 )
-*11 (TextMatrixItem
+*7 (TextMatrixItem
 uid 108,0
 va (VaSet
 vasetType 1
@@ -442,50 +366,12 @@ uid 109,0
 va (VaSet
 )
 xt "0,0,2300,1000"
-st "X\"00\""
+st "X\"01\""
 blo "0,800"
 tm "TableTextMgr"
 )
 )
-*12 (TextMatrixItem
-uid 110,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 2
-row 3
-text (Text
-uid 111,0
-va (VaSet
-)
-xt "0,0,2300,1000"
-st "X\"00\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*13 (TextMatrixItem
-uid 112,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 2
-row 4
-text (Text
-uid 113,0
-va (VaSet
-)
-xt "0,0,2300,1000"
-st "X\"00\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*14 (TextMatrixItem
+*8 (TextMatrixItem
 uid 116,0
 va (VaSet
 vasetType 1
@@ -504,7 +390,7 @@ blo "0,800"
 tm "TableTextMgr"
 )
 )
-*15 (TextMatrixItem
+*9 (TextMatrixItem
 uid 118,0
 va (VaSet
 vasetType 1
@@ -523,7 +409,7 @@ blo "0,800"
 tm "TableTextMgr"
 )
 )
-*16 (TextMatrixItem
+*10 (TextMatrixItem
 uid 120,0
 va (VaSet
 vasetType 1
@@ -542,7 +428,7 @@ blo "0,800"
 tm "TableTextMgr"
 )
 )
-*17 (TextMatrixItem
+*11 (TextMatrixItem
 uid 122,0
 va (VaSet
 vasetType 1
@@ -561,7 +447,7 @@ blo "0,800"
 tm "TableTextMgr"
 )
 )
-*18 (TextMatrixItem
+*12 (TextMatrixItem
 uid 157,0
 va (VaSet
 vasetType 1
@@ -574,13 +460,13 @@ text (Text
 uid 158,0
 va (VaSet
 )
-xt "0,0,3100,1000"
-st "X\"0003\""
+xt "0,0,2300,1000"
+st "X\"03\""
 blo "0,800"
 tm "TableTextMgr"
 )
 )
-*19 (TextMatrixItem
+*13 (TextMatrixItem
 uid 159,0
 va (VaSet
 vasetType 1
@@ -594,12 +480,12 @@ uid 160,0
 va (VaSet
 )
 xt "0,0,2300,1000"
-st "X\"01\""
+st "X\"02\""
 blo "0,800"
 tm "TableTextMgr"
 )
 )
-*20 (TextMatrixItem
+*14 (TextMatrixItem
 uid 161,0
 va (VaSet
 vasetType 1
@@ -618,26 +504,7 @@ blo "0,800"
 tm "TableTextMgr"
 )
 )
-*21 (TextMatrixItem
-uid 163,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 4
-row 5
-text (Text
-uid 164,0
-va (VaSet
-)
-xt "0,0,4100,1000"
-st "X\"FF0000\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*22 (TextMatrixItem
+*15 (TextMatrixItem
 uid 177,0
 va (VaSet
 vasetType 1
@@ -650,32 +517,13 @@ text (Text
 uid 178,0
 va (VaSet
 )
-xt "0,0,3100,1000"
-st "X\"0004\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*23 (TextMatrixItem
-uid 179,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 2
-row 6
-text (Text
-uid 180,0
-va (VaSet
-)
 xt "0,0,2300,1000"
-st "X\"01\""
+st "X\"04\""
 blo "0,800"
 tm "TableTextMgr"
 )
 )
-*24 (TextMatrixItem
+*16 (TextMatrixItem
 uid 181,0
 va (VaSet
 vasetType 1
@@ -694,26 +542,7 @@ blo "0,800"
 tm "TableTextMgr"
 )
 )
-*25 (TextMatrixItem
-uid 183,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 4
-row 6
-text (Text
-uid 184,0
-va (VaSet
-)
-xt "0,0,4100,1000"
-st "X\"FF0000\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*26 (TextMatrixItem
+*17 (TextMatrixItem
 uid 185,0
 va (VaSet
 vasetType 1
@@ -726,32 +555,13 @@ text (Text
 uid 186,0
 va (VaSet
 )
-xt "0,0,3100,1000"
-st "X\"0005\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*27 (TextMatrixItem
-uid 187,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 2
-row 7
-text (Text
-uid 188,0
-va (VaSet
-)
 xt "0,0,2300,1000"
-st "X\"01\""
+st "X\"05\""
 blo "0,800"
 tm "TableTextMgr"
 )
 )
-*28 (TextMatrixItem
+*18 (TextMatrixItem
 uid 189,0
 va (VaSet
 vasetType 1
@@ -770,26 +580,7 @@ blo "0,800"
 tm "TableTextMgr"
 )
 )
-*29 (TextMatrixItem
-uid 191,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 4
-row 7
-text (Text
-uid 192,0
-va (VaSet
-)
-xt "0,0,4100,1000"
-st "X\"FF0000\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*30 (TextMatrixItem
+*19 (TextMatrixItem
 uid 193,0
 va (VaSet
 vasetType 1
@@ -802,32 +593,13 @@ text (Text
 uid 194,0
 va (VaSet
 )
-xt "0,0,3100,1000"
-st "X\"0006\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*31 (TextMatrixItem
-uid 195,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 2
-row 8
-text (Text
-uid 196,0
-va (VaSet
-)
 xt "0,0,2300,1000"
-st "X\"01\""
+st "X\"06\""
 blo "0,800"
 tm "TableTextMgr"
 )
 )
-*32 (TextMatrixItem
+*20 (TextMatrixItem
 uid 197,0
 va (VaSet
 vasetType 1
@@ -846,26 +618,7 @@ blo "0,800"
 tm "TableTextMgr"
 )
 )
-*33 (TextMatrixItem
-uid 199,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 4
-row 8
-text (Text
-uid 200,0
-va (VaSet
-)
-xt "0,0,4100,1000"
-st "X\"FF0000\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*34 (TextMatrixItem
+*21 (TextMatrixItem
 uid 201,0
 va (VaSet
 vasetType 1
@@ -878,32 +631,13 @@ text (Text
 uid 202,0
 va (VaSet
 )
-xt "0,0,3100,1000"
-st "X\"0007\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*35 (TextMatrixItem
-uid 203,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 2
-row 9
-text (Text
-uid 204,0
-va (VaSet
-)
 xt "0,0,2300,1000"
-st "X\"01\""
+st "X\"07\""
 blo "0,800"
 tm "TableTextMgr"
 )
 )
-*36 (TextMatrixItem
+*22 (TextMatrixItem
 uid 205,0
 va (VaSet
 vasetType 1
@@ -922,26 +656,7 @@ blo "0,800"
 tm "TableTextMgr"
 )
 )
-*37 (TextMatrixItem
-uid 207,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 4
-row 9
-text (Text
-uid 208,0
-va (VaSet
-)
-xt "0,0,4100,1000"
-st "X\"FF0000\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*38 (TextMatrixItem
+*23 (TextMatrixItem
 uid 272,0
 va (VaSet
 vasetType 1
@@ -954,32 +669,13 @@ text (Text
 uid 273,0
 va (VaSet
 )
-xt "0,0,3100,1000"
-st "X\"0009\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*39 (TextMatrixItem
-uid 274,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 2
-row 11
-text (Text
-uid 275,0
-va (VaSet
-)
 xt "0,0,2300,1000"
-st "X\"02\""
+st "X\"09\""
 blo "0,800"
 tm "TableTextMgr"
 )
 )
-*40 (TextMatrixItem
+*24 (TextMatrixItem
 uid 276,0
 va (VaSet
 vasetType 1
@@ -998,26 +694,7 @@ blo "0,800"
 tm "TableTextMgr"
 )
 )
-*41 (TextMatrixItem
-uid 278,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 4
-row 11
-text (Text
-uid 279,0
-va (VaSet
-)
-xt "0,0,4100,1000"
-st "X\"FF0000\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*42 (TextMatrixItem
+*25 (TextMatrixItem
 uid 280,0
 va (VaSet
 vasetType 1
@@ -1030,13 +707,13 @@ text (Text
 uid 281,0
 va (VaSet
 )
-xt "0,0,3100,1000"
-st "X\"0008\""
+xt "0,0,2300,1000"
+st "X\"08\""
 blo "0,800"
 tm "TableTextMgr"
 )
 )
-*43 (TextMatrixItem
+*26 (TextMatrixItem
 uid 282,0
 va (VaSet
 vasetType 1
@@ -1050,12 +727,12 @@ uid 283,0
 va (VaSet
 )
 xt "0,0,2300,1000"
-st "X\"02\""
+st "X\"04\""
 blo "0,800"
 tm "TableTextMgr"
 )
 )
-*44 (TextMatrixItem
+*27 (TextMatrixItem
 uid 284,0
 va (VaSet
 vasetType 1
@@ -1074,26 +751,7 @@ blo "0,800"
 tm "TableTextMgr"
 )
 )
-*45 (TextMatrixItem
-uid 286,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 4
-row 10
-text (Text
-uid 287,0
-va (VaSet
-)
-xt "0,0,4100,1000"
-st "X\"FF0000\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*46 (TextMatrixItem
+*28 (TextMatrixItem
 uid 288,0
 va (VaSet
 vasetType 1
@@ -1106,32 +764,13 @@ text (Text
 uid 289,0
 va (VaSet
 )
-xt "0,0,3200,1000"
-st "X\"000A\""
+xt "0,0,2400,1000"
+st "X\"0A\""
 blo "0,800"
 tm "TableTextMgr"
 )
 )
-*47 (TextMatrixItem
-uid 290,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 2
-row 12
-text (Text
-uid 291,0
-va (VaSet
-)
-xt "0,0,2300,1000"
-st "X\"02\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*48 (TextMatrixItem
+*29 (TextMatrixItem
 uid 292,0
 va (VaSet
 vasetType 1
@@ -1150,26 +789,7 @@ blo "0,800"
 tm "TableTextMgr"
 )
 )
-*49 (TextMatrixItem
-uid 294,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 4
-row 12
-text (Text
-uid 295,0
-va (VaSet
-)
-xt "0,0,4100,1000"
-st "X\"FF0000\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*50 (TextMatrixItem
+*30 (TextMatrixItem
 uid 296,0
 va (VaSet
 vasetType 1
@@ -1182,32 +802,13 @@ text (Text
 uid 297,0
 va (VaSet
 )
-xt "0,0,3200,1000"
-st "X\"000B\""
+xt "0,0,2400,1000"
+st "X\"0B\""
 blo "0,800"
 tm "TableTextMgr"
 )
 )
-*51 (TextMatrixItem
-uid 298,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 2
-row 13
-text (Text
-uid 299,0
-va (VaSet
-)
-xt "0,0,2300,1000"
-st "X\"02\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*52 (TextMatrixItem
+*31 (TextMatrixItem
 uid 300,0
 va (VaSet
 vasetType 1
@@ -1226,64 +827,7 @@ blo "0,800"
 tm "TableTextMgr"
 )
 )
-*53 (TextMatrixItem
-uid 302,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 4
-row 13
-text (Text
-uid 303,0
-va (VaSet
-)
-xt "0,0,4100,1000"
-st "X\"FF0000\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*54 (TextMatrixItem
-uid 308,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 3
-row 21
-text (Text
-uid 309,0
-va (VaSet
-)
-xt "0,0,2300,1000"
-st "X\"60\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*55 (TextMatrixItem
-uid 310,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 4
-row 21
-text (Text
-uid 311,0
-va (VaSet
-)
-xt "0,0,4100,1000"
-st "X\"FF0000\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*56 (TextMatrixItem
+*32 (TextMatrixItem
 uid 320,0
 va (VaSet
 vasetType 1
@@ -1296,32 +840,13 @@ text (Text
 uid 321,0
 va (VaSet
 )
-xt "0,0,3300,1000"
-st "X\"000C\""
+xt "0,0,2500,1000"
+st "X\"0C\""
 blo "0,800"
 tm "TableTextMgr"
 )
 )
-*57 (TextMatrixItem
-uid 322,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 2
-row 14
-text (Text
-uid 323,0
-va (VaSet
-)
-xt "0,0,2300,1000"
-st "X\"01\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*58 (TextMatrixItem
+*33 (TextMatrixItem
 uid 324,0
 va (VaSet
 vasetType 1
@@ -1340,26 +865,7 @@ blo "0,800"
 tm "TableTextMgr"
 )
 )
-*59 (TextMatrixItem
-uid 326,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 4
-row 14
-text (Text
-uid 327,0
-va (VaSet
-)
-xt "0,0,4100,1000"
-st "X\"FF0000\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*60 (TextMatrixItem
+*34 (TextMatrixItem
 uid 344,0
 va (VaSet
 vasetType 1
@@ -1372,32 +878,13 @@ text (Text
 uid 345,0
 va (VaSet
 )
-xt "0,0,3300,1000"
-st "X\"000D\""
+xt "0,0,2500,1000"
+st "X\"0D\""
 blo "0,800"
 tm "TableTextMgr"
 )
 )
-*61 (TextMatrixItem
-uid 346,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 2
-row 15
-text (Text
-uid 347,0
-va (VaSet
-)
-xt "0,0,2300,1000"
-st "X\"01\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*62 (TextMatrixItem
+*35 (TextMatrixItem
 uid 348,0
 va (VaSet
 vasetType 1
@@ -1416,26 +903,7 @@ blo "0,800"
 tm "TableTextMgr"
 )
 )
-*63 (TextMatrixItem
-uid 350,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 4
-row 15
-text (Text
-uid 351,0
-va (VaSet
-)
-xt "0,0,4100,1000"
-st "X\"FF0000\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*64 (TextMatrixItem
+*36 (TextMatrixItem
 uid 394,0
 va (VaSet
 vasetType 1
@@ -1448,13 +916,13 @@ text (Text
 uid 395,0
 va (VaSet
 )
-xt "0,0,3200,1000"
-st "X\"000E\""
+xt "0,0,2400,1000"
+st "X\"0E\""
 blo "0,800"
 tm "TableTextMgr"
 )
 )
-*65 (TextMatrixItem
+*37 (TextMatrixItem
 uid 396,0
 va (VaSet
 vasetType 1
@@ -1467,32 +935,13 @@ text (Text
 uid 397,0
 va (VaSet
 )
-xt "0,0,3200,1000"
-st "X\"000F\""
+xt "0,0,2400,1000"
+st "X\"0F\""
 blo "0,800"
 tm "TableTextMgr"
 )
 )
-*66 (TextMatrixItem
-uid 406,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 2
-row 16
-text (Text
-uid 407,0
-va (VaSet
-)
-xt "0,0,2300,1000"
-st "X\"04\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*67 (TextMatrixItem
+*38 (TextMatrixItem
 uid 418,0
 va (VaSet
 vasetType 1
@@ -1511,7 +960,7 @@ blo "0,800"
 tm "TableTextMgr"
 )
 )
-*68 (TextMatrixItem
+*39 (TextMatrixItem
 uid 420,0
 va (VaSet
 vasetType 1
@@ -1530,7 +979,7 @@ blo "0,800"
 tm "TableTextMgr"
 )
 )
-*69 (TextMatrixItem
+*40 (TextMatrixItem
 uid 422,0
 va (VaSet
 vasetType 1
@@ -1549,7 +998,7 @@ blo "0,800"
 tm "TableTextMgr"
 )
 )
-*70 (TextMatrixItem
+*41 (TextMatrixItem
 uid 424,0
 va (VaSet
 vasetType 1
@@ -1568,7 +1017,7 @@ blo "0,800"
 tm "TableTextMgr"
 )
 )
-*71 (TextMatrixItem
+*42 (TextMatrixItem
 uid 426,0
 va (VaSet
 vasetType 1
@@ -1587,311 +1036,7 @@ blo "0,800"
 tm "TableTextMgr"
 )
 )
-*72 (TextMatrixItem
-uid 430,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 4
-row 16
-text (Text
-uid 431,0
-va (VaSet
-)
-xt "0,0,4100,1000"
-st "X\"FF0000\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*73 (TextMatrixItem
-uid 432,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 4
-row 17
-text (Text
-uid 433,0
-va (VaSet
-)
-xt "0,0,4100,1000"
-st "X\"FF0000\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*74 (TextMatrixItem
-uid 434,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 4
-row 18
-text (Text
-uid 435,0
-va (VaSet
-)
-xt "0,0,4100,1000"
-st "X\"FF0000\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*75 (TextMatrixItem
-uid 436,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 4
-row 19
-text (Text
-uid 437,0
-va (VaSet
-)
-xt "0,0,4100,1000"
-st "X\"FF0000\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*76 (TextMatrixItem
-uid 438,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 4
-row 20
-text (Text
-uid 439,0
-va (VaSet
-)
-xt "0,0,4100,1000"
-st "X\"FF0000\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*77 (TextMatrixItem
-uid 440,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 2
-row 17
-text (Text
-uid 441,0
-va (VaSet
-)
-xt "0,0,2300,1000"
-st "X\"04\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*78 (TextMatrixItem
-uid 442,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 2
-row 18
-text (Text
-uid 443,0
-va (VaSet
-)
-xt "0,0,2300,1000"
-st "X\"04\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*79 (TextMatrixItem
-uid 444,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 2
-row 19
-text (Text
-uid 445,0
-va (VaSet
-)
-xt "0,0,2300,1000"
-st "X\"04\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*80 (TextMatrixItem
-uid 446,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 2
-row 20
-text (Text
-uid 447,0
-va (VaSet
-)
-xt "0,0,2300,1000"
-st "X\"04\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*81 (TextMatrixItem
-uid 448,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 2
-row 21
-text (Text
-uid 449,0
-va (VaSet
-)
-xt "0,0,2300,1000"
-st "X\"04\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*82 (TextMatrixItem
-uid 462,0
-va (VaSet
-vasetType 1
-fg "0,65535,65535"
-bg "0,65535,65535"
-)
-col 1
-row 18
-text (Text
-uid 463,0
-va (VaSet
-)
-xt "0,0,3100,1000"
-st "X\"0010\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*83 (TextMatrixItem
-uid 464,0
-va (VaSet
-vasetType 1
-fg "0,65535,65535"
-bg "0,65535,65535"
-)
-col 1
-row 19
-text (Text
-uid 465,0
-va (VaSet
-)
-xt "0,0,3100,1000"
-st "X\"0020\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*84 (TextMatrixItem
-uid 558,0
-va (VaSet
-vasetType 1
-fg "0,65535,65535"
-bg "0,65535,65535"
-)
-col 1
-row 25
-text (Text
-uid 559,0
-va (VaSet
-)
-xt "0,0,3100,1000"
-st "X\"0080\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*85 (TextMatrixItem
-uid 560,0
-va (VaSet
-vasetType 1
-fg "0,65535,65535"
-bg "0,65535,65535"
-)
-col 1
-row 26
-text (Text
-uid 561,0
-va (VaSet
-)
-xt "0,0,3100,1000"
-st "X\"0090\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*86 (TextMatrixItem
-uid 562,0
-va (VaSet
-vasetType 1
-fg "0,65535,65535"
-bg "0,65535,65535"
-)
-col 1
-row 27
-text (Text
-uid 563,0
-va (VaSet
-)
-xt "0,0,3200,1000"
-st "X\"00A0\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*87 (TextMatrixItem
-uid 566,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 2
-row 22
-text (Text
-uid 567,0
-va (VaSet
-)
-xt "0,0,2300,1000"
-st "X\"08\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*88 (TextMatrixItem
+*43 (TextMatrixItem
 uid 580,0
 va (VaSet
 vasetType 1
@@ -1910,7 +1055,7 @@ blo "0,800"
 tm "TableTextMgr"
 )
 )
-*89 (TextMatrixItem
+*44 (TextMatrixItem
 uid 582,0
 va (VaSet
 vasetType 1
@@ -1929,7 +1074,7 @@ blo "0,800"
 tm "TableTextMgr"
 )
 )
-*90 (TextMatrixItem
+*45 (TextMatrixItem
 uid 584,0
 va (VaSet
 vasetType 1
@@ -1948,7 +1093,7 @@ blo "0,800"
 tm "TableTextMgr"
 )
 )
-*91 (TextMatrixItem
+*46 (TextMatrixItem
 uid 586,0
 va (VaSet
 vasetType 1
@@ -1967,7 +1112,7 @@ blo "0,800"
 tm "TableTextMgr"
 )
 )
-*92 (TextMatrixItem
+*47 (TextMatrixItem
 uid 588,0
 va (VaSet
 vasetType 1
@@ -1986,8 +1131,654 @@ blo "0,800"
 tm "TableTextMgr"
 )
 )
-*93 (TextMatrixItem
-uid 590,0
+*48 (TextMatrixItem
+uid 977,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 2
+row 6
+text (Text
+uid 978,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"02\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*49 (TextMatrixItem
+uid 979,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 2
+row 7
+text (Text
+uid 980,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"02\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*50 (TextMatrixItem
+uid 981,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 2
+row 8
+text (Text
+uid 982,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"02\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*51 (TextMatrixItem
+uid 983,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 2
+row 9
+text (Text
+uid 984,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"02\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*52 (TextMatrixItem
+uid 985,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 2
+row 11
+text (Text
+uid 986,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"04\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*53 (TextMatrixItem
+uid 987,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 2
+row 12
+text (Text
+uid 988,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"04\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*54 (TextMatrixItem
+uid 989,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 2
+row 13
+text (Text
+uid 990,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"04\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*55 (TextMatrixItem
+uid 991,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 2
+row 14
+text (Text
+uid 992,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"04\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*56 (TextMatrixItem
+uid 993,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 2
+row 15
+text (Text
+uid 994,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"04\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*57 (TextMatrixItem
+uid 995,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 2
+row 16
+text (Text
+uid 996,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"08\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*58 (TextMatrixItem
+uid 997,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 2
+row 17
+text (Text
+uid 998,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"08\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*59 (TextMatrixItem
+uid 999,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 2
+row 18
+text (Text
+uid 1000,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"08\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*60 (TextMatrixItem
+uid 1001,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 2
+row 19
+text (Text
+uid 1002,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"08\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*61 (TextMatrixItem
+uid 1003,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 2
+row 20
+text (Text
+uid 1004,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"08\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*62 (TextMatrixItem
+uid 1005,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 2
+row 21
+text (Text
+uid 1006,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"08\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*63 (TextMatrixItem
+uid 1007,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 2
+row 22
+text (Text
+uid 1008,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"10\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*64 (TextMatrixItem
+uid 1009,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 2
+row 23
+text (Text
+uid 1010,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"10\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*65 (TextMatrixItem
+uid 1011,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 2
+row 24
+text (Text
+uid 1012,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"10\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*66 (TextMatrixItem
+uid 1013,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 2
+row 25
+text (Text
+uid 1014,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"10\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*67 (TextMatrixItem
+uid 1015,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 2
+row 26
+text (Text
+uid 1016,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"10\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*68 (TextMatrixItem
+uid 1017,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 2
+row 27
+text (Text
+uid 1018,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"10\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*69 (TextMatrixItem
+uid 1045,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+bg "0,65535,65535"
+)
+col 1
+row 18
+text (Text
+uid 1046,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"10\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*70 (TextMatrixItem
+uid 1047,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+bg "0,65535,65535"
+)
+col 1
+row 19
+text (Text
+uid 1048,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"11\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*71 (TextMatrixItem
+uid 1049,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+bg "0,65535,65535"
+)
+col 1
+row 20
+text (Text
+uid 1050,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"12\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*72 (TextMatrixItem
+uid 1051,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+bg "0,65535,65535"
+)
+col 1
+row 21
+text (Text
+uid 1052,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"13\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*73 (TextMatrixItem
+uid 1053,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+bg "0,65535,65535"
+)
+col 1
+row 22
+text (Text
+uid 1054,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"14\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*74 (TextMatrixItem
+uid 1055,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+bg "0,65535,65535"
+)
+col 1
+row 23
+text (Text
+uid 1056,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"15\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*75 (TextMatrixItem
+uid 1057,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+bg "0,65535,65535"
+)
+col 1
+row 24
+text (Text
+uid 1058,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"16\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*76 (TextMatrixItem
+uid 1059,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+bg "0,65535,65535"
+)
+col 1
+row 25
+text (Text
+uid 1060,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"17\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*77 (TextMatrixItem
+uid 1061,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+bg "0,65535,65535"
+)
+col 1
+row 26
+text (Text
+uid 1062,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"18\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*78 (TextMatrixItem
+uid 1063,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+bg "0,65535,65535"
+)
+col 1
+row 27
+text (Text
+uid 1064,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"19\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*79 (TextMatrixItem
+uid 1136,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 4
+row 2
+text (Text
+uid 1137,0
+va (VaSet
+)
+xt "0,0,4100,1000"
+st "X\"FF0000\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*80 (TextMatrixItem
+uid 1367,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 2
+row 3
+text (Text
+uid 1368,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"01\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*81 (TextMatrixItem
+uid 1369,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 2
+row 4
+text (Text
+uid 1370,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"01\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*82 (TextMatrixItem
+uid 1373,0
 va (VaSet
 vasetType 1
 fg "65280,65280,46080"
@@ -1996,26 +1787,235 @@ bg "65280,65280,46080"
 col 3
 row 27
 text (Text
-uid 591,0
+uid 1374,0
 va (VaSet
 )
 xt "0,0,2300,1000"
-st "X\"60\""
+st "X\"80\""
 blo "0,800"
 tm "TableTextMgr"
 )
 )
-*94 (TextMatrixItem
-uid 594,0
+*83 (TextMatrixItem
+uid 1375,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 3
+row 21
+text (Text
+uid 1376,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"80\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*84 (TextMatrixItem
+uid 1402,0
 va (VaSet
 vasetType 1
 fg "65280,65280,46080"
 bg "65280,65280,46080"
 )
 col 4
-row 22
+row 3
 text (Text
-uid 595,0
+uid 1403,0
+va (VaSet
+)
+xt "0,0,4100,1000"
+st "X\"FF0000\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*85 (TextMatrixItem
+uid 1404,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 4
+row 4
+text (Text
+uid 1405,0
+va (VaSet
+)
+xt "0,0,4100,1000"
+st "X\"FF0000\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*86 (TextMatrixItem
+uid 1406,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 4
+row 5
+text (Text
+uid 1407,0
+va (VaSet
+)
+xt "0,0,4100,1000"
+st "X\"FF0000\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*87 (TextMatrixItem
+uid 1408,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 4
+row 6
+text (Text
+uid 1409,0
+va (VaSet
+)
+xt "0,0,4100,1000"
+st "X\"FF0000\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*88 (TextMatrixItem
+uid 1410,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 4
+row 7
+text (Text
+uid 1411,0
+va (VaSet
+)
+xt "0,0,4100,1000"
+st "X\"FF0000\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*89 (TextMatrixItem
+uid 1412,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 4
+row 8
+text (Text
+uid 1413,0
+va (VaSet
+)
+xt "0,0,4100,1000"
+st "X\"FF0000\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*90 (TextMatrixItem
+uid 1414,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 4
+row 9
+text (Text
+uid 1415,0
+va (VaSet
+)
+xt "0,0,4100,1000"
+st "X\"FF0000\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*91 (TextMatrixItem
+uid 1416,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 4
+row 10
+text (Text
+uid 1417,0
+va (VaSet
+)
+xt "0,0,4100,1000"
+st "X\"FF0000\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*92 (TextMatrixItem
+uid 1418,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 4
+row 12
+text (Text
+uid 1419,0
+va (VaSet
+)
+xt "0,0,4100,1000"
+st "X\"FF0000\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*93 (TextMatrixItem
+uid 1420,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 4
+row 11
+text (Text
+uid 1421,0
+va (VaSet
+)
+xt "0,0,4100,1000"
+st "X\"FF0000\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*94 (TextMatrixItem
+uid 1422,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 4
+row 14
+text (Text
+uid 1423,0
 va (VaSet
 )
 xt "0,0,4100,1000"
@@ -2025,16 +2025,16 @@ tm "TableTextMgr"
 )
 )
 *95 (TextMatrixItem
-uid 596,0
+uid 1424,0
 va (VaSet
 vasetType 1
 fg "65280,65280,46080"
 bg "65280,65280,46080"
 )
 col 4
-row 23
+row 15
 text (Text
-uid 597,0
+uid 1425,0
 va (VaSet
 )
 xt "0,0,4100,1000"
@@ -2044,16 +2044,16 @@ tm "TableTextMgr"
 )
 )
 *96 (TextMatrixItem
-uid 598,0
+uid 1426,0
 va (VaSet
 vasetType 1
 fg "65280,65280,46080"
 bg "65280,65280,46080"
 )
 col 4
-row 24
+row 16
 text (Text
-uid 599,0
+uid 1427,0
 va (VaSet
 )
 xt "0,0,4100,1000"
@@ -2063,16 +2063,16 @@ tm "TableTextMgr"
 )
 )
 *97 (TextMatrixItem
-uid 600,0
+uid 1428,0
 va (VaSet
 vasetType 1
 fg "65280,65280,46080"
 bg "65280,65280,46080"
 )
 col 4
-row 25
+row 17
 text (Text
-uid 601,0
+uid 1429,0
 va (VaSet
 )
 xt "0,0,4100,1000"
@@ -2082,16 +2082,16 @@ tm "TableTextMgr"
 )
 )
 *98 (TextMatrixItem
-uid 602,0
+uid 1430,0
 va (VaSet
 vasetType 1
 fg "65280,65280,46080"
 bg "65280,65280,46080"
 )
 col 4
-row 26
+row 18
 text (Text
-uid 603,0
+uid 1431,0
 va (VaSet
 )
 xt "0,0,4100,1000"
@@ -2101,16 +2101,16 @@ tm "TableTextMgr"
 )
 )
 *99 (TextMatrixItem
-uid 604,0
+uid 1432,0
 va (VaSet
 vasetType 1
 fg "65280,65280,46080"
 bg "65280,65280,46080"
 )
 col 4
-row 27
+row 19
 text (Text
-uid 605,0
+uid 1433,0
 va (VaSet
 )
 xt "0,0,4100,1000"
@@ -2120,92 +2120,339 @@ tm "TableTextMgr"
 )
 )
 *100 (TextMatrixItem
-uid 606,0
+uid 1434,0
 va (VaSet
 vasetType 1
 fg "65280,65280,46080"
 bg "65280,65280,46080"
 )
-col 2
-row 23
+col 4
+row 20
 text (Text
-uid 607,0
+uid 1435,0
 va (VaSet
 )
-xt "0,0,2300,1000"
-st "X\"08\""
+xt "0,0,4100,1000"
+st "X\"FF0000\""
 blo "0,800"
 tm "TableTextMgr"
 )
 )
 *101 (TextMatrixItem
-uid 608,0
+uid 1436,0
 va (VaSet
 vasetType 1
 fg "65280,65280,46080"
 bg "65280,65280,46080"
 )
-col 2
-row 24
+col 4
+row 22
 text (Text
-uid 609,0
+uid 1437,0
 va (VaSet
 )
-xt "0,0,2300,1000"
-st "X\"08\""
+xt "0,0,4100,1000"
+st "X\"FF0000\""
 blo "0,800"
 tm "TableTextMgr"
 )
 )
 *102 (TextMatrixItem
-uid 610,0
+uid 1438,0
 va (VaSet
 vasetType 1
 fg "65280,65280,46080"
 bg "65280,65280,46080"
 )
-col 2
-row 25
+col 4
+row 21
 text (Text
-uid 611,0
+uid 1439,0
 va (VaSet
 )
-xt "0,0,2300,1000"
-st "X\"08\""
+xt "0,0,4100,1000"
+st "X\"FF0000\""
 blo "0,800"
 tm "TableTextMgr"
 )
 )
 *103 (TextMatrixItem
-uid 612,0
+uid 1440,0
 va (VaSet
 vasetType 1
 fg "65280,65280,46080"
 bg "65280,65280,46080"
 )
-col 2
-row 26
+col 4
+row 23
 text (Text
-uid 613,0
+uid 1441,0
 va (VaSet
 )
-xt "0,0,2300,1000"
-st "X\"08\""
+xt "0,0,4100,1000"
+st "X\"FF0000\""
 blo "0,800"
 tm "TableTextMgr"
 )
 )
 *104 (TextMatrixItem
-uid 614,0
+uid 1442,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 4
+row 24
+text (Text
+uid 1443,0
+va (VaSet
+)
+xt "0,0,4100,1000"
+st "X\"FF0000\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*105 (TextMatrixItem
+uid 1444,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 4
+row 25
+text (Text
+uid 1445,0
+va (VaSet
+)
+xt "0,0,4100,1000"
+st "X\"FF0000\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*106 (TextMatrixItem
+uid 1446,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 4
+row 26
+text (Text
+uid 1447,0
+va (VaSet
+)
+xt "0,0,4100,1000"
+st "X\"FF0000\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*107 (TextMatrixItem
+uid 1448,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 4
+row 27
+text (Text
+uid 1449,0
+va (VaSet
+)
+xt "0,0,4100,1000"
+st "X\"FF0000\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*108 (TextMatrixItem
+uid 4,0
+va (VaSet
+vasetType 1
+fg "65535,65535,37120"
+bg "65535,65535,37120"
+)
+col 4
+row 1
+text (Text
+uid 5,0
+va (VaSet
+)
+xt "0,0,5200,1000"
+st "victory_color"
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*109 (TextMatrixItem
+uid 1478,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 4
+row 13
+text (Text
+uid 1479,0
+va (VaSet
+)
+xt "0,0,4100,1000"
+st "X\"FF0000\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*110 (TextMatrixItem
+uid 1722,0
 va (VaSet
 vasetType 1
 fg "65280,65280,46080"
 bg "65280,65280,46080"
 )
 col 2
-row 27
+row 28
 text (Text
-uid 615,0
+uid 1723,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"20\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*111 (TextMatrixItem
+uid 1724,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 2
+row 29
+text (Text
+uid 1725,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"20\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*112 (TextMatrixItem
+uid 1726,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 2
+row 30
+text (Text
+uid 1727,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"20\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*113 (TextMatrixItem
+uid 1728,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 2
+row 31
+text (Text
+uid 1729,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"20\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*114 (TextMatrixItem
+uid 1730,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 2
+row 32
+text (Text
+uid 1731,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"20\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*115 (TextMatrixItem
+uid 1732,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 3
+row 28
+text (Text
+uid 1733,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"02\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*116 (TextMatrixItem
+uid 1734,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 3
+row 29
+text (Text
+uid 1735,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"04\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*117 (TextMatrixItem
+uid 1736,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 3
+row 30
+text (Text
+uid 1737,0
 va (VaSet
 )
 xt "0,0,2300,1000"
@@ -2214,97 +2461,838 @@ blo "0,800"
 tm "TableTextMgr"
 )
 )
-*105 (TextMatrixItem
-uid 618,0
+*118 (TextMatrixItem
+uid 1738,0
 va (VaSet
 vasetType 1
-fg "0,65535,65535"
-bg "0,65535,65535"
+fg "65280,65280,46080"
+bg "65280,65280,46080"
 )
-col 1
-row 23
+col 3
+row 31
 text (Text
-uid 619,0
+uid 1739,0
 va (VaSet
 )
-xt "0,0,3100,1000"
-st "X\"0060\""
+xt "0,0,2300,1000"
+st "X\"10\""
 blo "0,800"
 tm "TableTextMgr"
 )
 )
-*106 (TextMatrixItem
-uid 620,0
+*119 (TextMatrixItem
+uid 1740,0
 va (VaSet
 vasetType 1
-fg "0,65535,65535"
-bg "0,65535,65535"
+fg "65280,65280,46080"
+bg "65280,65280,46080"
 )
-col 1
-row 24
+col 3
+row 32
 text (Text
-uid 621,0
+uid 1741,0
 va (VaSet
 )
-xt "0,0,3100,1000"
-st "X\"0070\""
+xt "0,0,2300,1000"
+st "X\"20\""
 blo "0,800"
 tm "TableTextMgr"
 )
 )
-*107 (TextMatrixItem
-uid 622,0
+*120 (TextMatrixItem
+uid 1742,0
 va (VaSet
 vasetType 1
-fg "0,65535,65535"
-bg "0,65535,65535"
+fg "65280,65280,46080"
+bg "65280,65280,46080"
 )
-col 1
-row 20
+col 4
+row 28
 text (Text
-uid 623,0
+uid 1743,0
 va (VaSet
 )
-xt "0,0,3100,1000"
-st "X\"0030\""
+xt "0,0,4100,1000"
+st "X\"FF0000\""
 blo "0,800"
 tm "TableTextMgr"
 )
 )
-*108 (TextMatrixItem
-uid 624,0
+*121 (TextMatrixItem
+uid 1744,0
 va (VaSet
 vasetType 1
-fg "0,65535,65535"
-bg "0,65535,65535"
+fg "65280,65280,46080"
+bg "65280,65280,46080"
 )
-col 1
-row 21
+col 4
+row 29
 text (Text
-uid 625,0
+uid 1745,0
 va (VaSet
 )
-xt "0,0,3100,1000"
-st "X\"0040\""
+xt "0,0,4100,1000"
+st "X\"FF0000\""
 blo "0,800"
 tm "TableTextMgr"
 )
 )
-*109 (TextMatrixItem
-uid 626,0
+*122 (TextMatrixItem
+uid 1746,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 4
+row 30
+text (Text
+uid 1747,0
+va (VaSet
+)
+xt "0,0,4100,1000"
+st "X\"FF0000\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*123 (TextMatrixItem
+uid 1748,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 4
+row 31
+text (Text
+uid 1749,0
+va (VaSet
+)
+xt "0,0,4100,1000"
+st "X\"FF0000\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*124 (TextMatrixItem
+uid 1750,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 4
+row 32
+text (Text
+uid 1751,0
+va (VaSet
+)
+xt "0,0,4100,1000"
+st "X\"FF0000\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*125 (TextMatrixItem
+uid 1758,0
 va (VaSet
 vasetType 1
 fg "0,65535,65535"
 bg "0,65535,65535"
 )
 col 1
-row 22
+row 36
 text (Text
-uid 627,0
+uid 1759,0
 va (VaSet
 )
-xt "0,0,3100,1000"
-st "X\"0050\""
+xt "0,0,2300,1000"
+st "X\"20\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*126 (TextMatrixItem
+uid 1760,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+bg "0,65535,65535"
+)
+col 1
+row 37
+text (Text
+uid 1761,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"21\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*127 (TextMatrixItem
+uid 1762,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 2
+row 33
+text (Text
+uid 1763,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"40\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*128 (TextMatrixItem
+uid 1764,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 2
+row 34
+text (Text
+uid 1765,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"40\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*129 (TextMatrixItem
+uid 1766,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 2
+row 35
+text (Text
+uid 1767,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"40\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*130 (TextMatrixItem
+uid 1768,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 2
+row 36
+text (Text
+uid 1769,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"40\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*131 (TextMatrixItem
+uid 1770,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 2
+row 37
+text (Text
+uid 1771,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"40\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*132 (TextMatrixItem
+uid 1772,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 3
+row 33
+text (Text
+uid 1773,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"02\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*133 (TextMatrixItem
+uid 1774,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 3
+row 34
+text (Text
+uid 1775,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"04\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*134 (TextMatrixItem
+uid 1776,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 3
+row 35
+text (Text
+uid 1777,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"08\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*135 (TextMatrixItem
+uid 1778,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 3
+row 36
+text (Text
+uid 1779,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"10\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*136 (TextMatrixItem
+uid 1780,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 3
+row 37
+text (Text
+uid 1781,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"20\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*137 (TextMatrixItem
+uid 1782,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 4
+row 33
+text (Text
+uid 1783,0
+va (VaSet
+)
+xt "0,0,4100,1000"
+st "X\"FF0000\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*138 (TextMatrixItem
+uid 1784,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 4
+row 34
+text (Text
+uid 1785,0
+va (VaSet
+)
+xt "0,0,4100,1000"
+st "X\"FF0000\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*139 (TextMatrixItem
+uid 1786,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 4
+row 35
+text (Text
+uid 1787,0
+va (VaSet
+)
+xt "0,0,4100,1000"
+st "X\"FF0000\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*140 (TextMatrixItem
+uid 1788,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 4
+row 36
+text (Text
+uid 1789,0
+va (VaSet
+)
+xt "0,0,4100,1000"
+st "X\"FF0000\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*141 (TextMatrixItem
+uid 1790,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 4
+row 37
+text (Text
+uid 1791,0
+va (VaSet
+)
+xt "0,0,4100,1000"
+st "X\"FF0000\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*142 (TextMatrixItem
+uid 1792,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+bg "0,65535,65535"
+)
+col 1
+row 38
+text (Text
+uid 1793,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"22\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*143 (TextMatrixItem
+uid 1794,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+bg "0,65535,65535"
+)
+col 1
+row 39
+text (Text
+uid 1795,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"23\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*144 (TextMatrixItem
+uid 1796,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+bg "0,65535,65535"
+)
+col 1
+row 40
+text (Text
+uid 1797,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"24\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*145 (TextMatrixItem
+uid 1798,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 2
+row 38
+text (Text
+uid 1799,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"80\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*146 (TextMatrixItem
+uid 1800,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 2
+row 39
+text (Text
+uid 1801,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"80\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*147 (TextMatrixItem
+uid 1802,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 2
+row 40
+text (Text
+uid 1803,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"80\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*148 (TextMatrixItem
+uid 1804,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 3
+row 38
+text (Text
+uid 1805,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"04\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*149 (TextMatrixItem
+uid 1806,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 3
+row 39
+text (Text
+uid 1807,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"08\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*150 (TextMatrixItem
+uid 1808,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 3
+row 40
+text (Text
+uid 1809,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"10\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*151 (TextMatrixItem
+uid 1810,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 4
+row 38
+text (Text
+uid 1811,0
+va (VaSet
+)
+xt "0,0,4100,1000"
+st "X\"FF0000\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*152 (TextMatrixItem
+uid 1812,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 4
+row 39
+text (Text
+uid 1813,0
+va (VaSet
+)
+xt "0,0,4100,1000"
+st "X\"FF0000\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*153 (TextMatrixItem
+uid 1814,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 4
+row 40
+text (Text
+uid 1815,0
+va (VaSet
+)
+xt "0,0,4100,1000"
+st "X\"FF0000\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*154 (TextMatrixItem
+uid 1816,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+bg "0,65535,65535"
+)
+col 1
+row 28
+text (Text
+uid 1817,0
+va (VaSet
+)
+xt "0,0,2400,1000"
+st "X\"1A\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*155 (TextMatrixItem
+uid 1818,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+bg "0,65535,65535"
+)
+col 1
+row 29
+text (Text
+uid 1819,0
+va (VaSet
+)
+xt "0,0,2400,1000"
+st "X\"1B\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*156 (TextMatrixItem
+uid 1820,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+bg "0,65535,65535"
+)
+col 1
+row 30
+text (Text
+uid 1821,0
+va (VaSet
+)
+xt "0,0,2500,1000"
+st "X\"1C\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*157 (TextMatrixItem
+uid 1822,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+bg "0,65535,65535"
+)
+col 1
+row 31
+text (Text
+uid 1823,0
+va (VaSet
+)
+xt "0,0,2500,1000"
+st "X\"1D\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*158 (TextMatrixItem
+uid 1824,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+bg "0,65535,65535"
+)
+col 1
+row 32
+text (Text
+uid 1825,0
+va (VaSet
+)
+xt "0,0,2400,1000"
+st "X\"1E\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*159 (TextMatrixItem
+uid 1826,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+bg "0,65535,65535"
+)
+col 1
+row 33
+text (Text
+uid 1827,0
+va (VaSet
+)
+xt "0,0,2400,1000"
+st "X\"1F\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*160 (TextMatrixItem
+uid 1828,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+bg "0,65535,65535"
+)
+col 1
+row 34
+text (Text
+uid 1829,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"20\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*161 (TextMatrixItem
+uid 1830,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+bg "0,65535,65535"
+)
+col 1
+row 35
+text (Text
+uid 1831,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"21\""
 blo "0,800"
 tm "TableTextMgr"
 )
@@ -2350,6 +3338,19 @@ rowHeight [
 40
 40
 40
+40
+40
+40
+40
+40
+40
+40
+40
+40
+40
+40
+40
+40
 ]
 inputColumnLimit 2
 )
@@ -2365,11 +3366,11 @@ xShown 1
 yShown 1
 color "65535,0,0"
 )
-packageList *110 (PackageList
+packageList *162 (PackageList
 uid 22,0
 stg "VerticalLayoutStrategy"
 textVec [
-*111 (Text
+*163 (Text
 uid 23,0
 va (VaSet
 )
@@ -2377,7 +3378,7 @@ xt "0,0,5100,1000"
 st "Package List"
 blo "0,800"
 )
-*112 (MLText
+*164 (MLText
 uid 24,0
 va (VaSet
 )
@@ -2393,7 +3394,7 @@ compDirBlock (MlTextGroup
 uid 25,0
 stg "VerticalLayoutStrategy"
 textVec [
-*113 (Text
+*165 (Text
 uid 26,0
 va (VaSet
 )
@@ -2401,7 +3402,7 @@ xt "20000,0,27700,1000"
 st "Compiler Directives"
 blo "20000,800"
 )
-*114 (Text
+*166 (Text
 uid 27,0
 va (VaSet
 )
@@ -2409,7 +3410,7 @@ xt "20000,1000,28900,2000"
 st "Pre-module directives:"
 blo "20000,1800"
 )
-*115 (MLText
+*167 (MLText
 uid 28,0
 va (VaSet
 )
@@ -2418,7 +3419,7 @@ st "`resetall
 `timescale 1ns/10ps"
 tm "TtCompilerDirectivesTextMgr"
 )
-*116 (Text
+*168 (Text
 uid 29,0
 va (VaSet
 )
@@ -2426,14 +3427,14 @@ xt "20000,4000,29200,5000"
 st "Post-module directives:"
 blo "20000,4800"
 )
-*117 (MLText
+*169 (MLText
 uid 30,0
 va (VaSet
 )
 xt "20000,0,20000,0"
 tm "TtCompilerDirectivesTextMgr"
 )
-*118 (Text
+*170 (Text
 uid 31,0
 va (VaSet
 )
@@ -2441,7 +3442,7 @@ xt "20000,5000,29000,6000"
 st "End-module directives:"
 blo "20000,5800"
 )
-*119 (MLText
+*171 (MLText
 uid 32,0
 va (VaSet
 )
@@ -2451,8 +3452,8 @@ tm "TtCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "0,0,2561,1408"
-viewArea "0,0,2350,1297"
+windowSize "1000,41,2296,1440"
+viewArea "0,0,1085,1260"
 cachedDiagramExtent "0,0,0,0"
 pageBreakOrigin "0,0"
 defaultInputHdrTextMatrixItem (TextMatrixItem
@@ -2515,7 +3516,7 @@ blo "0,0"
 tm "TableTextMgr"
 )
 )
-archDeclarativeBlock *120 (BiTextGroup
+archDeclarativeBlock *172 (BiTextGroup
 uid 33,0
 stg "VerticalLayoutStrategy"
 first (Text
@@ -2537,7 +3538,7 @@ st " "
 tm "CommentText"
 )
 )
-archConcurrentStatementBlock *121 (BiTextGroup
+archConcurrentStatementBlock *173 (BiTextGroup
 uid 36,0
 stg "VerticalLayoutStrategy"
 first (Text
@@ -2559,7 +3560,7 @@ st " "
 tm "CommentText"
 )
 )
-processDeclarativeBlock *122 (BiTextGroup
+processDeclarativeBlock *174 (BiTextGroup
 uid 39,0
 stg "VerticalLayoutStrategy"
 first (Text
@@ -2581,7 +3582,7 @@ st " "
 tm "CommentText"
 )
 )
-sensitivityListBlock *123 (BiTextGroup
+sensitivityListBlock *175 (BiTextGroup
 uid 42,0
 stg "VerticalLayoutStrategy"
 first (Text
@@ -2602,7 +3603,7 @@ xt "0,1500,0,1500"
 tm "CommentText"
 )
 )
-globalActionsBlock *124 (BiTextGroup
+globalActionsBlock *176 (BiTextGroup
 uid 45,0
 stg "VerticalLayoutStrategy"
 first (Text
@@ -2623,7 +3624,7 @@ xt "0,1500,0,1500"
 tm "CommentText"
 )
 )
-genChar *125 (TtGenChar
+genChar *177 (TtGenChar
 uid 48,0
 machineMode 1
 hdlStyle 1
@@ -2647,58 +3648,58 @@ generateDefaultInCase 1
 )
 commonDM (CommonDM
 ldm (LogicalDM
-emptyRow *126 (LEmptyRow
+emptyRow *178 (LEmptyRow
 )
 uid 51,0
 optionalChildren [
-*127 (RefLabelRowHdr
+*179 (RefLabelRowHdr
 )
-*128 (TitleRowHdr
+*180 (TitleRowHdr
 )
-*129 (FilterRowHdr
+*181 (FilterRowHdr
 )
-*130 (RefLabelColHdr
+*182 (RefLabelColHdr
 tm "RefLabelColHdrMgr"
 )
-*131 (RowExpandColHdr
+*183 (RowExpandColHdr
 tm "RowExpandColHdrMgr"
 )
-*132 (GroupColHdr
+*184 (GroupColHdr
 tm "GroupColHdrMgr"
 )
-*133 (NameColHdr
+*185 (NameColHdr
 tm "TruthTableNameColHdrMgr"
 )
-*134 (ModeColHdr
+*186 (ModeColHdr
 tm "TruthTableModeColHdrMgr"
 )
-*135 (TypeColHdr
+*187 (TypeColHdr
 tm "TruthTableTypeColHdrMgr"
 )
-*136 (BoundsColHdr
+*188 (BoundsColHdr
 tm "TruthTableBoundsColHdrMgr"
 )
-*137 (InitColHdr
+*189 (InitColHdr
 tm "TruthTableInitColHdrMgr"
 )
-*138 (EolColHdr
+*190 (EolColHdr
 tm "TruthTableEolColHdrMgr"
 )
-*139 (LeafLogPort
+*191 (LeafLogPort
 port (LogicalPort
 lang 2
 decl (Decl
 n "idx"
 t "std_logic_vector"
-b "(1 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 1
-i "\"00\""
+i "X\"00\""
 )
 )
 uid 126,0
 scheme 0
 )
-*140 (LeafLogPort
+*192 (LeafLogPort
 port (LogicalPort
 lang 2
 m 1
@@ -2706,14 +3707,14 @@ decl (Decl
 n "victory_x"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
-o 2
+o 3
 i "X\"00\""
 )
 )
 uid 128,0
 scheme 0
 )
-*141 (LeafLogPort
+*193 (LeafLogPort
 port (LogicalPort
 lang 2
 m 1
@@ -2721,14 +3722,14 @@ decl (Decl
 n "victory_y"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
-o 3
+o 4
 i "X\"00\""
 )
 )
 uid 130,0
 scheme 0
 )
-*142 (LeafLogPort
+*194 (LeafLogPort
 port (LogicalPort
 lang 2
 m 1
@@ -2736,8 +3737,8 @@ decl (Decl
 n "victory_color"
 t "std_logic_vector"
 b "(23 DOWNTO 0)"
-o 4
-i "X\"00FFFF\""
+o 2
+i "X\"FF000\""
 )
 )
 uid 132,0
@@ -2750,7 +3751,7 @@ displayShortBounds 1
 editShortBounds 1
 uid 64,0
 optionalChildren [
-*143 (Sheet
+*195 (Sheet
 sheetRow (SheetRow
 headerVa (MVa
 cellColor "49152,49152,49152"
@@ -2767,52 +3768,52 @@ cellColor "39936,56832,65280"
 fontColor "0,0,0"
 font "Tahoma,10,0"
 )
-emptyMRCItem *144 (MRCItem
-litem &126
+emptyMRCItem *196 (MRCItem
+litem &178
 pos 4
 dimension 20
 )
 uid 66,0
 optionalChildren [
-*145 (MRCItem
-litem &127
+*197 (MRCItem
+litem &179
 pos 0
 dimension 20
 uid 67,0
 )
-*146 (MRCItem
-litem &128
+*198 (MRCItem
+litem &180
 pos 1
 dimension 23
 uid 68,0
 )
-*147 (MRCItem
-litem &129
+*199 (MRCItem
+litem &181
 pos 2
 hidden 1
 dimension 20
 uid 69,0
 )
-*148 (MRCItem
-litem &139
+*200 (MRCItem
+litem &191
 pos 0
 dimension 20
 uid 127,0
 )
-*149 (MRCItem
-litem &140
+*201 (MRCItem
+litem &192
 pos 1
 dimension 20
 uid 129,0
 )
-*150 (MRCItem
-litem &141
+*202 (MRCItem
+litem &193
 pos 2
 dimension 20
 uid 131,0
 )
-*151 (MRCItem
-litem &142
+*203 (MRCItem
+litem &194
 pos 3
 dimension 20
 uid 133,0
@@ -2828,50 +3829,50 @@ textAngle 90
 )
 uid 70,0
 optionalChildren [
-*152 (MRCItem
-litem &130
+*204 (MRCItem
+litem &182
 pos 0
 dimension 20
 uid 71,0
 )
-*153 (MRCItem
-litem &132
+*205 (MRCItem
+litem &184
 pos 1
 dimension 50
 uid 72,0
 )
-*154 (MRCItem
-litem &133
+*206 (MRCItem
+litem &185
 pos 2
 dimension 100
 uid 73,0
 )
-*155 (MRCItem
-litem &134
+*207 (MRCItem
+litem &186
 pos 3
 dimension 50
 uid 74,0
 )
-*156 (MRCItem
-litem &135
+*208 (MRCItem
+litem &187
 pos 4
 dimension 100
 uid 75,0
 )
-*157 (MRCItem
-litem &136
+*209 (MRCItem
+litem &188
 pos 5
 dimension 100
 uid 76,0
 )
-*158 (MRCItem
-litem &137
+*210 (MRCItem
+litem &189
 pos 6
 dimension 50
 uid 77,0
 )
-*159 (MRCItem
-litem &138
+*211 (MRCItem
+litem &190
 pos 7
 dimension 80
 uid 78,0
@@ -2891,38 +3892,38 @@ uid 50,0
 )
 genericsCommonDM (CommonDM
 ldm (LogicalDM
-emptyRow *160 (LEmptyRow
+emptyRow *212 (LEmptyRow
 )
 uid 80,0
 optionalChildren [
-*161 (RefLabelRowHdr
+*213 (RefLabelRowHdr
 )
-*162 (TitleRowHdr
+*214 (TitleRowHdr
 )
-*163 (FilterRowHdr
+*215 (FilterRowHdr
 )
-*164 (RefLabelColHdr
+*216 (RefLabelColHdr
 tm "RefLabelColHdrMgr"
 )
-*165 (RowExpandColHdr
+*217 (RowExpandColHdr
 tm "RowExpandColHdrMgr"
 )
-*166 (GroupColHdr
+*218 (GroupColHdr
 tm "GroupColHdrMgr"
 )
-*167 (NameColHdr
+*219 (NameColHdr
 tm "GenericNameColHdrMgr"
 )
-*168 (TypeColHdr
+*220 (TypeColHdr
 tm "GenericTypeColHdrMgr"
 )
-*169 (InitColHdr
+*221 (InitColHdr
 tm "GenericValueColHdrMgr"
 )
-*170 (PragmaColHdr
+*222 (PragmaColHdr
 tm "GenericPragmaColHdrMgr"
 )
-*171 (EolColHdr
+*223 (EolColHdr
 tm "GenericEolColHdrMgr"
 )
 ]
@@ -2932,7 +3933,7 @@ displayShortBounds 1
 editShortBounds 1
 uid 92,0
 optionalChildren [
-*172 (Sheet
+*224 (Sheet
 sheetRow (SheetRow
 headerVa (MVa
 cellColor "49152,49152,49152"
@@ -2949,27 +3950,27 @@ cellColor "39936,56832,65280"
 fontColor "0,0,0"
 font "Tahoma,10,0"
 )
-emptyMRCItem *173 (MRCItem
-litem &160
+emptyMRCItem *225 (MRCItem
+litem &212
 pos 0
 dimension 20
 )
 uid 94,0
 optionalChildren [
-*174 (MRCItem
-litem &161
+*226 (MRCItem
+litem &213
 pos 0
 dimension 20
 uid 95,0
 )
-*175 (MRCItem
-litem &162
+*227 (MRCItem
+litem &214
 pos 1
 dimension 23
 uid 96,0
 )
-*176 (MRCItem
-litem &163
+*228 (MRCItem
+litem &215
 pos 2
 hidden 1
 dimension 20
@@ -2986,44 +3987,44 @@ textAngle 90
 )
 uid 98,0
 optionalChildren [
-*177 (MRCItem
-litem &164
+*229 (MRCItem
+litem &216
 pos 0
 dimension 20
 uid 99,0
 )
-*178 (MRCItem
-litem &166
+*230 (MRCItem
+litem &218
 pos 1
 dimension 50
 uid 100,0
 )
-*179 (MRCItem
-litem &167
+*231 (MRCItem
+litem &219
 pos 2
 dimension 100
 uid 101,0
 )
-*180 (MRCItem
-litem &168
+*232 (MRCItem
+litem &220
 pos 3
 dimension 100
 uid 102,0
 )
-*181 (MRCItem
-litem &169
+*233 (MRCItem
+litem &221
 pos 4
 dimension 50
 uid 103,0
 )
-*182 (MRCItem
-litem &170
+*234 (MRCItem
+litem &222
 pos 5
 dimension 50
 uid 104,0
 )
-*183 (MRCItem
-litem &171
+*235 (MRCItem
+litem &223
 pos 6
 dimension 80
 uid 105,0
@@ -3042,6 +4043,6 @@ vaOverrides [
 uid 79,0
 type 1
 )
-activeModelName "TruthTableDiag"
-lastUid 627,0
+activeModelName "TruthTableDiag:CDM"
+lastUid 1831,0
 )

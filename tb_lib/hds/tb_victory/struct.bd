@@ -52,23 +52,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\..\\tb_lib\\hdl"
+value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\..\\tb_lib\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\..\\tb_lib\\hds"
+value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\..\\tb_lib\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\..\\tb_lib\\hds\\tb_victory\\struct.bd.info"
+value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\..\\tb_lib\\hds\\tb_victory\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\..\\tb_lib\\hds\\tb_victory\\struct.bd.user"
+value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\..\\tb_lib\\hds\\tb_victory\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\..\\tb_lib\\hds"
+value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\..\\tb_lib\\hds"
 )
 (vvPair
 variable "appl"
@@ -84,27 +84,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\..\\tb_lib\\hds\\tb_victory"
+value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\..\\tb_lib\\hds\\tb_victory"
 )
 (vvPair
 variable "d_logical"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\..\\tb_lib\\hds\\tb_victory"
+value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\..\\tb_lib\\hds\\tb_victory"
 )
 (vvPair
 variable "date"
-value " 2.03.2026"
+value " 4.03.2026"
 )
 (vvPair
 variable "day"
-value "ma"
+value "ke"
 )
 (vvPair
 variable "day_long"
-value "maanantai"
+value "keskiviikko"
 )
 (vvPair
 variable "dd"
-value "02"
+value "04"
 )
 (vvPair
 variable "entity_name"
@@ -132,7 +132,7 @@ value "btjogr"
 )
 (vvPair
 variable "graphical_source_date"
-value " 2.03.2026"
+value " 4.03.2026"
 )
 (vvPair
 variable "graphical_source_group"
@@ -140,11 +140,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "HTC219-306-SPC"
+value "HTC219-308-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:53:53"
+value "13:08:35"
 )
 (vvPair
 variable "group"
@@ -152,7 +152,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "HTC219-306-SPC"
+value "HTC219-308-SPC"
 )
 (vvPair
 variable "language"
@@ -192,11 +192,11 @@ value "maaliskuu"
 )
 (vvPair
 variable "p"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\..\\tb_lib\\hds\\tb_victory\\struct.bd"
+value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\..\\tb_lib\\hds\\tb_victory\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\..\\tb_lib\\hds\\tb_victory\\struct.bd"
+value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\..\\tb_lib\\hds\\tb_victory\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -252,7 +252,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "15:53:53"
+value "13:08:35"
 )
 (vvPair
 variable "unit"
@@ -304,7 +304,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,48000,46100,49000"
+xt "36200,48000,46600,49000"
 st "
 by %user on %dd %month %year
 "
@@ -623,8 +623,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,3000,39000,3800"
-st "SIGNAL clk          : std_logic
-"
+st "SIGNAL clk          : std_logic"
 )
 )
 *13 (Net
@@ -642,8 +641,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,5400,39000,6200"
-st "SIGNAL rst_n        : std_logic
-"
+st "SIGNAL rst_n        : std_logic"
 )
 )
 *14 (SaComponent
@@ -1171,8 +1169,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,3800,49500,4600"
-st "SIGNAL color        : std_logic_vector(23 downto 0)
-"
+st "SIGNAL color        : std_logic_vector(23 downto 0)"
 )
 )
 *34 (Net
@@ -1191,8 +1188,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,7000,49000,7800"
-st "SIGNAL y_coordinate : std_logic_vector(7 downto 0)
-"
+st "SIGNAL y_coordinate : std_logic_vector(7 downto 0)"
 )
 )
 *35 (Net
@@ -1211,8 +1207,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,6200,49000,7000"
-st "SIGNAL x_coordinate : std_logic_vector(7 downto 0)
-"
+st "SIGNAL x_coordinate : std_logic_vector(7 downto 0)"
 )
 )
 *36 (Net
@@ -1230,8 +1225,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,4600,49000,5400"
-st "SIGNAL pixel_amount : std_logic_vector(5 downto 0)
-"
+st "SIGNAL pixel_amount : std_logic_vector(5 downto 0)"
 )
 )
 *37 (SaComponent
@@ -1871,12 +1865,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "42,67,1699,1056"
-viewArea "-1100,-1800,90356,53304"
+windowSize "48,130,1706,1119"
+viewArea "-1100,-1800,90420,53304"
 cachedDiagramExtent "0,0,73000,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 754,0
+lastUid 777,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

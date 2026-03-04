@@ -66,10 +66,10 @@ lang 2
 decl (Decl
 n "idx"
 t "std_logic_vector"
-b "(1 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 1
 suid 1,0
-i "\"00\""
+i "X\"00\""
 )
 )
 uid 109,0
@@ -114,7 +114,7 @@ t "std_logic_vector"
 b "(23 DOWNTO 0)"
 o 2
 suid 4,0
-i "X\"00FFFF\""
+i "X\"FF000\""
 )
 )
 uid 115,0
@@ -422,23 +422,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hdl"
+value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds"
+value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_heart\\symbol.sb.info"
+value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_heart\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_heart\\symbol.sb.user"
+value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_heart\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds"
+value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds"
 )
 (vvPair
 variable "appl"
@@ -454,27 +454,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_heart"
+value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_heart"
 )
 (vvPair
 variable "d_logical"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_heart"
+value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_heart"
 )
 (vvPair
 variable "date"
-value " 2.03.2026"
+value " 4.03.2026"
 )
 (vvPair
 variable "day"
-value "ma"
+value "ke"
 )
 (vvPair
 variable "day_long"
-value "maanantai"
+value "keskiviikko"
 )
 (vvPair
 variable "dd"
-value "02"
+value "04"
 )
 (vvPair
 variable "entity_name"
@@ -502,7 +502,7 @@ value "btjogr"
 )
 (vvPair
 variable "graphical_source_date"
-value " 2.03.2026"
+value " 4.03.2026"
 )
 (vvPair
 variable "graphical_source_group"
@@ -510,11 +510,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "HTC219-306-SPC"
+value "HTC219-308-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:50:03"
+value "14:30:10"
 )
 (vvPair
 variable "group"
@@ -522,7 +522,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "HTC219-306-SPC"
+value "HTC219-308-SPC"
 )
 (vvPair
 variable "language"
@@ -562,11 +562,11 @@ value "maaliskuu"
 )
 (vvPair
 variable "p"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_heart\\symbol.sb"
+value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_heart\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_heart\\symbol.sb"
+value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_heart\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -622,7 +622,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "15:50:03"
+value "14:30:10"
 )
 (vvPair
 variable "unit"
@@ -678,7 +678,7 @@ va (VaSet
 font "arial,8,0"
 )
 xt "16000,7500,20000,8500"
-st "idx : (1:0)"
+st "idx : (7:0)"
 blo "16000,8300"
 tm "CptPortNameMgr"
 )
@@ -687,8 +687,8 @@ uid 120,0
 va (VaSet
 font "arial,8,0"
 )
-xt "16000,8500,17800,9500"
-st "\"00\""
+xt "16000,8500,18300,9500"
+st "X\"00\""
 blo "16000,9300"
 tm "InitValueDelayMgr"
 )
@@ -698,18 +698,19 @@ uid 121,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,2000,77500,2800"
-st "idx           : IN     std_logic_vector (1 DOWNTO 0)  := \"00\" ;"
+xt "44000,2000,78000,2800"
+st "idx           : IN     std_logic_vector (7 DOWNTO 0)  := X\"00\" ;
+"
 )
 thePort (LogicalPort
 lang 2
 decl (Decl
 n "idx"
 t "std_logic_vector"
-b "(1 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 1
 suid 1,0
-i "\"00\""
+i "X\"00\""
 )
 )
 )
@@ -758,7 +759,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,3600,78000,4400"
-st "victory_x     : OUT    std_logic_vector (7 DOWNTO 0)  := X\"00\" ;"
+st "victory_x     : OUT    std_logic_vector (7 DOWNTO 0)  := X\"00\" ;
+"
 )
 thePort (LogicalPort
 lang 2
@@ -818,7 +820,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4400,77000,5200"
-st "victory_y     : OUT    std_logic_vector (7 DOWNTO 0)  := X\"00\""
+st "victory_y     : OUT    std_logic_vector (7 DOWNTO 0)  := X\"00\"
+"
 )
 thePort (LogicalPort
 lang 2
@@ -865,8 +868,8 @@ uid 138,0
 va (VaSet
 font "arial,8,0"
 )
-xt "27700,12500,32000,13500"
-st "X\"00FFFF\""
+xt "28300,12500,32000,13500"
+st "X\"FF000\""
 ju 2
 blo "32000,13300"
 tm "InitValueDelayMgr"
@@ -877,8 +880,9 @@ uid 139,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,2800,80000,3600"
-st "victory_color : OUT    std_logic_vector (23 DOWNTO 0) := X\"00FFFF\" ;"
+xt "44000,2800,79500,3600"
+st "victory_color : OUT    std_logic_vector (23 DOWNTO 0) := X\"FF000\" ;
+"
 )
 thePort (LogicalPort
 lang 2
@@ -889,7 +893,7 @@ t "std_logic_vector"
 b "(23 DOWNTO 0)"
 o 2
 suid 4,0
-i "X\"00FFFF\""
+i "X\"FF000\""
 )
 )
 )
@@ -1591,6 +1595,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 277,0
+lastUid 783,0
 activeModelName "Symbol:CDM"
 )

@@ -98,23 +98,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hdl"
+value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds"
+value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_top\\struct.bd.info"
+value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_top\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_top\\struct.bd.user"
+value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_top\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds"
+value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds"
 )
 (vvPair
 variable "appl"
@@ -130,27 +130,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_top"
+value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_top"
 )
 (vvPair
 variable "d_logical"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_top"
+value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_top"
 )
 (vvPair
 variable "date"
-value " 2.03.2026"
+value " 4.03.2026"
 )
 (vvPair
 variable "day"
-value "ma"
+value "ke"
 )
 (vvPair
 variable "day_long"
-value "maanantai"
+value "keskiviikko"
 )
 (vvPair
 variable "dd"
-value "02"
+value "04"
 )
 (vvPair
 variable "entity_name"
@@ -178,7 +178,7 @@ value "btjogr"
 )
 (vvPair
 variable "graphical_source_date"
-value " 2.03.2026"
+value " 4.03.2026"
 )
 (vvPair
 variable "graphical_source_group"
@@ -186,11 +186,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "HTC219-306-SPC"
+value "HTC219-308-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:53:11"
+value "14:28:45"
 )
 (vvPair
 variable "group"
@@ -198,7 +198,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "HTC219-306-SPC"
+value "HTC219-308-SPC"
 )
 (vvPair
 variable "language"
@@ -238,11 +238,11 @@ value "maaliskuu"
 )
 (vvPair
 variable "p"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_top\\struct.bd"
+value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_top\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "P:\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_top\\struct.bd"
+value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_top\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -298,7 +298,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "15:53:11"
+value "14:28:45"
 )
 (vvPair
 variable "unit"
@@ -390,8 +390,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,2000,36000,2800"
-st "clk           : std_logic
-"
+st "clk           : std_logic"
 )
 )
 *3 (PortIoIn
@@ -455,8 +454,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,2800,36000,3600"
-st "rst_n         : std_logic
-"
+st "rst_n         : std_logic"
 )
 )
 *5 (PortIoOut
@@ -520,8 +518,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,3600,46500,4400"
-st "victory_color : std_logic_vector(23 DOWNTO 0)
-"
+st "victory_color : std_logic_vector(23 DOWNTO 0)"
 )
 )
 *7 (PortIoOut
@@ -585,8 +582,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,4400,46000,5200"
-st "victory_x     : std_logic_vector(7 DOWNTO 0)
-"
+st "victory_x     : std_logic_vector(7 DOWNTO 0)"
 )
 )
 *9 (PortIoOut
@@ -650,8 +646,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,5200,46000,6000"
-st "victory_y     : std_logic_vector(7 DOWNTO 0)
-"
+st "victory_y     : std_logic_vector(7 DOWNTO 0)"
 )
 )
 *11 (Grouping
@@ -675,7 +670,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "30200,48000,40500,49000"
+xt "30200,48000,40600,49000"
 st "
 by %user on %dd %month %year
 "
@@ -1031,7 +1026,7 @@ lang 2
 decl (Decl
 n "d"
 t "std_logic_vector"
-b "(1 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 11
 suid 1,0
 )
@@ -1088,7 +1083,7 @@ m 1
 decl (Decl
 n "q"
 t "std_logic_vector"
-b "(1 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 12
 suid 2,0
 )
@@ -1373,7 +1368,7 @@ m 1
 decl (Decl
 n "qb"
 t "std_logic_vector"
-b "(1 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 12
 suid 5,0
 )
@@ -1979,7 +1974,7 @@ m 1
 decl (Decl
 n "dout"
 t "std_logic_vector"
-b "(1 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 10
 suid 3,0
 )
@@ -2044,7 +2039,7 @@ lang 2
 decl (Decl
 n "din0"
 t "std_logic_vector"
-b "(1 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 12
 suid 2,0
 )
@@ -2109,7 +2104,7 @@ lang 2
 decl (Decl
 n "din1"
 t "std_logic_vector"
-b "(1 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 6
 suid 1,0
 )
@@ -2264,7 +2259,7 @@ m 1
 decl (Decl
 n "dout"
 t "std_logic_vector"
-b "(1 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 6
 suid 1,0
 )
@@ -2410,7 +2405,7 @@ lang 2
 decl (Decl
 n "dout1"
 t "std_logic_vector"
-b "(1 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 6
 suid 9,0
 )
@@ -2420,8 +2415,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,7000,49500,7800"
-st "SIGNAL dout1         : std_logic_vector(1 DOWNTO 0)
-"
+st "SIGNAL dout1         : std_logic_vector(7 DOWNTO 0)"
 )
 )
 *80 (MWC
@@ -2486,7 +2480,7 @@ lang 2
 decl (Decl
 n "din1"
 t "std_logic_vector"
-b "(1 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 7
 suid 1,0
 )
@@ -2551,7 +2545,7 @@ lang 2
 decl (Decl
 n "din0"
 t "std_logic_vector"
-b "(1 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 12
 suid 2,0
 )
@@ -2951,7 +2945,7 @@ m 1
 decl (Decl
 n "dout"
 t "std_logic_vector"
-b "(1 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 7
 suid 1,0
 )
@@ -3080,7 +3074,7 @@ optionalChildren [
 *104 (Property
 pclass "param"
 pname "value"
-pvalue "h#3"
+pvalue "h#ff"
 ptn "String"
 )
 ]
@@ -3097,7 +3091,7 @@ lang 2
 decl (Decl
 n "dout2"
 t "std_logic_vector"
-b "(1 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 7
 suid 10,0
 )
@@ -3107,8 +3101,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,7800,49500,8600"
-st "SIGNAL dout2         : std_logic_vector(1 DOWNTO 0)
-"
+st "SIGNAL dout2         : std_logic_vector(7 DOWNTO 0)"
 )
 )
 *106 (MWC
@@ -3173,7 +3166,7 @@ lang 2
 decl (Decl
 n "din0"
 t "std_logic_vector"
-b "(1 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 10
 suid 1,0
 )
@@ -3247,7 +3240,7 @@ m 1
 decl (Decl
 n "dout"
 t "std_logic_vector"
-b "(1 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 11
 suid 2,0
 )
@@ -3312,7 +3305,7 @@ lang 2
 decl (Decl
 n "din1"
 t "std_logic_vector"
-b "(1 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 8
 suid 3,0
 )
@@ -3706,7 +3699,7 @@ m 1
 decl (Decl
 n "dout"
 t "std_logic_vector"
-b "(1 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 8
 suid 1,0
 )
@@ -3852,7 +3845,7 @@ lang 2
 decl (Decl
 n "dout3"
 t "std_logic_vector"
-b "(1 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 8
 suid 14,0
 )
@@ -3862,8 +3855,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,8600,49500,9400"
-st "SIGNAL dout3         : std_logic_vector(1 DOWNTO 0)
-"
+st "SIGNAL dout3         : std_logic_vector(7 DOWNTO 0)"
 )
 )
 *137 (Net
@@ -3872,7 +3864,7 @@ lang 2
 decl (Decl
 n "idx_now"
 t "std_logic_vector"
-b "(1 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 12
 suid 22,0
 )
@@ -3882,8 +3874,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,11800,49500,12600"
-st "SIGNAL idx_now       : std_logic_vector(1 DOWNTO 0)
-"
+st "SIGNAL idx_now       : std_logic_vector(7 DOWNTO 0)"
 )
 )
 *138 (Net
@@ -3901,8 +3892,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,9400,39500,10200"
-st "SIGNAL fout          : std_logic
-"
+st "SIGNAL fout          : std_logic"
 )
 )
 *139 (Net
@@ -3911,7 +3901,7 @@ lang 2
 decl (Decl
 n "idx_next"
 t "std_logic_vector"
-b "(1 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 11
 suid 25,0
 )
@@ -3921,8 +3911,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,11000,49500,11800"
-st "SIGNAL idx_next      : std_logic_vector(1 DOWNTO 0)
-"
+st "SIGNAL idx_next      : std_logic_vector(7 DOWNTO 0)"
 )
 )
 *140 (Net
@@ -3931,7 +3920,7 @@ lang 2
 decl (Decl
 n "idx_add_one"
 t "std_logic_vector"
-b "(1 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 10
 suid 27,0
 )
@@ -3941,8 +3930,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,10200,49500,11000"
-st "SIGNAL idx_add_one   : std_logic_vector(1 DOWNTO 0)
-"
+st "SIGNAL idx_add_one   : std_logic_vector(7 DOWNTO 0)"
 )
 )
 *141 (SaComponent
@@ -3970,7 +3958,7 @@ va (VaSet
 font "arial,8,0"
 )
 xt "39000,38500,43000,39500"
-st "idx : (1:0)"
+st "idx : (7:0)"
 blo "39000,39300"
 )
 t (Text
@@ -3978,8 +3966,8 @@ uid 894,0
 va (VaSet
 font "arial,8,0"
 )
-xt "39000,39500,40800,40500"
-st "\"00\""
+xt "39000,39500,41300,40500"
+st "X\"00\""
 blo "39000,40300"
 )
 )
@@ -3988,10 +3976,10 @@ lang 2
 decl (Decl
 n "idx"
 t "std_logic_vector"
-b "(1 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 1
 suid 1,0
-i "\"00\""
+i "X\"00\""
 )
 )
 )
@@ -4943,11 +4931,11 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,0,2561,1408"
-viewArea "-6200,1704,94119,56744"
+viewArea "-8700,-6300,114949,61540"
 cachedDiagramExtent "-1399,0,67200,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-6000,0"
-lastUid 919,0
+lastUid 1011,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -6119,7 +6107,7 @@ m 4
 decl (Decl
 n "dout1"
 t "std_logic_vector"
-b "(1 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 6
 suid 9,0
 )
@@ -6133,7 +6121,7 @@ m 4
 decl (Decl
 n "dout2"
 t "std_logic_vector"
-b "(1 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 7
 suid 10,0
 )
@@ -6147,7 +6135,7 @@ m 4
 decl (Decl
 n "dout3"
 t "std_logic_vector"
-b "(1 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 8
 suid 14,0
 )
@@ -6161,7 +6149,7 @@ m 4
 decl (Decl
 n "idx_now"
 t "std_logic_vector"
-b "(1 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 12
 suid 22,0
 )
@@ -6188,7 +6176,7 @@ m 4
 decl (Decl
 n "idx_next"
 t "std_logic_vector"
-b "(1 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 11
 suid 25,0
 )
@@ -6202,7 +6190,7 @@ m 4
 decl (Decl
 n "idx_add_one"
 t "std_logic_vector"
-b "(1 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 10
 suid 27,0
 )
