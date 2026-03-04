@@ -21,7 +21,7 @@ appVersion "2019.3 (Build 4)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
-suid 8,0
+suid 9,0
 usingSuid 1
 emptyRow *1 (LEmptyRow
 )
@@ -127,18 +127,6 @@ uid 117,0
 port (LogicalPort
 lang 2
 decl (Decl
-n "we_row"
-t "std_logic"
-o 5
-suid 6,0
-)
-)
-uid 119,0
-)
-*20 (LogPort
-port (LogicalPort
-lang 2
-decl (Decl
 n "clear"
 t "std_logic"
 o 1
@@ -147,7 +135,7 @@ suid 7,0
 )
 uid 121,0
 )
-*21 (LogPort
+*20 (LogPort
 port (LogicalPort
 lang 2
 m 1
@@ -160,6 +148,18 @@ suid 8,0
 )
 )
 uid 123,0
+)
+*21 (LogPort
+port (LogicalPort
+lang 2
+decl (Decl
+n "we"
+t "std_logic"
+o 5
+suid 9,0
+)
+)
+uid 372,0
 )
 ]
 )
@@ -243,21 +243,21 @@ uid 116,0
 )
 *32 (MRCItem
 litem &19
-pos 5
-dimension 20
-uid 118,0
-)
-*33 (MRCItem
-litem &20
 pos 6
 dimension 20
 uid 120,0
 )
-*34 (MRCItem
-litem &21
+*33 (MRCItem
+litem &20
 pos 7
 dimension 20
 uid 122,0
+)
+*34 (MRCItem
+litem &21
+pos 5
+dimension 20
+uid 371,0
 )
 ]
 )
@@ -580,7 +580,7 @@ value "HTC219-307-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "10:29:28"
+value "10:57:25"
 )
 (vvPair
 variable "group"
@@ -688,7 +688,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "10:29:28"
+value "10:57:25"
 )
 (vvPair
 variable "unit"
@@ -956,52 +956,6 @@ suid 5,0
 )
 )
 *73 (CptPort
-uid 149,0
-ps "OnEdgeStrategy"
-shape (Triangle
-uid 150,0
-ro 90
-va (VaSet
-vasetType 1
-fg "0,65535,0"
-)
-xt "14250,11625,15000,12375"
-)
-tg (CPTG
-uid 151,0
-ps "CptPortTextPlaceStrategy"
-stg "VerticalLayoutStrategy"
-f (Text
-uid 152,0
-va (VaSet
-font "arial,8,0"
-)
-xt "16000,11500,19100,12500"
-st "we_row"
-blo "16000,12300"
-tm "CptPortNameMgr"
-)
-)
-dt (MLText
-uid 153,0
-va (VaSet
-font "Courier New,8,0"
-)
-xt "44000,5200,60500,6000"
-st "we_row   : IN     std_logic  ;
-"
-)
-thePort (LogicalPort
-lang 2
-decl (Decl
-n "we_row"
-t "std_logic"
-o 5
-suid 6,0
-)
-)
-)
-*74 (CptPort
 uid 154,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -1047,7 +1001,7 @@ suid 7,0
 )
 )
 )
-*75 (CptPort
+*74 (CptPort
 uid 159,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -1093,6 +1047,52 @@ t "std_logic_vector"
 b "(23 DOWNTO 0)"
 o 8
 suid 8,0
+)
+)
+)
+*75 (CptPort
+uid 373,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 374,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "14250,13625,15000,14375"
+)
+tg (CPTG
+uid 375,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 376,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16000,13500,17400,14500"
+st "we"
+blo "16000,14300"
+tm "CptPortNameMgr"
+)
+)
+dt (MLText
+uid 377,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "44000,5200,60500,6000"
+st "we       : IN     std_logic  ;
+"
+)
+thePort (LogicalPort
+lang 2
+decl (Decl
+n "we"
+t "std_logic"
+o 5
+suid 9,0
 )
 )
 )
@@ -1794,6 +1794,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 347,0
+lastUid 377,0
 activeModelName "Symbol:CDM"
 )

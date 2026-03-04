@@ -271,7 +271,7 @@ value "HTC219-307-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "10:49:47"
+value "10:57:24"
 )
 (vvPair
 variable "group"
@@ -379,7 +379,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "10:49:47"
+value "10:57:24"
 )
 (vvPair
 variable "unit"
@@ -774,8 +774,8 @@ uid 84,0
 va (VaSet
 font "arial,8,0"
 )
-xt "34900,7500,38000,8500"
-st "we_row"
+xt "36600,7500,38000,8500"
+st "we"
 ju 2
 blo "38000,8300"
 tm "WireNameMgr"
@@ -786,7 +786,7 @@ tm "WireNameMgr"
 uid 91,0
 lang 2
 decl (Decl
-n "we_row"
+n "we"
 t "std_logic"
 o 5
 suid 6,0
@@ -797,7 +797,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "6000,-11600,19000,-10800"
-st "we_row      : std_logic
+st "we          : std_logic
 "
 )
 )
@@ -8114,8 +8114,8 @@ va (VaSet
 isHidden 1
 font "arial,8,0"
 )
-xt "40000,7000,43100,8000"
-st "we_row"
+xt "40000,7000,41400,8000"
+st "we"
 blo "40000,7800"
 tm "WireNameMgr"
 )
@@ -8453,8 +8453,8 @@ uid 1201,0
 va (VaSet
 font "arial,8,0"
 )
-xt "-5000,14000,-1900,15000"
-st "we_row"
+xt "-5000,14000,-3600,15000"
+st "we"
 blo "-5000,14800"
 tm "WireNameMgr"
 )
@@ -10033,8 +10033,8 @@ uid 3112,0
 va (VaSet
 font "arial,8,0"
 )
-xt "-5000,23000,-1900,24000"
-st "we_row"
+xt "-5000,23000,-3600,24000"
+st "we"
 blo "-5000,23800"
 tm "WireNameMgr"
 )
@@ -10070,8 +10070,8 @@ uid 3161,0
 va (VaSet
 font "arial,8,0"
 )
-xt "-5000,32000,-1900,33000"
-st "we_row"
+xt "-5000,32000,-3600,33000"
+st "we"
 blo "-5000,32800"
 tm "WireNameMgr"
 )
@@ -10107,8 +10107,8 @@ uid 3210,0
 va (VaSet
 font "arial,8,0"
 )
-xt "-5000,41000,-1900,42000"
-st "we_row"
+xt "-5000,41000,-3600,42000"
+st "we"
 blo "-5000,41800"
 tm "WireNameMgr"
 )
@@ -10144,8 +10144,8 @@ uid 3259,0
 va (VaSet
 font "arial,8,0"
 )
-xt "32000,14000,35100,15000"
-st "we_row"
+xt "32000,14000,33400,15000"
+st "we"
 blo "32000,14800"
 tm "WireNameMgr"
 )
@@ -10181,8 +10181,8 @@ uid 3308,0
 va (VaSet
 font "arial,8,0"
 )
-xt "32000,23000,35100,24000"
-st "we_row"
+xt "32000,23000,33400,24000"
+st "we"
 blo "32000,23800"
 tm "WireNameMgr"
 )
@@ -10218,8 +10218,8 @@ uid 3357,0
 va (VaSet
 font "arial,8,0"
 )
-xt "32000,32000,35100,33000"
-st "we_row"
+xt "32000,32000,33400,33000"
+st "we"
 blo "32000,32800"
 tm "WireNameMgr"
 )
@@ -10255,8 +10255,8 @@ uid 3406,0
 va (VaSet
 font "arial,8,0"
 )
-xt "32000,41000,35100,42000"
-st "we_row"
+xt "32000,41000,33400,42000"
+st "we"
 blo "32000,41800"
 tm "WireNameMgr"
 )
@@ -10993,12 +10993,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "0,0,2561,1408"
-viewArea "-8176,-24832,138570,55680"
+windowSize "0,32,2561,1440"
+viewArea "-8200,-24800,138779,55840"
 cachedDiagramExtent "-7000,-16800,71100,54000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-7000,-49000"
-lastUid 4110,0
+lastUid 4273,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -12164,7 +12164,7 @@ uid 129,0
 port (LogicalPort
 lang 2
 decl (Decl
-n "we_row"
+n "we"
 t "std_logic"
 o 5
 suid 6,0
