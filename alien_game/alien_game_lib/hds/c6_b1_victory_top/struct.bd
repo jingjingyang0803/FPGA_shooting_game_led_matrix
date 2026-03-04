@@ -98,23 +98,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hdl"
+value "P:\\20\\alien_game\\alien_game_lib\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds"
+value "P:\\20\\alien_game\\alien_game_lib\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_top\\struct.bd.info"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_top\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_top\\struct.bd.user"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_top\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds"
+value "P:\\20\\alien_game\\alien_game_lib\\hds"
 )
 (vvPair
 variable "appl"
@@ -130,11 +130,11 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_top"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_top"
 )
 (vvPair
 variable "d_logical"
-value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_top"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_top"
 )
 (vvPair
 variable "date"
@@ -174,7 +174,7 @@ value "struct"
 )
 (vvPair
 variable "graphical_source_author"
-value "btjogr"
+value "ptjiya"
 )
 (vvPair
 variable "graphical_source_date"
@@ -186,11 +186,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "HTC219-308-SPC"
+value "HTC219-307-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "17:12:40"
+value "20:26:41"
 )
 (vvPair
 variable "group"
@@ -198,7 +198,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "HTC219-308-SPC"
+value "HTC219-307-SPC"
 )
 (vvPair
 variable "language"
@@ -238,11 +238,11 @@ value "maaliskuu"
 )
 (vvPair
 variable "p"
-value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_top\\struct.bd"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_top\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "\\\\ad.tuni.fi\\home\\btjogr\\StudentDocuments\\Documents\\digita design\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_top\\struct.bd"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_top\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -298,7 +298,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "17:12:40"
+value "20:26:41"
 )
 (vvPair
 variable "unit"
@@ -306,7 +306,7 @@ value "c6_b1_victory_top"
 )
 (vvPair
 variable "user"
-value "btjogr"
+value "ptjiya"
 )
 (vvPair
 variable "version"
@@ -390,7 +390,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,2000,36000,2800"
-st "clk           : std_logic"
+st "clk           : std_logic
+"
 )
 )
 *3 (PortIoIn
@@ -454,7 +455,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,2800,36000,3600"
-st "rst_n         : std_logic"
+st "rst_n         : std_logic
+"
 )
 )
 *5 (PortIoOut
@@ -518,7 +520,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,3600,46500,4400"
-st "victory_color : std_logic_vector(23 DOWNTO 0)"
+st "victory_color : std_logic_vector(23 DOWNTO 0)
+"
 )
 )
 *7 (PortIoOut
@@ -582,7 +585,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,4400,46000,5200"
-st "victory_x     : std_logic_vector(7 DOWNTO 0)"
+st "victory_x     : std_logic_vector(7 DOWNTO 0)
+"
 )
 )
 *9 (PortIoOut
@@ -646,7 +650,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,5200,46000,6000"
-st "victory_y     : std_logic_vector(7 DOWNTO 0)"
+st "victory_y     : std_logic_vector(7 DOWNTO 0)
+"
 )
 )
 *11 (Grouping
@@ -670,7 +675,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "30200,48000,40600,49000"
+xt "30200,48000,40500,49000"
 st "
 by %user on %dd %month %year
 "
@@ -2422,7 +2427,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,7000,49500,7800"
-st "SIGNAL dout1         : std_logic_vector(7 DOWNTO 0)"
+st "SIGNAL dout1         : std_logic_vector(7 DOWNTO 0)
+"
 )
 )
 *81 (MWC
@@ -3108,7 +3114,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,7800,49500,8600"
-st "SIGNAL dout2         : std_logic_vector(7 DOWNTO 0)"
+st "SIGNAL dout2         : std_logic_vector(7 DOWNTO 0)
+"
 )
 )
 *107 (MWC
@@ -3862,7 +3869,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,8600,49500,9400"
-st "SIGNAL dout3         : std_logic_vector(7 DOWNTO 0)"
+st "SIGNAL dout3         : std_logic_vector(7 DOWNTO 0)
+"
 )
 )
 *138 (Net
@@ -3881,7 +3889,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,11800,49500,12600"
-st "SIGNAL idx_now       : std_logic_vector(7 DOWNTO 0)"
+st "SIGNAL idx_now       : std_logic_vector(7 DOWNTO 0)
+"
 )
 )
 *139 (Net
@@ -3899,7 +3908,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,9400,39500,10200"
-st "SIGNAL fout          : std_logic"
+st "SIGNAL fout          : std_logic
+"
 )
 )
 *140 (Net
@@ -3918,7 +3928,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,11000,49500,11800"
-st "SIGNAL idx_next      : std_logic_vector(7 DOWNTO 0)"
+st "SIGNAL idx_next      : std_logic_vector(7 DOWNTO 0)
+"
 )
 )
 *141 (Net
@@ -3937,7 +3948,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,10200,49500,11000"
-st "SIGNAL idx_add_one   : std_logic_vector(7 DOWNTO 0)"
+st "SIGNAL idx_add_one   : std_logic_vector(7 DOWNTO 0)
+"
 )
 )
 *142 (SaComponent
@@ -4000,7 +4012,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "50000,31625,50750,32375"
+xt "51000,31625,51750,32375"
 )
 tg (CPTG
 uid 1247,0
@@ -4011,20 +4023,20 @@ uid 1248,0
 va (VaSet
 font "arial,8,0"
 )
-xt "42900,31500,49000,32500"
+xt "43900,31500,50000,32500"
 st "victory_x : (7:0)"
 ju 2
-blo "49000,32300"
+blo "50000,32300"
 )
 t (Text
 uid 1249,0
 va (VaSet
 font "arial,8,0"
 )
-xt "46700,32500,49000,33500"
+xt "47700,32500,50000,33500"
 st "X\"00\""
 ju 2
-blo "49000,33300"
+blo "50000,33300"
 )
 )
 thePort (LogicalPort
@@ -4050,7 +4062,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "50000,33625,50750,34375"
+xt "51000,33625,51750,34375"
 )
 tg (CPTG
 uid 1252,0
@@ -4061,20 +4073,20 @@ uid 1253,0
 va (VaSet
 font "arial,8,0"
 )
-xt "42900,33500,49000,34500"
+xt "43900,33500,50000,34500"
 st "victory_y : (7:0)"
 ju 2
-blo "49000,34300"
+blo "50000,34300"
 )
 t (Text
 uid 1254,0
 va (VaSet
 font "arial,8,0"
 )
-xt "46700,34500,49000,35500"
+xt "47700,34500,50000,35500"
 st "X\"00\""
 ju 2
-blo "49000,35300"
+blo "50000,35300"
 )
 )
 thePort (LogicalPort
@@ -4100,7 +4112,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "50000,35625,50750,36375"
+xt "51000,35625,51750,36375"
 )
 tg (CPTG
 uid 1257,0
@@ -4111,20 +4123,20 @@ uid 1258,0
 va (VaSet
 font "arial,8,0"
 )
-xt "40800,35500,49000,36500"
+xt "41800,35500,50000,36500"
 st "victory_color : (23:0)"
 ju 2
-blo "49000,36300"
+blo "50000,36300"
 )
 t (Text
 uid 1259,0
 va (VaSet
 font "arial,8,0"
 )
-xt "44700,36500,49000,37500"
-st "X\"00FFFF\""
+xt "45900,36500,50000,37500"
+st "X\"0000FF\""
 ju 2
-blo "49000,37300"
+blo "50000,37300"
 )
 )
 thePort (LogicalPort
@@ -4136,7 +4148,7 @@ t "std_logic_vector"
 b "(23 DOWNTO 0)"
 o 2
 suid 4,0
-i "X\"00FFFF\""
+i "X\"0000FF\""
 )
 )
 )
@@ -4149,7 +4161,7 @@ fg "0,65535,0"
 lineColor "0,32896,0"
 lineWidth 2
 )
-xt "36000,30000,50000,42000"
+xt "36000,30000,51000,42000"
 )
 oxt "15000,6000,33000,26000"
 ttg (MlTextGroup
@@ -4310,10 +4322,11 @@ va (VaSet
 vasetType 3
 lineWidth 2
 )
-xt "50750,36000,59000,36000"
+xt "51750,36000,59000,36000"
 pts [
 "59000,36000"
-"50750,36000"
+"55000,36000"
+"51750,36000"
 ]
 )
 start &5
@@ -4352,10 +4365,11 @@ va (VaSet
 vasetType 3
 lineWidth 2
 )
-xt "50750,32000,59000,32000"
+xt "51750,32000,59000,32000"
 pts [
 "59000,32000"
-"50750,32000"
+"55000,32000"
+"51750,32000"
 ]
 )
 start &7
@@ -4394,10 +4408,11 @@ va (VaSet
 vasetType 3
 lineWidth 2
 )
-xt "50750,34000,59000,34000"
+xt "51750,34000,59000,34000"
 pts [
 "59000,34000"
-"50750,34000"
+"55000,34000"
+"51750,34000"
 ]
 )
 start &9
@@ -4942,11 +4957,11 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,7,2561,1416"
-viewArea "-8700,300,114949,66709"
+viewArea "-8700,300,114949,68193"
 cachedDiagramExtent "-1399,0,67200,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-6000,0"
-lastUid 1271,0
+lastUid 1317,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -6555,5 +6570,5 @@ vaOverrides [
 uid 162,0
 type 1
 )
-activeModelName "BlockDiag"
+activeModelName "BlockDiag:CDM"
 )

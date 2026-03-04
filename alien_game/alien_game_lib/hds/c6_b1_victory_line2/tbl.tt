@@ -115,7 +115,7 @@ value "HTC219-307-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "17:54:32"
+value "20:26:31"
 )
 (vvPair
 variable "group"
@@ -223,7 +223,7 @@ value "tbl"
 )
 (vvPair
 variable "time"
-value "17:54:32"
+value "20:26:31"
 )
 (vvPair
 variable "unit"
@@ -2297,8 +2297,8 @@ tm "TtCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "1059,41,2360,1440"
-viewArea "0,0,1090,1288"
+windowSize "1059,41,2362,1440"
+viewArea "0,0,1092,1260"
 cachedDiagramExtent "0,0,0,0"
 pageBreakOrigin "0,0"
 defaultInputHdrTextMatrixItem (TextMatrixItem
@@ -2583,7 +2583,6 @@ n "victory_color"
 t "std_logic_vector"
 b "(23 DOWNTO 0)"
 o 4
-i "X\"0000FF\""
 )
 )
 uid 1986,0
@@ -2713,7 +2712,7 @@ uid 76,0
 *150 (MRCItem
 litem &129
 pos 6
-dimension 50
+dimension 78
 uid 77,0
 )
 *151 (MRCItem
@@ -2888,6 +2887,6 @@ vaOverrides [
 uid 79,0
 type 1
 )
-activeModelName "TruthTableDiag"
-lastUid 2240,0
+activeModelName "TruthTableDiag:CDM"
+lastUid 2286,0
 )

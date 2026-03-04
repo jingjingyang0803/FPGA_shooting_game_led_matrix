@@ -114,7 +114,6 @@ t "std_logic_vector"
 b "(23 DOWNTO 0)"
 o 2
 suid 4,0
-i "X\"0000FF\""
 )
 )
 uid 115,0
@@ -514,7 +513,7 @@ value "HTC219-307-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "17:54:32"
+value "20:26:31"
 )
 (vvPair
 variable "group"
@@ -622,7 +621,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "17:54:32"
+value "20:26:31"
 )
 (vvPair
 variable "unit"
@@ -698,8 +697,9 @@ uid 121,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,2000,78000,2800"
-st "idx           : IN     std_logic_vector (7 DOWNTO 0)  := X\"00\" ;"
+xt "44000,2000,77500,2800"
+st "idx           : IN     std_logic_vector (7 DOWNTO 0) := X\"00\" ;
+"
 )
 thePort (LogicalPort
 lang 2
@@ -757,8 +757,9 @@ uid 127,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,3600,78000,4400"
-st "victory_x     : OUT    std_logic_vector (7 DOWNTO 0)  := X\"00\" ;"
+xt "44000,3600,77500,4400"
+st "victory_x     : OUT    std_logic_vector (7 DOWNTO 0) := X\"00\" ;
+"
 )
 thePort (LogicalPort
 lang 2
@@ -817,8 +818,9 @@ uid 133,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,4400,77000,5200"
-st "victory_y     : OUT    std_logic_vector (7 DOWNTO 0)  := X\"00\""
+xt "44000,4400,76500,5200"
+st "victory_y     : OUT    std_logic_vector (7 DOWNTO 0) := X\"00\"
+"
 )
 thePort (LogicalPort
 lang 2
@@ -860,25 +862,15 @@ ju 2
 blo "32000,12300"
 tm "CptPortNameMgr"
 )
-t (Text
-uid 138,0
-va (VaSet
-font "arial,8,0"
-)
-xt "27900,12500,32000,13500"
-st "X\"0000FF\""
-ju 2
-blo "32000,13300"
-tm "InitValueDelayMgr"
-)
 )
 dt (MLText
 uid 139,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,2800,80000,3600"
-st "victory_color : OUT    std_logic_vector (23 DOWNTO 0) := X\"0000FF\" ;"
+xt "44000,2800,73500,3600"
+st "victory_color : OUT    std_logic_vector (23 DOWNTO 0) ;
+"
 )
 thePort (LogicalPort
 lang 2
@@ -889,7 +881,6 @@ t "std_logic_vector"
 b "(23 DOWNTO 0)"
 o 2
 suid 4,0
-i "X\"0000FF\""
 )
 )
 )
@@ -975,7 +966,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,48000,46600,49000"
+xt "36200,48000,46500,49000"
 st "
 by %user on %dd %month %year
 "
@@ -1591,6 +1582,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 415,0
+lastUid 461,0
 activeModelName "Symbol:CDM"
 )
