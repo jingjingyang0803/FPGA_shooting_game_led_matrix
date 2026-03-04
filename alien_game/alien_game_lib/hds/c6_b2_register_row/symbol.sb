@@ -90,7 +90,7 @@ lang 2
 decl (Decl
 n "x_write"
 t "std_logic_vector"
-b "(2 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 7
 suid 3,0
 )
@@ -103,7 +103,7 @@ lang 2
 decl (Decl
 n "x_read"
 t "std_logic_vector"
-b "(2 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 6
 suid 4,0
 )
@@ -528,19 +528,19 @@ value "P:\\20\\alien_game\\alien_game_lib\\hds\\c6_b2_register_row"
 )
 (vvPair
 variable "date"
-value " 2.03.2026"
+value " 4.03.2026"
 )
 (vvPair
 variable "day"
-value "ma"
+value "ke"
 )
 (vvPair
 variable "day_long"
-value "maanantai"
+value "keskiviikko"
 )
 (vvPair
 variable "dd"
-value "02"
+value "04"
 )
 (vvPair
 variable "entity_name"
@@ -568,7 +568,7 @@ value "ptjiya"
 )
 (vvPair
 variable "graphical_source_date"
-value " 2.03.2026"
+value " 4.03.2026"
 )
 (vvPair
 variable "graphical_source_group"
@@ -580,7 +580,7 @@ value "HTC219-307-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:26:57"
+value "10:29:28"
 )
 (vvPair
 variable "group"
@@ -688,7 +688,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "15:26:57"
+value "10:29:28"
 )
 (vvPair
 variable "unit"
@@ -836,7 +836,7 @@ va (VaSet
 font "arial,8,0"
 )
 xt "16000,8500,21500,9500"
-st "x_write : (2:0)"
+st "x_write : (7:0)"
 blo "16000,9300"
 tm "CptPortNameMgr"
 )
@@ -847,7 +847,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,6800,70500,7600"
-st "x_write  : IN     std_logic_vector (2 DOWNTO 0) ;
+st "x_write  : IN     std_logic_vector (7 DOWNTO 0) ;
 "
 )
 thePort (LogicalPort
@@ -855,7 +855,7 @@ lang 2
 decl (Decl
 n "x_write"
 t "std_logic_vector"
-b "(2 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 7
 suid 3,0
 )
@@ -883,7 +883,7 @@ va (VaSet
 font "arial,8,0"
 )
 xt "16000,9500,21300,10500"
-st "x_read : (2:0)"
+st "x_read : (7:0)"
 blo "16000,10300"
 tm "CptPortNameMgr"
 )
@@ -894,7 +894,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,6000,70500,6800"
-st "x_read   : IN     std_logic_vector (2 DOWNTO 0) ;
+st "x_read   : IN     std_logic_vector (7 DOWNTO 0) ;
 "
 )
 thePort (LogicalPort
@@ -902,7 +902,7 @@ lang 2
 decl (Decl
 n "x_read"
 t "std_logic_vector"
-b "(2 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 6
 suid 4,0
 )
@@ -1794,6 +1794,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 324,0
+lastUid 347,0
 activeModelName "Symbol:CDM"
 )
