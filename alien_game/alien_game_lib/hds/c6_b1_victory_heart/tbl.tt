@@ -63,19 +63,19 @@ value "P:\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_heart"
 )
 (vvPair
 variable "date"
-value " 4.03.2026"
+value " 5.03.2026"
 )
 (vvPair
 variable "day"
-value "ke"
+value "to"
 )
 (vvPair
 variable "day_long"
-value "keskiviikko"
+value "torstai"
 )
 (vvPair
 variable "dd"
-value "04"
+value "05"
 )
 (vvPair
 variable "entity_name"
@@ -103,7 +103,7 @@ value "ptjiya"
 )
 (vvPair
 variable "graphical_source_date"
-value " 4.03.2026"
+value " 5.03.2026"
 )
 (vvPair
 variable "graphical_source_group"
@@ -115,7 +115,7 @@ value "HTC219-307-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "19:47:45"
+value "09:55:06"
 )
 (vvPair
 variable "group"
@@ -223,7 +223,7 @@ value "tbl"
 )
 (vvPair
 variable "time"
-value "19:47:45"
+value "09:55:06"
 )
 (vvPair
 variable "unit"
@@ -3529,8 +3529,8 @@ tm "TtCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-8,-8,2568,1400"
-viewArea "0,0,2365,1297"
+windowSize "0,0,2561,1408"
+viewArea "0,0,2350,1269"
 cachedDiagramExtent "0,0,0,0"
 pageBreakOrigin "0,0"
 defaultInputHdrTextMatrixItem (TextMatrixItem
@@ -3770,7 +3770,7 @@ n "idx"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
 o 1
-i "X\"00\""
+i "X\"01\""
 )
 )
 uid 126,0
@@ -3785,7 +3785,7 @@ n "victory_x"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
 o 3
-i "X\"00\""
+i "X\"01\""
 )
 )
 uid 128,0
@@ -3800,7 +3800,7 @@ n "victory_y"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
 o 4
-i "X\"00\""
+i "X\"04\""
 )
 )
 uid 130,0
@@ -4120,6 +4120,6 @@ vaOverrides [
 uid 79,0
 type 1
 )
-activeModelName "TruthTableDiag"
-lastUid 2132,0
+activeModelName "TruthTableDiag:CDM"
+lastUid 2155,0
 )

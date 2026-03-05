@@ -58,10 +58,10 @@ ARCHITECTURE struct OF c6_b1_victory_top_static IS
    -- Component Declarations
    COMPONENT c6_b1_victory_heart
    PORT (
-      idx           : IN     std_logic_vector (7 DOWNTO 0)  := X"00";
+      idx           : IN     std_logic_vector (7 DOWNTO 0)  := X"01";
       victory_color : OUT    std_logic_vector (23 DOWNTO 0) := X"0000FF";
-      victory_x     : OUT    std_logic_vector (7 DOWNTO 0)  := X"00";
-      victory_y     : OUT    std_logic_vector (7 DOWNTO 0)  := X"00"
+      victory_x     : OUT    std_logic_vector (7 DOWNTO 0)  := X"01";
+      victory_y     : OUT    std_logic_vector (7 DOWNTO 0)  := X"04"
    );
    END COMPONENT;
 

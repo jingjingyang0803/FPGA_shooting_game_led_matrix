@@ -69,7 +69,7 @@ t "std_logic_vector"
 b "(7 DOWNTO 0)"
 o 1
 suid 1,0
-i "X\"00\""
+i "X\"01\""
 )
 )
 uid 109,0
@@ -84,7 +84,7 @@ t "std_logic_vector"
 b "(7 DOWNTO 0)"
 o 3
 suid 2,0
-i "X\"00\""
+i "X\"01\""
 )
 )
 uid 111,0
@@ -99,7 +99,7 @@ t "std_logic_vector"
 b "(7 DOWNTO 0)"
 o 4
 suid 3,0
-i "X\"00\""
+i "X\"04\""
 )
 )
 uid 113,0
@@ -462,19 +462,19 @@ value "P:\\20\\alien_game\\alien_game_lib\\hds\\c6_b1_victory_heart"
 )
 (vvPair
 variable "date"
-value " 4.03.2026"
+value " 5.03.2026"
 )
 (vvPair
 variable "day"
-value "ke"
+value "to"
 )
 (vvPair
 variable "day_long"
-value "keskiviikko"
+value "torstai"
 )
 (vvPair
 variable "dd"
-value "04"
+value "05"
 )
 (vvPair
 variable "entity_name"
@@ -502,7 +502,7 @@ value "ptjiya"
 )
 (vvPair
 variable "graphical_source_date"
-value " 4.03.2026"
+value " 5.03.2026"
 )
 (vvPair
 variable "graphical_source_group"
@@ -514,7 +514,7 @@ value "HTC219-307-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "17:39:16"
+value "09:55:09"
 )
 (vvPair
 variable "group"
@@ -622,7 +622,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "17:39:16"
+value "09:55:09"
 )
 (vvPair
 variable "unit"
@@ -688,7 +688,7 @@ va (VaSet
 font "arial,8,0"
 )
 xt "16000,8500,18300,9500"
-st "X\"00\""
+st "X\"01\""
 blo "16000,9300"
 tm "InitValueDelayMgr"
 )
@@ -699,7 +699,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,2000,78000,2800"
-st "idx           : IN     std_logic_vector (7 DOWNTO 0)  := X\"00\" ;
+st "idx           : IN     std_logic_vector (7 DOWNTO 0)  := X\"01\" ;
 "
 )
 thePort (LogicalPort
@@ -710,7 +710,7 @@ t "std_logic_vector"
 b "(7 DOWNTO 0)"
 o 1
 suid 1,0
-i "X\"00\""
+i "X\"01\""
 )
 )
 )
@@ -747,7 +747,7 @@ va (VaSet
 font "arial,8,0"
 )
 xt "29700,8500,32000,9500"
-st "X\"00\""
+st "X\"01\""
 ju 2
 blo "32000,9300"
 tm "InitValueDelayMgr"
@@ -759,7 +759,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,3600,78000,4400"
-st "victory_x     : OUT    std_logic_vector (7 DOWNTO 0)  := X\"00\" ;
+st "victory_x     : OUT    std_logic_vector (7 DOWNTO 0)  := X\"01\" ;
 "
 )
 thePort (LogicalPort
@@ -771,7 +771,7 @@ t "std_logic_vector"
 b "(7 DOWNTO 0)"
 o 3
 suid 2,0
-i "X\"00\""
+i "X\"01\""
 )
 )
 )
@@ -808,7 +808,7 @@ va (VaSet
 font "arial,8,0"
 )
 xt "29700,10500,32000,11500"
-st "X\"00\""
+st "X\"04\""
 ju 2
 blo "32000,11300"
 tm "InitValueDelayMgr"
@@ -820,7 +820,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4400,77000,5200"
-st "victory_y     : OUT    std_logic_vector (7 DOWNTO 0)  := X\"00\"
+st "victory_y     : OUT    std_logic_vector (7 DOWNTO 0)  := X\"04\"
 "
 )
 thePort (LogicalPort
@@ -832,7 +832,7 @@ t "std_logic_vector"
 b "(7 DOWNTO 0)"
 o 4
 suid 3,0
-i "X\"00\""
+i "X\"04\""
 )
 )
 )
@@ -1595,6 +1595,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 829,0
+lastUid 852,0
 activeModelName "Symbol:CDM"
 )
