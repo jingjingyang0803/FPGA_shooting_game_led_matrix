@@ -145,7 +145,7 @@ value "HTC219-307-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:25:23"
+value "15:03:58"
 )
 (vvPair
 variable "group"
@@ -253,7 +253,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "13:25:23"
+value "15:03:58"
 )
 (vvPair
 variable "unit"
@@ -856,7 +856,7 @@ lang 2
 decl (Decl
 n "d"
 t "std_logic_vector"
-b "(2 DOWNTO 0)"
+b "(1 DOWNTO 0)"
 o 6
 suid 1,0
 )
@@ -913,7 +913,7 @@ m 1
 decl (Decl
 n "q"
 t "std_logic_vector"
-b "(2 DOWNTO 0)"
+b "(1 DOWNTO 0)"
 o 5
 suid 2,0
 )
@@ -1303,7 +1303,7 @@ m 1
 decl (Decl
 n "qb"
 t "std_logic_vector"
-b "(2 DOWNTO 0)"
+b "(1 DOWNTO 0)"
 o 5
 suid 5,0
 )
@@ -1463,7 +1463,7 @@ lang 2
 decl (Decl
 n "din0"
 t "std_logic_vector"
-b "(2 DOWNTO 0)"
+b "(1 DOWNTO 0)"
 o 5
 suid 2,0
 )
@@ -1531,7 +1531,7 @@ m 1
 decl (Decl
 n "dout"
 t "std_logic_vector"
-b "(2 DOWNTO 0)"
+b "(1 DOWNTO 0)"
 o 6
 suid 3,0
 )
@@ -2290,7 +2290,7 @@ lang 2
 decl (Decl
 n "hp"
 t "std_logic_vector"
-b "(2 DOWNTO 0)"
+b "(1 DOWNTO 0)"
 o 5
 suid 7,0
 )
@@ -2300,7 +2300,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,4400,41500,5200"
-st "hp    : std_logic_vector(2 DOWNTO 0)
+st "hp    : std_logic_vector(1 DOWNTO 0)
 "
 )
 )
@@ -2310,7 +2310,7 @@ lang 2
 decl (Decl
 n "dout1"
 t "std_logic_vector"
-b "(2 DOWNTO 0)"
+b "(1 DOWNTO 0)"
 o 6
 suid 9,0
 )
@@ -2320,7 +2320,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,7000,45500,7800"
-st "SIGNAL dout1 : std_logic_vector(2 DOWNTO 0)
+st "SIGNAL dout1 : std_logic_vector(1 DOWNTO 0)
 "
 )
 )
@@ -2733,12 +2733,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-8,-8,2568,1400"
-viewArea "-6170,-1080,88154,50341"
+windowSize "0,0,2561,1408"
+viewArea "-6200,-1100,87120,50100"
 cachedDiagramExtent "0,0,67000,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-6000,0"
-lastUid 357,0
+lastUid 380,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -3893,7 +3893,7 @@ m 1
 decl (Decl
 n "hp"
 t "std_logic_vector"
-b "(2 DOWNTO 0)"
+b "(1 DOWNTO 0)"
 o 5
 suid 7,0
 )
@@ -3907,7 +3907,7 @@ m 4
 decl (Decl
 n "dout1"
 t "std_logic_vector"
-b "(2 DOWNTO 0)"
+b "(1 DOWNTO 0)"
 o 6
 suid 9,0
 )

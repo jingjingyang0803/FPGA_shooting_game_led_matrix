@@ -39,7 +39,7 @@ VIEW struct.bd
 GRAPHIC 338,0 43 0 
 DESIGN c7_b1_alien_defeated_improved
 VIEW struct.bd
-GRAPHIC 521,0 44 0 
+GRAPHIC 598,0 44 0 
 DESIGN c7_b1_alien_defeated_improved
 VIEW struct.bd
 NO_GRAPHIC 45

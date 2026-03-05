@@ -498,11 +498,11 @@ value "P:\\20\\alien_game\\alien_game_lib\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "P:\\20\\alien_game\\alien_game_lib\\hds\\c7_b1_improved_alien_hp\\symbol.sb.info"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c7_b1_improved_alien\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "P:\\20\\alien_game\\alien_game_lib\\hds\\c7_b1_improved_alien_hp\\symbol.sb.user"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c7_b1_improved_alien\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
@@ -522,11 +522,11 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "P:\\20\\alien_game\\alien_game_lib\\hds\\c7_b1_improved_alien_hp"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c7_b1_improved_alien"
 )
 (vvPair
 variable "d_logical"
-value "P:\\20\\alien_game\\alien_game_lib\\hds\\c7_b1_improved_alien_hp"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c7_b1_improved_alien"
 )
 (vvPair
 variable "date"
@@ -546,7 +546,7 @@ value "05"
 )
 (vvPair
 variable "entity_name"
-value "c7_b1_improved_alien_hp"
+value "c7_b1_improved_alien"
 )
 (vvPair
 variable "ext"
@@ -582,7 +582,7 @@ value "HTC219-307-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:45:51"
+value "15:16:08"
 )
 (vvPair
 variable "group"
@@ -618,7 +618,7 @@ value "03"
 )
 (vvPair
 variable "module_name"
-value "c7_b1_improved_alien_hp"
+value "c7_b1_improved_alien"
 )
 (vvPair
 variable "month"
@@ -630,11 +630,11 @@ value "maaliskuu"
 )
 (vvPair
 variable "p"
-value "P:\\20\\alien_game\\alien_game_lib\\hds\\c7_b1_improved_alien_hp\\symbol.sb"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c7_b1_improved_alien\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "P:\\20\\alien_game\\alien_game_lib\\hds\\c7_b1_improved_alien_hp\\symbol.sb"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c7_b1_improved_alien\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -690,11 +690,11 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "13:45:51"
+value "15:16:08"
 )
 (vvPair
 variable "unit"
-value "c7_b1_improved_alien_hp"
+value "c7_b1_improved_alien"
 )
 (vvPair
 variable "user"
@@ -757,8 +757,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,2800,63500,3600"
-st "enable         : IN     std_logic  ;
-"
+st "enable         : IN     std_logic  ;"
 )
 thePort (LogicalPort
 lang 2
@@ -804,8 +803,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,6800,73500,7600"
-st "alien_x        : OUT    std_logic_vector (7 DOWNTO 0) ;
-"
+st "alien_x        : OUT    std_logic_vector (7 DOWNTO 0) ;"
 )
 thePort (LogicalPort
 lang 2
@@ -853,8 +851,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,5200,74000,6000"
-st "alien_color    : OUT    std_logic_vector (23 DOWNTO 0) ;
-"
+st "alien_color    : OUT    std_logic_vector (23 DOWNTO 0) ;"
 )
 thePort (LogicalPort
 lang 2
@@ -902,8 +899,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,7600,72500,8400"
-st "alien_y        : OUT    std_logic_vector (7 DOWNTO 0)
-"
+st "alien_y        : OUT    std_logic_vector (7 DOWNTO 0)"
 )
 thePort (LogicalPort
 lang 2
@@ -950,8 +946,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,2000,63500,2800"
-st "clk            : IN     std_logic  ;
-"
+st "clk            : IN     std_logic  ;"
 )
 thePort (LogicalPort
 lang 2
@@ -996,8 +991,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4400,63500,5200"
-st "rst_n          : IN     std_logic  ;
-"
+st "rst_n          : IN     std_logic  ;"
 )
 thePort (LogicalPort
 lang 2
@@ -1042,8 +1036,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,3600,63500,4400"
-st "hit            : IN     std_logic  ;
-"
+st "hit            : IN     std_logic  ;"
 )
 thePort (LogicalPort
 lang 2
@@ -1089,8 +1082,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,6000,63500,6800"
-st "alien_defeated : OUT    std_logic  ;
-"
+st "alien_defeated : OUT    std_logic  ;"
 )
 thePort (LogicalPort
 lang 2
@@ -1132,8 +1124,8 @@ uid 12,0
 va (VaSet
 font "arial,8,1"
 )
-xt "22200,16000,33000,17000"
-st "c7_b1_improved_alien_hp"
+xt "22200,16000,31600,17000"
+st "c7_b1_improved_alien"
 blo "22200,16800"
 )
 )
@@ -1463,7 +1455,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,47000,51700,48000"
+xt "36200,47000,50500,48000"
 st "
 %library/%unit/%view
 "
@@ -1801,6 +1793,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 186,0
+lastUid 370,0
 activeModelName "Symbol:CDM"
 )

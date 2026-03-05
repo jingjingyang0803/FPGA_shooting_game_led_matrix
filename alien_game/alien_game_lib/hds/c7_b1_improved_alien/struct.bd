@@ -88,11 +88,11 @@ value "P:\\20\\alien_game\\alien_game_lib\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "P:\\20\\alien_game\\alien_game_lib\\hds\\c7_b1_improved_alien_hp\\struct.bd.info"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c7_b1_improved_alien\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "P:\\20\\alien_game\\alien_game_lib\\hds\\c7_b1_improved_alien_hp\\struct.bd.user"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c7_b1_improved_alien\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
@@ -112,11 +112,11 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "P:\\20\\alien_game\\alien_game_lib\\hds\\c7_b1_improved_alien_hp"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c7_b1_improved_alien"
 )
 (vvPair
 variable "d_logical"
-value "P:\\20\\alien_game\\alien_game_lib\\hds\\c7_b1_improved_alien_hp"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c7_b1_improved_alien"
 )
 (vvPair
 variable "date"
@@ -136,7 +136,7 @@ value "05"
 )
 (vvPair
 variable "entity_name"
-value "c7_b1_improved_alien_hp"
+value "c7_b1_improved_alien"
 )
 (vvPair
 variable "ext"
@@ -172,7 +172,7 @@ value "HTC219-307-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:45:50"
+value "15:16:08"
 )
 (vvPair
 variable "group"
@@ -208,7 +208,7 @@ value "03"
 )
 (vvPair
 variable "module_name"
-value "c7_b1_improved_alien_hp"
+value "c7_b1_improved_alien"
 )
 (vvPair
 variable "month"
@@ -220,11 +220,11 @@ value "maaliskuu"
 )
 (vvPair
 variable "p"
-value "P:\\20\\alien_game\\alien_game_lib\\hds\\c7_b1_improved_alien_hp\\struct.bd"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c7_b1_improved_alien\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "P:\\20\\alien_game\\alien_game_lib\\hds\\c7_b1_improved_alien_hp\\struct.bd"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c7_b1_improved_alien\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -280,11 +280,11 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "13:45:50"
+value "15:16:08"
 )
 (vvPair
 variable "unit"
-value "c7_b1_improved_alien_hp"
+value "c7_b1_improved_alien"
 )
 (vvPair
 variable "user"
@@ -610,7 +610,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,47000,51700,48000"
+xt "36200,47000,52800,48000"
 st "
 %library/%unit/%view
 "
@@ -1924,7 +1924,7 @@ uid 674,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "22000,2800,36500,3600"
+xt "13000,2800,27500,3600"
 st "enable         : std_logic
 "
 )
@@ -1943,7 +1943,7 @@ uid 676,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "22000,9400,40000,10200"
+xt "13000,9400,31000,10200"
 st "SIGNAL dir_q          : std_logic
 "
 )
@@ -1963,7 +1963,7 @@ uid 678,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "22000,6800,46500,7600"
+xt "13000,6800,37500,7600"
 st "alien_x        : std_logic_vector(7 DOWNTO 0)
 "
 )
@@ -1983,7 +1983,7 @@ uid 680,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "22000,5200,47000,6000"
+xt "13000,5200,38000,6000"
 st "alien_color    : std_logic_vector(23 DOWNTO 0)
 "
 )
@@ -2003,7 +2003,7 @@ uid 682,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "22000,7600,46500,8400"
+xt "13000,7600,37500,8400"
 st "alien_y        : std_logic_vector(7 DOWNTO 0)
 "
 )
@@ -2022,7 +2022,7 @@ uid 684,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "22000,2000,36500,2800"
+xt "13000,2000,27500,2800"
 st "clk            : std_logic
 "
 )
@@ -2041,7 +2041,7 @@ uid 686,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "22000,4400,36500,5200"
+xt "13000,4400,27500,5200"
 st "rst_n          : std_logic
 "
 )
@@ -2060,7 +2060,7 @@ uid 688,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "22000,3600,36500,4400"
+xt "13000,3600,27500,4400"
 st "hit            : std_logic
 "
 )
@@ -2198,7 +2198,7 @@ va (VaSet
 font "arial,8,0"
 )
 xt "27200,13500,31000,14500"
-st "hp : (2:0)"
+st "hp : (1:0)"
 ju 2
 blo "31000,14300"
 )
@@ -2209,7 +2209,7 @@ m 1
 decl (Decl
 n "hp"
 t "std_logic_vector"
-b "(2 DOWNTO 0)"
+b "(1 DOWNTO 0)"
 o 4
 suid 4,0
 )
@@ -2360,7 +2360,7 @@ va (VaSet
 font "arial,8,0"
 )
 xt "54000,5500,57800,6500"
-st "hp : (2:0)"
+st "hp : (1:0)"
 blo "54000,6300"
 )
 )
@@ -2369,7 +2369,7 @@ lang 2
 decl (Decl
 n "hp"
 t "std_logic_vector"
-b "(2 DOWNTO 0)"
+b "(1 DOWNTO 0)"
 o 2
 suid 3,0
 )
@@ -2534,26 +2534,6 @@ sIVOD 1
 archFileType "UNKNOWN"
 )
 *76 (Net
-uid 741,0
-lang 2
-decl (Decl
-n "hp"
-t "std_logic_vector"
-b "(2 DOWNTO 0)"
-o 9
-suid 19,0
-)
-declText (MLText
-uid 742,0
-va (VaSet
-font "Courier New,8,0"
-)
-xt "22000,10200,50000,11000"
-st "SIGNAL hp             : std_logic_vector(2 DOWNTO 0)
-"
-)
-)
-*77 (Net
 uid 781,0
 lang 2
 decl (Decl
@@ -2567,12 +2547,12 @@ uid 782,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "22000,6000,36500,6800"
+xt "13000,6000,27500,6800"
 st "alien_defeated : std_logic
 "
 )
 )
-*78 (PortIoOut
+*77 (PortIoOut
 uid 847,0
 shape (CompositeShape
 uid 848,0
@@ -2615,6 +2595,26 @@ st "alien_defeated"
 blo "66000,3300"
 tm "WireNameMgr"
 )
+)
+)
+*78 (Net
+uid 968,0
+lang 2
+decl (Decl
+n "hp"
+t "std_logic_vector"
+b "(1 DOWNTO 0)"
+o 11
+suid 24,0
+)
+declText (MLText
+uid 969,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "13000,10200,41000,11000"
+st "SIGNAL hp             : std_logic_vector(1 DOWNTO 0)
+"
 )
 )
 *79 (Wire
@@ -3360,43 +3360,6 @@ tm "WireNameMgr"
 on &55
 )
 *103 (Wire
-uid 743,0
-shape (OrthoPolyLine
-uid 744,0
-va (VaSet
-vasetType 3
-lineWidth 2
-)
-xt "32750,14000,36000,14000"
-pts [
-"32750,14000"
-"36000,14000"
-]
-)
-start &64
-sat 32
-eat 16
-sty 1
-st 0
-sf 1
-tg (WTG
-uid 747,0
-ps "ConnStartEndStrategy"
-stg "STSignalDisplayStrategy"
-f (Text
-uid 748,0
-va (VaSet
-font "arial,8,0"
-)
-xt "33000,13000,36800,14000"
-st "hp : (2:0)"
-blo "33000,13800"
-tm "WireNameMgr"
-)
-)
-on &76
-)
-*104 (Wire
 uid 749,0
 shape (OrthoPolyLine
 uid 750,0
@@ -3431,7 +3394,7 @@ tm "WireNameMgr"
 )
 on &57
 )
-*105 (Wire
+*104 (Wire
 uid 755,0
 shape (OrthoPolyLine
 uid 756,0
@@ -3466,44 +3429,7 @@ tm "WireNameMgr"
 )
 on &58
 )
-*106 (Wire
-uid 761,0
-shape (OrthoPolyLine
-uid 762,0
-va (VaSet
-vasetType 3
-lineWidth 2
-)
-xt "46000,6000,52250,6000"
-pts [
-"46000,6000"
-"52250,6000"
-]
-)
-end &70
-sat 16
-eat 32
-sty 1
-st 0
-sf 1
-tg (WTG
-uid 765,0
-ps "ConnStartEndStrategy"
-stg "STSignalDisplayStrategy"
-f (Text
-uid 766,0
-va (VaSet
-font "arial,8,0"
-)
-xt "47000,5000,50800,6000"
-st "hp : (2:0)"
-blo "47000,5800"
-tm "WireNameMgr"
-)
-)
-on &76
-)
-*107 (Wire
+*105 (Wire
 uid 783,0
 shape (OrthoPolyLine
 uid 784,0
@@ -3517,7 +3443,7 @@ pts [
 ]
 )
 start &71
-end &78
+end &77
 sat 32
 eat 32
 st 0
@@ -3538,9 +3464,9 @@ blo "64000,3800"
 tm "WireNameMgr"
 )
 )
-on &77
+on &76
 )
-*108 (Wire
+*106 (Wire
 uid 797,0
 shape (OrthoPolyLine
 uid 798,0
@@ -3573,9 +3499,9 @@ blo "38000,13800"
 tm "WireNameMgr"
 )
 )
-on &77
+on &76
 )
-*109 (Wire
+*107 (Wire
 uid 803,0
 shape (OrthoPolyLine
 uid 804,0
@@ -3608,9 +3534,9 @@ blo "38000,22800"
 tm "WireNameMgr"
 )
 )
-on &77
+on &76
 )
-*110 (Wire
+*108 (Wire
 uid 809,0
 shape (OrthoPolyLine
 uid 810,0
@@ -3643,7 +3569,81 @@ blo "38000,31800"
 tm "WireNameMgr"
 )
 )
-on &77
+on &76
+)
+*109 (Wire
+uid 970,0
+shape (OrthoPolyLine
+uid 971,0
+va (VaSet
+vasetType 3
+lineWidth 2
+)
+xt "32750,14000,36000,14000"
+pts [
+"32750,14000"
+"36000,14000"
+]
+)
+start &64
+sat 32
+eat 16
+sty 1
+st 0
+sf 1
+tg (WTG
+uid 974,0
+ps "ConnStartEndStrategy"
+stg "STSignalDisplayStrategy"
+f (Text
+uid 975,0
+va (VaSet
+font "arial,8,0"
+)
+xt "33000,13000,36800,14000"
+st "hp : (1:0)"
+blo "33000,13800"
+tm "WireNameMgr"
+)
+)
+on &78
+)
+*110 (Wire
+uid 1064,0
+shape (OrthoPolyLine
+uid 1065,0
+va (VaSet
+vasetType 3
+lineWidth 2
+)
+xt "46000,6000,52250,6000"
+pts [
+"46000,6000"
+"52250,6000"
+]
+)
+end &70
+sat 16
+eat 32
+sty 1
+st 0
+sf 1
+tg (WTG
+uid 1068,0
+ps "ConnStartEndStrategy"
+stg "STSignalDisplayStrategy"
+f (Text
+uid 1069,0
+va (VaSet
+font "arial,8,0"
+)
+xt "47000,5000,50800,6000"
+st "hp : (1:0)"
+blo "47000,5800"
+tm "WireNameMgr"
+)
+)
+on &78
 )
 ]
 bg "65535,65535,65535"
@@ -3759,12 +3759,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-8,-8,2568,1400"
-viewArea "-1079,-11360,93209,40041"
+windowSize "0,32,2561,1440"
+viewArea "-1100,-11400,92220,39800"
 cachedDiagramExtent "0,0,73000,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 858,0
+lastUid 1069,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -4761,18 +4761,18 @@ uid 2,0
 va (VaSet
 font "arial,8,1"
 )
-xt "20000,0,25400,1000"
+xt "11000,0,16400,1000"
 st "Declarations"
-blo "20000,800"
+blo "11000,800"
 )
 portLabel (Text
 uid 3,0
 va (VaSet
 font "arial,8,1"
 )
-xt "20000,1000,22700,2000"
+xt "11000,1000,13700,2000"
 st "Ports:"
-blo "20000,1800"
+blo "11000,1800"
 )
 preUserLabel (Text
 uid 4,0
@@ -4780,9 +4780,9 @@ va (VaSet
 isHidden 1
 font "arial,8,1"
 )
-xt "20000,0,23800,1000"
+xt "11000,0,14800,1000"
 st "Pre User:"
-blo "20000,800"
+blo "11000,800"
 )
 preUserText (MLText
 uid 5,0
@@ -4790,7 +4790,7 @@ va (VaSet
 isHidden 1
 font "Courier New,8,0"
 )
-xt "20000,0,20000,0"
+xt "11000,0,11000,0"
 tm "BdDeclarativeTextMgr"
 )
 diagSignalLabel (Text
@@ -4798,9 +4798,9 @@ uid 6,0
 va (VaSet
 font "arial,8,1"
 )
-xt "20000,8400,27100,9400"
+xt "11000,8400,18100,9400"
 st "Diagram Signals:"
-blo "20000,9200"
+blo "11000,9200"
 )
 postUserLabel (Text
 uid 7,0
@@ -4808,9 +4808,9 @@ va (VaSet
 isHidden 1
 font "arial,8,1"
 )
-xt "20000,0,24700,1000"
+xt "11000,0,15700,1000"
 st "Post User:"
-blo "20000,800"
+blo "11000,800"
 )
 postUserText (MLText
 uid 8,0
@@ -4818,13 +4818,13 @@ va (VaSet
 isHidden 1
 font "Courier New,8,0"
 )
-xt "20000,0,20000,0"
+xt "11000,0,11000,0"
 tm "BdDeclarativeTextMgr"
 )
 )
 commonDM (CommonDM
 ldm (LogicalDM
-suid 21,0
+suid 26,0
 usingSuid 1
 emptyRow *142 (LEmptyRow
 )
@@ -4969,20 +4969,6 @@ uid 829,0
 *163 (LeafLogPort
 port (LogicalPort
 lang 2
-m 4
-decl (Decl
-n "hp"
-t "std_logic_vector"
-b "(2 DOWNTO 0)"
-o 9
-suid 19,0
-)
-)
-uid 831,0
-)
-*164 (LeafLogPort
-port (LogicalPort
-lang 2
 m 1
 decl (Decl
 n "alien_defeated"
@@ -4992,6 +4978,20 @@ suid 21,0
 )
 )
 uid 833,0
+)
+*164 (LeafLogPort
+port (LogicalPort
+lang 2
+m 4
+decl (Decl
+n "hp"
+t "std_logic_vector"
+b "(1 DOWNTO 0)"
+o 11
+suid 24,0
+)
+)
+uid 976,0
 )
 ]
 )
@@ -5095,13 +5095,13 @@ uid 830,0
 litem &163
 pos 8
 dimension 20
-uid 832,0
+uid 834,0
 )
 *179 (MRCItem
 litem &164
 pos 9
 dimension 20
-uid 834,0
+uid 977,0
 )
 ]
 )
