@@ -1,4 +1,4 @@
--- VHDL Entity alien_game_lib.c3_t1_alien_x.symbol
+-- VHDL Entity alien_game_lib.c7_t1_alien_x.symbol
 --
 -- Created:
 --          by - ptjiya.UNKNOWN (HTC219-307-SPC)
@@ -10,7 +10,7 @@ LIBRARY ieee;
 USE ieee.std_logic_1164.all;
 USE ieee.std_logic_arith.all;
 
-ENTITY c3_t1_alien_x IS
+ENTITY c7_t1_alien_x IS
    PORT( 
       alien_defeated : IN     std_logic;
       clk            : IN     std_logic;
@@ -22,10 +22,10 @@ ENTITY c3_t1_alien_x IS
 
 -- Declarations
 
-END c3_t1_alien_x ;
+END c7_t1_alien_x ;
 
 --
--- VHDL Architecture alien_game_lib.c3_t1_alien_x.struct
+-- VHDL Architecture alien_game_lib.c7_t1_alien_x.struct
 --
 -- Created:
 --          by - ptjiya.UNKNOWN (HTC219-307-SPC)
@@ -38,7 +38,7 @@ USE ieee.std_logic_1164.all;
 USE ieee.std_logic_arith.all;
 
 
-ARCHITECTURE struct OF c3_t1_alien_x IS
+ARCHITECTURE struct OF c7_t1_alien_x IS
 
    -- Architecture declarations
 

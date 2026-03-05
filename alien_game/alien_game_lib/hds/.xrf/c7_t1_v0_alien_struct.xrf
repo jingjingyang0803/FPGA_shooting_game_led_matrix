@@ -94,7 +94,7 @@ VIEW symbol.sb
 GRAPHIC 207,0 69 0 
 DESIGN c7_t1_v0_alien
 VIEW struct.bd
-GRAPHIC 576,0 72 0 
+GRAPHIC 752,0 72 0 
 DESIGN c7_t1_alien_color
 VIEW symbol.sb
 GRAPHIC 110,0 74 0 
@@ -143,7 +143,7 @@ VIEW struct.bd
 GRAPHIC 159,0 98 0 
 DESIGN c7_t1_v0_alien
 VIEW struct.bd
-GRAPHIC 576,0 99 0 
+GRAPHIC 752,0 99 0 
 DESIGN c7_t1_v0_alien
 VIEW struct.bd
 GRAPHIC 540,0 100 0 
@@ -188,13 +188,13 @@ VIEW struct.bd
 GRAPHIC 405,0 120 0 
 DESIGN c7_t1_v0_alien
 VIEW struct.bd
-GRAPHIC 576,0 122 0 
+GRAPHIC 752,0 122 0 
 DESIGN c7_t1_v0_alien
 VIEW struct.bd
 GRAPHIC 646,0 124 0 
 DESIGN c7_t1_v0_alien
 VIEW struct.bd
-GRAPHIC 598,0 125 0 
+GRAPHIC 774,0 125 0 
 DESIGN c7_t1_v0_alien
 VIEW struct.bd
 GRAPHIC 540,0 127 0 
