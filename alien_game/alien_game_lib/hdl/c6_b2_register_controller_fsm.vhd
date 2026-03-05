@@ -1,4 +1,4 @@
--- VHDL Entity alien_game_lib.c6_t1_register_controller.symbol
+-- VHDL Entity alien_game_lib.c6_b2_register_controller.symbol
 --
 -- Created:
 --          by - ptjiya.UNKNOWN (HTC219-307-SPC)
@@ -10,7 +10,7 @@ LIBRARY ieee;
 USE ieee.std_logic_1164.all;
 USE ieee.std_logic_arith.all;
 
-ENTITY c6_t1_register_controller IS
+ENTITY c6_b2_register_controller IS
    PORT( 
       clk        : IN     std_logic;
       frame_done : IN     std_logic;
@@ -23,10 +23,10 @@ ENTITY c6_t1_register_controller IS
 
 -- Declarations
 
-END c6_t1_register_controller ;
+END c6_b2_register_controller ;
 
 --
--- VHDL Architecture alien_game_lib.c6_t1_register_controller.fsm
+-- VHDL Architecture alien_game_lib.c6_b2_register_controller.fsm
 --
 -- Created:
 --          by - ptjiya.UNKNOWN (HTC219-307-SPC)
@@ -38,7 +38,7 @@ LIBRARY ieee;
 USE ieee.std_logic_1164.all;
 USE ieee.std_logic_arith.all;
  
-ARCHITECTURE fsm OF c6_t1_register_controller IS
+ARCHITECTURE fsm OF c6_b2_register_controller IS
 
    -- Architecture Declarations
    SIGNAL wr_sel_r : std_logic;  

@@ -1,0 +1,2 @@
+DEFAULT_FILE atom c6_b2_register_controller/fsm.sm
+DEFAULT_ARCHITECTURE atom fsm
