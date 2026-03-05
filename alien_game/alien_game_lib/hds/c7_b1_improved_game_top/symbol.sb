@@ -517,11 +517,11 @@ value "P:\\20\\alien_game\\alien_game_lib\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "P:\\20\\alien_game\\alien_game_lib\\hds\\c7_b1_game_top_hp\\symbol.sb.info"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c7_b1_improved_game_top\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "P:\\20\\alien_game\\alien_game_lib\\hds\\c7_b1_game_top_hp\\symbol.sb.user"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c7_b1_improved_game_top\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
@@ -541,11 +541,11 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "P:\\20\\alien_game\\alien_game_lib\\hds\\c7_b1_game_top_hp"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c7_b1_improved_game_top"
 )
 (vvPair
 variable "d_logical"
-value "P:\\20\\alien_game\\alien_game_lib\\hds\\c7_b1_game_top_hp"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c7_b1_improved_game_top"
 )
 (vvPair
 variable "date"
@@ -565,7 +565,7 @@ value "05"
 )
 (vvPair
 variable "entity_name"
-value "c7_b1_game_top_hp"
+value "c7_b1_improved_game_top"
 )
 (vvPair
 variable "ext"
@@ -601,7 +601,7 @@ value "HTC219-307-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:52:01"
+value "15:22:30"
 )
 (vvPair
 variable "group"
@@ -637,7 +637,7 @@ value "03"
 )
 (vvPair
 variable "module_name"
-value "c7_b1_game_top_hp"
+value "c7_b1_improved_game_top"
 )
 (vvPair
 variable "month"
@@ -649,11 +649,11 @@ value "maaliskuu"
 )
 (vvPair
 variable "p"
-value "P:\\20\\alien_game\\alien_game_lib\\hds\\c7_b1_game_top_hp\\symbol.sb"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c7_b1_improved_game_top\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "P:\\20\\alien_game\\alien_game_lib\\hds\\c7_b1_game_top_hp\\symbol.sb"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c7_b1_improved_game_top\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -709,11 +709,11 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "13:52:01"
+value "15:22:30"
 )
 (vvPair
 variable "unit"
-value "c7_b1_game_top_hp"
+value "c7_b1_improved_game_top"
 )
 (vvPair
 variable "user"
@@ -1191,8 +1191,8 @@ uid 12,0
 va (VaSet
 font "arial,8,1"
 )
-xt "22200,16000,30600,17000"
-st "c7_b1_game_top_hp"
+xt "22200,16000,33600,17000"
+st "c7_b1_improved_game_top"
 blo "22200,16800"
 )
 )
@@ -1522,7 +1522,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,47000,52300,48000"
+xt "36200,47000,52200,48000"
 st "
 %library/%unit/%view
 "
@@ -1860,6 +1860,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 193,0
+lastUid 239,0
 activeModelName "Symbol:CDM"
 )

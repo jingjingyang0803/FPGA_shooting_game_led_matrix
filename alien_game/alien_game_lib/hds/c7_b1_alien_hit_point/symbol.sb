@@ -505,7 +505,7 @@ value "HTC219-307-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:03:58"
+value "15:27:30"
 )
 (vvPair
 variable "group"
@@ -613,7 +613,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "15:03:58"
+value "15:27:30"
 )
 (vvPair
 variable "unit"
@@ -680,8 +680,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,2000,59000,2800"
-st "clk   : IN     std_logic  ;
-"
+st "clk   : IN     std_logic  ;"
 )
 thePort (LogicalPort
 lang 2
@@ -726,8 +725,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,3600,59000,4400"
-st "rst_n : IN     std_logic  ;
-"
+st "rst_n : IN     std_logic  ;"
 )
 thePort (LogicalPort
 lang 2
@@ -772,8 +770,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,2800,59000,3600"
-st "hit   : IN     std_logic  ;
-"
+st "hit   : IN     std_logic  ;"
 )
 thePort (LogicalPort
 lang 2
@@ -819,8 +816,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4400,68000,5200"
-st "hp    : OUT    std_logic_vector (1 DOWNTO 0)
-"
+st "hp    : OUT    std_logic_vector (1 DOWNTO 0)"
 )
 thePort (LogicalPort
 lang 2
@@ -1532,6 +1528,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 342,0
+lastUid 365,0
 activeModelName "Symbol:CDM"
 )
