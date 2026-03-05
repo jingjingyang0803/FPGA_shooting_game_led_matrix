@@ -1,0 +1,72 @@
+DESIGN c7_b1_alien_hit_point
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN c7_b1_alien_hit_point
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN c7_b1_alien_hit_point
+VIEW symbol.sb
+GRAPHIC 116,0 14 0 
+DESIGN c7_b1_alien_hit_point
+VIEW symbol.sb
+GRAPHIC 126,0 15 0 
+DESIGN c7_b1_alien_hit_point
+VIEW symbol.sb
+GRAPHIC 121,0 16 0 
+DESIGN c7_b1_alien_hit_point
+VIEW symbol.sb
+GRAPHIC 131,0 17 0 
+DESIGN c7_b1_alien_hit_point
+VIEW symbol.sb
+GRAPHIC 1,0 20 0 
+DESIGN c7_b1_alien_hit_point
+VIEW symbol.sb
+GRAPHIC 1,0 21 0 
+DESIGN c7_b1_alien_hit_point
+VIEW struct.bd
+NO_GRAPHIC 24
+DESIGN c7_b1_alien_hit_point
+VIEW struct.bd
+GRAPHIC 105,0 33 0 
+DESIGN c7_b1_alien_hit_point
+VIEW struct.bd
+NO_GRAPHIC 36
+DESIGN c7_b1_alien_hit_point
+VIEW struct.bd
+GRAPHIC 0,0 38 2 
+DESIGN c7_b1_alien_hit_point
+VIEW struct.bd
+GRAPHIC 312,0 43 0 
+DESIGN c7_b1_alien_hit_point
+VIEW struct.bd
+GRAPHIC 350,0 44 0 
+DESIGN c7_b1_alien_hit_point
+VIEW struct.bd
+NO_GRAPHIC 45
+DESIGN c7_b1_alien_hit_point
+VIEW struct.bd
+GRAPHIC 344,0 47 0 
+DESIGN c7_b1_alien_hit_point
+VIEW struct.bd
+NO_GRAPHIC 52
+DESIGN c7_b1_alien_hit_point
+VIEW struct.bd
+NO_GRAPHIC 53
+DESIGN c7_b1_alien_hit_point
+VIEW struct.bd
+GRAPHIC 270,0 55 0 
+DESIGN c7_b1_alien_hit_point
+VIEW struct.bd
+GRAPHIC 212,0 69 0 
+DESIGN c7_b1_alien_hit_point
+VIEW struct.bd
+GRAPHIC 302,0 81 0 
+DESIGN c7_b1_alien_hit_point
+VIEW struct.bd
+NO_GRAPHIC 84
+DESIGN c7_b1_alien_hit_point
+VIEW struct.bd
+GRAPHIC 344,0 88 0 
+DESIGN c7_b1_alien_hit_point
+VIEW struct.bd
+NO_GRAPHIC 90
