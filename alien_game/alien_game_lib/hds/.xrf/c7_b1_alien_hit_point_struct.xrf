@@ -42,37 +42,31 @@ VIEW struct.bd
 GRAPHIC 350,0 44 0 
 DESIGN c7_b1_alien_hit_point
 VIEW struct.bd
-GRAPHIC 423,0 45 0 
+NO_GRAPHIC 45
 DESIGN c7_b1_alien_hit_point
 VIEW struct.bd
-NO_GRAPHIC 46
+GRAPHIC 344,0 47 0 
 DESIGN c7_b1_alien_hit_point
 VIEW struct.bd
-GRAPHIC 344,0 48 0 
+NO_GRAPHIC 52
 DESIGN c7_b1_alien_hit_point
 VIEW struct.bd
 NO_GRAPHIC 53
 DESIGN c7_b1_alien_hit_point
 VIEW struct.bd
-NO_GRAPHIC 54
+GRAPHIC 270,0 55 0 
 DESIGN c7_b1_alien_hit_point
 VIEW struct.bd
-GRAPHIC 270,0 56 0 
+GRAPHIC 212,0 69 0 
 DESIGN c7_b1_alien_hit_point
 VIEW struct.bd
-GRAPHIC 212,0 70 0 
+GRAPHIC 302,0 81 0 
 DESIGN c7_b1_alien_hit_point
 VIEW struct.bd
-GRAPHIC 302,0 82 0 
+NO_GRAPHIC 84
 DESIGN c7_b1_alien_hit_point
 VIEW struct.bd
-GRAPHIC 404,0 85 0 
+GRAPHIC 344,0 88 0 
 DESIGN c7_b1_alien_hit_point
 VIEW struct.bd
-NO_GRAPHIC 88
-DESIGN c7_b1_alien_hit_point
-VIEW struct.bd
-GRAPHIC 344,0 92 0 
-DESIGN c7_b1_alien_hit_point
-VIEW struct.bd
-NO_GRAPHIC 94
+NO_GRAPHIC 90

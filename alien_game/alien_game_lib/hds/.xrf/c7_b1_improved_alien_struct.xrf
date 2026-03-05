@@ -54,237 +54,222 @@ VIEW struct.bd
 GRAPHIC 968,0 49 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-NO_GRAPHIC 50
+GRAPHIC 1211,0 50 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 809,0 52 0 
+NO_GRAPHIC 51
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 635,0 53 0 
+GRAPHIC 809,0 53 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-NO_GRAPHIC 55
+GRAPHIC 635,0 54 0 
+DESIGN c7_b1_improved_alien
+VIEW struct.bd
+NO_GRAPHIC 56
 LIBRARY alien_game_lib
-DESIGN c3_t1_color_block
+DESIGN c3_t1_dir_block
 VIEW struct
-GRAPHIC 535,0 57 0 
-DESIGN c3_t1_color_block
-VIEW symbol.sb
-GRAPHIC 119,0 59 0 
-DESIGN c3_t1_color_block
-VIEW symbol.sb
-GRAPHIC 114,0 60 0 
-DESIGN c3_t1_color_block
-VIEW symbol.sb
-GRAPHIC 223,0 61 0 
-DESIGN c7_b1_improved_alien
-VIEW struct.bd
-GRAPHIC 423,0 64 0 
+GRAPHIC 423,0 58 0 
 DESIGN c3_t1_dir_block
 VIEW symbol.sb
-GRAPHIC 112,0 66 0 
+GRAPHIC 112,0 60 0 
 DESIGN c3_t1_dir_block
 VIEW symbol.sb
-GRAPHIC 377,0 67 0 
+GRAPHIC 377,0 61 0 
 DESIGN c3_t1_dir_block
 VIEW symbol.sb
-GRAPHIC 382,0 68 0 
+GRAPHIC 382,0 62 0 
 DESIGN c3_t1_dir_block
 VIEW symbol.sb
-GRAPHIC 207,0 69 0 
+GRAPHIC 207,0 63 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 475,0 72 0 
-DESIGN c3_t1_x_block
+GRAPHIC 1115,0 66 0 
+DESIGN c7_b1_alien_color_improved
 VIEW symbol.sb
-GRAPHIC 246,0 74 0 
-DESIGN c3_t1_x_block
+GRAPHIC 117,0 68 0 
+DESIGN c7_b1_alien_color_improved
 VIEW symbol.sb
-GRAPHIC 120,0 75 0 
-DESIGN c3_t1_x_block
-VIEW symbol.sb
-GRAPHIC 135,0 76 0 
-DESIGN c3_t1_x_block
-VIEW symbol.sb
-GRAPHIC 130,0 77 0 
-DESIGN c3_t1_x_block
-VIEW symbol.sb
-GRAPHIC 251,0 78 0 
-DESIGN c3_t1_x_block
-VIEW symbol.sb
-GRAPHIC 125,0 79 0 
-DESIGN c3_t1_x_block
-VIEW symbol.sb
-GRAPHIC 396,0 80 0 
+GRAPHIC 112,0 69 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 513,0 83 0 
-DESIGN c3_t1_y_block
+GRAPHIC 731,0 72 0 
+DESIGN c7_b1_alien_defeated_improved
 VIEW symbol.sb
-GRAPHIC 177,0 85 0 
-DESIGN c3_t1_y_block
+GRAPHIC 116,0 74 0 
+DESIGN c7_b1_alien_defeated_improved
 VIEW symbol.sb
-GRAPHIC 167,0 86 0 
-DESIGN c3_t1_y_block
+GRAPHIC 126,0 75 0 
+DESIGN c7_b1_alien_defeated_improved
 VIEW symbol.sb
-GRAPHIC 230,0 87 0 
+GRAPHIC 161,0 76 0 
+DESIGN c7_b1_alien_defeated_improved
+VIEW symbol.sb
+GRAPHIC 131,0 77 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 731,0 90 0 
-DESIGN c7_b1_alien_defeated_improved
+GRAPHIC 705,0 80 0 
+DESIGN c7_b1_alien_hit_point
 VIEW symbol.sb
-GRAPHIC 116,0 92 0 
-DESIGN c7_b1_alien_defeated_improved
+GRAPHIC 116,0 82 0 
+DESIGN c7_b1_alien_hit_point
 VIEW symbol.sb
-GRAPHIC 126,0 93 0 
-DESIGN c7_b1_alien_defeated_improved
+GRAPHIC 126,0 83 0 
+DESIGN c7_b1_alien_hit_point
 VIEW symbol.sb
-GRAPHIC 161,0 94 0 
-DESIGN c7_b1_alien_defeated_improved
+GRAPHIC 121,0 84 0 
+DESIGN c7_b1_alien_hit_point
 VIEW symbol.sb
-GRAPHIC 131,0 95 0 
+GRAPHIC 131,0 85 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 705,0 98 0 
-DESIGN c7_b1_alien_hit_point
+GRAPHIC 1171,0 88 0 
+DESIGN c7_t1_alien_x
 VIEW symbol.sb
-GRAPHIC 116,0 100 0 
-DESIGN c7_b1_alien_hit_point
+GRAPHIC 147,0 90 0 
+DESIGN c7_t1_alien_x
 VIEW symbol.sb
-GRAPHIC 126,0 101 0 
-DESIGN c7_b1_alien_hit_point
+GRAPHIC 127,0 91 0 
+DESIGN c7_t1_alien_x
 VIEW symbol.sb
-GRAPHIC 121,0 102 0 
-DESIGN c7_b1_alien_hit_point
+GRAPHIC 152,0 92 0 
+DESIGN c7_t1_alien_x
 VIEW symbol.sb
-GRAPHIC 131,0 103 0 
+GRAPHIC 137,0 93 0 
+DESIGN c7_t1_alien_x
+VIEW symbol.sb
+GRAPHIC 122,0 94 0 
+DESIGN c7_t1_alien_x
+VIEW symbol.sb
+GRAPHIC 132,0 95 0 
+DESIGN c7_b1_improved_alien
+VIEW struct.bd
+GRAPHIC 1189,0 98 0 
+DESIGN c7_t1_alien_y
+VIEW symbol.sb
+GRAPHIC 124,0 100 0 
+DESIGN c7_t1_alien_y
+VIEW symbol.sb
+GRAPHIC 119,0 101 0 
 LIBRARY alien_game_lib
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-NO_GRAPHIC 106
+NO_GRAPHIC 104
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 535,0 109 0 
+GRAPHIC 423,0 107 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 423,0 110 0 
+GRAPHIC 1115,0 108 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 475,0 111 0 
+GRAPHIC 731,0 109 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 513,0 112 0 
+GRAPHIC 705,0 110 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 731,0 113 0 
+GRAPHIC 1171,0 111 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 705,0 114 0 
+GRAPHIC 1189,0 112 0 
+DESIGN c7_b1_improved_alien
+VIEW struct.bd
+NO_GRAPHIC 115
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
 NO_GRAPHIC 117
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-NO_GRAPHIC 119
+GRAPHIC 423,0 119 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 535,0 121 0 
+GRAPHIC 635,0 121 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 803,0 123 0 
+GRAPHIC 603,0 122 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 589,0 124 0 
+GRAPHIC 651,0 123 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 667,0 125 0 
+GRAPHIC 663,0 124 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 423,0 127 0 
+GRAPHIC 1115,0 126 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 635,0 129 0 
+GRAPHIC 1213,0 128 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 603,0 130 0 
+GRAPHIC 1125,0 129 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 651,0 131 0 
+GRAPHIC 731,0 131 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 663,0 132 0 
+GRAPHIC 749,0 133 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 475,0 134 0 
+GRAPHIC 1064,0 134 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 809,0 136 0 
+GRAPHIC 755,0 135 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 597,0 137 0 
+GRAPHIC 783,0 136 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 663,0 138 0 
+GRAPHIC 705,0 138 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 659,0 139 0 
+GRAPHIC 609,0 140 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 575,0 140 0 
+GRAPHIC 1137,0 141 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 639,0 141 0 
+GRAPHIC 645,0 142 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 629,0 142 0 
+GRAPHIC 1213,0 143 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 513,0 144 0 
+GRAPHIC 1171,0 145 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 797,0 146 0 
+GRAPHIC 809,0 147 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 583,0 147 0 
+GRAPHIC 597,0 148 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 655,0 148 0 
+GRAPHIC 663,0 149 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 731,0 150 0 
+GRAPHIC 659,0 150 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 749,0 152 0 
+GRAPHIC 639,0 151 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 1064,0 153 0 
+GRAPHIC 1199,0 152 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 755,0 154 0 
+GRAPHIC 1189,0 154 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 783,0 155 0 
+GRAPHIC 797,0 156 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 705,0 157 0 
+GRAPHIC 1205,0 157 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 609,0 159 0 
+GRAPHIC 809,0 161 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 593,0 160 0 
+GRAPHIC 635,0 162 0 
 DESIGN c7_b1_improved_alien
 VIEW struct.bd
-GRAPHIC 645,0 161 0 
-DESIGN c7_b1_improved_alien
-VIEW struct.bd
-GRAPHIC 970,0 162 0 
-DESIGN c7_b1_improved_alien
-VIEW struct.bd
-GRAPHIC 809,0 166 0 
-DESIGN c7_b1_improved_alien
-VIEW struct.bd
-GRAPHIC 635,0 167 0 
-DESIGN c7_b1_improved_alien
-VIEW struct.bd
-NO_GRAPHIC 169
+NO_GRAPHIC 164
