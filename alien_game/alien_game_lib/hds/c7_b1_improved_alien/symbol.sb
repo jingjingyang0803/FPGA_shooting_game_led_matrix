@@ -582,7 +582,7 @@ value "HTC219-307-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:16:08"
+value "15:21:20"
 )
 (vvPair
 variable "group"
@@ -690,7 +690,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "15:16:08"
+value "15:21:20"
 )
 (vvPair
 variable "unit"
@@ -1793,6 +1793,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 370,0
+lastUid 462,0
 activeModelName "Symbol:CDM"
 )
