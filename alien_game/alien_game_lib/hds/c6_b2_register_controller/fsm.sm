@@ -42,11 +42,11 @@ value "P:\\20\\alien_game\\alien_game_lib\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "P:\\20\\alien_game\\alien_game_lib\\hds\\c6_t1_register_controller\\fsm.sm.info"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c6_b2_register_controller\\fsm.sm.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "P:\\20\\alien_game\\alien_game_lib\\hds\\c6_t1_register_controller\\fsm.sm.user"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c6_b2_register_controller\\fsm.sm.user"
 )
 (vvPair
 variable "SourceDir"
@@ -66,31 +66,31 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "P:\\20\\alien_game\\alien_game_lib\\hds\\c6_t1_register_controller"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c6_b2_register_controller"
 )
 (vvPair
 variable "d_logical"
-value "P:\\20\\alien_game\\alien_game_lib\\hds\\c6_t1_register_controller"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c6_b2_register_controller"
 )
 (vvPair
 variable "date"
-value " 4.03.2026"
+value " 6.03.2026"
 )
 (vvPair
 variable "day"
-value "ke"
+value "pe"
 )
 (vvPair
 variable "day_long"
-value "keskiviikko"
+value "perjantai"
 )
 (vvPair
 variable "dd"
-value "04"
+value "06"
 )
 (vvPair
 variable "entity_name"
-value "c6_t1_register_controller"
+value "c6_b2_register_controller"
 )
 (vvPair
 variable "ext"
@@ -114,7 +114,7 @@ value "ptjiya"
 )
 (vvPair
 variable "graphical_source_date"
-value " 4.03.2026"
+value " 6.03.2026"
 )
 (vvPair
 variable "graphical_source_group"
@@ -126,7 +126,7 @@ value "HTC219-307-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "12:56:38"
+value "15:14:55"
 )
 (vvPair
 variable "group"
@@ -162,7 +162,7 @@ value "03"
 )
 (vvPair
 variable "module_name"
-value "c6_t1_register_controller"
+value "c6_b2_register_controller"
 )
 (vvPair
 variable "month"
@@ -174,11 +174,11 @@ value "maaliskuu"
 )
 (vvPair
 variable "p"
-value "P:\\20\\alien_game\\alien_game_lib\\hds\\c6_t1_register_controller\\fsm.sm"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c6_b2_register_controller\\fsm.sm"
 )
 (vvPair
 variable "p_logical"
-value "P:\\20\\alien_game\\alien_game_lib\\hds\\c6_t1_register_controller\\fsm.sm"
+value "P:\\20\\alien_game\\alien_game_lib\\hds\\c6_b2_register_controller\\fsm.sm"
 )
 (vvPair
 variable "package_name"
@@ -234,11 +234,11 @@ value "fsm"
 )
 (vvPair
 variable "time"
-value "12:56:38"
+value "15:14:55"
 )
 (vvPair
 variable "unit"
-value "c6_t1_register_controller"
+value "c6_b2_register_controller"
 )
 (vvPair
 variable "user"
@@ -280,8 +280,8 @@ fg "0,65535,65535"
 lineColor "0,32768,49152"
 lineWidth 2
 )
-xt "30127,11127,39873,20873"
-radius 4873
+xt "28980,9980,41020,22020"
+radius 6020
 )
 name (Text
 uid 45,0
@@ -334,7 +334,7 @@ lineColor "39936,56832,65280"
 lineWidth -1
 fillStyle 1
 )
-xt "31586,16459,39486,19659"
+xt "30996,15899,39996,21099"
 )
 autoResize 1
 tline (Line
@@ -345,10 +345,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "31686,16359,39386,16359"
+xt "31096,15799,39896,15799"
 pts [
-"31686,16359"
-"39386,16359"
+"31096,15799"
+"39896,15799"
 ]
 )
 bline (Line
@@ -359,10 +359,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "31686,17209,39386,17209"
+xt "31096,18149,39896,18149"
 pts [
-"31686,17209"
-"39386,17209"
+"31096,18149"
+"39896,18149"
 ]
 )
 ttri (Triangle
@@ -376,7 +376,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "31236,15984,31586,16334"
+xt "30646,15424,30996,15774"
 )
 btri (Triangle
 uid 56,0
@@ -389,14 +389,14 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "31236,14684,31586,15034"
+xt "30646,15124,30996,15474"
 )
 entryActions (MLText
 uid 57,0
 va (VaSet
 font "arial,8,0"
 )
-xt "31686,16159,31686,16159"
+xt "31096,15599,31096,15599"
 tm "Actions"
 )
 inActions (MLText
@@ -404,10 +404,12 @@ uid 58,0
 va (VaSet
 font "arial,8,0"
 )
-xt "31686,16559,39386,19559"
+xt "31096,15999,39896,20999"
 st "w_rdy <= '1' ;
 clear_mem0 <= '0' ;
-clear_mem1 <= '0' ;"
+clear_mem1 <= '0' ;
+wr_sel_r <= wr_sel_r;
+wr_sel <= wr_sel_r ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -415,7 +417,7 @@ uid 59,0
 va (VaSet
 font "arial,8,0"
 )
-xt "31536,14859,31536,14859"
+xt "31496,15299,31496,15299"
 tm "Actions"
 )
 )
@@ -1099,7 +1101,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,45000,53000,46000"
+xt "36200,45000,53200,46000"
 st "
 %library/%unit/%view
 "
@@ -1135,8 +1137,8 @@ fg "0,65535,65535"
 lineColor "0,32768,49152"
 lineWidth 2
 )
-xt "51197,11448,61527,21778"
-radius 5165
+xt "49624,9875,63100,23351"
+radius 6738
 )
 name (Text
 uid 172,0
@@ -1189,7 +1191,7 @@ lineColor "39936,56832,65280"
 lineWidth -1
 fillStyle 1
 )
-xt "53651,17004,66051,21204"
+xt "51371,16264,63771,21464"
 )
 autoResize 1
 tline (Line
@@ -1200,10 +1202,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "53751,16904,65951,16904"
+xt "51471,16164,63671,16164"
 pts [
-"53751,16904"
-"65951,16904"
+"51471,16164"
+"63671,16164"
 ]
 )
 bline (Line
@@ -1214,10 +1216,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "53751,18504,65951,18504"
+xt "51471,18514,63671,18514"
 pts [
-"53751,18504"
-"65951,18504"
+"51471,18514"
+"63671,18514"
 ]
 )
 ttri (Triangle
@@ -1231,7 +1233,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "53301,16529,53651,16879"
+xt "51021,15789,51371,16139"
 )
 btri (Triangle
 uid 183,0
@@ -1244,14 +1246,14 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "53301,15729,53651,16079"
+xt "51021,15489,51371,15839"
 )
 entryActions (MLText
 uid 184,0
 va (VaSet
 font "arial,8,0"
 )
-xt "53751,16704,53751,16704"
+xt "51471,15964,51471,15964"
 tm "Actions"
 )
 inActions (MLText
@@ -1259,11 +1261,12 @@ uid 185,0
 va (VaSet
 font "arial,8,0"
 )
-xt "53751,17104,65951,21104"
+xt "51471,16364,63671,21364"
 st "w_rdy <= '0' ;
-wr_sel_r <= NOT wr_sel_r ;
 clear_mem0 <= wr_sel_r ;
-clear_mem1 <= NOT wr_sel_r ;"
+clear_mem1 <= NOT wr_sel_r ;
+wr_sel_r <= NOT wr_sel_r ;
+wr_sel <= wr_sel_r ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -1271,7 +1274,7 @@ uid 186,0
 va (VaSet
 font "arial,8,0"
 )
-xt "55851,15904,55851,15904"
+xt "53571,15664,53571,15664"
 tm "Actions"
 )
 )
@@ -1479,10 +1482,10 @@ uid 239,0
 va (VaSet
 vasetType 3
 )
-xt "38884,18942,51783,19003"
+xt "39799,19635,50388,19729"
 pts [
-"38884,18942"
-"51783,19003"
+"39799,19635"
+"50388,19729"
 ]
 arrow 1
 )
@@ -1500,7 +1503,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "41881,18079,49381,20079"
+xt "41641,18788,49141,20788"
 )
 autoResize 1
 lineShape (Line
@@ -1509,10 +1512,10 @@ va (VaSet
 vasetType 3
 isHidden 1
 )
-xt "44081,19979,44081,19979"
+xt "43841,20688,43841,20688"
 pts [
-"44081,19979"
-"44081,19979"
+"43841,20688"
+"43841,20688"
 ]
 )
 condition (MLText
@@ -1520,7 +1523,7 @@ uid 243,0
 va (VaSet
 font "arial,8,0"
 )
-xt "42381,18579,48881,19579"
+xt "42141,19288,48641,20288"
 st "frame_done = '1'"
 tm "Condition"
 )
@@ -1529,7 +1532,7 @@ uid 244,0
 va (VaSet
 font "arial,8,0"
 )
-xt "45631,19979,45631,19979"
+xt "45391,20688,45391,20688"
 tm "Actions"
 )
 )
@@ -1544,7 +1547,7 @@ isHidden 1
 fg "65535,65535,65535"
 bg "0,0,0"
 )
-xt "39392,18167,40954,19729"
+xt "40076,18863,41638,20425"
 radius 781
 )
 pr (Text
@@ -1553,10 +1556,10 @@ va (VaSet
 isHidden 1
 font "arial,8,0"
 )
-xt "39773,18448,40573,19448"
+xt "40457,19144,41257,20144"
 st "1"
 ju 0
-blo "40173,19248"
+blo "40857,19944"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -1569,10 +1572,10 @@ uid 249,0
 va (VaSet
 vasetType 3
 )
-xt "38420,12155,53755,12529"
+xt "39225,10796,52962,11712"
 pts [
-"53755,12155"
-"38420,12529"
+"52962,10796"
+"39225,11712"
 ]
 arrow 1
 )
@@ -1590,7 +1593,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "43934,11842,47534,13842"
+xt "42700,10834,46300,12834"
 )
 autoResize 1
 lineShape (Line
@@ -1599,10 +1602,10 @@ va (VaSet
 vasetType 3
 isHidden 1
 )
-xt "46134,13742,46134,13742"
+xt "44900,12734,44900,12734"
 pts [
-"46134,13742"
-"46134,13742"
+"44900,12734"
+"44900,12734"
 ]
 )
 condition (MLText
@@ -1610,7 +1613,7 @@ uid 253,0
 va (VaSet
 font "arial,8,0"
 )
-xt "44434,12342,47034,13342"
+xt "43200,11334,45800,12334"
 st "TRUE"
 tm "Condition"
 )
@@ -1619,7 +1622,7 @@ uid 254,0
 va (VaSet
 font "arial,8,0"
 )
-xt "45734,13742,45734,13742"
+xt "44500,12734,44500,12734"
 tm "Actions"
 )
 )
@@ -1634,7 +1637,7 @@ isHidden 1
 fg "65535,65535,65535"
 bg "0,0,0"
 )
-xt "51441,11411,53003,12973"
+xt "50807,10106,52369,11668"
 radius 781
 )
 pr (Text
@@ -1643,10 +1646,10 @@ va (VaSet
 isHidden 1
 font "arial,8,0"
 )
-xt "51822,11692,52622,12692"
+xt "51188,10387,51988,11387"
 st "1"
 ju 0
-blo "52222,12492"
+blo "51588,11187"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -2023,7 +2026,6 @@ va (VaSet
 font "arial,8,0"
 )
 xt "9200,0,17500,1000"
-st "wr_sel <= wr_sel_r ;"
 tm "ArchConcStmtTextMgr"
 )
 associable 1
@@ -2051,7 +2053,7 @@ wr_sel      OUT     '0'             COMB
 w_rdy       OUT                     COMB            
 clear_mem0  OUT                     COMB            
 clear_mem1  OUT                     COMB            
-wr_sel_r    LOCAL                   CLKD            
+wr_sel_r    LOCAL            '0'    CLKD            
 "
 tm "SmSignalsGenStatusTextMgr"
 )
@@ -2150,7 +2152,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 345,0
+lastUid 374,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *56 (LEmptyRow
@@ -2227,7 +2229,7 @@ lang 2
 decl (Decl
 n "rst"
 t "std_logic"
-o 2
+o 3
 )
 )
 uid 158,0
@@ -2240,7 +2242,7 @@ lang 2
 decl (Decl
 n "frame_done"
 t "std_logic"
-o 3
+o 2
 )
 )
 uid 160,0
@@ -2252,7 +2254,7 @@ m 1
 decl (Decl
 n "wr_sel"
 t "std_logic"
-o 4
+o 7
 )
 )
 uid 162,0
@@ -2266,7 +2268,7 @@ m 1
 decl (Decl
 n "w_rdy"
 t "std_logic"
-o 5
+o 6
 )
 )
 uid 164,0
@@ -2279,7 +2281,7 @@ m 1
 decl (Decl
 n "clear_mem0"
 t "std_logic"
-o 6
+o 4
 )
 )
 uid 166,0
@@ -2292,7 +2294,7 @@ m 1
 decl (Decl
 n "clear_mem1"
 t "std_logic"
-o 7
+o 5
 )
 )
 uid 168,0
@@ -2310,6 +2312,7 @@ o 8
 )
 uid 344,0
 scheme 1
+rstVal "'0'"
 )
 ]
 )
