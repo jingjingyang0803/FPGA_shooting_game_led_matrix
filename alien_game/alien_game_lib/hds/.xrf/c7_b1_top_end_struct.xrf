@@ -42,156 +42,168 @@ VIEW struct.bd
 GRAPHIC 0,0 41 2 
 DESIGN c7_b1_top_end
 VIEW struct.bd
-GRAPHIC 486,0 46 0 
+GRAPHIC 1076,0 46 0 
 DESIGN c7_b1_top_end
 VIEW struct.bd
-GRAPHIC 490,0 47 0 
+GRAPHIC 486,0 47 0 
 DESIGN c7_b1_top_end
 VIEW struct.bd
-GRAPHIC 482,0 48 0 
+GRAPHIC 1082,0 48 0 
 DESIGN c7_b1_top_end
 VIEW struct.bd
-GRAPHIC 494,0 49 0 
+GRAPHIC 482,0 49 0 
 DESIGN c7_b1_top_end
 VIEW struct.bd
-GRAPHIC 480,0 50 0 
+GRAPHIC 1088,0 50 0 
 DESIGN c7_b1_top_end
 VIEW struct.bd
-GRAPHIC 478,0 51 0 
+GRAPHIC 494,0 51 0 
 DESIGN c7_b1_top_end
 VIEW struct.bd
-GRAPHIC 476,0 52 0 
+GRAPHIC 480,0 52 0 
 DESIGN c7_b1_top_end
 VIEW struct.bd
-GRAPHIC 963,0 53 0 
+GRAPHIC 478,0 53 0 
 DESIGN c7_b1_top_end
 VIEW struct.bd
-GRAPHIC 951,0 54 0 
+GRAPHIC 476,0 54 0 
 DESIGN c7_b1_top_end
 VIEW struct.bd
-GRAPHIC 957,0 55 0 
+GRAPHIC 963,0 55 0 
 DESIGN c7_b1_top_end
 VIEW struct.bd
-GRAPHIC 893,0 56 0 
+GRAPHIC 951,0 56 0 
 DESIGN c7_b1_top_end
 VIEW struct.bd
-GRAPHIC 905,0 57 0 
+GRAPHIC 957,0 57 0 
 DESIGN c7_b1_top_end
 VIEW struct.bd
-GRAPHIC 899,0 58 0 
+GRAPHIC 893,0 58 0 
 DESIGN c7_b1_top_end
 VIEW struct.bd
-NO_GRAPHIC 59
+GRAPHIC 905,0 59 0 
 DESIGN c7_b1_top_end
 VIEW struct.bd
-NO_GRAPHIC 63
+GRAPHIC 899,0 60 0 
+DESIGN c7_b1_top_end
+VIEW struct.bd
+NO_GRAPHIC 61
+DESIGN c7_b1_top_end
+VIEW struct.bd
+NO_GRAPHIC 65
 LIBRARY alien_game_lib
 DESIGN c7_b1_lose_cross
 VIEW tbl
-GRAPHIC 548,0 65 0 
+GRAPHIC 548,0 67 0 
 DESIGN c7_b1_lose_cross
 VIEW symbol.sb
-GRAPHIC 116,0 67 0 
+GRAPHIC 116,0 69 0 
 DESIGN c7_b1_lose_cross
 VIEW symbol.sb
-GRAPHIC 203,0 68 0 
+GRAPHIC 203,0 70 0 
 DESIGN c7_b1_lose_cross
 VIEW symbol.sb
-GRAPHIC 191,0 69 0 
+GRAPHIC 191,0 71 0 
 DESIGN c7_b1_lose_cross
 VIEW symbol.sb
-GRAPHIC 197,0 70 0 
+GRAPHIC 197,0 72 0 
 DESIGN c7_b1_top_end
 VIEW struct.bd
-GRAPHIC 519,0 73 0 
+GRAPHIC 519,0 75 0 
 DESIGN c7_b1_victory_rainbow
 VIEW symbol.sb
-GRAPHIC 116,0 75 0 
+GRAPHIC 116,0 77 0 
 DESIGN c7_b1_victory_rainbow
 VIEW symbol.sb
-GRAPHIC 134,0 76 0 
+GRAPHIC 134,0 78 0 
 DESIGN c7_b1_victory_rainbow
 VIEW symbol.sb
-GRAPHIC 122,0 77 0 
+GRAPHIC 122,0 79 0 
 DESIGN c7_b1_victory_rainbow
 VIEW symbol.sb
-GRAPHIC 128,0 78 0 
+GRAPHIC 128,0 80 0 
 LIBRARY alien_game_lib
 DESIGN c7_b1_top_end
 VIEW struct.bd
-NO_GRAPHIC 81
+NO_GRAPHIC 83
 DESIGN c7_b1_top_end
 VIEW struct.bd
-GRAPHIC 548,0 84 0 
+GRAPHIC 548,0 86 0 
 DESIGN c7_b1_top_end
 VIEW struct.bd
-GRAPHIC 519,0 85 0 
+GRAPHIC 519,0 87 0 
 DESIGN c7_b1_top_end
 VIEW struct.bd
-NO_GRAPHIC 88
+NO_GRAPHIC 90
 DESIGN c7_b1_top_end
 VIEW struct.bd
-GRAPHIC 190,0 90 0 
+GRAPHIC 190,0 92 0 
 DESIGN c7_b1_top_end
 VIEW struct.bd
-GRAPHIC 335,0 104 0 
+GRAPHIC 335,0 106 0 
 DESIGN c7_b1_top_end
 VIEW struct.bd
-GRAPHIC 147,0 115 0 
+GRAPHIC 147,0 117 0 
 DESIGN c7_b1_top_end
 VIEW struct.bd
-GRAPHIC 128,0 127 0 
+GRAPHIC 109,0 129 0 
 DESIGN c7_b1_top_end
 VIEW struct.bd
-GRAPHIC 109,0 130 0 
+GRAPHIC 253,0 132 0 
 DESIGN c7_b1_top_end
 VIEW struct.bd
-GRAPHIC 253,0 133 0 
+GRAPHIC 128,0 135 0 
 DESIGN c7_b1_top_end
 VIEW struct.bd
-GRAPHIC 718,0 136 0 
+GRAPHIC 1057,0 138 0 
 DESIGN c7_b1_top_end
 VIEW struct.bd
-GRAPHIC 731,0 146 0 
+GRAPHIC 718,0 141 0 
 DESIGN c7_b1_top_end
 VIEW struct.bd
-GRAPHIC 782,0 156 0 
+GRAPHIC 731,0 151 0 
 DESIGN c7_b1_top_end
 VIEW struct.bd
-GRAPHIC 272,0 166 0 
+GRAPHIC 782,0 161 0 
 DESIGN c7_b1_top_end
 VIEW struct.bd
-NO_GRAPHIC 176
+GRAPHIC 272,0 171 0 
 DESIGN c7_b1_top_end
 VIEW struct.bd
-GRAPHIC 548,0 178 0 
+GRAPHIC 1044,0 181 0 
 DESIGN c7_b1_top_end
 VIEW struct.bd
-GRAPHIC 935,0 180 0 
+NO_GRAPHIC 191
 DESIGN c7_b1_top_end
 VIEW struct.bd
-GRAPHIC 965,0 181 0 
+GRAPHIC 548,0 193 0 
 DESIGN c7_b1_top_end
 VIEW struct.bd
-GRAPHIC 953,0 182 0 
+GRAPHIC 935,0 195 0 
 DESIGN c7_b1_top_end
 VIEW struct.bd
-GRAPHIC 959,0 183 0 
+GRAPHIC 965,0 196 0 
 DESIGN c7_b1_top_end
 VIEW struct.bd
-GRAPHIC 519,0 185 0 
+GRAPHIC 953,0 197 0 
 DESIGN c7_b1_top_end
 VIEW struct.bd
-GRAPHIC 941,0 187 0 
+GRAPHIC 959,0 198 0 
 DESIGN c7_b1_top_end
 VIEW struct.bd
-GRAPHIC 895,0 188 0 
+GRAPHIC 519,0 200 0 
 DESIGN c7_b1_top_end
 VIEW struct.bd
-GRAPHIC 907,0 189 0 
+GRAPHIC 941,0 202 0 
 DESIGN c7_b1_top_end
 VIEW struct.bd
-GRAPHIC 901,0 190 0 
+GRAPHIC 895,0 203 0 
 DESIGN c7_b1_top_end
 VIEW struct.bd
-NO_GRAPHIC 193
+GRAPHIC 907,0 204 0 
+DESIGN c7_b1_top_end
+VIEW struct.bd
+GRAPHIC 901,0 205 0 
+DESIGN c7_b1_top_end
+VIEW struct.bd
+NO_GRAPHIC 208

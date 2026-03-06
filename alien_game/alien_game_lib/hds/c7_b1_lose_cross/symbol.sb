@@ -85,7 +85,7 @@ b "(7 DOWNTO 0)"
 eolc " "
 o 3
 suid 5,0
-i "X\"01\""
+i "X\"04\""
 )
 )
 uid 186,0
@@ -101,7 +101,7 @@ b "(7 DOWNTO 0)"
 eolc " "
 o 4
 suid 6,0
-i "X\"01\""
+i "X\"80\""
 )
 )
 uid 188,0
@@ -517,7 +517,7 @@ value "HTC219-307-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "11:18:48"
+value "11:47:25"
 )
 (vvPair
 variable "group"
@@ -625,7 +625,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "11:18:48"
+value "11:47:25"
 )
 (vvPair
 variable "unit"
@@ -739,7 +739,7 @@ va (VaSet
 font "arial,8,0"
 )
 xt "29700,8500,32000,9500"
-st "X\"01\""
+st "X\"04\""
 ju 2
 blo "32000,9300"
 tm "InitValueDelayMgr"
@@ -751,7 +751,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,3600,79000,4400"
-st "lose_x     : OUT    std_logic_vector (7 DOWNTO 0)  := X\"01\" ; --  "
+st "lose_x     : OUT    std_logic_vector (7 DOWNTO 0)  := X\"04\" ; --  "
 )
 thePort (LogicalPort
 lang 2
@@ -763,7 +763,7 @@ b "(7 DOWNTO 0)"
 eolc " "
 o 3
 suid 5,0
-i "X\"01\""
+i "X\"04\""
 )
 )
 )
@@ -800,7 +800,7 @@ va (VaSet
 font "arial,8,0"
 )
 xt "29700,10500,32000,11500"
-st "X\"01\""
+st "X\"80\""
 ju 2
 blo "32000,11300"
 tm "InitValueDelayMgr"
@@ -812,7 +812,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4400,78000,5200"
-st "lose_y     : OUT    std_logic_vector (7 DOWNTO 0)  := X\"01\" --  "
+st "lose_y     : OUT    std_logic_vector (7 DOWNTO 0)  := X\"80\" --  "
 )
 thePort (LogicalPort
 lang 2
@@ -824,7 +824,7 @@ b "(7 DOWNTO 0)"
 eolc " "
 o 4
 suid 6,0
-i "X\"01\""
+i "X\"80\""
 )
 )
 )
@@ -1587,6 +1587,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 300,0
+lastUid 369,0
 activeModelName "Symbol:CDM"
 )

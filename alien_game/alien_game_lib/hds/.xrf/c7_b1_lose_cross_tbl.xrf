@@ -54,7 +54,7 @@ VIEW tbl.tt
 GRAPHIC 158,0 54 0 
 DESIGN c7_b1_lose_cross
 VIEW tbl.tt
-GRAPHIC 176,0 55 0 
+GRAPHIC 389,0 55 0 
 DESIGN c7_b1_lose_cross
 VIEW tbl.tt
 GRAPHIC 238,0 56 0 
@@ -66,19 +66,43 @@ VIEW tbl.tt
 GRAPHIC 160,0 58 0 
 DESIGN c7_b1_lose_cross
 VIEW tbl.tt
-GRAPHIC 178,0 59 0 
+GRAPHIC 391,0 59 0 
 DESIGN c7_b1_lose_cross
 VIEW tbl.tt
-GRAPHIC 240,0 60 0 
+GRAPHIC 297,0 60 0 
 DESIGN c7_b1_lose_cross
 VIEW tbl.tt
-GRAPHIC 152,0 61 0 
+GRAPHIC 303,0 61 0 
 DESIGN c7_b1_lose_cross
 VIEW tbl.tt
-GRAPHIC 162,0 62 0 
+GRAPHIC 323,0 62 0 
 DESIGN c7_b1_lose_cross
 VIEW tbl.tt
-GRAPHIC 180,0 63 0 
+GRAPHIC 393,0 63 0 
 DESIGN c7_b1_lose_cross
 VIEW tbl.tt
-GRAPHIC 36,0 68 1 
+GRAPHIC 299,0 64 0 
+DESIGN c7_b1_lose_cross
+VIEW tbl.tt
+GRAPHIC 305,0 65 0 
+DESIGN c7_b1_lose_cross
+VIEW tbl.tt
+GRAPHIC 362,0 66 0 
+DESIGN c7_b1_lose_cross
+VIEW tbl.tt
+GRAPHIC 395,0 67 0 
+DESIGN c7_b1_lose_cross
+VIEW tbl.tt
+GRAPHIC 311,0 68 0 
+DESIGN c7_b1_lose_cross
+VIEW tbl.tt
+GRAPHIC 307,0 69 0 
+DESIGN c7_b1_lose_cross
+VIEW tbl.tt
+GRAPHIC 364,0 70 0 
+DESIGN c7_b1_lose_cross
+VIEW tbl.tt
+GRAPHIC 397,0 71 0 
+DESIGN c7_b1_lose_cross
+VIEW tbl.tt
+GRAPHIC 36,0 76 1 

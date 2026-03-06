@@ -111,19 +111,19 @@ value "P:\\20\\alien_game\\alien_game_lib\\hds\\c7_b1_alien_defeated_improved"
 )
 (vvPair
 variable "date"
-value " 5.03.2026"
+value " 6.03.2026"
 )
 (vvPair
 variable "day"
-value "to"
+value "pe"
 )
 (vvPair
 variable "day_long"
-value "torstai"
+value "perjantai"
 )
 (vvPair
 variable "dd"
-value "05"
+value "06"
 )
 (vvPair
 variable "entity_name"
@@ -151,7 +151,7 @@ value "ptjiya"
 )
 (vvPair
 variable "graphical_source_date"
-value " 5.03.2026"
+value " 6.03.2026"
 )
 (vvPair
 variable "graphical_source_group"
@@ -163,7 +163,7 @@ value "HTC219-307-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "17:05:50"
+value "12:37:26"
 )
 (vvPair
 variable "group"
@@ -271,7 +271,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "17:05:50"
+value "12:37:26"
 )
 (vvPair
 variable "unit"
@@ -364,8 +364,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,2800,46500,3600"
-st "hp             : std_logic_vector(1 DOWNTO 0)
-"
+st "hp             : std_logic_vector(1 DOWNTO 0)"
 )
 )
 *3 (Grouping
@@ -1356,8 +1355,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,4400,36500,5200"
-st "alien_defeated : std_logic
-"
+st "alien_defeated : std_logic"
 )
 )
 *43 (Net
@@ -1375,8 +1373,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,3600,36500,4400"
-st "rst_n          : std_logic
-"
+st "rst_n          : std_logic"
 )
 )
 *44 (Net
@@ -1394,8 +1391,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,2000,36500,2800"
-st "clk            : std_logic
-"
+st "clk            : std_logic"
 )
 )
 *45 (MWC
@@ -2081,8 +2077,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,6200,50000,7000"
-st "SIGNAL dout           : std_logic_vector(1 DOWNTO 0)
-"
+st "SIGNAL dout           : std_logic_vector(1 DOWNTO 0)"
 )
 )
 *71 (MWC
@@ -2336,8 +2331,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,8600,40000,9400"
-st "SIGNAL q              : std_logic
-"
+st "SIGNAL q              : std_logic"
 )
 )
 *81 (MWC
@@ -2808,8 +2802,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,7800,40000,8600"
-st "SIGNAL fout           : std_logic
-"
+st "SIGNAL fout           : std_logic"
 )
 )
 *105 (Net
@@ -2827,8 +2820,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,7000,40000,7800"
-st "SIGNAL dout1          : std_logic
-"
+st "SIGNAL dout1          : std_logic"
 )
 )
 *106 (Wire
@@ -3320,7 +3312,7 @@ viewArea "-9800,-1100,83520,50100"
 cachedDiagramExtent "0,0,64000,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-9000,0"
-lastUid 818,0
+lastUid 864,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

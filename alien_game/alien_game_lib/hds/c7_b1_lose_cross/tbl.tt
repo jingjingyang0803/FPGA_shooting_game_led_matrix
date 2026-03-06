@@ -115,7 +115,7 @@ value "HTC219-307-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "11:18:48"
+value "12:00:09"
 )
 (vvPair
 variable "group"
@@ -223,7 +223,7 @@ value "tbl"
 )
 (vvPair
 variable "time"
-value "11:18:48"
+value "12:00:09"
 )
 (vvPair
 variable "unit"
@@ -290,7 +290,7 @@ uid 147,0
 va (VaSet
 )
 xt "0,0,2300,1000"
-st "X\"01\""
+st "X\"04\""
 blo "0,800"
 tm "TableTextMgr"
 )
@@ -309,7 +309,7 @@ uid 149,0
 va (VaSet
 )
 xt "0,0,2300,1000"
-st "X\"01\""
+st "X\"08\""
 blo "0,800"
 tm "TableTextMgr"
 )
@@ -328,31 +328,12 @@ uid 151,0
 va (VaSet
 )
 xt "0,0,2300,1000"
-st "X\"01\""
+st "X\"10\""
 blo "0,800"
 tm "TableTextMgr"
 )
 )
 *6 (TextMatrixItem
-uid 152,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 2
-row 5
-text (Text
-uid 153,0
-va (VaSet
-)
-xt "0,0,2300,1000"
-st "X\"01\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*7 (TextMatrixItem
 uid 156,0
 va (VaSet
 vasetType 1
@@ -366,12 +347,12 @@ uid 157,0
 va (VaSet
 )
 xt "0,0,2300,1000"
-st "X\"04\""
+st "X\"10\""
 blo "0,800"
 tm "TableTextMgr"
 )
 )
-*8 (TextMatrixItem
+*7 (TextMatrixItem
 uid 158,0
 va (VaSet
 vasetType 1
@@ -390,7 +371,7 @@ blo "0,800"
 tm "TableTextMgr"
 )
 )
-*9 (TextMatrixItem
+*8 (TextMatrixItem
 uid 160,0
 va (VaSet
 vasetType 1
@@ -404,31 +385,12 @@ uid 161,0
 va (VaSet
 )
 xt "0,0,2300,1000"
-st "X\"10\""
+st "X\"04\""
 blo "0,800"
 tm "TableTextMgr"
 )
 )
-*10 (TextMatrixItem
-uid 162,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 3
-row 5
-text (Text
-uid 163,0
-va (VaSet
-)
-xt "0,0,2300,1000"
-st "X\"20\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*11 (TextMatrixItem
+*9 (TextMatrixItem
 uid 174,0
 va (VaSet
 vasetType 1
@@ -441,70 +403,13 @@ text (Text
 uid 175,0
 va (VaSet
 )
-xt "0,0,4300,1000"
-st "X\"00FFFF\""
+xt "0,0,4100,1000"
+st "X\"0000FF\""
 blo "0,800"
 tm "TableTextMgr"
 )
 )
-*12 (TextMatrixItem
-uid 176,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 4
-row 3
-text (Text
-uid 177,0
-va (VaSet
-)
-xt "0,0,4300,1000"
-st "X\"00FFFF\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*13 (TextMatrixItem
-uid 178,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 4
-row 4
-text (Text
-uid 179,0
-va (VaSet
-)
-xt "0,0,4300,1000"
-st "X\"00FFFF\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*14 (TextMatrixItem
-uid 180,0
-va (VaSet
-vasetType 1
-fg "65280,65280,46080"
-bg "65280,65280,46080"
-)
-col 4
-row 5
-text (Text
-uid 181,0
-va (VaSet
-)
-xt "0,0,4300,1000"
-st "X\"00FFFF\""
-blo "0,800"
-tm "TableTextMgr"
-)
-)
-*15 (TextMatrixItem
+*10 (TextMatrixItem
 uid 182,0
 va (VaSet
 vasetType 1
@@ -523,7 +428,7 @@ blo "0,800"
 tm "TableTextMgr"
 )
 )
-*16 (TextMatrixItem
+*11 (TextMatrixItem
 uid 184,0
 va (VaSet
 vasetType 1
@@ -542,7 +447,7 @@ blo "0,800"
 tm "TableTextMgr"
 )
 )
-*17 (TextMatrixItem
+*12 (TextMatrixItem
 uid 186,0
 va (VaSet
 vasetType 1
@@ -561,7 +466,7 @@ blo "0,800"
 tm "TableTextMgr"
 )
 )
-*18 (TextMatrixItem
+*13 (TextMatrixItem
 uid 188,0
 va (VaSet
 vasetType 1
@@ -580,7 +485,7 @@ blo "0,800"
 tm "TableTextMgr"
 )
 )
-*19 (TextMatrixItem
+*14 (TextMatrixItem
 uid 236,0
 va (VaSet
 vasetType 1
@@ -599,7 +504,7 @@ blo "0,800"
 tm "TableTextMgr"
 )
 )
-*20 (TextMatrixItem
+*15 (TextMatrixItem
 uid 238,0
 va (VaSet
 vasetType 1
@@ -618,8 +523,8 @@ blo "0,800"
 tm "TableTextMgr"
 )
 )
-*21 (TextMatrixItem
-uid 240,0
+*16 (TextMatrixItem
+uid 297,0
 va (VaSet
 vasetType 1
 fg "0,65535,65535"
@@ -628,11 +533,258 @@ bg "0,65535,65535"
 col 1
 row 5
 text (Text
-uid 241,0
+uid 298,0
 va (VaSet
 )
 xt "0,0,2300,1000"
 st "X\"04\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*17 (TextMatrixItem
+uid 299,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+bg "0,65535,65535"
+)
+col 1
+row 6
+text (Text
+uid 300,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"05\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*18 (TextMatrixItem
+uid 303,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 2
+row 5
+text (Text
+uid 304,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"08\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*19 (TextMatrixItem
+uid 305,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 2
+row 6
+text (Text
+uid 306,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"10\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*20 (TextMatrixItem
+uid 307,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 2
+row 7
+text (Text
+uid 308,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"20\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*21 (TextMatrixItem
+uid 311,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+bg "0,65535,65535"
+)
+col 1
+row 7
+text (Text
+uid 312,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"06\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*22 (TextMatrixItem
+uid 323,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 3
+row 5
+text (Text
+uid 324,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"20\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*23 (TextMatrixItem
+uid 362,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 3
+row 6
+text (Text
+uid 363,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"10\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*24 (TextMatrixItem
+uid 364,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 3
+row 7
+text (Text
+uid 365,0
+va (VaSet
+)
+xt "0,0,2300,1000"
+st "X\"08\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*25 (TextMatrixItem
+uid 389,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 4
+row 3
+text (Text
+uid 390,0
+va (VaSet
+)
+xt "0,0,4100,1000"
+st "X\"0000FF\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*26 (TextMatrixItem
+uid 391,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 4
+row 4
+text (Text
+uid 392,0
+va (VaSet
+)
+xt "0,0,4100,1000"
+st "X\"0000FF\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*27 (TextMatrixItem
+uid 393,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 4
+row 5
+text (Text
+uid 394,0
+va (VaSet
+)
+xt "0,0,4100,1000"
+st "X\"0000FF\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*28 (TextMatrixItem
+uid 395,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 4
+row 6
+text (Text
+uid 396,0
+va (VaSet
+)
+xt "0,0,4100,1000"
+st "X\"0000FF\""
+blo "0,800"
+tm "TableTextMgr"
+)
+)
+*29 (TextMatrixItem
+uid 397,0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+bg "65280,65280,46080"
+)
+col 4
+row 7
+text (Text
+uid 398,0
+va (VaSet
+)
+xt "0,0,4100,1000"
+st "X\"0000FF\""
 blo "0,800"
 tm "TableTextMgr"
 )
@@ -650,6 +802,8 @@ columnWidths [
 100
 ]
 rowHeight [
+20
+40
 40
 40
 40
@@ -671,11 +825,11 @@ xShown 1
 yShown 1
 color "65535,0,0"
 )
-packageList *22 (PackageList
+packageList *30 (PackageList
 uid 22,0
 stg "VerticalLayoutStrategy"
 textVec [
-*23 (Text
+*31 (Text
 uid 23,0
 va (VaSet
 )
@@ -683,7 +837,7 @@ xt "0,0,5100,1000"
 st "Package List"
 blo "0,800"
 )
-*24 (MLText
+*32 (MLText
 uid 24,0
 va (VaSet
 )
@@ -699,7 +853,7 @@ compDirBlock (MlTextGroup
 uid 25,0
 stg "VerticalLayoutStrategy"
 textVec [
-*25 (Text
+*33 (Text
 uid 26,0
 va (VaSet
 )
@@ -707,7 +861,7 @@ xt "20000,0,27700,1000"
 st "Compiler Directives"
 blo "20000,800"
 )
-*26 (Text
+*34 (Text
 uid 27,0
 va (VaSet
 )
@@ -715,7 +869,7 @@ xt "20000,1000,28900,2000"
 st "Pre-module directives:"
 blo "20000,1800"
 )
-*27 (MLText
+*35 (MLText
 uid 28,0
 va (VaSet
 )
@@ -724,7 +878,7 @@ st "`resetall
 `timescale 1ns/10ps"
 tm "TtCompilerDirectivesTextMgr"
 )
-*28 (Text
+*36 (Text
 uid 29,0
 va (VaSet
 )
@@ -732,14 +886,14 @@ xt "20000,4000,29200,5000"
 st "Post-module directives:"
 blo "20000,4800"
 )
-*29 (MLText
+*37 (MLText
 uid 30,0
 va (VaSet
 )
 xt "20000,0,20000,0"
 tm "TtCompilerDirectivesTextMgr"
 )
-*30 (Text
+*38 (Text
 uid 31,0
 va (VaSet
 )
@@ -747,7 +901,7 @@ xt "20000,5000,29000,6000"
 st "End-module directives:"
 blo "20000,5800"
 )
-*31 (MLText
+*39 (MLText
 uid 32,0
 va (VaSet
 )
@@ -757,8 +911,8 @@ tm "TtCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "384,216,1402,906"
-viewArea "0,0,807,579"
+windowSize "927,697,1948,1387"
+viewArea "0,0,810,579"
 cachedDiagramExtent "0,0,0,0"
 pageBreakOrigin "0,0"
 defaultInputHdrTextMatrixItem (TextMatrixItem
@@ -821,7 +975,7 @@ blo "0,0"
 tm "TableTextMgr"
 )
 )
-archDeclarativeBlock *32 (BiTextGroup
+archDeclarativeBlock *40 (BiTextGroup
 uid 33,0
 stg "VerticalLayoutStrategy"
 first (Text
@@ -843,7 +997,7 @@ st " "
 tm "CommentText"
 )
 )
-archConcurrentStatementBlock *33 (BiTextGroup
+archConcurrentStatementBlock *41 (BiTextGroup
 uid 36,0
 stg "VerticalLayoutStrategy"
 first (Text
@@ -865,7 +1019,7 @@ st " "
 tm "CommentText"
 )
 )
-processDeclarativeBlock *34 (BiTextGroup
+processDeclarativeBlock *42 (BiTextGroup
 uid 39,0
 stg "VerticalLayoutStrategy"
 first (Text
@@ -887,7 +1041,7 @@ st " "
 tm "CommentText"
 )
 )
-sensitivityListBlock *35 (BiTextGroup
+sensitivityListBlock *43 (BiTextGroup
 uid 42,0
 stg "VerticalLayoutStrategy"
 first (Text
@@ -908,7 +1062,7 @@ xt "0,1500,0,1500"
 tm "CommentText"
 )
 )
-globalActionsBlock *36 (BiTextGroup
+globalActionsBlock *44 (BiTextGroup
 uid 45,0
 stg "VerticalLayoutStrategy"
 first (Text
@@ -929,7 +1083,7 @@ xt "0,1500,0,1500"
 tm "CommentText"
 )
 )
-genChar *37 (TtGenChar
+genChar *45 (TtGenChar
 uid 48,0
 machineMode 1
 hdlStyle 1
@@ -953,44 +1107,44 @@ generateDefaultInCase 1
 )
 commonDM (CommonDM
 ldm (LogicalDM
-emptyRow *38 (LEmptyRow
+emptyRow *46 (LEmptyRow
 )
 uid 51,0
 optionalChildren [
-*39 (RefLabelRowHdr
+*47 (RefLabelRowHdr
 )
-*40 (TitleRowHdr
+*48 (TitleRowHdr
 )
-*41 (FilterRowHdr
+*49 (FilterRowHdr
 )
-*42 (RefLabelColHdr
+*50 (RefLabelColHdr
 tm "RefLabelColHdrMgr"
 )
-*43 (RowExpandColHdr
+*51 (RowExpandColHdr
 tm "RowExpandColHdrMgr"
 )
-*44 (GroupColHdr
+*52 (GroupColHdr
 tm "GroupColHdrMgr"
 )
-*45 (NameColHdr
+*53 (NameColHdr
 tm "TruthTableNameColHdrMgr"
 )
-*46 (ModeColHdr
+*54 (ModeColHdr
 tm "TruthTableModeColHdrMgr"
 )
-*47 (TypeColHdr
+*55 (TypeColHdr
 tm "TruthTableTypeColHdrMgr"
 )
-*48 (BoundsColHdr
+*56 (BoundsColHdr
 tm "TruthTableBoundsColHdrMgr"
 )
-*49 (InitColHdr
+*57 (InitColHdr
 tm "TruthTableInitColHdrMgr"
 )
-*50 (EolColHdr
+*58 (EolColHdr
 tm "TruthTableEolColHdrMgr"
 )
-*51 (LeafLogPort
+*59 (LeafLogPort
 port (LogicalPort
 lang 2
 decl (Decl
@@ -1004,7 +1158,7 @@ o 1
 uid 106,0
 scheme 0
 )
-*52 (LeafLogPort
+*60 (LeafLogPort
 port (LogicalPort
 lang 2
 m 1
@@ -1013,14 +1167,14 @@ n "lose_x"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
 eolc " "
-o 2
-i "X\"01\""
+o 3
+i "X\"04\""
 )
 )
 uid 108,0
 scheme 0
 )
-*53 (LeafLogPort
+*61 (LeafLogPort
 port (LogicalPort
 lang 2
 m 1
@@ -1029,14 +1183,14 @@ n "lose_y"
 t "std_logic_vector"
 b "(7 DOWNTO 0)"
 eolc " "
-o 3
-i "X\"01\""
+o 4
+i "X\"80\""
 )
 )
 uid 110,0
 scheme 0
 )
-*54 (LeafLogPort
+*62 (LeafLogPort
 port (LogicalPort
 lang 2
 m 1
@@ -1045,7 +1199,7 @@ n "lose_color"
 t "std_logic_vector"
 b "(23 DOWNTO 0)"
 eolc " "
-o 4
+o 2
 i "X\"FF0000\""
 )
 )
@@ -1059,7 +1213,7 @@ displayShortBounds 1
 editShortBounds 1
 uid 64,0
 optionalChildren [
-*55 (Sheet
+*63 (Sheet
 sheetRow (SheetRow
 headerVa (MVa
 cellColor "49152,49152,49152"
@@ -1076,52 +1230,52 @@ cellColor "39936,56832,65280"
 fontColor "0,0,0"
 font "Tahoma,10,0"
 )
-emptyMRCItem *56 (MRCItem
-litem &38
+emptyMRCItem *64 (MRCItem
+litem &46
 pos 4
 dimension 20
 )
 uid 66,0
 optionalChildren [
-*57 (MRCItem
-litem &39
+*65 (MRCItem
+litem &47
 pos 0
 dimension 20
 uid 67,0
 )
-*58 (MRCItem
-litem &40
+*66 (MRCItem
+litem &48
 pos 1
 dimension 23
 uid 68,0
 )
-*59 (MRCItem
-litem &41
+*67 (MRCItem
+litem &49
 pos 2
 hidden 1
 dimension 20
 uid 69,0
 )
-*60 (MRCItem
-litem &51
+*68 (MRCItem
+litem &59
 pos 0
 dimension 20
 uid 107,0
 )
-*61 (MRCItem
-litem &52
+*69 (MRCItem
+litem &60
 pos 1
 dimension 20
 uid 109,0
 )
-*62 (MRCItem
-litem &53
+*70 (MRCItem
+litem &61
 pos 2
 dimension 20
 uid 111,0
 )
-*63 (MRCItem
-litem &54
+*71 (MRCItem
+litem &62
 pos 3
 dimension 20
 uid 113,0
@@ -1137,50 +1291,50 @@ textAngle 90
 )
 uid 70,0
 optionalChildren [
-*64 (MRCItem
-litem &42
+*72 (MRCItem
+litem &50
 pos 0
 dimension 20
 uid 71,0
 )
-*65 (MRCItem
-litem &44
+*73 (MRCItem
+litem &52
 pos 1
 dimension 50
 uid 72,0
 )
-*66 (MRCItem
-litem &45
+*74 (MRCItem
+litem &53
 pos 2
 dimension 100
 uid 73,0
 )
-*67 (MRCItem
-litem &46
+*75 (MRCItem
+litem &54
 pos 3
 dimension 50
 uid 74,0
 )
-*68 (MRCItem
-litem &47
+*76 (MRCItem
+litem &55
 pos 4
 dimension 100
 uid 75,0
 )
-*69 (MRCItem
-litem &48
+*77 (MRCItem
+litem &56
 pos 5
 dimension 100
 uid 76,0
 )
-*70 (MRCItem
-litem &49
+*78 (MRCItem
+litem &57
 pos 6
 dimension 50
 uid 77,0
 )
-*71 (MRCItem
-litem &50
+*79 (MRCItem
+litem &58
 pos 7
 dimension 80
 uid 78,0
@@ -1200,38 +1354,38 @@ uid 50,0
 )
 genericsCommonDM (CommonDM
 ldm (LogicalDM
-emptyRow *72 (LEmptyRow
+emptyRow *80 (LEmptyRow
 )
 uid 80,0
 optionalChildren [
-*73 (RefLabelRowHdr
+*81 (RefLabelRowHdr
 )
-*74 (TitleRowHdr
+*82 (TitleRowHdr
 )
-*75 (FilterRowHdr
+*83 (FilterRowHdr
 )
-*76 (RefLabelColHdr
+*84 (RefLabelColHdr
 tm "RefLabelColHdrMgr"
 )
-*77 (RowExpandColHdr
+*85 (RowExpandColHdr
 tm "RowExpandColHdrMgr"
 )
-*78 (GroupColHdr
+*86 (GroupColHdr
 tm "GroupColHdrMgr"
 )
-*79 (NameColHdr
+*87 (NameColHdr
 tm "GenericNameColHdrMgr"
 )
-*80 (TypeColHdr
+*88 (TypeColHdr
 tm "GenericTypeColHdrMgr"
 )
-*81 (InitColHdr
+*89 (InitColHdr
 tm "GenericValueColHdrMgr"
 )
-*82 (PragmaColHdr
+*90 (PragmaColHdr
 tm "GenericPragmaColHdrMgr"
 )
-*83 (EolColHdr
+*91 (EolColHdr
 tm "GenericEolColHdrMgr"
 )
 ]
@@ -1241,7 +1395,7 @@ displayShortBounds 1
 editShortBounds 1
 uid 92,0
 optionalChildren [
-*84 (Sheet
+*92 (Sheet
 sheetRow (SheetRow
 headerVa (MVa
 cellColor "49152,49152,49152"
@@ -1258,27 +1412,27 @@ cellColor "39936,56832,65280"
 fontColor "0,0,0"
 font "Tahoma,10,0"
 )
-emptyMRCItem *85 (MRCItem
-litem &72
+emptyMRCItem *93 (MRCItem
+litem &80
 pos 0
 dimension 20
 )
 uid 94,0
 optionalChildren [
-*86 (MRCItem
-litem &73
+*94 (MRCItem
+litem &81
 pos 0
 dimension 20
 uid 95,0
 )
-*87 (MRCItem
-litem &74
+*95 (MRCItem
+litem &82
 pos 1
 dimension 23
 uid 96,0
 )
-*88 (MRCItem
-litem &75
+*96 (MRCItem
+litem &83
 pos 2
 hidden 1
 dimension 20
@@ -1295,44 +1449,44 @@ textAngle 90
 )
 uid 98,0
 optionalChildren [
-*89 (MRCItem
-litem &76
+*97 (MRCItem
+litem &84
 pos 0
 dimension 20
 uid 99,0
 )
-*90 (MRCItem
-litem &78
+*98 (MRCItem
+litem &86
 pos 1
 dimension 50
 uid 100,0
 )
-*91 (MRCItem
-litem &79
+*99 (MRCItem
+litem &87
 pos 2
 dimension 100
 uid 101,0
 )
-*92 (MRCItem
-litem &80
+*100 (MRCItem
+litem &88
 pos 3
 dimension 100
 uid 102,0
 )
-*93 (MRCItem
-litem &81
+*101 (MRCItem
+litem &89
 pos 4
 dimension 50
 uid 103,0
 )
-*94 (MRCItem
-litem &82
+*102 (MRCItem
+litem &90
 pos 5
 dimension 50
 uid 104,0
 )
-*95 (MRCItem
-litem &83
+*103 (MRCItem
+litem &91
 pos 6
 dimension 80
 uid 105,0
@@ -1352,5 +1506,5 @@ uid 79,0
 type 1
 )
 activeModelName "TruthTableDiag"
-lastUid 241,0
+lastUid 398,0
 )
