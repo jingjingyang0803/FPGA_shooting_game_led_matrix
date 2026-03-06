@@ -85,7 +85,7 @@ b "(7 DOWNTO 0)"
 eolc " "
 o 3
 suid 2,0
-i "X\"01\""
+i "X\"02\""
 )
 )
 uid 111,0
@@ -101,7 +101,7 @@ b "(7 DOWNTO 0)"
 eolc " "
 o 4
 suid 3,0
-i "X\"01\""
+i "X\"02\""
 )
 )
 uid 113,0
@@ -117,7 +117,7 @@ b "(23 DOWNTO 0)"
 eolc " "
 o 2
 suid 4,0
-i "X\"00FF00\""
+i "X\"0000FF\""
 )
 )
 uid 115,0
@@ -517,7 +517,7 @@ value "HTC219-307-SPC"
 )
 (vvPair
 variable "graphical_source_time"
-value "10:52:16"
+value "12:59:03"
 )
 (vvPair
 variable "group"
@@ -625,7 +625,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "10:52:16"
+value "12:59:03"
 )
 (vvPair
 variable "unit"
@@ -740,7 +740,7 @@ va (VaSet
 font "arial,8,0"
 )
 xt "29700,8500,32000,9500"
-st "X\"01\""
+st "X\"02\""
 ju 2
 blo "32000,9300"
 tm "InitValueDelayMgr"
@@ -752,7 +752,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,3600,80500,4400"
-st "victory_x     : OUT    std_logic_vector (7 DOWNTO 0)  := X\"01\" ; --  
+st "victory_x     : OUT    std_logic_vector (7 DOWNTO 0)  := X\"02\" ; --  
 "
 )
 thePort (LogicalPort
@@ -765,7 +765,7 @@ b "(7 DOWNTO 0)"
 eolc " "
 o 3
 suid 2,0
-i "X\"01\""
+i "X\"02\""
 )
 )
 )
@@ -802,7 +802,7 @@ va (VaSet
 font "arial,8,0"
 )
 xt "29700,10500,32000,11500"
-st "X\"01\""
+st "X\"02\""
 ju 2
 blo "32000,11300"
 tm "InitValueDelayMgr"
@@ -814,7 +814,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4400,79500,5200"
-st "victory_y     : OUT    std_logic_vector (7 DOWNTO 0)  := X\"01\" --  
+st "victory_y     : OUT    std_logic_vector (7 DOWNTO 0)  := X\"02\" --  
 "
 )
 thePort (LogicalPort
@@ -827,7 +827,7 @@ b "(7 DOWNTO 0)"
 eolc " "
 o 4
 suid 3,0
-i "X\"01\""
+i "X\"02\""
 )
 )
 )
@@ -859,11 +859,12 @@ blo "32000,12300"
 tm "CptPortNameMgr"
 )
 t (Text
+uid 185,0
 va (VaSet
 font "arial,8,0"
 )
 xt "27900,12500,32000,13500"
-st "X\"00FF00\""
+st "X\"0000FF\""
 ju 2
 blo "32000,13300"
 tm "InitValueDelayMgr"
@@ -875,7 +876,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,2800,82500,3600"
-st "victory_color : OUT    std_logic_vector (23 DOWNTO 0) := X\"00FF00\" ; --  
+st "victory_color : OUT    std_logic_vector (23 DOWNTO 0) := X\"0000FF\" ; --  
 "
 )
 thePort (LogicalPort
@@ -888,7 +889,7 @@ b "(23 DOWNTO 0)"
 eolc " "
 o 2
 suid 4,0
-i "X\"00FF00\""
+i "X\"0000FF\""
 )
 )
 )
@@ -1590,6 +1591,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 161,0
+lastUid 185,0
 activeModelName "Symbol:CDM"
 )
