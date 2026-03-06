@@ -6,37 +6,37 @@ VIEW symbol.sb
 GRAPHIC 50,0 8 0 
 DESIGN c6_b2_register_bank
 VIEW symbol.sb
-GRAPHIC 130,0 14 0 
+GRAPHIC 128,0 14 0 
 DESIGN c6_b2_register_bank
 VIEW symbol.sb
-GRAPHIC 160,0 15 0 
+GRAPHIC 249,0 15 0 
 DESIGN c6_b2_register_bank
 VIEW symbol.sb
-GRAPHIC 170,0 16 0 
+GRAPHIC 163,0 16 0 
 DESIGN c6_b2_register_bank
 VIEW symbol.sb
-GRAPHIC 135,0 17 0 
+GRAPHIC 133,0 17 0 
 DESIGN c6_b2_register_bank
 VIEW symbol.sb
-GRAPHIC 165,0 18 0 
+GRAPHIC 158,0 18 0 
 DESIGN c6_b2_register_bank
 VIEW symbol.sb
-GRAPHIC 140,0 19 0 
+GRAPHIC 138,0 19 0 
 DESIGN c6_b2_register_bank
 VIEW symbol.sb
-GRAPHIC 145,0 20 0 
+GRAPHIC 143,0 20 0 
 DESIGN c6_b2_register_bank
 VIEW symbol.sb
-GRAPHIC 150,0 21 0 
+GRAPHIC 148,0 21 0 
 DESIGN c6_b2_register_bank
 VIEW symbol.sb
-GRAPHIC 155,0 22 0 
+GRAPHIC 153,0 22 0 
 DESIGN c6_b2_register_bank
 VIEW symbol.sb
-GRAPHIC 175,0 23 0 
+GRAPHIC 168,0 23 0 
 DESIGN c6_b2_register_bank
 VIEW symbol.sb
-GRAPHIC 180,0 24 0 
+GRAPHIC 173,0 24 0 
 DESIGN c6_b2_register_bank
 VIEW symbol.sb
 GRAPHIC 1,0 27 0 
@@ -48,7 +48,7 @@ VIEW struct.bd
 NO_GRAPHIC 31
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 217,0 40 0 
+GRAPHIC 201,0 40 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
 NO_GRAPHIC 43
@@ -57,240 +57,237 @@ VIEW struct.bd
 GRAPHIC 0,0 46 2 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 644,0 51 0 
+GRAPHIC 565,0 51 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 652,0 52 0 
+GRAPHIC 573,0 52 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 844,0 53 0 
+GRAPHIC 1043,0 53 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 928,0 54 0 
+GRAPHIC 1049,0 54 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 934,0 55 0 
+GRAPHIC 1055,0 55 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 544,0 56 0 
+GRAPHIC 1069,0 56 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 632,0 57 0 
+GRAPHIC 557,0 57 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 638,0 58 0 
+GRAPHIC 559,0 58 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 385,0 59 0 
+GRAPHIC 781,0 59 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 688,0 60 0 
+GRAPHIC 1035,0 60 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 826,0 61 0 
+GRAPHIC 655,0 61 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 512,0 62 0 
+GRAPHIC 663,0 62 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 520,0 63 0 
+GRAPHIC 671,0 63 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 528,0 64 0 
+GRAPHIC 679,0 64 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 536,0 65 0 
+NO_GRAPHIC 65
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-NO_GRAPHIC 66
+GRAPHIC 595,0 67 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 772,0 68 0 
-DESIGN c6_b2_register_bank
-VIEW struct.bd
-NO_GRAPHIC 70
+NO_GRAPHIC 69
 LIBRARY alien_game_lib
-DESIGN c6_b2_register_matrix
-VIEW struct
-GRAPHIC 325,0 72 0 
-DESIGN c6_b2_register_matrix
+DESIGN c6_b2_register_controller
+VIEW fsm
+GRAPHIC 297,0 71 0 
+DESIGN c6_b2_register_controller
 VIEW symbol.sb
-GRAPHIC 168,0 74 0 
-DESIGN c6_b2_register_matrix
+GRAPHIC 122,0 73 0 
+DESIGN c6_b2_register_controller
 VIEW symbol.sb
-GRAPHIC 128,0 75 0 
-DESIGN c6_b2_register_matrix
+GRAPHIC 132,0 74 0 
+DESIGN c6_b2_register_controller
 VIEW symbol.sb
-GRAPHIC 158,0 76 0 
-DESIGN c6_b2_register_matrix
+GRAPHIC 127,0 75 0 
+DESIGN c6_b2_register_controller
 VIEW symbol.sb
-GRAPHIC 133,0 77 0 
-DESIGN c6_b2_register_matrix
+GRAPHIC 147,0 76 0 
+DESIGN c6_b2_register_controller
 VIEW symbol.sb
-GRAPHIC 378,0 78 0 
-DESIGN c6_b2_register_matrix
+GRAPHIC 152,0 77 0 
+DESIGN c6_b2_register_controller
 VIEW symbol.sb
-GRAPHIC 138,0 79 0 
-DESIGN c6_b2_register_matrix
+GRAPHIC 142,0 78 0 
+DESIGN c6_b2_register_controller
 VIEW symbol.sb
-GRAPHIC 143,0 80 0 
-DESIGN c6_b2_register_matrix
-VIEW symbol.sb
-GRAPHIC 148,0 81 0 
-DESIGN c6_b2_register_matrix
-VIEW symbol.sb
-GRAPHIC 153,0 82 0 
-DESIGN c6_b2_register_matrix
-VIEW symbol.sb
-GRAPHIC 226,0 83 0 
+GRAPHIC 137,0 79 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 363,0 86 0 
-DESIGN c6_t1_register_controller
+GRAPHIC 397,0 82 0 
+DESIGN c6_b2_register_matrix
 VIEW symbol.sb
-GRAPHIC 122,0 88 0 
-DESIGN c6_t1_register_controller
+GRAPHIC 168,0 84 0 
+DESIGN c6_b2_register_matrix
 VIEW symbol.sb
-GRAPHIC 132,0 89 0 
-DESIGN c6_t1_register_controller
+GRAPHIC 128,0 85 0 
+DESIGN c6_b2_register_matrix
 VIEW symbol.sb
-GRAPHIC 127,0 90 0 
-DESIGN c6_t1_register_controller
+GRAPHIC 158,0 86 0 
+DESIGN c6_b2_register_matrix
 VIEW symbol.sb
-GRAPHIC 147,0 91 0 
-DESIGN c6_t1_register_controller
+GRAPHIC 133,0 87 0 
+DESIGN c6_b2_register_matrix
 VIEW symbol.sb
-GRAPHIC 152,0 92 0 
-DESIGN c6_t1_register_controller
+GRAPHIC 378,0 88 0 
+DESIGN c6_b2_register_matrix
 VIEW symbol.sb
-GRAPHIC 142,0 93 0 
-DESIGN c6_t1_register_controller
+GRAPHIC 138,0 89 0 
+DESIGN c6_b2_register_matrix
 VIEW symbol.sb
-GRAPHIC 137,0 94 0 
+GRAPHIC 143,0 90 0 
+DESIGN c6_b2_register_matrix
+VIEW symbol.sb
+GRAPHIC 148,0 91 0 
+DESIGN c6_b2_register_matrix
+VIEW symbol.sb
+GRAPHIC 153,0 92 0 
+DESIGN c6_b2_register_matrix
+VIEW symbol.sb
+GRAPHIC 226,0 93 0 
 LIBRARY alien_game_lib
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-NO_GRAPHIC 97
+NO_GRAPHIC 96
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 325,0 100 0 
+GRAPHIC 297,0 99 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 363,0 101 0 
+GRAPHIC 397,0 100 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-NO_GRAPHIC 104
+NO_GRAPHIC 103
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 732,0 106 0 
+GRAPHIC 485,0 105 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 882,0 109 0 
+GRAPHIC 989,0 108 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 919,0 112 0 
+GRAPHIC 1026,0 111 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 807,0 115 0 
+GRAPHIC 614,0 114 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 487,0 118 0 
+GRAPHIC 532,0 117 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-NO_GRAPHIC 128
+NO_GRAPHIC 127
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 325,0 130 0 
+GRAPHIC 297,0 129 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 662,0 132 0 
+GRAPHIC 775,0 131 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 379,0 133 0 
+GRAPHIC 791,0 132 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 546,0 134 0 
+GRAPHIC 783,0 133 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 387,0 135 0 
+GRAPHIC 567,0 134 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 930,0 136 0 
+GRAPHIC 575,0 135 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 514,0 137 0 
+GRAPHIC 71,0 136 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 522,0 138 0 
+GRAPHIC 1037,0 137 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 530,0 139 0 
+GRAPHIC 397,0 139 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 538,0 140 0 
+GRAPHIC 745,0 141 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 634,0 141 0 
+GRAPHIC 693,0 142 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 399,0 143 0 
+GRAPHIC 729,0 143 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 668,0 145 0 
+GRAPHIC 699,0 144 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 500,0 146 0 
+GRAPHIC 1057,0 145 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 592,0 147 0 
+GRAPHIC 705,0 146 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 506,0 148 0 
+GRAPHIC 711,0 147 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 936,0 149 0 
+GRAPHIC 717,0 148 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 568,0 150 0 
+GRAPHIC 723,0 149 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 574,0 151 0 
+GRAPHIC 553,0 150 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 580,0 152 0 
+GRAPHIC 407,0 152 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 586,0 153 0 
+GRAPHIC 737,0 154 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 640,0 154 0 
+GRAPHIC 643,0 155 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 363,0 156 0 
+GRAPHIC 687,0 156 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 373,0 158 0 
+GRAPHIC 649,0 157 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 29,0 159 0 
+GRAPHIC 1051,0 158 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 393,0 160 0 
+GRAPHIC 657,0 159 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 646,0 161 0 
+GRAPHIC 665,0 160 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 654,0 162 0 
+GRAPHIC 673,0 161 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 85,0 163 0 
+GRAPHIC 681,0 162 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 690,0 164 0 
+GRAPHIC 547,0 163 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 772,0 168 0 
+GRAPHIC 595,0 167 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-NO_GRAPHIC 170
+NO_GRAPHIC 169

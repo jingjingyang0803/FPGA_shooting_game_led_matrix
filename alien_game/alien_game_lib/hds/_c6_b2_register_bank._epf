@@ -1,2 +1,2 @@
-DEFAULT_ARCHITECTURE atom fsm
-DEFAULT_FILE atom c6_b2_register_bank/fsm.sm
+DEFAULT_ARCHITECTURE atom struct
+DEFAULT_FILE atom c6_b2_register_bank/struct.bd

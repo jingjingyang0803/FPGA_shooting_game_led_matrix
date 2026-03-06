@@ -30,7 +30,7 @@ VIEW struct.bd
 GRAPHIC 1052,0 39 0 
 DESIGN tb_register_64
 VIEW struct.bd
-GRAPHIC 1220,0 40 0 
+GRAPHIC 1271,0 40 0 
 DESIGN tb_register_64
 VIEW struct.bd
 GRAPHIC 157,0 41 0 
@@ -63,41 +63,41 @@ VIEW struct.bd
 NO_GRAPHIC 50
 LIBRARY alien_game_lib
 DESIGN c6_b2_register_bank
-VIEW fsm
+VIEW struct
 GRAPHIC 1210,0 52 0 
 DESIGN c6_b2_register_bank
 VIEW symbol.sb
-GRAPHIC 130,0 54 0 
+GRAPHIC 128,0 54 0 
 DESIGN c6_b2_register_bank
 VIEW symbol.sb
-GRAPHIC 160,0 55 0 
+GRAPHIC 249,0 55 0 
 DESIGN c6_b2_register_bank
 VIEW symbol.sb
-GRAPHIC 170,0 56 0 
+GRAPHIC 163,0 56 0 
 DESIGN c6_b2_register_bank
 VIEW symbol.sb
-GRAPHIC 135,0 57 0 
+GRAPHIC 133,0 57 0 
 DESIGN c6_b2_register_bank
 VIEW symbol.sb
-GRAPHIC 165,0 58 0 
+GRAPHIC 158,0 58 0 
 DESIGN c6_b2_register_bank
 VIEW symbol.sb
-GRAPHIC 140,0 59 0 
+GRAPHIC 138,0 59 0 
 DESIGN c6_b2_register_bank
 VIEW symbol.sb
-GRAPHIC 145,0 60 0 
+GRAPHIC 143,0 60 0 
 DESIGN c6_b2_register_bank
 VIEW symbol.sb
-GRAPHIC 150,0 61 0 
+GRAPHIC 148,0 61 0 
 DESIGN c6_b2_register_bank
 VIEW symbol.sb
-GRAPHIC 155,0 62 0 
+GRAPHIC 153,0 62 0 
 DESIGN c6_b2_register_bank
 VIEW symbol.sb
-GRAPHIC 175,0 63 0 
+GRAPHIC 168,0 63 0 
 DESIGN c6_b2_register_bank
 VIEW symbol.sb
-GRAPHIC 180,0 64 0 
+GRAPHIC 173,0 64 0 
 LIBRARY tb_lib
 DESIGN register_tester
 VIEW struct
@@ -183,7 +183,7 @@ VIEW struct.bd
 GRAPHIC 569,0 103 0 
 DESIGN tb_register_64
 VIEW struct.bd
-GRAPHIC 1222,0 104 0 
+GRAPHIC 1273,0 104 0 
 DESIGN tb_register_64
 VIEW struct.bd
 GRAPHIC 1230,0 105 0 
@@ -192,7 +192,7 @@ VIEW struct.bd
 GRAPHIC 500,0 107 0 
 DESIGN tb_register_64
 VIEW struct.bd
-GRAPHIC 1222,0 109 0 
+GRAPHIC 1273,0 109 0 
 DESIGN tb_register_64
 VIEW struct.bd
 GRAPHIC 1230,0 110 0 
