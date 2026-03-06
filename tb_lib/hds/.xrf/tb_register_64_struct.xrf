@@ -48,10 +48,10 @@ VIEW struct.bd
 GRAPHIC 1338,0 45 0 
 DESIGN tb_register_64
 VIEW struct.bd
-GRAPHIC 1344,0 46 0 
+GRAPHIC 1419,0 46 0 
 DESIGN tb_register_64
 VIEW struct.bd
-GRAPHIC 1332,0 47 0 
+GRAPHIC 1413,0 47 0 
 DESIGN tb_register_64
 VIEW struct.bd
 GRAPHIC 1350,0 48 0 
@@ -174,10 +174,10 @@ VIEW struct.bd
 GRAPHIC 1340,0 100 0 
 DESIGN tb_register_64
 VIEW struct.bd
-GRAPHIC 1334,0 101 0 
+GRAPHIC 1421,0 101 0 
 DESIGN tb_register_64
 VIEW struct.bd
-GRAPHIC 1346,0 102 0 
+GRAPHIC 1415,0 102 0 
 DESIGN tb_register_64
 VIEW struct.bd
 GRAPHIC 1352,0 103 0 
@@ -216,10 +216,10 @@ VIEW struct.bd
 GRAPHIC 1340,0 116 0 
 DESIGN tb_register_64
 VIEW struct.bd
-GRAPHIC 1346,0 117 0 
+GRAPHIC 1421,0 117 0 
 DESIGN tb_register_64
 VIEW struct.bd
-GRAPHIC 1334,0 118 0 
+GRAPHIC 1415,0 118 0 
 DESIGN tb_register_64
 VIEW struct.bd
 GRAPHIC 1352,0 119 0 
