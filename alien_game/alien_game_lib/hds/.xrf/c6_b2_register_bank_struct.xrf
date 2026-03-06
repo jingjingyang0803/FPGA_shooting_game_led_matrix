@@ -72,7 +72,7 @@ VIEW struct.bd
 GRAPHIC 1055,0 55 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
-GRAPHIC 1069,0 56 0 
+GRAPHIC 1675,0 56 0 
 DESIGN c6_b2_register_bank
 VIEW struct.bd
 GRAPHIC 557,0 57 0 
